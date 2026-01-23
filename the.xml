@@ -9,7 +9,7 @@
   <verwaltung>DR</verwaltung>
   <maszstab>120</maszstab>
   <modulnr>MiSch219</modulnr>
-  <plan src="the.png" />
+  <plan src="the.svg" />
   <gleise>
     <zulaufstrecken>
       <links nr="1">1gl</links>
@@ -19,67 +19,96 @@
       <gleis id="gleis_1">
         <name>1</name>
         <laenge einheit="cm">355</laenge>
+        <bemerkung>Hauptgleis</bemerkung>
       </gleis>
       <gleis id="gleis_2">
         <name>2</name>
         <laenge einheit="cm">535</laenge>
+        <bemerkung>Hauptgleis</bemerkung>
       </gleis>
       <gleis id="gleis_3">
         <name>3</name>
         <laenge einheit="cm">415</laenge>
+        <bemerkung>Hauptgleis</bemerkung>
       </gleis>
       <gleis id="gleis_4">
         <name>4</name>
         <laenge einheit="cm">330</laenge>
+        <bemerkung>Güterzuggleis</bemerkung>
       </gleis>
     </hgleise>
     <ngleise>
       <gleis id="gleis_5">
         <name>5</name>
         <laenge einheit="cm">293</laenge>
+        <bemerkung>Bereitstellungsgleis</bemerkung>
       </gleis>
       <gleis id="gleis_6">
         <name>6</name>
         <laenge einheit="cm">270</laenge>
+        <bemerkung>Bereitstellungsgleis</bemerkung>
       </gleis>
       <gleis id="gleis_7">
         <name>7</name>
         <laenge einheit="cm">223</laenge>
+        <bemerkung>Containergleis</bemerkung>
       </gleis>
       <gleis id="gleis_8">
         <name>8</name>
         <laenge einheit="cm">40</laenge>
+        <bemerkung>Betonwerk</bemerkung>
       </gleis>
       <gleis id="gleis_9">
         <name>9</name>
         <laenge einheit="cm">230</laenge>
+        <bemerkung>Kieswerk</bemerkung>
       </gleis>
       <gleis id="gleis_10">
         <name>10</name>
         <laenge einheit="cm">35</laenge>
+        <bemerkung>Abstellgleis</bemerkung>
       </gleis>
       <gleis id="gleis_11">
         <name>11</name>
         <laenge einheit="cm">55</laenge>
+        <bemerkung>Möbelwerk</bemerkung>
       </gleis>
       <gleis id="gleis_12">
         <name>12</name>
         <laenge einheit="cm">65</laenge>
+        <bemerkung>Getreide</bemerkung>
       </gleis>
       <gleis id="gleis_13">
         <name>13</name>
         <laenge einheit="cm">25</laenge>
         <bemerkung>Anschluß Kohlehandel</bemerkung>
       </gleis>
-      <gleis id="gleis_14">
-        <name>14</name>
-        <laenge einheit="cm">95</laenge>
+      <gleis id="gleis_3a">
+        <name>3a</name>
+        <laenge einheit="cm">125</laenge>
+        <bemerkung>Abstellgleis</bemerkung>
       </gleis>
-      <!--<gleis id="gleis_M67">
-        <name>M67</name>
-        <laenge einheit="cm">2458</laenge>
+      <gleis id="gleis_3b">
+        <name>3b</name>
+        <laenge einheit="cm">50</laenge>
+        <bemerkung>Abstellgleis</bemerkung>
       </gleis>
-      <gleis id="gleis_M68">
+      <gleis id="gleis_1a">
+        <name>1A</name>
+        <laenge einheit="cm">220</laenge>
+        <bemerkung>Abstellgleis</bemerkung>
+      </gleis>
+      <gleis id="gleis_1b">
+        <name>1B</name>
+        <laenge einheit="cm">30</laenge>
+        <bemerkung>Abstellgleis</bemerkung>
+      </gleis>
+      <gleis id="gleis_7_umfahrung">
+        <name/>
+        <laenge einheit="cm">80</laenge>
+        <bemerkung>Umfahrung Gleis 7</bemerkung>
+      </gleis>
+      <!--<gleis id="gleis_M68">
         <name>M68</name>
         <laenge einheit="cm">130</laenge>
       </gleis>
@@ -1032,7 +1061,8 @@
         </ladegut>
       </versand>
     </verlader>
-    <bemerkung>Themar war Containerumschlagplatz für die gesamte Region. Frachten, die im G-Wagen laufen, können alternativ auch im Container transportiert werden.[br][br]Zusätzlich zum Einzelladungsverkehr besteht je nach Treffensausrichtung auch die Möglichkeit , bis zu drei Containerganzzugpaare in Themar zu behandeln.</bemerkung>
+  <bemerkung>Themar war Containerumschlagplatz für die gesamte Region. Frachten, die im G-Wagen laufen, können alternativ auch im Container transportiert werden.[br][br]Zusätzlich zum Einzelladungsverkehr besteht je nach Treffensausrichtung auch die Möglichkeit, bis zu drei Containerganzzugpaare in Themar zu behandeln.</bemerkung>
   </gv>
+  <bemerkung>Ausfahrt nach Mng (1-gleisig) in Absprache auch 2-gleisig möglich.</bemerkung>
 </bahnhof>
 

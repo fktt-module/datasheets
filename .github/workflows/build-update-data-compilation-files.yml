@@ -86,7 +86,7 @@ jobs:
           ref: ${{ github.ref_name }}
       - name: Setup Pages
         id: pagessetup
-        uses: actions/configure-pages@v4
+        uses: actions/configure-pages@v5
       - name: Replace base url using production
         run: sed -i "s|const baseUrl = '';|const baseUrl = '${{ steps.pagessetup.outputs.base_url }}/';|g" index.html
       - name: Build with Jekyll

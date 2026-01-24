@@ -69,7 +69,7 @@ jobs:
       # https://github.com/stefanzweifel/git-auto-commit-action
       # authentication done via runner checkout token
       - name: Commit changes on data compilations back to repository
-        uses: stefanzweifel/git-auto-commit-action@v5
+        uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: Apply generated data compilation changes
 

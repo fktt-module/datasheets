@@ -43,7 +43,7 @@ jobs:
           ls -la ${{ github.workspace }}
 
       - name: Setup Python Version
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: 3.8 # Install the python version needed
 

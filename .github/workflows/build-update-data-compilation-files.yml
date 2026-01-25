@@ -12,6 +12,7 @@ on:
       - '*.jpeg'
       - '*.png'
       - '*.gif'
+      - '*.svg'
       - '*.css'
       - '*.dtd'
       - '*.xsl'

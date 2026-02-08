@@ -88,6 +88,18 @@ jobs:
       - name: Setup Pages
         id: pagessetup
         uses: actions/configure-pages@v5
+      - name: Setup Python Version
+        uses: actions/setup-python@v6
+        with:
+          python-version: 3.9 # Install the python version needed
+          cache: 'pip'
+      - name: Install python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install lxml
+      # building html files using transformation xml + xslt in {{ github.workspace }}
+      - name: Execute Python script for HTML files generation
+        run: python .github/scripts/build_update_html.py ${{ github.workspace }}
       - name: Replace base url using production
         run: sed -i "s|const baseUrl = '';|const baseUrl = '${{ steps.pagessetup.outputs.base_url }}/';|g" index.html
       - name: Build with Jekyll

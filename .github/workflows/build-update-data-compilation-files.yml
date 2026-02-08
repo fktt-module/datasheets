@@ -101,7 +101,8 @@ jobs:
       - name: Execute Python script for HTML files generation
         run: python .github/scripts/build_update_html.py ${{ github.workspace }}
       - name: Replace base url using production
-        run: sed -i "s|const baseUrl = '';|const baseUrl = '${{ steps.pagessetup.outputs.base_url }}/';|g" index.html
+        # run: sed -i "s|const baseUrl = '';|const baseUrl = '${{ steps.pagessetup.outputs.base_url }}/';|g" index.html
+        run: sed -i 's|data-json-or-url="bahnhof.json"|data-json-or-url="${{ steps.pagessetup.outputs.base_url }}/bahnhof.json"|g' index.html
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:

@@ -1,2 +1,4 @@
 *.txt
 .idea
+*.html
+!index.html

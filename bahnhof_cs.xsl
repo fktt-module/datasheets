@@ -14,7 +14,6 @@
       <html lang="cz">
 			<head>
 				<title><xsl:value-of select="bahnhof/name"/></title>
-				<meta http-equiv="Content-Style-Type" content="text/css" />
 				<link rel="stylesheet" type="text/css" href="bahnhof.css" />
 				<link rel="icon" href="data:," />
 			</head>

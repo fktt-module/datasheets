@@ -11,7 +11,7 @@
 	<xsl:variable name="filterExpressgut" select="'expressgut'"/>
    <xsl:template match="/">
 	   <xsl:text disable-output-escaping="yes">&lt;!DOCTYPE html&gt;</xsl:text>
-      <html>
+      <html lang="">
 			<head>
 				<title><xsl:value-of select="bahnhof/name"/></title>
 				<meta http-equiv="Content-Style-Type" content="text/css" />

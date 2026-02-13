@@ -20,6 +20,7 @@
          <body>
             <xsl:for-each select="bahnhof">
                <table border="1">
+				  <tbody>
                   <tr>
                      <td class="links" colspan="8">Betriebsstelle: <span><xsl:value-of select="name"/></span></td>
                      <td class="links" colspan="2"><xsl:text disable-output-escaping="yes">Kürzel: </xsl:text><span><xsl:value-of select="kuerzel"/></span></td>
@@ -40,6 +41,7 @@
                   <xsl:call-template name="caroutput"/>
                   <xsl:call-template name="leerzeile"/>
                   <xsl:apply-templates select="bemerkung"/>
+				  </tbody>
                </table>
             </xsl:for-each>
          </body>

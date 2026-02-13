@@ -369,7 +369,7 @@
 	         </xsl:call-template><!--</xsl:text>-->
 				</span>
 				</td>
-				<td nowrap="nowrap"><span class="m"><xsl:apply-templates select="wagen"/></span></td>
+				<td style="white-space: nowrap;"><span class="m"><xsl:apply-templates select="wagen"/></span></td>
 			</tr>
       </xsl:for-each>
    </xsl:template>

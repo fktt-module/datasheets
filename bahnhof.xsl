@@ -159,7 +159,7 @@
       </xsl:choose>
    </xsl:template>
    <xsl:template match="plan">
-      <tr><td class="mitte" colspan="{$maxcols}"><img src="{@src}"></img></td></tr>
+      <tr><td class="mitte" colspan="{$maxcols}"><img src="{@src}" alt="Gleisplan"></img></td></tr>
    </xsl:template>
    <xsl:template match="gleise">
       <tr>

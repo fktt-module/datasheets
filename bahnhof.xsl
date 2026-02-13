@@ -225,7 +225,7 @@
          <td><xsl:text disable-output-escaping="yes">&#160;</xsl:text></td>
          <td class="mitte">Gleis</td>
 			<td class="rechts"><xsl:text disable-output-escaping="yes">Länge</xsl:text></td>
-			<td colspan="{$maxcols -3}" rowspan="{count(bahnsteig)+1}" class="mitte" valign="top">Bemerkungen zum Personenverkehr:<br/>
+			<td colspan="{$maxcols -3}" rowspan="{count(bahnsteig)+1}" class="mitte oben">Bemerkungen zum Personenverkehr:<br/>
 				<span class="m">
 						<xsl:call-template name="recurse_break">
 							<xsl:with-param name="idlist" select="bemerkung"/>
@@ -274,7 +274,7 @@
 			<td class="mitte">Gleis</td>
          <td class="rechts"><xsl:text disable-output-escaping="yes">Länge</xsl:text></td>
 			<td class="rechts"><xsl:text disable-output-escaping="yes">Länge (Achsen)</xsl:text></td>
-			<td colspan="{$maxcols -4}" rowspan="{count(ladestelle)+1}" class="mitte" valign="top">
+			<td colspan="{$maxcols -4}" rowspan="{count(ladestelle)+1}" class="mitte oben">
 			<xsl:text disable-output-escaping="yes">Bemerkungen zum Güterverkehr:</xsl:text>
 			<br/><span class="m">
 	      <xsl:call-template name="recurse_break">

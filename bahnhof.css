@@ -26,6 +26,10 @@ td.mitte {
 	text-align: center;
 }
 
+td.oben {
+    vertical-align: top;
+}
+
 span {
 	font-weight: bold;
 	font-size: x-large;

@@ -21,6 +21,7 @@
             <xsl:for-each select="bahnhof">
                <table border="1">
 				  <tbody>
+				  <tr style="display:none;"><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
                   <tr>
                      <td class="links" colspan="8">Station: <span><xsl:value-of select="name"/></span></td>
                      <td class="links" colspan="2"><xsl:text disable-output-escaping="yes">Short: </xsl:text><span><xsl:value-of select="kuerzel"/></span></td>

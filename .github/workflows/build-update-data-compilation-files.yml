@@ -100,9 +100,16 @@ jobs:
       # building html files using transformation xml + xslt in {{ github.workspace }}
       - name: Execute Python script for HTML files generation
         run: python .github/scripts/build_update_html.py ${{ github.workspace }}
-      - name: Replace base url using production
+      - name: Create Archive including all files for local view
+        run: |
+          ls -la
+          python -m zipfile -c datasheets.zip *.xml *.jpeg *.svg *.png *.jpg *.gif *.html bahnhof.* bahnhof_*.xsl
+          python -m zipfile -l datasheets.zip
+      - name: Insert base url of github page inside index.html
         # run: sed -i "s|const baseUrl = '';|const baseUrl = '${{ steps.pagessetup.outputs.base_url }}/';|g" index.html
-        run: sed -i 's|data-json-or-url="bahnhof.json"|data-json-or-url="${{ steps.pagessetup.outputs.base_url }}/bahnhof.json"|g' index.html
+        run: |
+          sed -i 's|data-json-or-url="bahnhof.json"|data-json-or-url="${{ steps.pagessetup.outputs.base_url }}/bahnhof.json"|g' index.html
+          sed -i 's|href="datasheets.zip"|href="${{ steps.pagessetup.outputs.base_url }}/datasheets.zip"|g' index.html
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:

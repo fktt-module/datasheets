@@ -1,0 +1,239 @@
+{
+  "languages": ["de", "en", "cs"],
+  "translations": [
+    {
+      "key": "STATION",
+      "cs": "stanice",
+      "de": "Betriebsstelle",
+      "en": "Station"
+    },
+    {
+      "key": "SHORT",
+      "cs": "zkratka",
+      "de": "Kürzel",
+      "en": "Short"
+    },
+    {
+      "key": "TYPE",
+      "cs": "typ",
+      "de": "Typ",
+      "en": "Type"
+    },
+    {
+      "key": "SCALE",
+      "cs": "měřítko",
+      "de": "Maßstab",
+      "en": "Scale"
+    },
+    {
+      "key": "MODULEID",
+      "cs": "č. modulu",
+      "de": "Modulnr.",
+      "en": "Module ID"
+    },
+    {
+      "key": "EFFECTIVELENGTH",
+      "cs": "užitná délka",
+      "de": "Nutzlänge",
+      "en": "Effective length"
+    },
+    {
+      "key": "EFFECTIVELENGTHAXLES",
+      "cs": "užitná délka (náprav)",
+      "de": "Nutzlänge (Achsen)",
+      "en": "Effective length (axles)"
+    },
+    {
+      "key": "REMARKS",
+      "cs": "poznámka",
+      "de": "Bemerkung",
+      "en": "Remarks"
+    },
+    {
+      "key": "MAINTRACKS",
+      "cs": "hlavní koleje",
+      "de": "Hauptgleise",
+      "en": "Main tracks"
+    },
+    {
+      "key": "SIDETRACKS",
+      "cs": "vedlejší koleje",
+      "de": "Nebengleise",
+      "en": "Side tracks"
+    },
+    {
+      "key": "REMARKEFFECTIVELENGTH",
+      "cs": "Poznámka: Výpočet užitné délky v nápravách vychází z předpokladu: 10 cm užitné délky odpovídá 2 nápravám.",
+      "de": "Anmerkung: Die Berechnung der Nutzlänge in Achsen beruht auf den Annahmen: 10 cm Nutzlänge entsprechen 2 Achsen",
+      "en": "Note: Calculation of effective length based on assumptions: 10 cm effective length correspond to 2 axles."
+    },
+    {
+      "key": "AXLES",
+      "cs": "náprav",
+      "de": "Achsen",
+      "en": "axles"
+    },
+    {
+      "key": "TRACK",
+      "cs": "kolej",
+      "de": "Gleis",
+      "en": "Track"
+    },
+    {
+      "key": "LENGTH",
+      "cs": "Länge",
+      "de": "délka",
+      "en": "Length"
+    },
+    {
+      "key": "REMARKSPASSENGER",
+      "cs": "Poznámky k osobní dopravě",
+      "de": "Bemerkungen zum Personenverkehr",
+      "en": "Remarks to passenger traffic"
+    },
+    {
+      "key": "PLATFORM",
+      "cs": "nástupiště",
+      "de": "Bahnsteig",
+      "en": "Platform"
+    },
+    {
+      "key": "LOADINGPLACE",
+      "cs": "nakládací místo",
+      "de": "Ladestelle",
+      "en": "Loading place"
+    },
+    {
+      "key": "LENGTHAXLES",
+      "cs": "délka (náprav)",
+      "de": "Länge (Achsen)",
+      "en": "Length (axles)"
+    },
+    {
+      "key": "REMARKSCARGO",
+      "cs": "Poznámky k nákladní dopravě",
+      "de": "Bemerkungen zum Güterverkehr",
+      "en": "Remarks to cargo traffic"
+    },
+    {
+      "key": "SUM",
+      "cs": "celkem",
+      "de": "Summe",
+      "en": "Sum"
+    },
+    {
+      "key": "DISTRIBUTORRECEIVER",
+      "cs": "odesílatel/příjemce",
+      "de": "Versender/Empfänger",
+      "en": "Distributor/Receiver"
+    },
+    {
+      "key": "DISTRIBUTIONRECEIVING",
+      "cs": "odeslání/příjem",
+      "de": "Versand/Empfang",
+      "en": "Distribution/Receiving"
+    },
+    {
+      "key": "GOODS",
+      "cs": "náklad",
+      "de": "Ladegut",
+      "en": "Goods"
+    },
+    {
+      "key": "CARTYPE",
+      "cs": "řada vozu",
+      "de": "Wagengattung",
+      "en": "Car type"
+    },
+    {
+      "key": "CARQUANTITY",
+      "cs": "počet vozů",
+      "de": "Wagenmenge",
+      "en": "Car quantity"
+    },
+    {
+      "key": "RECEIVINGABBR",
+      "cs": "p",
+      "de": "E",
+      "en": "R"
+    },
+    {
+      "key": "DISTRIBUTIONABBR",
+      "cs": "o",
+      "de": "V",
+      "en": "D"
+    },
+    {
+      "key": "DAY",
+      "cs": "den",
+      "de": "Tag",
+      "en": "day"
+    },
+    {
+      "key": "WEEK",
+      "cs": "týden",
+      "de": "Woche",
+      "en": "week"
+    },
+    {
+      "key": "REMARKSGENERAL",
+      "cs": "Všeobecné poznámky k dopravně",
+      "de": "Allgemeine Bemerkungen zur Betriebsstelle",
+      "en": "General remarks to station"
+    },
+    {
+      "key": "CARSQUANTITY",
+      "cs": "Množství nákladních vozů",
+      "de": "Wagenmenge",
+      "en": "Cargo cars quantity"
+    },
+    {
+      "key": "PARCELCARSQUANTITY",
+      "cs": "Množství vozů pro přepravu všeobecného nákladu",
+      "de": "Stückgutwagenmenge",
+      "en": "General cargo cars quantity"
+    },
+    {
+      "key": "EXPRESSCARSQUANTITY",
+      "cs": "Množství expresních nákladních vozů",
+      "de": "Expressgutwagenmenge",
+      "en": "Express goods cars quantity"
+    },
+    {
+      "key": "PERDAY",
+      "cs": "za den",
+      "de": "pro Tag",
+      "en": "per day"
+    },
+    {
+      "key": "PERWEEK",
+      "cs": "za týden",
+      "de": "pro Woche",
+      "en": "per week"
+    },
+    {
+      "key": "RECEIVING",
+      "cs": "příjem",
+      "de": "Empfang",
+      "en": "Receiving"
+    },
+    {
+      "key": "DISTRIBUTION",
+      "cs": "odeslání/příjem",
+      "de": "Versand",
+      "en": "Distribution"
+    },
+    {
+      "key": "TOTAL",
+      "cs": "celkem",
+      "de": "Gesamt",
+      "en": "Total"
+    },
+    {
+      "key": "REMARKCARSQUANTITY",
+      "cs": "Poznámka: Výsledky pro počet vozů jsou vypočteny za předpokladu sedmidenního týdne a bez překládky prázdných vozů!",
+      "de": "Anmerkung: Die Ergebnisse für die Wagenmenge sind unter Annahme einer 7-Tage Woche und keiner Wiederbeladung leerer Wagen berechnet worden!",
+      "en": "Note: The results for the cargo cars quantity are calculated based on assumptions: 7 days a week and no reloading of empty cars!"
+    }
+  ]
+}

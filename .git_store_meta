@@ -6,6 +6,7 @@
 .github/scripts/validate-correct-file-mtime.py	f	2026-01-24T16:59:41Z
 .github/workflows/build-update-data-compilation-files.yml	f	2026-02-08T20:41:03Z
 .gitignore	f	2026-02-07T16:16:56Z
+_bahnhof_tpl.xsl	f	2026-02-14T09:40:22Z
 abm.jpeg	f	2022-06-26T07:26:24Z
 abm.xml	f	2022-12-10T18:55:21Z
 abw.jpg	f	2019-03-28T05:06:32Z
@@ -44,7 +45,6 @@ bahnhof_cs.xsl	f	2026-02-14T09:40:36Z
 bahnhof_en.xsl	f	2026-02-14T09:40:42Z
 bahnhof_format_files.zip	f	2026-02-14T09:44:27Z
 bahnhof_fpl.xsl	f	2026-02-14T09:40:06Z
-bahnhof_tpl.xsl	f	2026-02-14T09:40:22Z
 bas.png	f	2018-05-24T12:21:29Z
 bas.xml	f	2018-05-24T12:21:29Z
 bbg.png	f	2018-05-24T12:21:34Z

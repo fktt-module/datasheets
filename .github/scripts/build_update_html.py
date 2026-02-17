@@ -47,8 +47,6 @@ if __name__ == '__main__':
     # find all stylesheets
     for style in pathlib.Path(_working_directory).glob('bahnhof*.xsl'):
         _suffix = style.stem.removeprefix('bahnhof')
-        if _suffix == '_tpl':  # ignore template stylesheet
-            continue
         _styles.append(
             {'suffix': _suffix,
              'transform': etree.XSLT(etree.XML(style.read_bytes()))})

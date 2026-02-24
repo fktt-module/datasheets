@@ -102,9 +102,7 @@ jobs:
         run: python .github/scripts/build_update_html.py ${{ github.workspace }}
       - name: Create Archive including all files for local view
         run: |
-          ls -la
           python -m zipfile -c datasheets.zip *.xml *.jpeg *.svg *.png *.jpg *.gif *.html bahnhof.* bahnhof_*.xsl
-          python -m zipfile -l datasheets.zip
       - name: Insert base url of github page inside index.html
         # run: sed -i "s|const baseUrl = '';|const baseUrl = '${{ steps.pagessetup.outputs.base_url }}/';|g" index.html
         run: |

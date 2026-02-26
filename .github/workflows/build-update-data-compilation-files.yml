@@ -97,12 +97,14 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install lxml
+      - name: Execute Python script for Yellow Pages JSON generation
+        run: python .github/scripts/build_yellowpage_json.py ${{ github.workspace }}
       # building html files using transformation xml + xslt in {{ github.workspace }}
       - name: Execute Python script for HTML files generation
         run: python .github/scripts/build_update_html.py ${{ github.workspace }}
       - name: Create Archive including all files for local view
         run: |
-          python -m zipfile -c datasheets.zip *.xml *.jpeg *.svg *.png *.jpg *.gif *.html bahnhof.* bahnhof_*.xsl
+          python -m zipfile -c datasheets.zip *.xml *.jpeg *.svg *.png *.jpg *.gif *.html bahnhof.* bahnhof_*.xsl YellowPages.json
       - name: Insert base url of github page inside index.html
         # run: sed -i "s|const baseUrl = '';|const baseUrl = '${{ steps.pagessetup.outputs.base_url }}/';|g" index.html
         run: |

@@ -107,11 +107,14 @@ jobs:
         with:
           repo: 'fktt-module/web-apps'
           file: 'gelbe-seiten-1.0.0.zip'
-          target: '_gs'
+          target: '_gs/_gs.zip'
       - name: Prepare yellow pages application
         run: |
-          unzip _gs/gelbe-seiten\*.zip -d _gs
+          ls -la _gs
+          unzip _gs/_gs.zip -d _gs
+          ls -la _gs
           cp _gs/gelbe-seiten-base64.html gelbe-seiten.html
+          ls -la
       - name: Create Archive including all files for local view
         run: |
           python -m zipfile -c datenblaetter_gelbe-seiten.zip *.xml *.jpeg *.svg *.png *.jpg *.gif *.html bahnhof.* bahnhof_*.xsl YellowPages.json

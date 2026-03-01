@@ -102,6 +102,17 @@ jobs:
       # building html files using transformation xml + xslt in {{ github.workspace }}
       - name: Execute Python script for HTML files generation
         run: python .github/scripts/build_update_html.py ${{ github.workspace }}
+      - name: Download yellow pages application
+        uses: dsaltares/fetch-gh-release-asset@master
+        with:
+          repo: 'fktt-module/web-apps'
+          regex: true
+          file: 'gelbe-seiten.*\\.zip'
+          target: '_gs'
+      - name: Prepare yellow pages application
+        run: |
+          unzip _gs/gelbe-seiten\*.zip -d _gs
+          cp _gs/gelbe-seiten-base64.html gelbe-seiten.html
       - name: Create Archive including all files for local view
         run: |
           python -m zipfile -c datenblaetter_gelbe-seiten.zip *.xml *.jpeg *.svg *.png *.jpg *.gif *.html bahnhof.* bahnhof_*.xsl YellowPages.json
@@ -111,6 +122,7 @@ jobs:
           sed -i 's|data-json-or-url="bahnhof.json"|data-json-or-url="${{ steps.pagessetup.outputs.base_url }}/bahnhof.json"|g' index.html
           sed -i 's|data-zip-file="datenblaetter_gelbe-seiten.zip"|data-zip-file="${{ steps.pagessetup.outputs.base_url }}/datenblaetter_gelbe-seiten.zip"|g' index.html
           sed -i 's|data-yellow-pages="gelbe-seiten.html"|data-yellow-pages="${{ steps.pagessetup.outputs.base_url }}/gelbe-seiten.html"|g' index.html
+          sed -i 's|data-file-url="YellowPages.json"|data-file-url="${{ steps.pagessetup.outputs.base_url }}/YellowPages.json"|g' gelbe-seiten.html
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:

@@ -108,13 +108,11 @@ jobs:
         uses: dsaltares/fetch-gh-release-asset@master
         with:
           repo: 'fktt-module/web-apps'
-          file: 'gelbe-seiten-1.0.0.zip'
+          file: 'gelbe-seiten-2.0.0.zip'
           target: '_gs/_gs.zip'
       - name: Prepare yellow pages application
         run: |
-          ls -la _gs
           unzip _gs/_gs.zip -d _gs
-          ls -la _gs
           cp _gs/gelbe-seiten-base64.html gelbe-seiten.html
           ls -la
       - name: Create Archive including all files for local view
@@ -126,7 +124,8 @@ jobs:
           sed -i 's|data-json-or-url="bahnhof.json"|data-json-or-url="${{ steps.pagessetup.outputs.base_url }}/bahnhof.json"|g' index.html
           sed -i 's|data-zip-file="datenblaetter_gelbe-seiten.zip"|data-zip-file="${{ steps.pagessetup.outputs.base_url }}/datenblaetter_gelbe-seiten.zip"|g' index.html
           sed -i 's|data-yellow-pages="gelbe-seiten.html"|data-yellow-pages="${{ steps.pagessetup.outputs.base_url }}/gelbe-seiten.html"|g' index.html
-          sed -i 's|data-file-url="YellowPages.json"|data-file-url="${{ steps.pagessetup.outputs.base_url }}/YellowPages.json"|g' gelbe-seiten.html
+          sed -i 's|data-versand-url="GelbeSeitenVersand.json"|data-versand-url="${{ steps.pagessetup.outputs.base_url }}/GelbeSeitenVersand.json"|g' gelbe-seiten.html
+          sed -i 's|data-empfang-url="GelbeSeitenEmpfang.json"|data-empfang-url="${{ steps.pagessetup.outputs.base_url }}/GelbeSeitenEmpfang.json"|g' gelbe-seiten.html
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:

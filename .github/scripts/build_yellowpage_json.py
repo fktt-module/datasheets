@@ -3,12 +3,14 @@
 """
 Creates a json file with information known as yellow pages
 from all datasheet files in given directory path.
-The output file, named '{}' by default, is also stored into
-given directory path.
+The output file, named '{1}'
+by default (depending on selected type), is also stored
+into given directory path.
 
 Examples:
-   {} path/to/directory
-   {} -o file_name path/to/directory
+   {0} path/to/directory
+   {0} -o file_name path/to/directory
+   {0} -t empfang path/to/directory
 
 """
 # file resides in .github/scripts
@@ -22,14 +24,15 @@ import textwrap
 import xml.etree.ElementTree as ET
 from collections import OrderedDict
 
-DEFAULT_FILE_NAME = 'YellowPages.json'
+DEFAULT_TYPE = "versand"
+BASE_FILE_NAME = 'GelbeSeiten{}.json'
+DEFAULT_FILE_NAME = BASE_FILE_NAME.format(DEFAULT_TYPE.title())
 
 if __name__ == '__main__':
     script_name = os.path.basename(sys.argv[0])
     args_parser = argparse. ArgumentParser(
-        description=textwrap.dedent(__doc__.format(DEFAULT_FILE_NAME,
-                                                   script_name,
-                                                   script_name)),
+        description=textwrap.dedent(__doc__.format(
+            script_name, BASE_FILE_NAME.format("[Versand|Empfang]"))),
         formatter_class=argparse.RawDescriptionHelpFormatter
     )
     args_parser.add_argument(
@@ -46,7 +49,19 @@ if __name__ == '__main__':
         default=DEFAULT_FILE_NAME,
         help='File where result is stored to (default: "{}")'.format(
             DEFAULT_FILE_NAME))
+    args_parser.add_argument(
+        '-t',
+        '--book-type',
+        choices=['versand', 'empfang'],
+        nargs='?',
+        required=False,
+        default=DEFAULT_TYPE,
+        help='Yellow pages book type (default: "{}")'.format(
+            DEFAULT_TYPE))
     args = args_parser.parse_args()
+    if args.out_file == DEFAULT_FILE_NAME and args.book_type == 'empfang':
+        args.out_file = args.out_file.replace(DEFAULT_TYPE.title(),
+                                              args.book_type.title())
 
     # provide given file as resolved absolute path
     ds_file = pathlib.Path(args.ds_files[0]).resolve()
@@ -66,13 +81,14 @@ if __name__ == '__main__':
     out_file = pathlib.Path(_working_directory,
                             args.out_file).with_suffix('.json')
 
+    _key = 'empfaenger' if args.book_type == 'empfang' else 'versender'
     all_in_one = []
     for ds_element in sorted(_working_directory.glob('*.xml')):
         root = ET.parse(ds_element).getroot()
         epoche = ds_element.stem.split('-')
         # gv -> verlader -> versand -> ladegut,...
         for verlader in root.findall('./gv/verlader'):
-            for ladegut in verlader.findall('versand/ladegut'):
+            for ladegut in verlader.findall(args.book_type + '/ladegut'):
                 s_oder_e = ladegut.get('typ', '').lower()
                 ladestellen_namen = []
                 for ladestellen_id in ladegut.get('ladestelle').split(" "):
@@ -92,7 +108,7 @@ if __name__ == '__main__':
                         verwaltung.text if verwaltung is not None else '',
                     'kategorie': '',
                     'produkt': ladegut.find('name').text,
-                    'versender': verlader.find('name').text,
+                    _key: verlader.find('name').text,
                     'wagengattung': ladegut.find('gattung').text,
                     'betriebsstelle': root.find('./name').text,
                     'ladestelle': ', '.join(ladestellen_namen),

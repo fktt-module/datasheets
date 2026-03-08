@@ -2,3 +2,5 @@
 .idea
 *.html
 !index.html
+GelbeSeiten*.json
+datenblaetter_gelbe-seiten.zip

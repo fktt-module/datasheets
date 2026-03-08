@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="./bahnhof.xsl" type="text/xsl"?>
+<!DOCTYPE bahnhof SYSTEM "./bahnhof.dtd">
+
+<bahnhof>
+  <name>Kühlhaus Henry Walter KG</name>
+  <kuerzel>KHW</kuerzel>
+  <typ>Anst</typ>
+  <verwaltung>DB</verwaltung>
+  <maszstab>120</maszstab>
+  <modulnr>AnFuc367</modulnr>
+  <plan src="khw.svg" />
+  <gleise>
+    <zulaufstrecken>
+      <links nr="1">1gl</links>
+      <rechts nr="1">1gl</rechts>
+    </zulaufstrecken>
+    <hgleise>
+      <gleis id="gleis_Streckengleis">
+        <name>Streckengleis</name>
+        <laenge> </laenge>
+      </gleis>
+    </hgleise>
+    <ngleise>
+      <gleis id="gleis_1">
+        <name>1</name>
+        <laenge> </laenge>
+      </gleis>
+      <gleis id="gleis_2">
+        <name>2</name>
+        <laenge> </laenge>
+      </gleis>
+      <gleis id="gleis_3">
+        <name>3</name>
+        <laenge> </laenge>
+      </gleis>
+      <gleis id="gleis_4">
+        <name>4</name>
+        <laenge> </laenge>
+      </gleis>
+    </ngleise>
+  </gleise>
+  <gv>
+    <ladestelle id="K_hlhaus" gleis="gleis_2">
+      <name>Kühlhaus</name>
+      <laenge> </laenge>
+    </ladestelle>
+    <ladestelle id="Bereitstellung" gleis="gleis_3">
+      <name>Bereitstellungsgleis</name>
+      <laenge> </laenge>
+    </ladestelle>
+    <ladestelle id="Anschluss" gleis="gleis_4">
+      <name>Anschlussgleis</name>
+      <laenge> </laenge>
+    </ladestelle>
+    <verlader>
+      <name>Henry Walter KG</name>
+      <empfang>
+        <ladegut ladestelle="K_hlhaus">
+          <name>Fleischprodukte</name>
+          <gattung> </gattung>
+          <wagen> </wagen>
+        </ladegut>
+        <ladegut ladestelle="K_hlhaus">
+          <name>Südfrüchte</name>
+          <gattung> </gattung>
+          <wagen> </wagen>
+        </ladegut>
+        <ladegut ladestelle="K_hlhaus">
+          <name>Fisch</name>
+          <gattung> </gattung>
+          <wagen> </wagen>
+        </ladegut>
+        <ladegut ladestelle="Bereitstellung">
+          <name>Kartonagen</name>
+          <gattung> </gattung>
+          <wagen> </wagen>
+        </ladegut>
+        <ladegut ladestelle="Anschluss">
+          <name>Ammoniak</name>
+          <gattung> </gattung>
+          <wagen> </wagen>
+        </ladegut>
+      </empfang>
+      <versand>
+        <ladegut ladestelle="K_hlhaus">
+          <name>Beeren</name>
+          <gattung> </gattung>
+          <wagen> </wagen>
+        </ladegut>
+        <ladegut ladestelle="K_hlhaus">
+          <name>Gemüse</name>
+          <gattung> </gattung>
+          <wagen> </wagen>
+        </ladegut>
+        <ladegut ladestelle="K_hlhaus">
+          <name>Fleisch</name>
+          <gattung> </gattung>
+          <wagen> </wagen>
+        </ladegut>
+      </versand>
+    </verlader>
+  </gv>
+</bahnhof>

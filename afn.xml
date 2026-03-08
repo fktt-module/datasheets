@@ -68,62 +68,100 @@
       <laenge>200</laenge>
     </ladestelle>
     <verlader>
-      <name>Verlader</name>
+      <name>Tanklager</name>
       <empfang>
         <ladegut ladestelle="Anschluss_Tanklager">
           <name>Kraftstoff</name>
           <gattung>Z</gattung>
-          <wagen>2</wagen>
+          <wagen zeitraum="tag">2</wagen>
         </ladegut>
+        <ladegut ladestelle="Anschluss_Tanklager">
+          <name>Ersatzteile</name>
+          <gattung>E, R, G</gattung>
+          <wagen>0.1</wagen>
+        </ladegut>
+      </empfang>
+    </verlader>
+    <verlader>
+      <name>Brettspielfabrik</name>
+      <empfang>
         <ladegut ladestelle="Anschluss_Brettspiel_Fabrik">
-          <name>Papier</name>
+          <name>Holz</name>
           <gattung>G</gattung>
-          <wagen>0.5</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="Anschluss_Brettspiel_Fabrik">
           <name>Farbe</name>
           <gattung>G</gattung>
-          <wagen>0.25</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="Anschluss_Brettspiel_Fabrik">
-          <name>Edelholz</name>
+          <name>Papier, Pappe</name>
           <gattung>G</gattung>
-          <wagen>0.25</wagen>
-        </ladegut>
-        <ladegut ladestelle="Freiladestrasse">
-          <name>Kohle</name>
-          <gattung>E</gattung>
-          <wagen>0.5</wagen>
-        </ladegut>
-        <ladegut ladestelle="Kombirampe Freiladestrasse">
-          <name>Baustoffe</name>
-          <gattung>E,G,K</gattung>
-          <wagen>0</wagen>
-        </ladegut>
-        <ladegut ladestelle="Kombirampe">
-          <name>Fahrzeuge</name>
-          <gattung>K</gattung>
-          <wagen>0.001</wagen>
+          <wagen>1</wagen>
         </ladegut>
       </empfang>
       <versand>
         <ladegut ladestelle="Anschluss_Brettspiel_Fabrik">
           <name>Brettspiele</name>
           <gattung>G</gattung>
-          <wagen>0.5</wagen>
+          <wagen>1</wagen>
         </ladegut>
+      </versand>
+    </verlader>
+    <verlader>
+      <name>Landwirtschaft</name>
+      <empfang>
         <ladegut ladestelle="Freiladestrasse">
-          <name>Getreide, Rüben, Kartoffeln</name>
+          <name>Kohle</name>
           <gattung>E</gattung>
           <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="Kombirampe">
+          <name>Maschinen, Fahrzeuge</name>
+          <gattung>R</gattung>
+          <wagen>0.001</wagen>
+        </ladegut>
+        <ladegut ladestelle="Kombirampe Freiladestrasse">
+          <name>Baustoffe</name>
+          <gattung>E</gattung>
+          <wagen>0.1</wagen>
+        </ladegut>
+        <ladegut ladestelle="Freiladestrasse">
+          <name>Dünger</name>
+          <gattung>E,G</gattung>
+          <wagen>1</wagen>
+        </ladegut>
+      </empfang>
+      <versand>
+        <ladegut ladestelle="Kombirampe">
           <name>Vieh</name>
           <gattung>G</gattung>
-          <wagen>0.001</wagen>
+          <wagen>1</wagen>
+        </ladegut>
+        <ladegut ladestelle="Freiladestrasse">
+          <name>Getreide, Rüben, Kartoffeln</name>
+          <gattung>E, G, K</gattung>
+          <wagen>1</wagen>
+        </ladegut>
+      </versand>
+    </verlader>
+    <verlader>
+      <name>Güterschuppen</name>
+      <empfang>
+        <ladegut ladestelle="Freiladestrasse" typ="stueckgut">
+          <name>Stückgut</name>
+          <gattung>G</gattung>
+          <wagen>2</wagen>
+        </ladegut>
+      </empfang>
+      <versand>
+        <ladegut ladestelle="Freiladestrasse" typ="stueckgut">
+          <name>Stückgut</name>
+          <gattung>G</gattung>
+          <wagen>2</wagen>
         </ladegut>
       </versand>
     </verlader>
   </gv>
 </bahnhof>
-

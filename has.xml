@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="./bahnhof.xsl" type="text/xsl"?>
+<!DOCTYPE bahnhof SYSTEM "./bahnhof.dtd">
+
+<bahnhof>
+  <name>Hasenfelde</name>
+  <kuerzel>HAS</kuerzel>
+  <typ>Bf</typ>
+  <verwaltung>DR</verwaltung>
+  <maszstab>120</maszstab>
+  <modulnr>RaGra258</modulnr>
+  <plan src="has.svg"/>
+  <gleise>
+    <zulaufstrecken>
+      <links nr="1">1gl</links>
+      <rechts nr="1">1gl</rechts>
+      <rechts nr="2">1gl</rechts>
+    </zulaufstrecken>
+    <hgleise>
+      <gleis id="gleis_1">
+        <name>1</name>
+        <laenge>3250</laenge>
+      </gleis>
+      <gleis id="gleis_2">
+        <name>2</name>
+        <laenge>2433</laenge>
+      </gleis>
+    </hgleise>
+    <ngleise>
+      <gleis id="gleis_3">
+        <name>3</name>
+        <laenge>2167</laenge>
+      </gleis>
+      <gleis id="gleis_3a">
+        <name>3a</name>
+        <laenge>233</laenge>
+      </gleis>
+      <gleis id="gleis_4">
+        <name>4</name>
+        <laenge>667</laenge>
+      </gleis>
+      <gleis id="gleis_4a">
+        <name>4a</name>
+        <laenge>242</laenge>
+      </gleis>
+    </ngleise>
+  </gleise>
+  <pv>
+    <bahnsteig gleis="gleis_1">
+      <laenge>1000</laenge>
+    </bahnsteig>
+    <bahnsteig gleis="gleis_2">
+      <laenge>125</laenge>
+    </bahnsteig>
+  </pv>
+  <gv>
+    <ladestelle id="ladestrasse" gleis="gleis_4 gleis_4a">
+      <name>Ladestraße</name>
+      <laenge>917</laenge>
+    </ladestelle>
+    <ladestelle id="kopframpe" gleis="gleis_3a">
+      <name>Kopframpe</name>
+      <laenge>58</laenge>
+    </ladestelle>
+    <ladestelle gleis="gleis_3a">
+      <name>Seitenrampe</name>
+      <laenge>142</laenge>
+    </ladestelle>
+    <verlader>
+      <name> </name>
+    </verlader>
+  </gv>
+</bahnhof>

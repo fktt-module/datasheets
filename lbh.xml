@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="./bahnhof.xsl" type="text/xsl"?>
+<!DOCTYPE bahnhof SYSTEM "./bahnhof.dtd">
+
+<bahnhof>
+  <name>Laubach</name>
+  <kuerzel>LBH</kuerzel>
+  <typ>Bf</typ>
+  <verwaltung>DB</verwaltung>
+  <maszstab>120</maszstab>
+  <modulnr>RaBec2025</modulnr>
+  <plan src="lbh.png" />
+  <gleise>
+    <zulaufstrecken>
+      <links nr="1">1gl</links>
+      <rechts nr="1">1gl</rechts>
+    </zulaufstrecken>
+    <hgleise>
+      <gleis id="gleis_1">
+        <name>1</name>
+        <laenge>1000</laenge>
+        <bemerkung>Mittelbahnsteig - durchgehendes Hauptgleis</bemerkung>
+      </gleis>
+      <gleis id="gleis_2">
+        <name>2</name>
+        <laenge>600</laenge>
+        <bemerkung>Hausbahnsteig</bemerkung>
+      </gleis>
+    </hgleise>
+    <ngleise>
+      <gleis id="gleis_3a">
+        <name>3a</name>
+        <laenge>350</laenge>
+        <bemerkung>Güterschuppen mit Seitenrampe</bemerkung>
+      </gleis>
+      <gleis id="gleis_3b">
+        <name>3b</name>
+        <laenge>250</laenge>
+        <bemerkung>Lokschuppen</bemerkung>
+      </gleis>
+      <gleis id="gleis_4">
+        <name>4</name>
+        <laenge>1200</laenge>
+        <bemerkung>Ladestrasse, Kopf- Seitenrampe, Gleiswaage, Lademass</bemerkung>
+      </gleis>
+    </ngleise>
+  </gleise>
+  <pv>
+    <bahnsteig gleis="gleis_2">
+      <name>Hausbahnsteig</name>
+      <laenge>740</laenge>
+    </bahnsteig>
+    <bahnsteig gleis="gleis_1">
+      <name>Inselbahnsteig</name>
+      <laenge>1000</laenge>
+    </bahnsteig>
+    <bemerkung>Hauptsächlich Pendler- und Schülerverkehr</bemerkung>
+  </pv>
+  <gv>
+    <ladestelle id="Kopf-Seitenrampe" gleis="gleis_4">
+      <name>Kopf-Seitenrampe</name>
+      <laenge>200</laenge>
+    </ladestelle>
+    <ladestelle id="Ladestrasse" gleis="gleis_4">
+      <name>Ladestrasse</name>
+      <laenge>950</laenge>
+    </ladestelle>
+    <ladestelle id="G_terschuppen" gleis="gleis_3a">
+      <name>Güterschuppen</name>
+      <laenge>120</laenge>
+    </ladestelle>
+    <ladestelle id="Lokschuppen" gleis="gleis_3b">
+      <name>Lokschuppen</name>
+      <laenge>150</laenge>
+    </ladestelle>
+    <verlader>
+      <name>Kaffeerösterei Laubach</name>
+      <empfang>
+        <ladegut ladestelle="Kopf-Seitenrampe">
+          <name>Rohkaffee in Säcken</name>
+          <gattung>G, H</gattung>
+          <wagen>3</wagen>
+        </ladegut>
+        <ladegut ladestelle="Kopf-Seitenrampe">
+          <name>Kartonagen</name>
+          <gattung>G, H</gattung>
+          <wagen>1</wagen>
+        </ladegut>
+        <ladegut ladestelle="Kopf-Seitenrampe">
+          <name>Ersatzteile für Röstmaschinen</name>
+          <gattung>G, H</gattung>
+          <wagen>1</wagen>
+        </ladegut>
+      </empfang>
+      <versand>
+        <ladegut ladestelle="Kopf-Seitenrampe">
+          <name>Kaffee geröstet</name>
+          <gattung>G, H</gattung>
+          <wagen>3</wagen>
+        </ladegut>
+      </versand>
+    </verlader>
+    <verlader>
+      <name>Landmaschinenhandel Laubach</name>
+      <empfang>
+        <ladegut ladestelle="Ladestrasse Kopf-Seitenrampe">
+          <name>Gartengeräte</name>
+          <gattung>G, H</gattung>
+          <wagen>1</wagen>
+        </ladegut>
+        <ladegut ladestelle="Kopf-Seitenrampe">
+          <name>Traktoren</name>
+          <gattung>S, R</gattung>
+          <wagen>1</wagen>
+        </ladegut>
+        <ladegut ladestelle="Kopf-Seitenrampe">
+          <name>Landmaschinen</name>
+          <gattung>R, S</gattung>
+          <wagen>1</wagen>
+        </ladegut>
+      </empfang>
+    </verlader>
+    <verlader>
+      <name>Kohlenhandlung Laubach</name>
+      <empfang>
+        <ladegut ladestelle="Ladestrasse">
+          <name>Briketts</name>
+          <gattung>El-u 061</gattung>
+          <wagen>2</wagen>
+        </ladegut>
+        <ladegut ladestelle="Ladestrasse">
+          <name>Eierkohlen</name>
+          <gattung>El-u 061</gattung>
+          <wagen>1</wagen>
+        </ladegut>
+      </empfang>
+    </verlader>
+    <verlader>
+      <name>Betriebsstelle</name>
+      <empfang>
+        <ladegut ladestelle="Lokschuppen">
+          <name>Diesel</name>
+          <gattung>Z</gattung>
+          <wagen>1</wagen>
+        </ladegut>
+      </empfang>
+    </verlader>
+    <verlader>
+      <name>Maschinenfabrik Laubach</name>
+      <empfang>
+        <ladegut ladestelle="Ladestrasse">
+          <name>Halbzeug</name>
+          <gattung>H, G</gattung>
+          <wagen>2</wagen>
+        </ladegut>
+      </empfang>
+      <versand>
+        <ladegut ladestelle="Kopf-Seitenrampe">
+          <name>Getriebeteile</name>
+          <gattung>H, G</gattung>
+          <wagen>2</wagen>
+        </ladegut>
+      </versand>
+    </verlader>
+    <verlader>
+      <name>Sägewerk Laubach</name>
+      <empfang>
+        <ladegut ladestelle="Ladestrasse">
+          <name>Langholz</name>
+          <gattung>R, S</gattung>
+          <wagen>3</wagen>
+        </ladegut>
+      </empfang>
+      <versand>
+        <ladegut ladestelle="Ladestrasse">
+          <name>Schnittholz</name>
+          <gattung>E, R, S</gattung>
+          <wagen>2</wagen>
+        </ladegut>
+      </versand>
+    </verlader>
+    <verlader>
+      <name>Raiffeisen</name>
+      <versand>
+        <ladegut ladestelle="Ladestrasse">
+          <name>Kartoffeln</name>
+          <gattung>E, G, H</gattung>
+          <wagen>2</wagen>
+        </ladegut>
+        <ladegut ladestelle="Ladestrasse">
+          <name>Zuckerrüben</name>
+          <gattung>E</gattung>
+          <wagen>1</wagen>
+        </ladegut>
+        <ladegut ladestelle="Kopf-Seitenrampe">
+          <name>Obst</name>
+          <gattung>G, H</gattung>
+          <wagen>2</wagen>
+        </ladegut>
+      </versand>
+    </verlader>
+    <verlader>
+      <name>Molkerei Wetterfeld</name>
+      <versand>
+        <ladegut ladestelle="Kopf-Seitenrampe">
+          <name>Molkereiprodukte</name>
+          <gattung>G, H, I</gattung>
+          <wagen>2</wagen>
+        </ladegut>
+      </versand>
+    </verlader>
+    <verlader>
+      <name>Imprägnierwerk Laubach</name>
+      <versand>
+        <ladegut ladestelle="Kopf-Seitenrampe">
+          <name>Schwellen</name>
+          <gattung>R, S</gattung>
+          <wagen>2</wagen>
+        </ladegut>
+        <ladegut ladestelle="Ladestrasse">
+          <name>Freileitungsmasten</name>
+          <gattung>R, S</gattung>
+          <wagen>1</wagen>
+        </ladegut>
+      </versand>
+    </verlader>
+    <verlader>
+      <name>Güterschuppen</name>
+      <empfang>
+        <ladegut ladestelle="G_terschuppen" typ="stueckgut">
+          <name>Stückgut</name>
+          <gattung>G, H</gattung>
+          <wagen>1</wagen>
+        </ladegut>
+      </empfang>
+      <versand>
+        <ladegut ladestelle="G_terschuppen" typ="stueckgut">
+          <name>Stückgut</name>
+          <gattung>G, H</gattung>
+          <wagen>2</wagen>
+        </ladegut>
+      </versand>
+    </verlader>
+    <verlader>
+      <name>Brennstoffhandel Laubach</name>
+      <empfang>
+        <ladegut ladestelle="Ladestrasse">
+          <name>Diesel</name>
+          <gattung>Z</gattung>
+          <wagen>2</wagen>
+        </ladegut>
+        <ladegut ladestelle="Ladestrasse">
+          <name>Heizöl</name>
+          <gattung>Z</gattung>
+          <wagen>1</wagen>
+        </ladegut>
+      </empfang>
+    </verlader>
+  </gv>
+</bahnhof>

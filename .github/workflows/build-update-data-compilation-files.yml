@@ -114,7 +114,6 @@ jobs:
         run: |
           unzip _gs/_gs.zip -d _gs
           cp _gs/gelbe-seiten-base64.html gelbe-seiten.html
-          ls -la
       - name: Create Archive including all files for local view
         run: |
           python -m zipfile -c datenblaetter_gelbe-seiten.zip *.xml *.jpeg *.svg *.png *.jpg *.gif *.html bahnhof.* bahnhof_*.xsl GelbeSeiten*.json

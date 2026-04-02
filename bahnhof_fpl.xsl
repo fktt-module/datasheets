@@ -234,6 +234,29 @@
       </xsl:if>
    </xsl:template>
    <xsl:template match="gv">
+	   <tr><td><xsl:value-of select="count(//*/ladegut[@typ=$filterStueckgut])"/></td><td><xsl:value-of select="count(verlader/empfang/ladegut[@typ=$filterStueckgut])"/></td></tr>
+	   <xsl:if test="count(//*/ladegut[@typ=$filterStueckgut]) &gt; 0">
+	   <tr>
+		   <td colspan="{$maxcols}" class="mitte oben"><xsl:text disable-output-escaping="yes">Es gibt Stückgutladestellen:</xsl:text></td>
+	   </tr>
+	   <!--<tr>
+		   <td colspan="{$maxcols}" class="mitte oben"><xsl:value-of select="count(//*/ladegut[@typ=$filterStueckgut]/@ladestelle)" /></td>
+	   </tr>
+	   <tr>
+		   <td colspan="{$maxcols}" class="mitte oben"><xsl:value-of select="concat(//*/ladegut[@typ=$filterStueckgut]/@ladestelle)" /></td>
+	   </tr>-->
+	   <!--<xsl:variable name="ladestellenIds">
+		   <xsl:for-each select="//*/ladegut[@typ=$filterStueckgut]/@ladestelle">
+	       <tr>
+			   <xsl:copy-of select="concat($ladestellenIds, position())" />
+		   <td colspan="{$maxcols}" class="mitte oben"><xsl:value-of select="position()" /></td>
+	   </tr>
+	   	</xsl:for-each>
+	   </xsl:variable>
+	   <tr>
+		   <td colspan="{$maxcols}" class="mitte oben"><xsl:value-of select="$ladestellenIds" /></td>
+	   </tr>-->
+	   </xsl:if>
       <tr>
 			<td colspan="{$maxcols}" class="mitte oben">
 			<xsl:text disable-output-escaping="yes">Bemerkungen zum Güterverkehr:</xsl:text>

@@ -119,7 +119,7 @@
       </empfang>
       <versand>
         <ladegut ladestelle="Frachten">
-          <name>Holz- u. andere Abfälle</name>
+          <name>Holzabfälle, andere Abfälle</name>
           <gattung>E, F</gattung>
           <wagen zeitraum="woche">1</wagen>
         </ladegut>

@@ -444,7 +444,7 @@
       </empfang>
       <versand>
         <ladegut ladestelle="Ladestraße">
-          <name>Bier- und Getränkefässer</name>
+          <name>Bierfässer, Getränkefässer</name>
           <gattung>G/H</gattung>
           <wagen zeitraum="woche">2</wagen>
         </ladegut>

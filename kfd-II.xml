@@ -146,7 +146,7 @@
     <verlader>
       <name>Bautischlerei Kranichsfeld</name>
       <empfang>
-        <ladegut ladestelle="Güterschuppen">
+        <ladegut ladestelle="Güterschuppen" typ="stueckgut">
           <name>Werkzeuge (Stückgut)</name>
           <gattung>G</gattung>
           <wagen>0.1</wagen>
@@ -164,7 +164,7 @@
           <wagen>0.3</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestraße">
-          <name>Dachbiner</name>
+          <name>Dachbinder</name>
           <gattung>R/S</gattung>
           <wagen>0.2</wagen>
         </ladegut>
@@ -173,14 +173,14 @@
     <verlader>
       <name>Gänsehof P. Feder Kranichsfeld</name>
       <empfang>
-        <ladegut ladestelle="Güterschuppen">
+        <ladegut ladestelle="Güterschuppen" typ="stueckgut">
           <name>Kraftfutter (Stückgut)</name>
           <gattung>G</gattung>
           <wagen>0.1</wagen>
         </ladegut>
       </empfang>
       <versand>
-        <ladegut ladestelle="Güterschuppen">
+        <ladegut ladestelle="Güterschuppen" typ="stueckgut">
           <name>Daunenfedern (Stückgut)</name>
           <gattung>G</gattung>
           <wagen>0.2</wagen>
@@ -200,7 +200,7 @@
           <gattung>O</gattung>
           <wagen>3</wagen>
         </ladegut>
-        <ladegut ladestelle="Güterschuppen">
+        <ladegut ladestelle="Güterschuppen" typ="stueckgut">
           <name>Gatter-Sägeblätter (Stückgut)</name>
           <gattung>G</gattung>
           <wagen>0.1</wagen>
@@ -257,7 +257,7 @@
           <gattung>G</gattung>
           <wagen>0.5</wagen>
         </ladegut>
-        <ladegut ladestelle="Güterschuppen">
+        <ladegut ladestelle="Güterschuppen" typ="stueckgut">
           <name>Porzellanfarbe (Stückgut)</name>
           <gattung>G</gattung>
           <wagen>0.2</wagen>
@@ -269,12 +269,12 @@
         </ladegut>
       </empfang>
       <versand>
-        <ladegut ladestelle="Güterschuppen">
-          <name>Kaffegeschirr (Stückgut)</name>
+        <ladegut ladestelle="Güterschuppen" typ="stueckgut">
+          <name>Kaffeegeschirr (Stückgut)</name>
           <gattung>G</gattung>
           <wagen>0.4</wagen>
         </ladegut>
-        <ladegut ladestelle="Güterschuppen">
+        <ladegut ladestelle="Güterschuppen" typ="stueckgut">
           <name>Speisegeschirr (Stückgut)</name>
           <gattung>G</gattung>
           <wagen>0.4</wagen>

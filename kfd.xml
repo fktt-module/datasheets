@@ -5,6 +5,7 @@
 	<name>Kranichsfeld</name>
 	<kuerzel>KFD</kuerzel>
 	<typ>Bf</typ>
+	<verwaltung>DR</verwaltung>
 	<maszstab>120</maszstab>
 	<modulnr>JuUhl235</modulnr>
 	<plan src="kfd.jpg"/>
@@ -134,17 +135,27 @@
 		<verlader>
 			<name>Stückgutschuppen</name>
 			<empfang>
-				<ladegut ladestelle="Güterschuppen">
-					<name>Stückgut, Expressgut</name>
+				<ladegut ladestelle="Güterschuppen" typ="stueckgut">
+					<name>Stückgut</name>
 					<gattung>G/Pwg</gattung>
-					<wagen zeitraum="woche">7</wagen>
+					<wagen zeitraum="woche">3.5</wagen>
+				</ladegut>
+				<ladegut ladestelle="Güterschuppen" typ="expressgut">
+					<name>Expressgut</name>
+					<gattung>G/Pwg</gattung>
+					<wagen zeitraum="woche">3.5</wagen>
 				</ladegut>
 			</empfang>
 			<versand>
-				<ladegut ladestelle="Güterschuppen">
-					<name>Stückgut, Expressgut</name>
+				<ladegut ladestelle="Güterschuppen" typ="stueckgut">
+					<name>Stückgut</name>
 					<gattung>G/Pwg</gattung>
-					<wagen zeitraum="woche">7</wagen>
+					<wagen zeitraum="woche">3.5</wagen>
+				</ladegut>
+				<ladegut ladestelle="Güterschuppen" typ="expressgut">
+					<name>Expressgut</name>
+					<gattung>G/Pwg</gattung>
+					<wagen zeitraum="woche">3.5</wagen>
 				</ladegut>
 			</versand>
 		</verlader>
@@ -449,7 +460,7 @@
 			</empfang>
 			<versand>
 				<ladegut ladestelle="Ladestraße">
-					<name>Bier- und Getränkefässer</name>
+					<name>Bierfässer, Getränkefässer</name>
 					<gattung>G/H</gattung>
 					<wagen zeitraum="woche">2</wagen>
 				</ladegut>

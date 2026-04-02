@@ -6,6 +6,7 @@
   <name>Dahmstadt</name>
   <kuerzel>DST</kuerzel>
   <typ>Bf</typ>
+  <verwaltung>DB</verwaltung>
   <maszstab>120</maszstab>
   <modulnr>JeRei230</modulnr>
   <plan src="dst.png" />
@@ -285,7 +286,7 @@
           <wagen zeitraum="tag">4</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestrasse">
-          <name>Futter- und Düngemittel, lose und gesackt</name>
+          <name>Futtermittel, Düngemittel, lose und gesackt</name>
           <gattung>G, T</gattung>
           <wagen zeitraum="tag">1</wagen>
         </ladegut>
@@ -380,7 +381,7 @@
       </empfang>
       <versand>
         <ladegut ladestelle="Ladestrasse">
-          <name>Saat- und Speisekartoffeln lose und gesackt, Zuckerrüben</name>
+          <name>Saatkartoffeln, Speisekartoffeln lose und gesackt, Zuckerrüben</name>
           <gattung>G, I</gattung>
           <wagen zeitraum="tag">3</wagen>
         </ladegut>
@@ -446,7 +447,7 @@
           <wagen zeitraum="woche">3</wagen>
         </ladegut>
         <ladegut ladestelle="Lik_rfabrik-2">
-          <name>Obstbrände , Liköre</name>
+          <name>Obstbrände, Liköre</name>
           <gattung>G</gattung>
           <wagen>3.0</wagen>
         </ladegut>

@@ -5,6 +5,7 @@
 	<name>Rokytnice/Rokitnitz</name>
 	<kuerzel>ROK</kuerzel>
 	<typ>Bf</typ>
+	<verwaltung>CSD,DR</verwaltung>
 	<maszstab>120</maszstab>
 	<modulnr>ThHan253</modulnr>
 	<plan src="rok.png"/>
@@ -100,17 +101,27 @@
 		<verlader>
 			<name>Stückgutschuppen</name>
 			<empfang>
-				<ladegut ladestelle="Gueterschuppen1">
-					<name>Stückgut, Expressgut</name>
+				<ladegut ladestelle="Gueterschuppen1" typ="stueckgut">
+					<name>Stückgut</name>
 					<gattung>G/Pwg</gattung>
-					<wagen zeitraum="woche">7</wagen>
+					<wagen zeitraum="woche">3.5</wagen>
+				</ladegut>
+				<ladegut ladestelle="Gueterschuppen1" typ="expressgut">
+					<name>Expressgut</name>
+					<gattung>G/Pwg</gattung>
+					<wagen zeitraum="woche">3.5</wagen>
 				</ladegut>
 			</empfang>
 			<versand>
-				<ladegut ladestelle="Gueterschuppen1">
-					<name>Stückgut, Expressgut</name>
+				<ladegut ladestelle="Gueterschuppen1" typ="stueckgut">
+					<name>Stückgut</name>
 					<gattung>G/Pwg</gattung>
-					<wagen zeitraum="woche">7</wagen>
+					<wagen zeitraum="woche">3.5</wagen>
+				</ladegut>
+				<ladegut ladestelle="Gueterschuppen1" typ="expressgut">
+					<name>Expressgut</name>
+					<gattung>G/Pwg</gattung>
+					<wagen zeitraum="woche">3.5</wagen>
 				</ladegut>
 			</versand>
 		</verlader>
@@ -155,7 +166,7 @@
 					<wagen zeitraum="woche">0.5</wagen>
 				</ladegut>
 				<ladegut ladestelle="Freiladegleis1">
-					<name>div. Baumaterialien</name>
+					<name>diverse Baumaterialien</name>
 					<gattung>G/H/E/K</gattung>
 					<wagen zeitraum="woche">2</wagen>
 				</ladegut>
@@ -197,7 +208,7 @@
 			<name>Sägewerk Rokytnice</name>
 			<versand>
 				<ladegut ladestelle="Seitenrampe">
-					<name>Balken u. Bretter</name>
+					<name>Balken, Bretter</name>
 					<gattung>E/R/S</gattung>
 					<wagen zeitraum="woche">5</wagen>
 				</ladegut>
@@ -239,7 +250,7 @@
 					<wagen zeitraum="woche">2</wagen>
 				</ladegut>
 				<ladegut ladestelle="Freiladegleis1">
-					<name>Saat- und Speisekartoffeln lose und gesackt</name>
+					<name>Saatkartoffeln, Speisekartoffeln lose und gesackt</name>
 					<gattung>G/H</gattung>
 					<wagen zeitraum="woche">3</wagen>
 				</ladegut>
@@ -349,15 +360,15 @@
 		<verlader>
 			<name>Werkstätten für Körperbehinderte</name>
 			<empfang>
-				<ladegut ladestelle="Gueterschuppen1">
+				<ladegut ladestelle="Gueterschuppen1" typ="stueckgut">
 					<name>Schweinsborsten (Stückgut)</name>
 					<gattung>G/H</gattung>
 					<wagen zeitraum="woche">0.5</wagen>
 				</ladegut>
 			</empfang>
 			<versand>
-				<ladegut ladestelle="Gueterschuppen1">
-					<name>Bürsten u. Besen (Stückgut)</name>
+				<ladegut ladestelle="Gueterschuppen1" typ="stueckgut">
+					<name>Bürsten, Besen (Stückgut)</name>
 					<gattung>G/H</gattung>
 					<wagen zeitraum="woche">1.5</wagen>
 				</ladegut>
@@ -419,7 +430,7 @@
 			<name>Militär</name>
 			<empfang>
 				<ladegut ladestelle="Kopframpe">
-					<name>Rad- und Kettenfahrzeuge</name>
+					<name>Radfahrzeuge, Kettenfahrzeuge</name>
 					<gattung>K/R</gattung>
 					<wagen zeitraum="woche">3</wagen>
 				</ladegut>
@@ -441,7 +452,7 @@
 			</empfang>
 			<versand>
 				<ladegut ladestelle="Kopframpe">
-					<name>Rad- und Kettenfahrzeuge</name>
+					<name>Radfahrzeuge, Kettenfahrzeuge</name>
 					<gattung>K/R</gattung>
 					<wagen zeitraum="woche">3</wagen>
 				</ladegut>

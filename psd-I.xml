@@ -359,7 +359,7 @@
       <name>Postschuppen</name>
       <empfang>
         <ladegut ladestelle="Bahnsteige_der_Reisez_ge" typ="expressgut">
-          <name>Brief- und Paketpost</name>
+          <name>Briefpost, Paketpost</name>
           <gattung>Post, Pw, CPost</gattung>
           <wagen zeitraum="tag">1</wagen>
         </ladegut>
@@ -371,7 +371,7 @@
       </empfang>
       <versand>
         <ladegut ladestelle="Bahnsteige_der_Reisez_ge" typ="expressgut">
-          <name>Brief- und Paketpost</name>
+          <name>Briefpost, Paketpost</name>
           <gattung>Post, Pw, CPost</gattung>
           <wagen zeitraum="tag">1</wagen>
         </ladegut>

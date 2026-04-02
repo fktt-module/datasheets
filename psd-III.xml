@@ -116,7 +116,7 @@
           <wagen zeitraum="woche">1</wagen>
         </ladegut>
         <ladegut ladestelle="Lager-_und_G_tergeb_ude">
-          <name>Betriebs-, Kraft- und Schmierstoffe</name>
+          <name>Betriebsstoffe, Kraftstoffe, Schmierstoffe</name>
           <gattung>G, H</gattung>
           <wagen zeitraum="woche">1</wagen>
         </ladegut>
@@ -208,7 +208,7 @@
           <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="Kopf-_und_Seitenladerampe Ladestra_e Lager-_und_G_tergeb_ude">
-          <name>Betriebs- und Schmierstoffe in Fässern</name>
+          <name>Betriebsstoffe, Schmierstoffe in Fässern</name>
           <gattung>G,E</gattung>
           <wagen>1</wagen>
         </ladegut>
@@ -522,7 +522,7 @@
       <name>Postschuppen</name>
       <empfang>
         <ladegut ladestelle="Bahnsteige_der_Reisez_ge" typ="expressgut">
-          <name>Brief- und Paketpost</name>
+          <name>Briefpost, Paketpost</name>
           <gattung>Post, Pw, CPost</gattung>
           <wagen zeitraum="tag">1</wagen>
         </ladegut>
@@ -534,7 +534,7 @@
       </empfang>
       <versand>
         <ladegut ladestelle="Bahnsteige_der_Reisez_ge" typ="expressgut">
-          <name>Brief- und Paketpost</name>
+          <name>Briefpost, Paketpost</name>
           <gattung>Post, Pw, CPost</gattung>
           <wagen zeitraum="tag">1</wagen>
         </ladegut>

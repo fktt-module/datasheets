@@ -5,9 +5,10 @@
     <name>Agrargenossenschaft Morgenroth</name>
     <kuerzel>MOROT</kuerzel>
     <typ>Awanst</typ>
+    <verwaltung/>
     <maszstab>120</maszstab>
     <modulnr>BrPoo351</modulnr>
-	<plan src="morot.gif" />
+	  <plan src="morot.gif" />
     <gleise>
         <zulaufstrecken>
            <links nr="1">1gl</links>
@@ -56,7 +57,7 @@
                     <gattung>G, T</gattung>
                     <wagen zeitraum="tag">0.5</wagen>
                 </ladegut>
-                <ladegut ladestelle="schuppen">
+                <ladegut ladestelle="schuppen" typ="stueckgut">
                     <name>Melkfett (Stückgut)</name>
                     <gattung>G</gattung>
                     <wagen zeitraum="tag">0.25</wagen>

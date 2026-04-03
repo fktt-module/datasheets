@@ -205,7 +205,7 @@
           <wagen zeitraum="woche">1</wagen>
         </ladegut>
         <ladegut ladestelle="G_terschuppen" typ="stueckgut">
-          <name>Holzbretter und -leisten für Transportverpackungen</name>
+          <name>Holzbretter, Holzleisten für Transportverpackungen</name>
           <gattung>Stückgut, G, H, R, K</gattung>
           <wagen zeitraum="woche">1</wagen>
         </ladegut>
@@ -215,7 +215,7 @@
           <wagen zeitraum="woche">1</wagen>
         </ladegut>
         <ladegut ladestelle="EP2">
-          <name>Flaschen (Glas , Kunststoff) für Testläufe</name>
+          <name>Flaschen (Glas, Kunststoff) für Testläufe</name>
           <gattung>G, H</gattung>
           <wagen zeitraum="woche">1</wagen>
         </ladegut>
@@ -232,7 +232,7 @@
       </empfang>
       <versand>
         <ladegut ladestelle="EP1">
-          <name>Etikettier- und Verpackungsmaschinen (Eti-Pack 500)</name>
+          <name>Etikettiermaschinen, Verpackungsmaschinen (Eti-Pack 500)</name>
           <gattung>G, H, K, R, S</gattung>
           <wagen zeitraum="woche">1</wagen>
         </ladegut>
@@ -272,16 +272,26 @@
           <wagen zeitraum="woche">1</wagen>
         </ladegut>
         <ladegut ladestelle="G_terschuppen" typ="stueckgut">
-          <name>Stückgut, Expressgut</name>
+          <name>Stückgut</name>
           <gattung>G, H, Pwg</gattung>
-          <wagen zeitraum="tag">4</wagen>
+          <wagen zeitraum="tag">2</wagen>
+        </ladegut>
+        <ladegut ladestelle="G_terschuppen" typ="expressgut">
+          <name>Expressgut</name>
+          <gattung>G, H, Pwg</gattung>
+          <wagen zeitraum="tag">2</wagen>
         </ladegut>
       </empfang>
       <versand>
         <ladegut ladestelle="G_terschuppen" typ="stueckgut">
-          <name>Stückgut, Expressgut</name>
+          <name>Stückgut</name>
           <gattung>G, H, Pwg</gattung>
-          <wagen zeitraum="tag">4</wagen>
+          <wagen zeitraum="tag">2</wagen>
+        </ladegut>
+        <ladegut ladestelle="G_terschuppen" typ="expressgut">
+          <name>Expressgut</name>
+          <gattung>G, H, Pwg</gattung>
+          <wagen zeitraum="tag">2</wagen>
         </ladegut>
       </versand>
     </verlader>
@@ -381,7 +391,7 @@
           <wagen zeitraum="woche">1</wagen>
         </ladegut>
         <ladegut ladestelle="LR">
-          <name>Fahrzeuge, Baumaschienen</name>
+          <name>Fahrzeuge, Baumaschinen</name>
           <gattung>K, L, R, S</gattung>
           <wagen zeitraum="woche">1</wagen>
         </ladegut>
@@ -423,7 +433,7 @@
           <wagen zeitraum="woche">1</wagen>
         </ladegut>
         <ladegut ladestelle="LR">
-          <name>Landmaschienen</name>
+          <name>Landmaschinen</name>
           <gattung>K, L, R, S</gattung>
           <wagen zeitraum="woche">1</wagen>
         </ladegut>

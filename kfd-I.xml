@@ -18,59 +18,59 @@
     <hgleise>
       <gleis id="Gleis_1b">
         <name>1b</name>
-        <laenge einheit="mm">1800</laenge>
+        <laenge>1800</laenge>
         <bemerkung>Ein- und Ausfahrgleis</bemerkung>
       </gleis>
       <gleis id="Gleis_3b">
         <name>3b</name>
-        <laenge einheit="mm">1550</laenge>
+        <laenge>1550</laenge>
         <bemerkung>Ein- und Ausfahrgleis für Güterzüge, Gleis für Zugbildung</bemerkung>
       </gleis>
       <gleis id="Gleis_5">
         <name>5</name>
-        <laenge einheit="mm">1600</laenge>
+        <laenge>1600</laenge>
         <bemerkung>Ein- und Ausfahrgleis für Güterzüge, Gleis für Zugbildung</bemerkung>
       </gleis>
     </hgleise>
     <ngleise>
       <gleis id="Gleis_1a">
         <name>1a</name>
-        <laenge einheit="mm">840</laenge>
+        <laenge>840</laenge>
         <bemerkung>Bahnsteiggleis</bemerkung>
       </gleis>
       <gleis id="Gleis_2a">
         <name>2a</name>
-        <laenge einheit="mm">500</laenge>
+        <laenge>500</laenge>
         <bemerkung>Einsatzstelle mit Triebwagenschuppen</bemerkung>
       </gleis>
       <gleis id="Gleis_2b">
         <name>2b</name>
-        <laenge einheit="mm">1300</laenge>
+        <laenge>1300</laenge>
         <bemerkung>Umfahrgleis</bemerkung>
       </gleis>
       <gleis id="Gleis_3a">
         <name>3a</name>
-        <laenge einheit="mm">150</laenge>
+        <laenge>150</laenge>
         <bemerkung>Seitenrampe</bemerkung>
       </gleis>
       <gleis id="Gleis_3c">
         <name>3c</name>
-        <laenge einheit="mm">650</laenge>
+        <laenge>650</laenge>
         <bemerkung>Güterschuppen</bemerkung>
       </gleis>
       <gleis id="Gleis_4">
         <name>4</name>
-        <laenge einheit="mm">1700</laenge>
+        <laenge>1700</laenge>
         <bemerkung>Ladestraße/Freiladegleis und Kopframpe</bemerkung>
       </gleis>
       <gleis id="Gleis_A1">
         <name>A1</name>
-        <laenge einheit="mm">950</laenge>
+        <laenge>950</laenge>
         <bemerkung>Anschlußgleis VEB Salzsäure Sammelgleis</bemerkung>
       </gleis>
       <gleis id="gleis_A2">
         <name>A2</name>
-        <laenge einheit="mm">950</laenge>
+        <laenge>950</laenge>
         <bemerkung>Anschlußgleis VEB Salzsäure Verladegleis</bemerkung>
       </gleis>
     </ngleise>
@@ -78,38 +78,38 @@
   <pv>
     <bahnsteig gleis="Gleis_1a">
       <name>Hausbahnsteig</name>
-      <laenge einheit="mm">800</laenge>
+      <laenge>800</laenge>
     </bahnsteig>
     <bemerkung>Reger Urlauberverkehr kennzeichnet den Personenverkehr ebenso wie die Nutzung der Bahn durch Berufspendler. Besonders starken Reiseverkehr gibt es zu solchen Höhepunkten wie dem Stadt- und Rosenfest sowie zum Vatertag.</bemerkung>
   </pv>
   <gv>
     <ladestelle id="Kopframpe" gleis="Gleis_4">
       <name>Kopframpe</name>
-      <laenge einheit="mm">200</laenge>
+      <laenge>200</laenge>
     </ladestelle>
     <ladestelle id="Seitenrampe" gleis="Gleis_3a">
       <name>Seitenrampe</name>
-      <laenge einheit="mm">150</laenge>
+      <laenge>150</laenge>
     </ladestelle>
     <ladestelle id="Ladestraße" gleis="Gleis_4">
       <name>Ladestraße</name>
-      <laenge einheit="mm">1500</laenge>
+      <laenge>1500</laenge>
     </ladestelle>
     <ladestelle id="Güterschuppen" gleis="Gleis_3c">
       <name>Güterschuppen</name>
-      <laenge einheit="mm">650</laenge>
+      <laenge>650</laenge>
     </ladestelle>
     <ladestelle id="Anschlu_Salzs_ure_Sammelgleis" gleis="Gleis_A1">
       <name>Anschluß Salzsäure Sammelgleis</name>
-      <laenge einheit="mm">600</laenge>
+      <laenge>600</laenge>
     </ladestelle>
     <ladestelle id="VEB_Salzs_ure_Ladegleis" gleis="gleis_A2">
       <name>VEB Salzsäure Ladegleis</name>
-      <laenge einheit="mm">950</laenge>
+      <laenge>950</laenge>
     </ladestelle>
     <ladestelle id="Lokremise_Kranichsfeld" gleis="Gleis_2a">
       <name>Lokremise Kranichsfeld</name>
-      <laenge einheit="mm">500</laenge>
+      <laenge>500</laenge>
     </ladestelle>
     <verlader>
       <name>Kunstmöbeltischlerei Kranichsfeld</name>
@@ -117,19 +117,19 @@
         <ladegut ladestelle="Ladestraße">
           <name>Bretter</name>
           <gattung>G/H</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="Güterschuppen">
           <name>Beschläge</name>
           <gattung>G/H</gattung>
-          <wagen zeitraum="woche">0.5</wagen>
+          <wagen>0.5</wagen>
         </ladegut>
       </empfang>
       <versand>
         <ladegut ladestelle="Ladestraße">
           <name>Möbel</name>
           <gattung>G/H</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
       </versand>
     </verlader>
@@ -139,7 +139,7 @@
         <ladegut ladestelle="Ladestraße">
           <name>Stammholz</name>
           <gattung>E/R/S</gattung>
-          <wagen zeitraum="woche">3</wagen>
+          <wagen>3</wagen>
         </ladegut>
       </versand>
     </verlader>
@@ -149,24 +149,24 @@
         <ladegut ladestelle="Güterschuppen" typ="stueckgut">
           <name>Werkzeuge (Stückgut)</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">0.1</wagen>
+          <wagen>0.1</wagen>
         </ladegut>
       </empfang>
       <versand>
         <ladegut ladestelle="Ladestraße">
           <name>Fenster</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">0.5</wagen>
+          <wagen>0.5</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestraße">
           <name>Türen</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">0.3</wagen>
+          <wagen>0.3</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestraße">
           <name>Dachbinder</name>
           <gattung>R/S</gattung>
-          <wagen zeitraum="woche">0.2</wagen>
+          <wagen>0.2</wagen>
         </ladegut>
       </versand>
     </verlader>
@@ -176,19 +176,19 @@
         <ladegut ladestelle="Güterschuppen" typ="stueckgut">
           <name>Kraftfutter (Stückgut)</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">0.1</wagen>
+          <wagen>0.1</wagen>
         </ladegut>
       </empfang>
       <versand>
         <ladegut ladestelle="Güterschuppen" typ="stueckgut">
           <name>Daunenfedern (Stückgut)</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">0.2</wagen>
+          <wagen>0.2</wagen>
         </ladegut>
         <ladegut ladestelle="Seitenrampe">
           <name>Mastgänse</name>
           <gattung>V</gattung>
-          <wagen zeitraum="woche">0.2</wagen>
+          <wagen>0.2</wagen>
         </ladegut>
       </versand>
     </verlader>
@@ -198,29 +198,29 @@
         <ladegut ladestelle="Ladestraße">
           <name>Kohlen</name>
           <gattung>O</gattung>
-          <wagen zeitraum="woche">3</wagen>
+          <wagen>3</wagen>
         </ladegut>
         <ladegut ladestelle="Güterschuppen" typ="stueckgut">
           <name>Gatter-Sägeblätter (Stückgut)</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">0.1</wagen>
+          <wagen>0.1</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestraße">
           <name>Schmieröle</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">0.4</wagen>
+          <wagen>0.4</wagen>
         </ladegut>
       </empfang>
       <versand>
         <ladegut ladestelle="Ladestraße">
           <name>Bretter</name>
           <gattung>G/O</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestraße">
           <name>Balken</name>
           <gattung>G/K/R</gattung>
-          <wagen zeitraum="woche">0</wagen>
+          <wagen>0</wagen>
         </ladegut>
       </versand>
     </verlader>
@@ -230,54 +230,54 @@
         <ladegut ladestelle="Ladestraße">
           <name>Kartonagen</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">0.2</wagen>
+          <wagen>0.2</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestraße">
           <name>Packpapier</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">0.4</wagen>
+          <wagen>0.4</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestraße">
           <name>Kaolin</name>
           <gattung>O</gattung>
-          <wagen zeitraum="woche">0.6</wagen>
+          <wagen>0.6</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestraße">
           <name>Feldspat</name>
           <gattung>O</gattung>
-          <wagen zeitraum="woche">0.3</wagen>
+          <wagen>0.3</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestraße">
           <name>Quarzsand</name>
           <gattung>O</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestraße">
           <name>Porzellanglasur</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">0.5</wagen>
+          <wagen>0.5</wagen>
         </ladegut>
         <ladegut ladestelle="Güterschuppen" typ="stueckgut">
           <name>Porzellanfarbe (Stückgut)</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">0.2</wagen>
+          <wagen>0.2</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestraße">
           <name>Steinkohle</name>
           <gattung>O</gattung>
-          <wagen zeitraum="woche">1.2</wagen>
+          <wagen>1.2</wagen>
         </ladegut>
       </empfang>
       <versand>
         <ladegut ladestelle="Güterschuppen" typ="stueckgut">
           <name>Kaffeegeschirr (Stückgut)</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">0.4</wagen>
+          <wagen>0.4</wagen>
         </ladegut>
         <ladegut ladestelle="Güterschuppen" typ="stueckgut">
           <name>Speisegeschirr (Stückgut)</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">0.4</wagen>
+          <wagen>0.4</wagen>
         </ladegut>
       </versand>
     </verlader>
@@ -287,14 +287,14 @@
         <ladegut ladestelle="Anschlu_Salzs_ure_Sammelgleis">
           <name>Lauge</name>
           <gattung>Z</gattung>
-          <wagen zeitraum="woche">3</wagen>
+          <wagen>3</wagen>
         </ladegut>
       </empfang>
       <versand>
         <ladegut ladestelle="Anschlu_Salzs_ure_Sammelgleis">
           <name>Salzsäure</name>
           <gattung>Z</gattung>
-          <wagen zeitraum="woche">4</wagen>
+          <wagen>4</wagen>
         </ladegut>
       </versand>
     </verlader>
@@ -304,22 +304,22 @@
         <ladegut ladestelle="Lokremise_Kranichsfeld">
           <name>Dieselöl</name>
           <gattung>Z</gattung>
-          <wagen zeitraum="woche">0.6</wagen>
+          <wagen>0.6</wagen>
         </ladegut>
         <ladegut ladestelle="Lokremise_Kranichsfeld">
           <name>Lokkohle</name>
           <gattung>O</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
         <ladegut ladestelle="Lokremise_Kranichsfeld">
           <name>Loksand</name>
           <gattung>O</gattung>
-          <wagen zeitraum="woche">0.2</wagen>
+          <wagen>0.2</wagen>
         </ladegut>
         <ladegut ladestelle="Lokremise_Kranichsfeld">
-          <name>Amaturen und Ersatzteile</name>
+          <name>Amaturen, Ersatzteile</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">0.2</wagen>
+          <wagen>0.2</wagen>
         </ladegut>
       </empfang>
     </verlader>
@@ -368,4 +368,3 @@
     <bemerkung>Landwirtschaft, Porzellanfabrik, Dampfsägemühle, Bautischklerei, Kunstmöbeltischlerei, Molkerei</bemerkung>
   </gv>
 </bahnhof>
-

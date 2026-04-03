@@ -111,7 +111,7 @@
           <gattung>G, H</gattung>
           <wagen zeitraum="tag">2</wagen>
         </ladegut>
-        <ladegut ladestelle="Rampe">
+        <ladegut ladestelle="Rampe" typ="stueckgut">
           <name>Feingußteile aller Art als Stückgut</name>
           <gattung>G, H</gattung>
           <wagen zeitraum="tag">0</wagen>
@@ -134,12 +134,12 @@
       </empfang>
       <versand>
         <ladegut ladestelle="Halle_PGH_Steinmetz_">
-          <name>Steinfiguren und Springbrunnen</name>
+          <name>Steinfiguren, Springbrunnen</name>
           <gattung>G, H</gattung>
           <wagen zeitraum="tag">2</wagen>
         </ladegut>
-        <ladegut ladestelle="Halle_PGH_Steinmetz_">
-          <name>Steinfiguren und Springbrunnen als Stückgut</name>
+        <ladegut ladestelle="Halle_PGH_Steinmetz_" typ="stueckgut">
+          <name>Steinfiguren, Springbrunnen als Stückgut</name>
           <gattung>G, H</gattung>
           <wagen>0</wagen>
         </ladegut>
@@ -148,4 +148,3 @@
     <bemerkung>Zur Kohle: Umladung in werkseigene OOT im Kohleladeplatz WUEK</bemerkung>
   </gv>
 </bahnhof>
-

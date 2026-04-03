@@ -17,64 +17,64 @@
     <hgleise>
       <gleis id="G1">
         <name>1</name>
-        <laenge einheit="mm">1500</laenge>
+        <laenge>1500</laenge>
         <bemerkung>Personenverkehr</bemerkung>
       </gleis>
       <gleis id="G2">
         <name>2</name>
-        <laenge einheit="mm">1500</laenge>
+        <laenge>1500</laenge>
         <bemerkung>Personenverkehr</bemerkung>
       </gleis>
       <gleis id="G3">
         <name>3</name>
-        <laenge einheit="mm">1300</laenge>
+        <laenge>1300</laenge>
         <bemerkung>Einfahrt und Bereitstellung Güterzüge</bemerkung>
       </gleis>
     </hgleise>
     <ngleise>
       <gleis id="gleis_4">
         <name>4</name>
-        <laenge einheit="mm">600</laenge>
+        <laenge>600</laenge>
         <bemerkung>Güterschuppen</bemerkung>
       </gleis>
       <gleis id="gleis_4a">
         <name>4a</name>
-        <laenge einheit="mm">400</laenge>
+        <laenge>400</laenge>
         <bemerkung>Anschluss Zementwerk</bemerkung>
       </gleis>
       <gleis id="gleis_4b">
         <name>4b</name>
-        <laenge einheit="mm">350</laenge>
+        <laenge>350</laenge>
         <bemerkung>Abstellgleis</bemerkung>
       </gleis>
       <gleis id="gleis_5">
         <name>5</name>
-        <laenge einheit="mm">480</laenge>
+        <laenge>480</laenge>
         <bemerkung>Ladestrasse</bemerkung>
       </gleis>
       <gleis id="gleis_5a">
         <name>5a</name>
-        <laenge einheit="mm">380</laenge>
+        <laenge>380</laenge>
         <bemerkung>Laderampe (Kopf- und Seitenrampe)</bemerkung>
       </gleis>
       <gleis id="gleis_6a">
         <name>6a</name>
-        <laenge einheit="mm">500</laenge>
+        <laenge>500</laenge>
         <bemerkung>Anschluss Eti-Pack</bemerkung>
       </gleis>
       <gleis id="gleis_6b">
         <name>6b</name>
-        <laenge einheit="mm">450</laenge>
+        <laenge>450</laenge>
         <bemerkung>Anschluss Eti-Pack</bemerkung>
       </gleis>
       <gleis id="gleis_7">
         <name>7</name>
-        <laenge einheit="mm">200</laenge>
+        <laenge>200</laenge>
         <bemerkung>Umsetzgleis Tfz</bemerkung>
       </gleis>
       <gleis id="gleis_8">
         <name>8</name>
-        <laenge einheit="mm">300</laenge>
+        <laenge>300</laenge>
         <bemerkung>Tankstelle</bemerkung>
       </gleis>
     </ngleise>
@@ -82,7 +82,7 @@
   <pv>
     <bahnsteig gleis="G1">
       <name>Hausbahnsteig</name>
-      <laenge einheit="mm">1140</laenge>
+      <laenge>1140</laenge>
     </bahnsteig>
     <bahnsteig gleis="G2">
       <name>Inselbahnsteig</name>
@@ -93,31 +93,31 @@
   <gv>
     <ladestelle id="Zementwerk" gleis="gleis_5">
       <name>Zementwerk</name>
-      <laenge einheit="mm">350</laenge>
+      <laenge>350</laenge>
     </ladestelle>
     <ladestelle id="G_terschuppen" gleis="gleis_4a">
       <name>Güterschuppen</name>
-      <laenge einheit="mm">150</laenge>
+      <laenge>150</laenge>
     </ladestelle>
     <ladestelle id="LR" gleis="gleis_6a">
       <name>Laderampe</name>
-      <laenge einheit="mm">400</laenge>
+      <laenge>400</laenge>
     </ladestelle>
     <ladestelle id="EP1" gleis="gleis_6b">
       <name>Eti-Pack-1</name>
-      <laenge einheit="mm">500</laenge>
+      <laenge>500</laenge>
     </ladestelle>
     <ladestelle id="EP2" gleis="gleis_7">
       <name>Eti-Pack-2</name>
-      <laenge einheit="mm">450</laenge>
+      <laenge>450</laenge>
     </ladestelle>
     <ladestelle id="Tankstelle" gleis="gleis_4">
       <name>Tankstelle</name>
-      <laenge einheit="mm">200</laenge>
+      <laenge>200</laenge>
     </ladestelle>
     <ladestelle id="Ladestrasse" gleis="gleis_5a">
       <name>Ladestrasse</name>
-      <laenge einheit="mm">500</laenge>
+      <laenge>500</laenge>
     </ladestelle>
     <verlader>
       <name>Zementwerk</name>
@@ -125,12 +125,12 @@
         <ladegut ladestelle="Zementwerk">
           <name>Tonerde</name>
           <gattung>E, T</gattung>
-          <wagen zeitraum="woche">5</wagen>
+          <wagen>5</wagen>
         </ladegut>
         <ladegut ladestelle="Zementwerk">
           <name>Quarzsand</name>
           <gattung>Uc, T</gattung>
-          <wagen zeitraum="woche">5</wagen>
+          <wagen>5</wagen>
         </ladegut>
         <ladegut ladestelle="Zementwerk">
           <name>Kalk (lose, Kübel)</name>
@@ -140,7 +140,7 @@
         <ladegut ladestelle="G_terschuppen" typ="stueckgut">
           <name>Leersäcke</name>
           <gattung>Stückgut, G, H</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="Zementwerk">
           <name>Paletten</name>
@@ -182,47 +182,47 @@
         <ladegut ladestelle="EP2">
           <name>Stahlbleche (bis 5mm Stärke)</name>
           <gattung>R, S, K</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="EP2">
           <name>Halbzeuge (U-Stahl, L-Stahl, Rundstahl) Länge max. 6m</name>
           <gattung>R, S, K</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="G_terschuppen" typ="stueckgut">
-          <name>Farben und Lösungsmitteln in Kanistern</name>
+          <name>Farben, Lösungsmitteln in Kanistern</name>
           <gattung>Stückgut, G, H</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="G_terschuppen" typ="stueckgut">
           <name>Schmierstoffe</name>
           <gattung>Stückgut, G, H</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="G_terschuppen" typ="stueckgut">
           <name>Maschinenteile (Motoren, Getriebe, Elektroinstallationen, Hydraulikkomponenten)</name>
           <gattung>Stückgut, G, H, R, K</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="G_terschuppen" typ="stueckgut">
           <name>Holzbretter, Holzleisten für Transportverpackungen</name>
           <gattung>Stückgut, G, H, R, K</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="G_terschuppen" typ="stueckgut">
           <name>Verpackungsmaterial (Kartons, Folien, Kunststoffboxen)</name>
           <gattung>Stückgut, G, H</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="EP2">
           <name>Flaschen (Glas, Kunststoff) für Testläufe</name>
           <gattung>G, H</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="G_terschuppen" typ="stueckgut">
           <name>Folien für Testläufe</name>
           <gattung>Stückgut, G, H</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="EP2">
           <name>Container, leer</name>
@@ -234,27 +234,27 @@
         <ladegut ladestelle="EP1">
           <name>Etikettiermaschinen, Verpackungsmaschinen (Eti-Pack 500)</name>
           <gattung>G, H, K, R, S</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="G_terschuppen" typ="stueckgut">
           <name>Ersatzteile</name>
           <gattung>Stückgut, G, H</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="EP1">
           <name>Schrott</name>
           <gattung>E</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="EP1">
           <name>Glasbruch</name>
           <gattung>E</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="EP1">
           <name>Kunststoffabfälle</name>
           <gattung>G, H</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="EP2">
           <name>Container, (mit Eti-Pack 500)</name>
@@ -269,7 +269,7 @@
         <ladegut ladestelle="Tankstelle">
           <name>Dieselkraftstoff, UN1202</name>
           <gattung>Z</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="G_terschuppen" typ="stueckgut">
           <name>Stückgut</name>
@@ -311,22 +311,22 @@
         <ladegut ladestelle="G_terschuppen" typ="stueckgut">
           <name>Bündelbriketts</name>
           <gattung>Stückgut, G, H, K, R</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestrasse">
           <name>Briketts, lose</name>
           <gattung>E</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="Tankstelle">
           <name>Propangas, UN1978</name>
           <gattung>Z</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="G_terschuppen" typ="stueckgut">
           <name>Gasflaschen, leer</name>
           <gattung>Stückgut, G, H</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="Tankstelle">
           <name>Heizöl UN1202</name>
@@ -346,24 +346,24 @@
         <ladegut ladestelle="Ladestrasse">
           <name>Dieselkraftstoff, UN1202</name>
           <gattung>Z</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
         <ladegut ladestelle="LR">
           <name>Fahrzeuge, ohne Kette</name>
           <gattung>K, L, S, R</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
         <ladegut ladestelle="G_terschuppen" typ="stueckgut">
           <name>Verbrauchsgut</name>
           <gattung>Stückgut, G, H</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
       </empfang>
       <versand>
         <ladegut ladestelle="LR">
           <name>Fahrzeuge, ohne Kette</name>
           <gattung>K, L, S, R</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
       </versand>
     </verlader>
@@ -373,7 +373,7 @@
         <ladegut ladestelle="LR">
           <name>Autos</name>
           <gattung>L, K, R</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
       </empfang>
     </verlader>
@@ -383,22 +383,22 @@
         <ladegut ladestelle="Ladestrasse">
           <name>Sand, Kies, Split</name>
           <gattung>E, F, K, R, S</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestrasse">
           <name>Streusalz</name>
           <gattung>T</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="LR">
           <name>Fahrzeuge, Baumaschinen</name>
           <gattung>K, L, R, S</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestrasse">
           <name>Bitumen UN3257</name>
           <gattung>Zaes</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="LR">
           <name>Pflastersteine</name>
@@ -420,7 +420,7 @@
         <ladegut ladestelle="Ladestrasse">
           <name>Bauschutt</name>
           <gattung>E, K, R</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
       </versand>
     </verlader>
@@ -430,27 +430,27 @@
         <ladegut ladestelle="G_terschuppen" typ="stueckgut">
           <name>Saatgut, gesackt</name>
           <gattung>Stückgut, G, H</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="LR">
           <name>Landmaschinen</name>
           <gattung>K, L, R, S</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="G_terschuppen" typ="stueckgut">
           <name>Gartengeräte</name>
           <gattung>Stückgut, G, H</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="G_terschuppen" typ="stueckgut">
           <name>Düngemittel, gesackt</name>
           <gattung>Stückgut, G, H</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="G_terschuppen" typ="stueckgut">
           <name>Futtermittel, gesackt</name>
           <gattung>Stückgut, G, H</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
       </empfang>
       <versand>
@@ -467,17 +467,17 @@
         <ladegut ladestelle="G_terschuppen" typ="stueckgut">
           <name>Getreide, gesackt</name>
           <gattung>Stückgut, G, H</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="G_terschuppen" typ="stueckgut">
           <name>Obst/Gemüse, Kisten</name>
           <gattung>Stückgut, G, H</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestrasse">
           <name>Obst/Gemüse, lose</name>
           <gattung>E</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
       </versand>
     </verlader>
@@ -487,17 +487,17 @@
         <ladegut ladestelle="Ladestrasse">
           <name>Neuschotter</name>
           <gattung>F</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestrasse">
           <name>Schienenstränge</name>
           <gattung>R</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestrasse">
           <name>Schwellen</name>
           <gattung>K, R</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="LR">
           <name>Kabelkanäle</name>
@@ -509,17 +509,17 @@
         <ladegut ladestelle="Ladestrasse">
           <name>Altschotter</name>
           <gattung>K, R</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestrasse">
           <name>Altschwellen</name>
           <gattung>K, R</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestrasse">
           <name>Altschienen</name>
           <gattung>K, R</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
       </versand>
     </verlader>
@@ -559,4 +559,3 @@
   </gv>
   <bemerkung>DB Endbahnhof, Ende der 80iger Jahre.[br]Betriebsruhe von 22 - 04 Uhr, (ausser bei Zement-Gag),[br]Betriebsstelle immer besetzt, mit Ortslok</bemerkung>
 </bahnhof>
-

@@ -6,6 +6,7 @@
   <name>Altenstein</name>
   <kuerzel>ALT</kuerzel>
   <typ>Bf</typ>
+  <verwaltung>DB</verwaltung>
   <maszstab>120.0</maszstab>
   <modulnr>GeReh203</modulnr>
   <plan src="alt.jpg" />
@@ -14,69 +15,69 @@
     <hgleise>
       <gleis id="gleis_1">
         <name>1</name>
-        <laenge einheit="mm">1160.0</laenge>
+        <laenge>1160.0</laenge>
         <bemerkung>Durchgangsgleis (durchgehender Güter-/Personenverkehr aus Richtung Westen)</bemerkung>
       </gleis>
       <gleis id="gleis_2">
         <name>2</name>
-        <laenge einheit="mm">1100.0</laenge>
+        <laenge>1100.0</laenge>
         <bemerkung>Kreuzungsgleis (durchgehender Güter-/Personenverkehr aus Richtung Osten)</bemerkung>
       </gleis>
       <gleis id="gleis_3-33">
         <name>3-33</name>
-        <laenge einheit="mm">630.0</laenge>
+        <laenge>630.0</laenge>
         <bemerkung>endender Personenverkehr aus Richtung Westen</bemerkung>
       </gleis>
     </hgleise>
     <ngleise>
       <gleis id="gleis_12">
         <name>12</name>
-        <laenge einheit="mm">260.0</laenge>
+        <laenge>260.0</laenge>
         <bemerkung>Abstellgleis</bemerkung>
       </gleis>
       <gleis id="gleis_22">
         <name>22</name>
-        <laenge einheit="mm">410.0</laenge>
+        <laenge>410.0</laenge>
         <bemerkung>Abstellgleis</bemerkung>
       </gleis>
       <gleis id="gleis_13">
         <name>13</name>
-        <laenge einheit="mm">360.0</laenge>
+        <laenge>360.0</laenge>
         <bemerkung>Ladestraße I</bemerkung>
       </gleis>
       <gleis id="gleis_4">
         <name>4</name>
-        <laenge einheit="mm">160.0</laenge>
+        <laenge>160.0</laenge>
         <bemerkung>Bereitstellung Güterwagen</bemerkung>
       </gleis>
       <gleis id="gleis_24">
         <name>24</name>
-        <laenge einheit="mm">160.0</laenge>
+        <laenge>160.0</laenge>
         <bemerkung>Lokeinsatzstelle (Lokschuppen)</bemerkung>
       </gleis>
       <gleis id="gleis_5">
         <name>5</name>
-        <laenge einheit="mm">240.0</laenge>
+        <laenge>240.0</laenge>
         <bemerkung>Ladestraße II / Lademaß, Waage</bemerkung>
       </gleis>
       <gleis id="gleis_15">
         <name>15</name>
-        <laenge einheit="mm">160.0</laenge>
+        <laenge>160.0</laenge>
         <bemerkung>Kopf- und Seitenrampe, Viehverladung</bemerkung>
       </gleis>
       <gleis id="gleis_6">
         <name>6</name>
-        <laenge einheit="mm">600.0</laenge>
+        <laenge>600.0</laenge>
         <bemerkung>Lokverkehrsgleis</bemerkung>
       </gleis>
       <gleis id="gleis_16">
         <name>16</name>
-        <laenge einheit="mm">180.0</laenge>
+        <laenge>180.0</laenge>
         <bemerkung>Anschlussgleis Fa. Lampen Apparatebau</bemerkung>
       </gleis>
       <gleis id="gleis_25">
         <name>25</name>
-        <laenge einheit="mm">180.0</laenge>
+        <laenge>180.0</laenge>
         <bemerkung>Güterschuppen</bemerkung>
       </gleis>
     </ngleise>
@@ -84,71 +85,71 @@
   <pv>
     <bahnsteig gleis="gleis_3-33">
       <name>A - Hausbahnsteig</name>
-      <laenge einheit="mm">630.0</laenge>
+      <laenge>630.0</laenge>
     </bahnsteig>
     <bahnsteig gleis="gleis_1">
       <name>B - Zwischenbahnsteig</name>
-      <laenge einheit="mm">1160.0</laenge>
+      <laenge>1160.0</laenge>
     </bahnsteig>
     <bahnsteig gleis="gleis_2">
       <name>C - Zwischenbahnsteig</name>
-      <laenge einheit="mm">1100.0</laenge>
+      <laenge>1100.0</laenge>
     </bahnsteig>
     <bemerkung>Berufs- und Schülerverkehr</bemerkung>
   </pv>
   <gv>
     <ladestelle id="Ladestra_e_I" gleis="gleis_13">
       <name>Ladestraße I</name>
-      <laenge einheit="mm">360.0</laenge>
+      <laenge>360.0</laenge>
     </ladestelle>
     <ladestelle id="Ladestra_e_II_Waage_Ladema_" gleis="gleis_5">
       <name>Ladestraße II, Waage, / Lademaß</name>
-      <laenge einheit="mm">170.0</laenge>
+      <laenge>170.0</laenge>
     </ladestelle>
     <ladestelle id="Laderampe" gleis="gleis_15">
       <name>Laderampe</name>
-      <laenge einheit="mm">80.0</laenge>
+      <laenge>80.0</laenge>
     </ladestelle>
     <ladestelle id="Viehverladung" gleis="gleis_15">
       <name>Viehverladung</name>
-      <laenge einheit="mm">80.0</laenge>
+      <laenge>80.0</laenge>
     </ladestelle>
     <ladestelle id="G_terschuppen_St_ckgut_" gleis="gleis_25">
       <name>Güterschuppen (Stückgut)</name>
-      <laenge einheit="mm">180.0</laenge>
+      <laenge>180.0</laenge>
     </ladestelle>
     <ladestelle id="Fa._Lampen_Apparatebau" gleis="gleis_16">
       <name>Fa. Lampen Apparatebau</name>
-      <laenge einheit="mm">180.0</laenge>
+      <laenge>180.0</laenge>
     </ladestelle>
     <ladestelle id="Kohlebansen" gleis="gleis_24">
       <name>Kohlebansen</name>
-      <laenge einheit="mm">160.0</laenge>
+      <laenge>160.0</laenge>
     </ladestelle>
     <verlader>
       <name>Peter Lampen GmbH &amp; Co. KG, Feinmechanische Werkstatt</name>
       <empfang>
         <ladegut ladestelle="Fa._Lampen_Apparatebau">
-          <name>Kunststoff- und Metallhalbzeuge</name>
+          <name>Kunststoffhalbzeuge, Metallhalbzeuge</name>
           <gattung>G, H</gattung>
-          <wagen zeitraum="woche">1.0</wagen>
+          <wagen>1.0</wagen>
         </ladegut>
         <ladegut ladestelle="Fa._Lampen_Apparatebau">
-          <name>Holzbretter und -Leisten für Transportverpackungen</name>
+          <name>Holzbretter, Holzleisten für Transportverpackungen</name>
           <gattung>E, G, H, R, S</gattung>
-          <wagen zeitraum="woche">1.0</wagen>
+          <wagen>1.0</wagen>
         </ladegut>
         <ladegut ladestelle="Fa._Lampen_Apparatebau">
           <name>Baulelemente</name>
           <gattung>G, H</gattung>
-          <wagen zeitraum="woche">1.0</wagen>
+          <wagen>1.0</wagen>
         </ladegut>
       </empfang>
       <versand>
         <ladegut ladestelle="Laderampe">
           <name>Apparate</name>
           <gattung>G, H, R, S</gattung>
-          <wagen zeitraum="woche">1.0</wagen>
+          <wagen>1.0</wagen>
         </ladegut>
       </versand>
     </verlader>
@@ -158,12 +159,12 @@
         <ladegut ladestelle="Ladestra_e_I">
           <name>Eierkohlen, Briketts</name>
           <gattung>E</gattung>
-          <wagen zeitraum="woche">5.0</wagen>
+          <wagen>5.0</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestra_e_I">
           <name>Heizöl in Fässern</name>
           <gattung>E</gattung>
-          <wagen zeitraum="woche">3.0</wagen>
+          <wagen>3.0</wagen>
         </ladegut>
       </empfang>
     </verlader>
@@ -173,17 +174,17 @@
         <ladegut ladestelle="Laderampe">
           <name>Senfkörner Zucker (gesackt)</name>
           <gattung>G, H</gattung>
-          <wagen zeitraum="woche">5.0</wagen>
+          <wagen>5.0</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestra_e_II_Waage_Ladema_">
           <name>Wein in Fässern</name>
           <gattung>G, H</gattung>
-          <wagen zeitraum="woche">3.0</wagen>
+          <wagen>3.0</wagen>
         </ladegut>
         <ladegut ladestelle="Laderampe">
-          <name>Etikettier- und Verpackungsmaschinen</name>
+          <name>Etikettiermaschinen, Verpackungsmaschinen</name>
           <gattung>R, S</gattung>
-          <wagen zeitraum="woche">1.0</wagen>
+          <wagen>1.0</wagen>
         </ladegut>
       </empfang>
       <versand>
@@ -200,46 +201,46 @@
         <ladegut ladestelle="Ladestra_e_I">
           <name>Düngemittel, lose</name>
           <gattung>T</gattung>
-          <wagen zeitraum="woche">2.0</wagen>
+          <wagen>2.0</wagen>
         </ladegut>
-        <ladegut ladestelle="G_terschuppen_St_ckgut_">
+        <ladegut ladestelle="G_terschuppen_St_ckgut_" typ="stueckgut">
           <name>Saatgut, gesackt als Stückgut</name>
           <gattung>G, H</gattung>
-          <wagen zeitraum="woche">3.0</wagen>
+          <wagen>3.0</wagen>
         </ladegut>
-        <ladegut ladestelle="G_terschuppen_St_ckgut_">
+        <ladegut ladestelle="G_terschuppen_St_ckgut_" typ="stueckgut">
           <name>Futtermittel, gesackt als Stückgut</name>
           <gattung>G, H</gattung>
-          <wagen zeitraum="woche">3.0</wagen>
+          <wagen>3.0</wagen>
         </ladegut>
         <ladegut ladestelle="Viehverladung">
           <name>Jungvieh</name>
           <gattung>V</gattung>
-          <wagen zeitraum="woche">2.0</wagen>
+          <wagen>2.0</wagen>
         </ladegut>
         <ladegut ladestelle="Laderampe">
           <name>Landmaschinen</name>
           <gattung>E, R, S</gattung>
-          <wagen zeitraum="woche">1.0</wagen>
+          <wagen>1.0</wagen>
         </ladegut>
       </empfang>
       <versand>
         <ladegut ladestelle="Ladestra_e_I">
           <name>Äpfel</name>
           <gattung>E</gattung>
-          <wagen zeitraum="woche">1.0</wagen>
+          <wagen>1.0</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestra_e_I">
           <name>Zuckerrüben</name>
           <gattung>E</gattung>
-          <wagen zeitraum="woche">1.0</wagen>
+          <wagen>1.0</wagen>
         </ladegut>
         <ladegut ladestelle="Viehverladung">
           <name>Schlachtrinder, Schlachtschweine</name>
           <gattung>G, V</gattung>
-          <wagen zeitraum="woche">3.0</wagen>
+          <wagen>3.0</wagen>
         </ladegut>
-        <ladegut ladestelle="Ladestra_e_II_Waage_Ladema_">
+        <ladegut ladestelle="Ladestra_e_II_Waage_Ladema_" typ="expressgut">
           <name>Frischgemüse, Schnittblumen als Eilgut</name>
           <gattung>G, H</gattung>
           <wagen zeitraum="tag">1.0</wagen>
@@ -257,19 +258,19 @@
         <ladegut ladestelle="Kohlebansen">
           <name>Ersatzteile</name>
           <gattung>G, K, X</gattung>
-          <wagen zeitraum="woche">1.0</wagen>
+          <wagen>1.0</wagen>
         </ladegut>
       </empfang>
       <versand>
         <ladegut ladestelle="Kohlebansen">
           <name>Altöl in Fässern</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">1.0</wagen>
+          <wagen>1.0</wagen>
         </ladegut>
         <ladegut ladestelle="Kohlebansen">
           <name>Tauschteile</name>
           <gattung>E, K, X</gattung>
-          <wagen zeitraum="woche">1.0</wagen>
+          <wagen>1.0</wagen>
         </ladegut>
         <ladegut ladestelle="Laderampe">
           <name>Schlacke</name>

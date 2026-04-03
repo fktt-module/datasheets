@@ -18,11 +18,11 @@
     <hgleise>
       <gleis id="gleis_1">
         <name>1</name>
-        <laenge einheit="mm">2000</laenge>
+        <laenge>2000</laenge>
       </gleis>
       <gleis id="gleis_2">
         <name>2</name>
-        <laenge einheit="mm">2000</laenge>
+        <laenge>2000</laenge>
       </gleis>
       <gleis id="gleis_4">
         <name>4</name>
@@ -38,17 +38,17 @@
     <ngleise>
       <gleis id="gleis_3">
         <name>3</name>
-        <laenge einheit="mm">1500</laenge>
+        <laenge>1500</laenge>
         <bemerkung>Ladestraße</bemerkung>
       </gleis>
       <gleis id="gleis_3a">
         <name>3a</name>
-        <laenge einheit="mm">750</laenge>
+        <laenge>750</laenge>
         <bemerkung>Abstellgleis</bemerkung>
       </gleis>
       <gleis id="gleis_m">
         <name>Anschluss Möbelfabrik</name>
-        <laenge einheit="mm">1000</laenge>
+        <laenge>1000</laenge>
       </gleis>
       <gleis id="gleis_5">
         <name>5</name>
@@ -60,15 +60,15 @@
   <pv>
     <bahnsteig gleis="gleis_1">
       <name>Hausbahnsteig</name>
-      <laenge einheit="mm">750</laenge>
+      <laenge>750</laenge>
     </bahnsteig>
     <bahnsteig gleis="gleis_2">
       <name>Gleis 2</name>
-      <laenge einheit="mm">750</laenge>
+      <laenge>750</laenge>
     </bahnsteig>
     <bahnsteig gleis="gleis_6">
       <name>Kleinbahn</name>
-      <laenge einheit="mm">400</laenge>
+      <laenge>400</laenge>
     </bahnsteig>
   </pv>
   <gv>
@@ -98,14 +98,14 @@
         <ladegut ladestelle="Palettentischlerei_Meier">
           <name>Bretter, Kanthölzer, Schnittholz</name>
           <gattung>E/R/S/G</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
       </empfang>
       <versand>
         <ladegut ladestelle="Palettentischlerei_Meier">
-          <name>Palletten, Kisten, Großverpackungen</name>
+          <name>Paletten, Kisten, Großverpackungen</name>
           <gattung>E,R,S</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
       </versand>
     </verlader>
@@ -113,21 +113,21 @@
       <name>MTS Beerow</name>
       <empfang>
         <ladegut ladestelle="MTS_Beerow">
-          <name>Landmaschienen,Werkzeuge</name>
+          <name>Landmaschinen, Werkzeuge</name>
           <gattung>E,R,S,G</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="MTS_Beerow">
-          <name>Kaftstoff, Öl, Fett</name>
+          <name>Kraftstoff, Öl, Fett</name>
           <gattung>Z,G,E</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
       </empfang>
       <versand>
         <ladegut ladestelle="MTS_Beerow">
-          <name>Landmaschienen nach Reparatur</name>
+          <name>Landmaschinen nach Reparatur</name>
           <gattung>R,E,S</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
       </versand>
     </verlader>
@@ -137,29 +137,29 @@
         <ladegut ladestelle="M_belfabrik_Beerow">
           <name>Spanplatten</name>
           <gattung>G,H</gattung>
-          <wagen zeitraum="woche">6</wagen>
+          <wagen>6</wagen>
         </ladegut>
         <ladegut ladestelle="M_belfabrik_Beerow">
-          <name>Kleinteile und Beschläge</name>
+          <name>Kleinteile, Beschläge</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="M_belfabrik_Beerow">
-          <name>Alu- und Stahlrohr</name>
+          <name>Alurohr, Stahlrohr</name>
           <gattung>E,R,S</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
       </empfang>
       <versand>
         <ladegut ladestelle="M_belfabrik_Beerow">
           <name>Schulmöbel aller Art</name>
           <gattung>G,H</gattung>
-          <wagen zeitraum="woche">5</wagen>
+          <wagen>5</wagen>
         </ladegut>
         <ladegut ladestelle="M_belfabrik_Beerow">
           <name>Konsumgut, Schrankwand Hellerau</name>
           <gattung>G,H</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
       </versand>
     </verlader>
@@ -169,17 +169,17 @@
         <ladegut ladestelle="Kohlehandel_Dieter_Bauch">
           <name>Brikett, Steinkohle, Koks, Braunkohle</name>
           <gattung>E,F</gattung>
-          <wagen zeitraum="woche">5</wagen>
+          <wagen>5</wagen>
         </ladegut>
         <ladegut ladestelle="Kohlehandel_Dieter_Bauch">
           <name>Holz gesackt, Brennholz lose</name>
           <gattung>E,G</gattung>
-          <wagen zeitraum="woche">3</wagen>
+          <wagen>3</wagen>
         </ladegut>
         <ladegut ladestelle="Kohlehandel_Dieter_Bauch">
           <name>Heizöl</name>
           <gattung>Z</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
       </empfang>
     </verlader>
@@ -189,33 +189,32 @@
         <ladegut ladestelle="LPG_P_Beerow">
           <name>Saatgut</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="LPG_P_Beerow">
           <name>Dünger</name>
           <gattung>G,K</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
       </empfang>
       <versand>
         <ladegut ladestelle="LPG_P_Beerow">
           <name>Frischgemüse</name>
           <gattung>G,I</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
         <ladegut ladestelle="LPG_P_Beerow">
           <name>Kartoffeln, gesackt und lose</name>
           <gattung>G,E</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
         <ladegut ladestelle="LPG_P_Beerow">
           <name>Lagergemüse</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
       </versand>
     </verlader>
     <bemerkung>Achtung! in Beerow kann keine Militärverladung stattfinden.</bemerkung>
   </gv>
 </bahnhof>
-

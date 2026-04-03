@@ -108,7 +108,7 @@ jobs:
         uses: dsaltares/fetch-gh-release-asset@master
         with:
           repo: 'fktt-module/web-apps'
-          file: 'gelbe-seiten-2.0.0.zip'
+          file: 'gelbe-seiten-2.1.0.zip'
           target: '_gs/_gs.zip'
       - name: Prepare yellow pages application
         run: |

@@ -57,7 +57,7 @@
   </gleise>
   <pv>
     <bahnsteig gleis="Bahnsteig">
-      <laenge einheit="mm">800</laenge>
+      <laenge>800</laenge>
     </bahnsteig>
     <bemerkung>In den 60er Jahren war der Personenverkehr sehr umfangreich, erst mit dem Ausbau der F 95 und damit der Einführung weiterer Buslinien von / nach K-M-St ging der Personenverkehr merklich zurück.[br]Der Schülerverkehr wurde aber weiterhin mit der Bahn abgewickelt, bis zum Schluss. Was auch die täglich bis zu 10 P-Paare belegen, die schülergerecht verkehrten.</bemerkung>
   </pv>
@@ -93,24 +93,24 @@
         <ladegut ladestelle="Ladestrasse_und_G_terschuppengleis">
           <name>Braunkohle</name>
           <gattung>O, Fac</gattung>
-          <wagen zeitraum="woche">3</wagen>
+          <wagen>3</wagen>
         </ladegut>
       </empfang>
       <versand>
-        <ladegut ladestelle="Ladestrasse_und_G_terschuppengleis">
+        <ladegut ladestelle="Ladestrasse_und_G_terschuppengleis" typ="stueckgut">
           <name>Socken</name>
           <gattung>Stückgut</gattung>
-          <wagen zeitraum="woche">0.2</wagen>
+          <wagen>0.2</wagen>
         </ladegut>
-        <ladegut ladestelle="Ladestrasse_und_G_terschuppengleis">
+        <ladegut ladestelle="Ladestrasse_und_G_terschuppengleis" typ="stueckgut">
           <name>Strumpfhosem</name>
           <gattung>Stückgut</gattung>
-          <wagen zeitraum="woche">0.2</wagen>
+          <wagen>0.2</wagen>
         </ladegut>
-        <ladegut ladestelle="Ladestrasse_und_G_terschuppengleis">
+        <ladegut ladestelle="Ladestrasse_und_G_terschuppengleis" typ="stueckgut">
           <name>Unterwäsche</name>
           <gattung>G / Stückgut</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
       </versand>
     </verlader>
@@ -118,76 +118,76 @@
       <name>VEB Wirkmaschinenbau K-M-St, Betrieb Hartmannsdorf</name>
       <empfang>
         <ladegut ladestelle="Ladestrasse_und_G_terschuppengleis">
-          <name>Roh und Halbzeuge</name>
+          <name>Rohzeuge, Halbzeuge</name>
           <gattung>G, R, K</gattung>
-          <wagen zeitraum="woche">4</wagen>
+          <wagen>4</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestrasse_und_G_terschuppengleis">
           <name>Maschinenteile</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
-        <ladegut ladestelle="Ladestrasse_und_G_terschuppengleis">
+        <ladegut ladestelle="Ladestrasse_und_G_terschuppengleis" typ="stueckgut">
           <name>Normteile</name>
           <gattung>Stückgut</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestrasse_und_G_terschuppengleis">
           <name>Braunkohle</name>
           <gattung>O, Fac</gattung>
-          <wagen zeitraum="woche">3</wagen>
+          <wagen>3</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestrasse_und_G_terschuppengleis">
           <name>Steinkohle</name>
           <gattung>O, Fac</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
       </empfang>
       <versand>
         <ladegut ladestelle="Ladestrasse_und_G_terschuppengleis">
           <name>Strickmaschinen</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">3</wagen>
+          <wagen>3</wagen>
         </ladegut>
-        <ladegut ladestelle="Ladestrasse_und_G_terschuppengleis">
+        <ladegut ladestelle="Ladestrasse_und_G_terschuppengleis" typ="stueckgut">
           <name>Wäscheständer</name>
           <gattung>Stückgut</gattung>
-          <wagen zeitraum="woche">0.2</wagen>
+          <wagen>0.2</wagen>
         </ladegut>
-        <ladegut ladestelle="Ladestrasse_und_G_terschuppengleis">
+        <ladegut ladestelle="Ladestrasse_und_G_terschuppengleis" typ="stueckgut">
           <name>Wäschespinnen</name>
           <gattung>Stückgut</gattung>
-          <wagen zeitraum="woche">0.2</wagen>
+          <wagen>0.2</wagen>
         </ladegut>
-        <ladegut ladestelle="Ladestrasse_und_G_terschuppengleis">
+        <ladegut ladestelle="Ladestrasse_und_G_terschuppengleis" typ="stueckgut">
           <name>Handstrickapparat Strickfee 2</name>
           <gattung>Stückgut</gattung>
-          <wagen zeitraum="woche">0.2</wagen>
+          <wagen>0.2</wagen>
         </ladegut>
-        <ladegut ladestelle="Ladestrasse_und_G_terschuppengleis">
+        <ladegut ladestelle="Ladestrasse_und_G_terschuppengleis" typ="stueckgut">
           <name>Warmwasserspeicher</name>
           <gattung>Stückgut</gattung>
-          <wagen zeitraum="woche">0.2</wagen>
+          <wagen>0.2</wagen>
         </ladegut>
-        <ladegut ladestelle="Ladestrasse_und_G_terschuppengleis">
-          <name>Stahtlraumteiler</name>
+        <ladegut ladestelle="Ladestrasse_und_G_terschuppengleis" typ="stueckgut">
+          <name>Stahlraumteiler</name>
           <gattung>Stückgut</gattung>
-          <wagen zeitraum="woche">0.2</wagen>
+          <wagen>0.2</wagen>
         </ladegut>
       </versand>
     </verlader>
     <verlader>
       <name>VEB Kraftverkehr Mittweida, BT Hartmannsdorf</name>
       <empfang>
-        <ladegut ladestelle="Ladestrasse_und_G_terschuppengleis">
-          <name>FZ- Ersatzteile</name>
+        <ladegut ladestelle="Ladestrasse_und_G_terschuppengleis" typ="stueckgut">
+          <name>KFZ- Ersatzteile</name>
           <gattung>Stückgut</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestelle1">
           <name>Fahrzeuge</name>
           <gattung>L</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
       </empfang>
     </verlader>
@@ -197,12 +197,12 @@
         <ladegut ladestelle="Ladestrasse_und_G_terschuppengleis">
           <name>Maschinenteile</name>
           <gattung>G, R</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestrasse_und_G_terschuppengleis">
           <name>Sprengstoff</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
       </empfang>
       <versand>
@@ -222,9 +222,9 @@
       <name>VEB Goldpfeil</name>
       <empfang>
         <ladegut ladestelle="Ladestrasse_und_G_terschuppengleis">
-          <name>Roh und Halbzeuge</name>
+          <name>Rohzeuge, Halbzeuge</name>
           <gattung>G, R</gattung>
-          <wagen zeitraum="woche">3</wagen>
+          <wagen>3</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestrasse_und_G_terschuppengleis">
           <name>Braunkohle</name>
@@ -234,14 +234,14 @@
         <ladegut ladestelle="Ladestrasse_und_G_terschuppengleis">
           <name>Koks</name>
           <gattung>O, Fac</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
       </empfang>
       <versand>
         <ladegut ladestelle="Ladestrasse_und_G_terschuppengleis">
-          <name>SchiffzubehÃ¶r</name>
+          <name>Schiffzubehör</name>
           <gattung>K, R</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
       </versand>
     </verlader>
@@ -251,17 +251,17 @@
         <ladegut ladestelle="Ladestrasse_und_G_terschuppengleis">
           <name>Stoffballen</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">3</wagen>
+          <wagen>3</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestrasse_und_G_terschuppengleis">
           <name>Textilfarbe</name>
           <gattung>Z</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestrasse_und_G_terschuppengleis">
           <name>Braunkohle</name>
           <gattung>O, Fac</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
       </empfang>
       <versand>
@@ -270,20 +270,20 @@
           <gattung>G</gattung>
           <wagen zeitraum="tag">1</wagen>
         </ladegut>
-        <ladegut ladestelle="Ladestrasse_und_G_terschuppengleis">
+        <ladegut ladestelle="Ladestrasse_und_G_terschuppengleis" typ="stueckgut">
           <name>Oberhemden</name>
           <gattung>Stückgut</gattung>
-          <wagen zeitraum="woche">0.2</wagen>
+          <wagen>0.2</wagen>
         </ladegut>
-        <ladegut ladestelle="Ladestrasse_und_G_terschuppengleis">
+        <ladegut ladestelle="Ladestrasse_und_G_terschuppengleis" typ="stueckgut">
           <name>Cordhosen</name>
           <gattung>Stückgut</gattung>
-          <wagen zeitraum="woche">0.2</wagen>
+          <wagen>0.2</wagen>
         </ladegut>
-        <ladegut ladestelle="Ladestrasse_und_G_terschuppengleis">
+        <ladegut ladestelle="Ladestrasse_und_G_terschuppengleis" typ="stueckgut">
           <name>Blusen</name>
           <gattung>Stückgut</gattung>
-          <wagen zeitraum="woche">0.2</wagen>
+          <wagen>0.2</wagen>
         </ladegut>
       </versand>
     </verlader>
@@ -293,29 +293,29 @@
         <ladegut ladestelle="Ladestrasse_und_G_terschuppengleis">
           <name>Stoffballen</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestrasse_und_G_terschuppengleis">
           <name>Textilien</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
       </empfang>
       <versand>
         <ladegut ladestelle="Ladestrasse_und_G_terschuppengleis">
           <name>Oberbekleidung</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
-        <ladegut ladestelle="Ladestrasse_und_G_terschuppengleis">
+        <ladegut ladestelle="Ladestrasse_und_G_terschuppengleis" typ="stueckgut">
           <name>Herrenanzüge</name>
           <gattung>Stückgut</gattung>
-          <wagen zeitraum="woche">0.2</wagen>
+          <wagen>0.2</wagen>
         </ladegut>
-        <ladegut ladestelle="Ladestrasse_und_G_terschuppengleis">
+        <ladegut ladestelle="Ladestrasse_und_G_terschuppengleis" typ="stueckgut">
           <name>Damenkostüme</name>
           <gattung>Stückgut</gattung>
-          <wagen zeitraum="woche">0.2</wagen>
+          <wagen>0.2</wagen>
         </ladegut>
       </versand>
     </verlader>
@@ -323,66 +323,66 @@
       <name>VEB Schleifmaschinenwerk K-M-St. BT Hartmannsdorf</name>
       <empfang>
         <ladegut ladestelle="Ladestrasse_und_G_terschuppengleis">
-          <name>Roh und Halbzeuge</name>
+          <name>Rohzeuge, Halbzeuge</name>
           <gattung>K, R</gattung>
-          <wagen zeitraum="woche">4</wagen>
+          <wagen>4</wagen>
         </ladegut>
-        <ladegut ladestelle="Ladestrasse_und_G_terschuppengleis">
+        <ladegut ladestelle="Ladestrasse_und_G_terschuppengleis" typ="stueckgut">
           <name>Normteile</name>
           <gattung>Stückgut</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestrasse_und_G_terschuppengleis">
           <name>Maschinenteile</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
       </empfang>
       <versand>
         <ladegut ladestelle="Ladestrasse_und_G_terschuppengleis">
           <name>Schleifmaschinen</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">4</wagen>
+          <wagen>4</wagen>
         </ladegut>
-        <ladegut ladestelle="Ladestrasse_und_G_terschuppengleis">
+        <ladegut ladestelle="Ladestrasse_und_G_terschuppengleis" typ="stueckgut">
           <name>Bügelmaschinen</name>
           <gattung>Stückgut</gattung>
-          <wagen zeitraum="woche">0.2</wagen>
+          <wagen>0.2</wagen>
         </ladegut>
-        <ladegut ladestelle="Ladestrasse_und_G_terschuppengleis">
+        <ladegut ladestelle="Ladestrasse_und_G_terschuppengleis" typ="stueckgut">
           <name>Fahrradschlösse</name>
           <gattung>Stückgut</gattung>
-          <wagen zeitraum="woche">0.2</wagen>
+          <wagen>0.2</wagen>
         </ladegut>
-        <ladegut ladestelle="Ladestrasse_und_G_terschuppengleis">
+        <ladegut ladestelle="Ladestrasse_und_G_terschuppengleis" typ="stueckgut">
           <name>Bügelbretter</name>
           <gattung>Stückgut</gattung>
-          <wagen zeitraum="woche">0.2</wagen>
+          <wagen>0.2</wagen>
         </ladegut>
-        <ladegut ladestelle="Ladestrasse_und_G_terschuppengleis">
+        <ladegut ladestelle="Ladestrasse_und_G_terschuppengleis" typ="stueckgut">
           <name>Fußluftpumpen</name>
           <gattung>Stückgut</gattung>
-          <wagen zeitraum="woche">0.2</wagen>
+          <wagen>0.2</wagen>
         </ladegut>
       </versand>
     </verlader>
     <verlader>
       <name>LPG Vorwärts Hartmannsdorf</name>
       <empfang>
-        <ladegut ladestelle="Ladestrasse_und_G_terschuppengleis">
-          <name>FZ Ersatzteile</name>
+        <ladegut ladestelle="Ladestrasse_und_G_terschuppengleis" typ="stueckgut">
+          <name>KFZ Ersatzteile</name>
           <gattung>Stückgut</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestrasse_und_G_terschuppengleis">
           <name>Dünger</name>
           <gattung>O, G</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestrasse_und_G_terschuppengleis">
           <name>Landwirtschaftliche Fahrzeuge</name>
           <gattung>R</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
       </empfang>
       <versand>
@@ -399,7 +399,7 @@
         <ladegut ladestelle="Ladestrasse_und_G_terschuppengleis">
           <name>Vieh</name>
           <gattung>V</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
       </versand>
     </verlader>
@@ -436,12 +436,12 @@
         <ladegut ladestelle="Ladestrasse_und_G_terschuppengleis">
           <name>Brikets</name>
           <gattung>O</gattung>
-          <wagen zeitraum="woche">3</wagen>
+          <wagen>3</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestrasse_und_G_terschuppengleis">
           <name>Brennholz</name>
           <gattung>O</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
       </empfang>
     </verlader>
@@ -451,17 +451,17 @@
         <ladegut ladestelle="Ladestrasse_und_G_terschuppengleis">
           <name>Stoffballen</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestrasse_und_G_terschuppengleis">
           <name>Textilfarbe</name>
           <gattung>Z</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestrasse_und_G_terschuppengleis">
           <name>Braunkohle</name>
           <gattung>O, Fac</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
       </empfang>
       <versand>
@@ -483,12 +483,12 @@
         <ladegut ladestelle="Ladestrasse_und_G_terschuppengleis">
           <name>Holzbretter für Formkästen</name>
           <gattung>R</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestrasse_und_G_terschuppengleis">
           <name>Kohle / Koks</name>
           <gattung>E / T</gattung>
-          <wagen zeitraum="woche">3</wagen>
+          <wagen>3</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestrasse_und_G_terschuppengleis">
           <name>Eisenbarren</name>
@@ -498,7 +498,7 @@
         <ladegut ladestelle="Ladestrasse_und_G_terschuppengleis">
           <name>Öle / Trennmittel</name>
           <gattung>Z</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestrasse_und_G_terschuppengleis">
           <name>Schrott</name>
@@ -530,12 +530,12 @@
         <ladegut ladestelle="Ladestelle4">
           <name>Armaturen</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestelle4">
           <name>Rohre</name>
           <gattung>R, S</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
       </empfang>
       <versand>
@@ -569,69 +569,69 @@
     <verlader>
       <name>VEB Fahrradwerke Elite Diamant</name>
       <empfang>
-        <ladegut ladestelle="Ladestrasse_und_G_terschuppengleis">
+        <ladegut ladestelle="Ladestrasse_und_G_terschuppengleis" typ="stueckgut">
           <name>Normteile</name>
           <gattung>Stückgut</gattung>
-          <wagen zeitraum="woche">0.5</wagen>
+          <wagen>0.5</wagen>
         </ladegut>
-        <ladegut ladestelle="Ladestrasse_und_G_terschuppengleis">
+        <ladegut ladestelle="Ladestrasse_und_G_terschuppengleis" typ="stueckgut">
           <name>Rollenketten</name>
           <gattung>Stückgut</gattung>
-          <wagen zeitraum="woche">0.5</wagen>
+          <wagen>0.5</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestrasse_und_G_terschuppengleis">
           <name>Feinrohre</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">0.5</wagen>
+          <wagen>0.5</wagen>
         </ladegut>
-        <ladegut ladestelle="Ladestrasse_und_G_terschuppengleis">
+        <ladegut ladestelle="Ladestrasse_und_G_terschuppengleis" typ="stueckgut">
           <name>Reifen</name>
           <gattung>Stückgut</gattung>
-          <wagen zeitraum="woche">0.5</wagen>
+          <wagen>0.5</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestrasse_und_G_terschuppengleis">
           <name>Feindrahtrollen</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">0.5</wagen>
+          <wagen>0.5</wagen>
         </ladegut>
       </empfang>
       <versand>
         <ladegut ladestelle="Ladestrasse_und_G_terschuppengleis">
           <name>Fahrräder</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">2.0</wagen>
+          <wagen>2.0</wagen>
         </ladegut>
       </versand>
     </verlader>
     <verlader>
       <name>VEB Elektro Rossini</name>
       <empfang>
-        <ladegut ladestelle="Ladestrasse_und_G_terschuppengleis">
+        <ladegut ladestelle="Ladestrasse_und_G_terschuppengleis" typ="stueckgut">
           <name>Röhren</name>
           <gattung>Stückgut</gattung>
-          <wagen zeitraum="woche">0.5</wagen>
+          <wagen>0.5</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestrasse_und_G_terschuppengleis">
           <name>Eichenbretter</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">0.5</wagen>
+          <wagen>0.5</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestrasse_und_G_terschuppengleis">
           <name>Elektronikbauteile</name>
           <gattung>Stückgut</gattung>
-          <wagen zeitraum="woche">0.5</wagen>
+          <wagen>0.5</wagen>
         </ladegut>
       </empfang>
       <versand>
         <ladegut ladestelle="Ladestrasse_und_G_terschuppengleis">
           <name>Radios</name>
           <gattung>Stückgut</gattung>
-          <wagen zeitraum="woche">0.5</wagen>
+          <wagen>0.5</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestrasse_und_G_terschuppengleis">
           <name>Röhrenradios</name>
           <gattung>Stückgut</gattung>
-          <wagen zeitraum="woche">0.5</wagen>
+          <wagen>0.5</wagen>
         </ladegut>
       </versand>
     </verlader>
@@ -639,4 +639,3 @@
   </gv>
   <bemerkung>Vorbild Strecke Wittgensdorf oB Limbach Oberfrohna. Streckenkm 4,1. Der VEB Minol ist der grösste Anschliesser mit mehreren eigenen Rangierloks.</bemerkung>
 </bahnhof>
-

@@ -150,7 +150,7 @@
           <wagen zeitraum="tag">1</wagen>
         </ladegut>
         <ladegut ladestelle="Lagerhaus_Fertigprodukt">
-          <name>Blatt- und Parabelfedern</name>
+          <name>Blattfedern, Parabelfedern</name>
           <gattung>G, H, S</gattung>
           <wagen zeitraum="tag">0.5</wagen>
         </ladegut>

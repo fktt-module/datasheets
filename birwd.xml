@@ -5,6 +5,7 @@
 	<name>Birkenweide</name>
 	<kuerzel>BIRWD</kuerzel>
 	<typ>Hp</typ>
+	<verwaltung>DR</verwaltung>
 	<maszstab>120</maszstab>
 	<modulnr>JoLan303</modulnr>
 	<plan src="birwd.png"/>

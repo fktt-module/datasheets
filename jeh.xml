@@ -5,6 +5,7 @@
     <name>Jenshausen</name>
     <kuerzel>JEH</kuerzel>
     <typ>Bf</typ>
+    <verwaltung>DR</verwaltung>
     <maszstab>120</maszstab>
     <modulnr>JeWer234</modulnr>
     <plan src="jeh.jpg"/>

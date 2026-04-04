@@ -5,6 +5,7 @@
 	<name>Neu-Seehagen</name>
 	<kuerzel>NSN</kuerzel>
 	<typ>Abzw</typ>
+	<verwaltung>DR</verwaltung>
 	<maszstab>120</maszstab>
 	<modulnr>MaRoe246</modulnr>
 	<plan src="nsn.png" />

@@ -4,7 +4,8 @@
 <bahnhof>
     <name>Freiham</name>
     <kuerzel>FHM</kuerzel>
-    <typ>Bf</typ>   
+    <typ>Bf</typ>
+    <verwaltung>DB</verwaltung>
     <maszstab>120</maszstab>
     <modulnr>MGBMu280</modulnr>
     <plan src="fhm.png" />

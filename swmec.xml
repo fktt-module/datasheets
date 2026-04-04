@@ -5,6 +5,7 @@
 	<name>Sägewerk MEC</name>
 	<kuerzel>SWMEC</kuerzel>
 	<typ>Anst</typ>
+	<verwaltung>DR</verwaltung>
 	<maszstab>120</maszstab>
 	<modulnr>MaHem360</modulnr>
 	<plan src="swmec.png" />

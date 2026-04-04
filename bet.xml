@@ -5,6 +5,7 @@
 	<name>Beetzendorf/Kleinbahn</name>
 	<kuerzel>BET</kuerzel>
 	<typ>Bf</typ>
+	<verwaltung>DR</verwaltung>
 	<maszstab>120</maszstab>
 	<modulnr>JeBuc215</modulnr>
 	<plan src="bet.gif"/>

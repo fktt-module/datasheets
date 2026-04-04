@@ -5,6 +5,7 @@
 	<name>Brechen</name>
 	<kuerzel>BRCH</kuerzel>
 	<typ>Sbf</typ>
+	<verwaltung>DB</verwaltung>
 	<maszstab>120</maszstab>
 	<modulnr>ThHan108</modulnr>
 	<plan src="brch.png" />

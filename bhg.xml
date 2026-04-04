@@ -5,6 +5,7 @@
 	<name>Lagerschuppen</name>
 	<kuerzel>BHG</kuerzel>
 	<typ>Anst</typ>
+	<verwaltung>DB</verwaltung>
 	<maszstab>120</maszstab>
 	<modulnr>HeMuf390</modulnr>
 	<plan src="bhg.jpg"/>

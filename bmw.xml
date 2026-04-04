@@ -5,6 +5,7 @@
    <name>Brennstoffhandel Mallow</name>
    <kuerzel>BMW</kuerzel>
    <typ>Anst</typ>
+   <verwaltung>DR</verwaltung>
    <maszstab>120</maszstab>
    <modulnr>HaMal353</modulnr>
    <plan src="bmw.png"/>

@@ -5,6 +5,7 @@
     <name>Vitezny Unor</name>
     <kuerzel>XCS Pool</kuerzel>
     <typ>Anst</typ>
+    <verwaltung>CSD</verwaltung>
     <maszstab>120</maszstab>
     <modulnr></modulnr>
     <!--<plan src="zb.png"/>-->

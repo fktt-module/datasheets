@@ -5,6 +5,7 @@
 	<name>Miltitz</name>
 	<kuerzel>MI</kuerzel>
 	<typ>Bk/Hp</typ>
+	<verwaltung>DR</verwaltung>
 	<maszstab>120</maszstab>
 	<modulnr>FrAlt329</modulnr>
 	<plan src="mi.png"/>

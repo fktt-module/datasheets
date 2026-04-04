@@ -5,6 +5,7 @@
 	<name>Holzwerk</name>
 	<kuerzel>AHW</kuerzel>
 	<typ>Anschl</typ>
+	<verwaltung>DR</verwaltung>
 	<maszstab>120</maszstab>
 	<modulnr>MiSch393</modulnr>
 	<plan src="ahw.svg"/>

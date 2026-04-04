@@ -5,6 +5,7 @@
     <name>Zbożęszczyn</name>
     <kuerzel>XZBO</kuerzel>
     <typ>Anst</typ>
+    <verwaltung>PKP</verwaltung>
     <maszstab>120</maszstab>
     <modulnr>Grzegorz Molenda</modulnr>
     <plan src="xzbo.png"/>
@@ -72,7 +73,7 @@
             <name>Magazyn {Lagerhaus}</name>
             <laenge einheit="cm">86</laenge>
         </ladestelle>
-        <ladestelle id="lade4" gleis="gleis9">
+        <ladestelle id="lade4" gleis="gleis8">
             <name>Plac ładunkowy {Ladeplatz}</name>
             <laenge einheit="cm">80</laenge>
         </ladestelle>

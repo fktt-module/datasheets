@@ -5,6 +5,7 @@
 	<name>Hartmannsdorf Großtanklager</name>
 	<kuerzel>HMDTL</kuerzel>
 	<typ>Awanst</typ>
+	<verwaltung>DR</verwaltung>
 	<maszstab>120</maszstab>
 	<modulnr>MaPre237</modulnr>
 	<plan src="hmdtl.png"/>

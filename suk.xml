@@ -5,6 +5,7 @@
 	<name>Schurkau</name>
 	<kuerzel>SUK</kuerzel>
 	<typ>Hp</typ>
+	<verwaltung>DB</verwaltung>
 	<maszstab>120</maszstab>
 	<modulnr>MBGMu819</modulnr>
 	<plan src="suk.png" />

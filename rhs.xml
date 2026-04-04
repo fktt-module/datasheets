@@ -6,6 +6,7 @@
   <name>Abzw. Reichertshausen</name>
   <kuerzel>RHS</kuerzel>
   <typ>Bf</typ>
+  <verwaltung>DB</verwaltung>
   <maszstab>120</maszstab>
   <modulnr>TTBay415</modulnr>
   <plan src="rhs.png" />

@@ -5,6 +5,7 @@
 	<name>Leonardshafen</name>
 	<kuerzel>LHH</kuerzel>
 	<typ>Anst</typ>
+	<verwaltung>DB</verwaltung>
 	<maszstab>120</maszstab>
 	<modulnr>HeSch368</modulnr>
 	<plan src="lhh.png" />

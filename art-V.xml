@@ -5,6 +5,7 @@
     <name>Altranft</name>
     <kuerzel>ART</kuerzel>
     <typ>Hp</typ>
+    <verwaltung/>
     <maszstab>120</maszstab>
     <modulnr>AdRan204</modulnr>
 

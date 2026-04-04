@@ -6,6 +6,7 @@
   <name>Elbblick</name>
   <kuerzel>EBB</kuerzel>
   <typ>Hp</typ>
+  <verwaltung>DB</verwaltung>
   <maszstab>120</maszstab>
   <modulnr>TTBay345</modulnr>
   <plan src="ebb.png" />

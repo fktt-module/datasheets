@@ -5,6 +5,7 @@
    <name>Hermsdorf-Klosterlausnitz</name>
    <kuerzel>HKL</kuerzel>
    <typ>Bf</typ>
+   <verwaltung>DR</verwaltung>
    <maszstab>120</maszstab>
    <modulnr>GuRol233</modulnr>
    <plan src="hkl.png"/>

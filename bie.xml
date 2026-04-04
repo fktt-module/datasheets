@@ -5,6 +5,7 @@
 	<name>Biegen</name>
 	<kuerzel>BIE</kuerzel>
 	<typ>Sbf</typ>
+	<verwaltung>DB</verwaltung>
 	<maszstab>120</maszstab>
 	<modulnr>DiThe100</modulnr>
 	<plan src="bie.jpg"/>

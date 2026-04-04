@@ -5,6 +5,7 @@
 	<name>Grünow</name>
 	<kuerzel>GNO</kuerzel>
 	<typ>Hp</typ>
+	<verwaltung>DR</verwaltung>
 	<maszstab>120</maszstab>
 	<modulnr>MaRoe325</modulnr>
 	<plan src="gno.png" />

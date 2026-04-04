@@ -6,6 +6,7 @@
   <name>Coburg</name>
   <kuerzel>NC</kuerzel>
   <typ>Sbf</typ>
+  <verwaltung>DB</verwaltung>
   <maszstab>120</maszstab>
   <modulnr>RaBec102</modulnr>
   <plan src="nc.jpg" />

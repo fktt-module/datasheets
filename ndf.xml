@@ -5,6 +5,7 @@
     <name>Neuendorf</name>
     <kuerzel>NDF</kuerzel>
     <typ>Bf</typ>
+    <verwaltung>DR</verwaltung>
     <maszstab>120</maszstab>
     <modulnr>FrBuc245</modulnr>
     <plan src="ndf.gif"/>

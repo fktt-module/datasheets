@@ -5,6 +5,7 @@
     <name>Wasungen</name>
     <kuerzel>WAS</kuerzel>
     <typ>Bf</typ>
+    <verwaltung>DR</verwaltung>
     <maszstab>120</maszstab>
     <modulnr>RoGro266</modulnr>
     <plan src="was.png" />

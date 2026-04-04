@@ -5,6 +5,7 @@
 	<name>Taubenstein</name>
 	<kuerzel>TBS</kuerzel>
 	<typ>Anst</typ>
+	<verwaltung>DB</verwaltung>
 	<maszstab>120</maszstab>
 	<modulnr>HeSch356</modulnr>
 	<plan src="tbs.png" />

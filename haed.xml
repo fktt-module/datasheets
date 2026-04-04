@@ -5,6 +5,7 @@
 	<name>Hängersdorf</name>
 	<kuerzel>HAED</kuerzel>
 	<typ>Sbf</typ>
+	<verwaltung>DR</verwaltung>
 	<maszstab>120</maszstab>
 	<modulnr>AdRan101</modulnr>
 	<plan src="haed.png"/>

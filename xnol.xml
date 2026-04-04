@@ -5,6 +5,7 @@
     <name>Nový Oldřichov</name>
     <kuerzel>XNOL</kuerzel>
     <typ>Bf</typ>
+    <verwaltung>CSD</verwaltung>
     <maszstab>120</maszstab>
     <modulnr>DStr062</modulnr>
     <!--<plan src="zb.png"/>-->

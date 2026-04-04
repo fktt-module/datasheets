@@ -6,6 +6,7 @@
   <name>Hintertupfing</name>
   <kuerzel>HTG</kuerzel>
   <typ>Sbf</typ>
+  <verwaltung>DB</verwaltung>
   <maszstab>120</maszstab>
   <modulnr>TTBay120</modulnr>
   <plan src="htg.png" />

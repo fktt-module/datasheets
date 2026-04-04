@@ -5,6 +5,7 @@
 	<name>Gertrudshall</name>
 	<kuerzel>GTH</kuerzel>
 	<typ>Abzw</typ>
+	<verwaltung>DR</verwaltung>
 	<maszstab>120</maszstab>
 	<modulnr>StMen410</modulnr>
 	<plan src="gth.png" />

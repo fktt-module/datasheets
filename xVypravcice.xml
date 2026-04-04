@@ -5,6 +5,7 @@
     <name>Žst. Výpravčice</name>
     <kuerzel>XCS Pool</kuerzel>
     <typ>Sbf</typ>
+    <verwaltung>CSD</verwaltung>
     <maszstab>120</maszstab>
     <modulnr>PSte042</modulnr>
     <!--<plan src="zb.png"/>-->
@@ -120,5 +121,5 @@
         </verlader>
         <!--<bemerkung>Hier können allgemeine Bemerkungen zum Güterverkehr stehen.[br]Einen Zeilenumbruch kann man mittels ['br] erzeugen, wobei das Hochkommata wegzulassen ist!</bemerkung>-->
     </gv>
-    <bemerkung>Die allgemeinen Bemerkungen insbesondere die Rangierhinweise müssen noch konkret übersetzt werden!</bemerkung>-->
+    <bemerkung>Die allgemeinen Bemerkungen insbesondere die Rangierhinweise müssen noch konkret übersetzt werden!</bemerkung>
 </bahnhof>

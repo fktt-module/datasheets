@@ -5,6 +5,7 @@
 	<name>Abzweig Schönwalde (Barnim)</name>
 	<kuerzel>ASW</kuerzel>
 	<typ>Abzw</typ>
+	<verwaltung>DR</verwaltung>
 	<maszstab>120</maszstab>
 	<modulnr>HaMal???</modulnr>
 	<!--<plan src="plplan.png" />-->

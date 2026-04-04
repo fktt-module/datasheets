@@ -5,6 +5,7 @@
     <name>Kamenický Šenov</name>
     <kuerzel>XKAM</kuerzel>
     <typ>Bf</typ>
+    <verwaltung>CSD</verwaltung>
     <maszstab>120</maszstab>
     <modulnr>MCep063</modulnr>
     <!--<plan src="zb.png"/>-->

@@ -5,6 +5,7 @@
    <name>Ersatzteillager</name>
    <kuerzel>ETL</kuerzel>
    <typ>Awanst, Hp</typ>
+	 <verwaltung>DR</verwaltung>
    <maszstab>120</maszstab>
    <modulnr>HeGru355</modulnr>
    <plan src="etl.jpg"/>

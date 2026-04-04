@@ -5,6 +5,7 @@
 	<name>Kranbahn</name>
 	<kuerzel>KRN</kuerzel>
 	<typ>Anst</typ>
+	<verwaltung>DB</verwaltung>
 	<maszstab>120</maszstab>
 	<modulnr>DiThe380</modulnr>
 	<plan src="krn.png" />

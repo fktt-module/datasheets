@@ -5,6 +5,7 @@
     <name>Kleinzschattwitz</name>
     <kuerzel>KZZ</kuerzel>
     <typ>Sbf</typ>
+    <verwaltung>DR</verwaltung>
     <maszstab>120</maszstab>
     <modulnr>ChKet125</modulnr>
 	<plan src="kzz.gif"/>

@@ -5,6 +5,7 @@
 	<name>Bw G-Ost</name>
 	<kuerzel>BGO</kuerzel>
 	<typ>Bw</typ>
+	<verwaltung>DR</verwaltung>
 	<maszstab>120</maszstab>
 	<modulnr>JuGra290</modulnr>
 	<plan src="bgo.png" />

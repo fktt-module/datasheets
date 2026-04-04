@@ -5,6 +5,7 @@
 	<name>Meiningen</name>
 	<kuerzel>MNG</kuerzel>
 	<typ>Sbf</typ>
+	<verwaltung>DR</verwaltung>
 	<maszstab>120</maszstab>
 	<modulnr>HaVol180 (Hfd) + HaVol181 (Mhd)</modulnr>
 	<plan src="mng.png" />

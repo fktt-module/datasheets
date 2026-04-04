@@ -5,6 +5,7 @@
 	<name>Blechteilewerk</name>
 	<kuerzel>BTW</kuerzel>
 	<typ>Anst</typ>
+	<verwaltung>DR</verwaltung>
 	<maszstab>120</maszstab>
 	<modulnr>JoIff365</modulnr>
 	<plan src="btw.png" />

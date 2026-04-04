@@ -5,6 +5,7 @@
    <name>Waldengenberg / Sachsen</name>
    <kuerzel>WEB</kuerzel>
    <typ>Bf</typ>
+   <verwaltung>DR</verwaltung>
    <maszstab>120</maszstab>
    <modulnr>StEng140a-h, StEng114</modulnr>
    <plan src="web.jpg"/>

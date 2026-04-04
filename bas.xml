@@ -5,6 +5,7 @@
 	<name>Basdorf</name>
 	<kuerzel>BAS</kuerzel>
 	<typ>Bf</typ>
+	<verwaltung>DR</verwaltung>
 	<maszstab>120</maszstab>
 	<modulnr>FrNev210</modulnr>
 	<plan src="bas.png" />

@@ -5,6 +5,7 @@
 	<name>Brettleben</name>
 	<kuerzel>BRL</kuerzel>
 	<typ>Sbf</typ>
+	<verwaltung>DR</verwaltung>
 	<maszstab>120</maszstab>
 	<modulnr>ReBue107</modulnr>
 	<plan src="brl.jpg"/>

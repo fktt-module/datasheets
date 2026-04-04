@@ -5,6 +5,7 @@
     <name>Grabie Stare</name>
     <kuerzel>XGBS</kuerzel>
     <typ>Bf</typ>
+    <verwaltung>PKP</verwaltung>
     <maszstab>120</maszstab>
     <modulnr>Grzegorz Barski</modulnr>
     <plan src="xgbs.png"/>

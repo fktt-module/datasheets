@@ -5,6 +5,7 @@
     <name>Dahme (Mark)</name>
     <kuerzel>DA</kuerzel>
    <typ>Ebf</typ>
+   <verwaltung>DR</verwaltung>
 	<maszstab>120</maszstab>
     <modulnr>ThWul225</modulnr>
     <plan src="da.png"/>

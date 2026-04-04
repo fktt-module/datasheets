@@ -5,6 +5,7 @@
 	<name>Vieselbach</name>
 	<kuerzel>VIE</kuerzel>
 	<typ>Bf</typ>
+	<verwaltung>DR</verwaltung>
 	<maszstab>120</maszstab>
 	<modulnr>StErf260</modulnr>
 	<plan src="vie.png"/>

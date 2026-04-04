@@ -5,6 +5,7 @@
 	<name>Rennsteig</name>
 	<kuerzel>REN</kuerzel>
 	<typ>Bf</typ>
+	<verwaltung>DR</verwaltung>
 	<maszstab>120</maszstab>
 	<modulnr>DiWan248</modulnr>
 	<plan src="ren.gif"/>

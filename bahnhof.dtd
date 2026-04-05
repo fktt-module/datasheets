@@ -1,4 +1,4 @@
-<!ELEMENT bahnhof (name,kuerzel,typ,verwaltung?,maszstab,modulnr,plan?,gleise,pv?,gv?,bemerkung?)>
+<!ELEMENT bahnhof (name,kuerzel,typ,verwaltung,maszstab,modulnr,plan?,gleise,pv?,gv?,bemerkung?)>
 <!ELEMENT name (#PCDATA)>
 <!ELEMENT kuerzel (#PCDATA)>
 <!ELEMENT typ (#PCDATA)>

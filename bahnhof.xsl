@@ -23,8 +23,9 @@
 				  <tbody>
 				  <tr style="display:none;"><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
                   <tr>
-                     <td class="links" colspan="8">Betriebsstelle: <span><xsl:value-of select="name"/></span></td>
+                     <td class="links" colspan="6">Betriebsstelle: <span><xsl:value-of select="name"/></span></td>
                      <td class="links" colspan="2"><xsl:text disable-output-escaping="yes">Kürzel: </xsl:text><span><xsl:value-of select="kuerzel"/></span></td>
+                     <td class="links" colspan="2"><xsl:text disable-output-escaping="yes">Verwaltung: </xsl:text><span><xsl:value-of select="verwaltung"/></span></td>
                   </tr>
                   <tr>
                      <td class="links" colspan="2">Typ: <span><xsl:value-of select="typ"/></span></td>

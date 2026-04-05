@@ -20,6 +20,12 @@
       "en": "Type"
     },
     {
+      "key": "RAIL_ADMINISTRATION",
+      "cs": "správa",
+      "de": "Verwaltung",
+      "en": "Authority"
+    },
+    {
       "key": "SCALE",
       "cs": "měřítko",
       "de": "Maßstab",

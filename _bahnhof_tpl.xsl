@@ -23,8 +23,9 @@
 				  <tbody>
 				  <tr style="display:none;"><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
                   <tr>
-                     <td class="links" colspan="8">{{{STATION}}}: <span><xsl:value-of select="name"/></span></td>
+                     <td class="links" colspan="6">{{{STATION}}}: <span><xsl:value-of select="name"/></span></td>
                      <td class="links" colspan="2"><xsl:text disable-output-escaping="yes">{{{SHORT}}}: </xsl:text><span><xsl:value-of select="kuerzel"/></span></td>
+                     <td class="links" colspan="2"><xsl:text disable-output-escaping="yes">{{{RAIL_ADMINISTRATION}}}: </xsl:text><span><xsl:value-of select="verwaltung"/></span></td>
                   </tr>
                   <tr>
                      <td class="links" colspan="2">{{{TYPE}}}: <span><xsl:value-of select="typ"/></span></td>

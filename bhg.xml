@@ -43,39 +43,39 @@
 				<ladegut ladestelle="BHG_Lagerschuppen">
 					<name>Düngemittel</name>
 					<gattung>G, H, T</gattung>
-					<wagen zeitraum="woche">3</wagen>
+					<wagen>3</wagen>
 				</ladegut>
 				<ladegut ladestelle="BHG_Lagerschuppen">
 					<name>Futtermittel</name>
 					<gattung>G, H, T</gattung>
-					<wagen zeitraum="woche">3</wagen>
+					<wagen>3</wagen>
 				</ladegut>
 				<ladegut ladestelle="BHG_Lagerschuppen">
-					<name>Zement, gesackt</name>
+					<name>Zement, als Sackware</name>
 					<gattung>G, H</gattung>
-					<wagen zeitraum="woche">1</wagen>
+					<wagen>1</wagen>
 				</ladegut>
 				<ladegut ladestelle="BHG_Rampe">
 					<name>Baustoffe (Steine, Holz)</name>
 					<gattung>G, H, K, R, E, S</gattung>
-					<wagen zeitraum="woche">2</wagen>
+					<wagen>2</wagen>
 				</ladegut>
 			</empfang>
 			<versand>
 				<ladegut ladestelle="BHG_Rampe">
 					<name>Rüben (Saison)</name>
 					<gattung>E</gattung>
-					<wagen zeitraum="woche">0</wagen>
+					<wagen>0</wagen>
 				</ladegut>
 				<ladegut ladestelle="BHG_Rampe">
 					<name>Getreide (Saison)</name>
 					<gattung>T, E, G</gattung>
-					<wagen zeitraum="woche">0</wagen>
+					<wagen>0</wagen>
 				</ladegut>
 				<ladegut ladestelle="BHG_Rampe">
 					<name>Zuckerrüben (Saison)</name>
 					<gattung>E</gattung>
-					<wagen zeitraum="woche">0</wagen>
+					<wagen>0</wagen>
 				</ladegut>
 			</versand>
 		</verlader>
@@ -85,11 +85,11 @@
 				<ladegut ladestelle="BHG_Rampe">
 					<name>landwirtschaftliches Gerät</name>
 					<gattung>G, H, K, R, E, S</gattung>
-					<wagen zeitraum="woche">1</wagen>
+					<wagen>1</wagen>
 				</ladegut>
 			</empfang>
 		</verlader>
-		<bemerkung></bemerkung>
+		<bemerkung/>
 	</gv>
 	<bemerkung>Grundstellung "GERADE" der Weiche ist nach Abschluß der Rangierarbeiten dem zuständigen FDL zu melden</bemerkung>
 </bahnhof>

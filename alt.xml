@@ -162,7 +162,7 @@
           <wagen>5.0</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestra_e_I">
-          <name>Heizöl in Fässern</name>
+          <name>Heizöl, als Fassware</name>
           <gattung>E</gattung>
           <wagen>3.0</wagen>
         </ladegut>
@@ -172,12 +172,12 @@
       <name>Senffabrik Finkenburg OHG</name>
       <empfang>
         <ladegut ladestelle="Laderampe">
-          <name>Senfkörner Zucker (gesackt)</name>
+          <name>Senfkörner, Zucker (als Sackware)</name>
           <gattung>G, H</gattung>
           <wagen>5.0</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestra_e_II_Waage_Ladema_">
-          <name>Wein in Fässern</name>
+          <name>Wein, als Fassware</name>
           <gattung>G, H</gattung>
           <wagen>3.0</wagen>
         </ladegut>
@@ -204,12 +204,12 @@
           <wagen>2.0</wagen>
         </ladegut>
         <ladegut ladestelle="G_terschuppen_St_ckgut_" typ="stueckgut">
-          <name>Saatgut, gesackt als Stückgut</name>
+          <name>Saatgut, als Stückgutsackware</name>
           <gattung>G, H</gattung>
           <wagen>3.0</wagen>
         </ladegut>
         <ladegut ladestelle="G_terschuppen_St_ckgut_" typ="stueckgut">
-          <name>Futtermittel, gesackt als Stückgut</name>
+          <name>Futtermittel, als Stückgutsackware</name>
           <gattung>G, H</gattung>
           <wagen>3.0</wagen>
         </ladegut>
@@ -263,7 +263,7 @@
       </empfang>
       <versand>
         <ladegut ladestelle="Kohlebansen">
-          <name>Altöl in Fässern</name>
+          <name>Altöl, als Fassware</name>
           <gattung>G</gattung>
           <wagen>1.0</wagen>
         </ladegut>

@@ -172,7 +172,7 @@
           <wagen>5</wagen>
         </ladegut>
         <ladegut ladestelle="Kohlehandel_Dieter_Bauch">
-          <name>Holz gesackt, Brennholz lose</name>
+          <name>Holz als Sackware, Brennholz lose</name>
           <gattung>E,G</gattung>
           <wagen>3</wagen>
         </ladegut>
@@ -204,7 +204,7 @@
           <wagen>2</wagen>
         </ladegut>
         <ladegut ladestelle="LPG_P_Beerow">
-          <name>Kartoffeln, gesackt und lose</name>
+          <name>Kartoffeln, als Sackware und lose</name>
           <gattung>G,E</gattung>
           <wagen>2</wagen>
         </ladegut>

@@ -5,7 +5,7 @@
 .github/scripts/build_yellowpage_json.py	f	2026-03-04T18:26:47Z
 .github/scripts/git-store-meta.pl	f	2023-08-02T12:33:53Z
 .github/scripts/validate-correct-file-mtime.py	f	2026-01-24T16:59:41Z
-.github/workflows/build-update-data-compilation-files.yml	f	2026-04-03T17:13:38Z
+.github/workflows/build-update-data-compilation-files.yml	f	2026-04-03T21:34:31Z
 .gitignore	f	2026-03-08T16:37:17Z
 _bahnhof_tpl.xsl	f	2026-04-05T06:16:52Z
 _bahnhof_tpl_translations.json	f	2026-04-05T06:20:02Z
@@ -355,7 +355,7 @@ xVypravcice.xml	f	2026-04-05T05:45:55Z
 xbeb.png	f	2018-05-24T12:21:42Z
 xbeb.xml	f	2022-10-22T05:14:15Z
 xbel.jpg	f	2018-05-24T12:22:37Z
-xbel.xml	f	2026-04-06T14:42:01Z
+xbel.xml	f	2026-04-06T22:30:54Z
 xdor.jpg	f	2018-05-24T12:24:32Z
 xdor.xml	f	2022-11-12T07:32:00Z
 xgav.png	f	2018-05-24T12:27:30Z

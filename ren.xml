@@ -84,7 +84,7 @@
 				<ladegut ladestelle="Gueterschuppen">
 					<name>Werkzeug</name>
 					<gattung>G</gattung>
-					<wagen zeitraum="woche">1</wagen>
+					<wagen>1</wagen>
 				</ladegut>
 			</empfang>
 			<versand>
@@ -96,7 +96,7 @@
 				<ladegut ladestelle="Gueterschuppen">
 					<name>Wild (Reh, Hirsch, Wildschwein)</name>
 					<gattung>G, H,</gattung>
-					<wagen zeitraum="woche">2</wagen>
+					<wagen>2</wagen>
 				</ladegut>
 			</versand>
 		</verlader>
@@ -109,9 +109,9 @@
 					<wagen zeitraum="tag">1</wagen>
 				</ladegut>
 				<ladegut ladestelle="Gueterschuppen">
-					<name>Pottasche gesackt</name>
+					<name>Pottasche, als Sackware</name>
 					<gattung>G</gattung>
-					<wagen zeitraum="woche">1</wagen>
+					<wagen>1</wagen>
 				</ladegut>
 			</empfang>
 			<versand>
@@ -128,27 +128,27 @@
 				<ladegut ladestelle="Ladestrasse">
 					<name>Kartoffeln lose</name>
 					<gattung>G,E</gattung>
-					<wagen zeitraum="woche">1</wagen>
+					<wagen>1</wagen>
 				</ladegut>
 				<ladegut ladestelle="Gueterschuppen">
 					<name>Gemüse</name>
 					<gattung>H</gattung>
-					<wagen zeitraum="woche">1</wagen>
+					<wagen>1</wagen>
 				</ladegut>
 				<ladegut ladestelle="Ladestrasse">
 					<name>Kleinvieh</name>
 					<gattung>V</gattung>
-					<wagen zeitraum="woche">0.5</wagen>
+					<wagen>0.5</wagen>
 				</ladegut>
 				<ladegut ladestelle="Ladestrasse">
 					<name>Rindvieh</name>
 					<gattung>V</gattung>
-					<wagen zeitraum="woche">0.5</wagen>
+					<wagen>0.5</wagen>
 				</ladegut>
 				<ladegut ladestelle="Ladestrasse">
 					<name>Kohle (Rohbraunkohle)</name>
 					<gattung>E</gattung>
-					<wagen zeitraum="woche">2</wagen>
+					<wagen>2</wagen>
 				</ladegut>
 			</empfang>
 		</verlader>
@@ -158,14 +158,14 @@
 				<ladegut ladestelle="Gueterschuppen">
 					<name>Stückgut, Expressgut</name>
 					<gattung>G ,PWg</gattung>
-					<wagen zeitraum="woche">7</wagen>
+					<wagen>7</wagen>
 				</ladegut>
 			</empfang>
 			<versand>
 				<ladegut ladestelle="Gueterschuppen">
 					<name>Stückgut, Expressgut</name>
 					<gattung>G,Pwg</gattung>
-					<wagen zeitraum="woche">7</wagen>
+					<wagen>7</wagen>
 				</ladegut>
 			</versand>
 		</verlader>

@@ -61,7 +61,7 @@
             <gleis id="ng52">
                 <name>52</name>
                 <laenge einheit="cm">64</laenge>
-                <bemerkung>Freiladegleis</bemerkung>           
+                <bemerkung>Freiladegleis</bemerkung>
             </gleis>
         </ngleise>
     </gleise>
@@ -82,9 +82,9 @@
             <name>Hopfenlager Freiham</name>
             <versand>
                 <ladegut ladestelle="ls3">
-                <name>Hopfen gesackt</name>
-                <gattung>G, H</gattung>
-                <wagen zeitraum="woche">3</wagen>
+                    <name>Hopfen, als Sackware</name>
+                    <gattung>G, H</gattung>
+                    <wagen>3</wagen>
                 </ladegut>
             </versand>
         </verlader>
@@ -92,9 +92,9 @@
             <name>BHG Freiham</name>
             <versand>
                 <ladegut ladestelle="ls5">
-                <name>Getreide</name>
-                <gattung>G, H</gattung>
-                <wagen zeitraum="woche">9</wagen>
+                    <name>Getreide</name>
+                    <gattung>G, H</gattung>
+                    <wagen>9</wagen>
                 </ladegut>
             </versand>
         </verlader>
@@ -102,9 +102,9 @@
             <name>Forstamt Freiham</name>
             <versand>
                 <ladegut ladestelle="ls4">
-                <name>Stammholz</name>
-                <gattung>E, R, K, S</gattung>
-                <wagen zeitraum="woche">6</wagen>
+                    <name>Stammholz</name>
+                    <gattung>E, R, K, S</gattung>
+                    <wagen>6</wagen>
                 </ladegut>
             </versand>
         </verlader>
@@ -112,9 +112,9 @@
             <name>Fa. Apfelbauer Freiham</name>
             <versand>
                 <ladegut ladestelle="ls3">
-                <name>Äpfel</name>
-                <gattung>G, H, I</gattung>
-                <wagen zeitraum="woche">12</wagen>
+                    <name>Äpfel</name>
+                    <gattung>G, H, I</gattung>
+                    <wagen>12</wagen>
                 </ladegut>
             </versand>
         </verlader>
@@ -124,39 +124,39 @@
                 <ladegut ladestelle="ls4">
                     <name>Brikett</name>
                     <gattung>E/F</gattung>
-                    <wagen zeitraum="woche">1</wagen>
+                    <wagen>1</wagen>
                 </ladegut>
                 <ladegut ladestelle="ls4">
                     <name>Braunkohle</name>
                     <gattung>E/F</gattung>
-                    <wagen zeitraum="woche">3</wagen>
+                    <wagen>3</wagen>
                 </ladegut>
                 <ladegut ladestelle="ls4">
                     <name>Steinkohle</name>
                     <gattung>E/F</gattung>
-                    <wagen zeitraum="woche">4</wagen>
+                    <wagen>4</wagen>
                 </ladegut>
                 <ladegut ladestelle="ls4">
                     <name>Heizöl</name>
                     <gattung>Z</gattung>
-                    <wagen zeitraum="woche">1</wagen>
+                    <wagen>1</wagen>
                 </ladegut>
             </empfang>
             <versand>
                 <ladegut ladestelle="ls4">
                     <name>Brikettabrieb</name>
                     <gattung>E</gattung>
-                    <wagen zeitraum="woche">0.5</wagen>
+                    <wagen>0.5</wagen>
                 </ladegut>
             </versand>
-        </verlader>     
+        </verlader>
         <verlader>
             <name>Eilgut</name>
             <versand>
                 <ladegut ladestelle="ls3">
-                <name>Eilgut</name>
-                <gattung>G, H</gattung>
-                <wagen zeitraum="woche">3.5</wagen>
+                    <name>Eilgut</name>
+                    <gattung>G, H</gattung>
+                    <wagen>3.5</wagen>
                 </ladegut>
             </versand>
         </verlader>

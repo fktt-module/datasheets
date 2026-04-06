@@ -17,7 +17,7 @@
 		<hgleise>
 			<gleis>
 				<name>Strecke</name>
-				<laenge></laenge>
+				<laenge/>
 			</gleis>
 		</hgleise>
 		<ngleise>
@@ -120,7 +120,7 @@
 					<wagen zeitraum="tag">6</wagen>
 				</ladegut>
 				<ladegut ladestelle="ladestelle2">
-					<name>Kaolin gesackt</name>
+					<name>Kaolin, als Sackware</name>
 					<gattung>G, H</gattung>
 					<wagen zeitraum="tag">6</wagen>
 				</ladegut>

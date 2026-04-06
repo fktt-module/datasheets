@@ -193,14 +193,14 @@
       <name>ALB - GOLD Teigwaren Trochtelfingen</name>
       <empfang>
         <ladegut ladestelle="Ladestra_e_mit_Lagerhallen_und_G_terschuppen">
-          <name>Hartweizen in Säcken</name>
+          <name>Hartweizen, als Sackware</name>
           <gattung>G,H</gattung>
           <wagen>1</wagen>
         </ladegut>
       </empfang>
       <versand>
         <ladegut ladestelle="Ladestra_e_mit_Lagerhallen_und_G_terschuppen">
-          <name>Nudelprodukte auf Paletten</name>
+          <name>Nudelprodukte, als Palettenware</name>
           <gattung>G,H</gattung>
           <wagen>2</wagen>
         </ladegut>
@@ -232,14 +232,14 @@
       <name>Samen Fetzer Reutlingen-Gönningen</name>
       <empfang>
         <ladegut ladestelle="Ladestra_e_mit_Lagerhallen_und_G_terschuppen">
-          <name>Blumenzwiebeln, Samen in Säcken</name>
+          <name>Blumenzwiebeln, Samen (als Sackware)</name>
           <gattung>G,H</gattung>
           <wagen>1</wagen>
         </ladegut>
       </empfang>
       <versand>
         <ladegut ladestelle="Ladestra_e_mit_Lagerhallen_und_G_terschuppen">
-          <name>Blumenzwiebeln, Samen in Säcken</name>
+          <name>Blumenzwiebeln, Samen (als Sackware)</name>
           <gattung>G,H</gattung>
           <wagen>1</wagen>
         </ladegut>
@@ -298,7 +298,7 @@
       <name>Häusermann Kelterei Neckartailfingen</name>
       <empfang>
         <ladegut ladestelle="Ladestra_e_mit_Lagerhallen_und_G_terschuppen">
-          <name>Streuobst in Säcken</name>
+          <name>Streuobst, als Sackware</name>
           <gattung>G,U</gattung>
           <wagen>0.5</wagen>
         </ladegut>

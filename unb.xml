@@ -18,44 +18,44 @@
     <hgleise>
       <gleis id="gleis_1">
         <name>1</name>
-        <laenge einheit="mm">740</laenge>
+        <laenge>740</laenge>
         <bemerkung>Bahnsteig</bemerkung>
       </gleis>
     </hgleise>
     <ngleise>
       <gleis id="gleis_3">
         <name>3</name>
-        <laenge einheit="mm">420</laenge>
+        <laenge>420</laenge>
         <bemerkung>Güterschuppen</bemerkung>
       </gleis>
       <gleis id="gleis_4">
         <name>4</name>
-        <laenge einheit="mm">340</laenge>
+        <laenge>340</laenge>
         <bemerkung>Kopframpe / Ladestraße</bemerkung>
       </gleis>
       <gleis id="gleis_5">
         <name>5</name>
-        <laenge einheit="mm">510</laenge>
+        <laenge>510</laenge>
         <bemerkung>Ladestraße</bemerkung>
       </gleis>
       <gleis id="gleis_6">
         <name>6</name>
-        <laenge einheit="mm">960</laenge>
+        <laenge>960</laenge>
         <bemerkung>Ladestraße / Holzverladeplatz</bemerkung>
       </gleis>
       <gleis id="gleis_A1">
         <name>A1</name>
-        <laenge einheit="mm">500</laenge>
+        <laenge>500</laenge>
         <bemerkung>Anschluß VEB Glaswerk Unterneubrunn</bemerkung>
       </gleis>
       <gleis id="gleis_2a">
         <name>2a</name>
-        <laenge einheit="mm">140</laenge>
+        <laenge>140</laenge>
         <bemerkung>Lokschuppen</bemerkung>
       </gleis>
       <gleis id="gleis_2">
         <name>2</name>
-        <laenge einheit="mm">690</laenge>
+        <laenge>690</laenge>
         <bemerkung>Umsetzgleis</bemerkung>
       </gleis>
     </ngleise>
@@ -63,34 +63,34 @@
   <pv>
     <bahnsteig gleis="gleis_1">
       <name>1</name>
-      <laenge einheit="mm">580</laenge>
+      <laenge>580</laenge>
     </bahnsteig>
     <bemerkung>Schüler-, Berufs- und Touristik-Verkehr</bemerkung>
   </pv>
   <gv>
     <ladestelle id="Lokschuppen" gleis="gleis_2a">
       <name>Lokschuppen</name>
-      <laenge einheit="mm">140</laenge>
+      <laenge>140</laenge>
     </ladestelle>
     <ladestelle id="G_terschuppen" gleis="gleis_3">
       <name>Güterschuppen</name>
-      <laenge einheit="mm">315</laenge>
+      <laenge>315</laenge>
     </ladestelle>
     <ladestelle id="Kopframpe_Ladestra_e" gleis="gleis_4">
       <name>Kopframpe / Ladestraße</name>
-      <laenge einheit="mm">270</laenge>
+      <laenge>270</laenge>
     </ladestelle>
     <ladestelle id="Ladestra_e" gleis="gleis_5">
       <name>Ladestraße</name>
-      <laenge einheit="mm">510</laenge>
+      <laenge>510</laenge>
     </ladestelle>
     <ladestelle id="Holzladeplatz" gleis="gleis_6">
       <name>Holzladeplatz</name>
-      <laenge einheit="mm">760</laenge>
+      <laenge>760</laenge>
     </ladestelle>
     <ladestelle id="Anschlu_VEB_Glaswerk" gleis="gleis_A1">
       <name>Anschluß VEB Glaswerk</name>
-      <laenge einheit="mm">500</laenge>
+      <laenge>500</laenge>
     </ladestelle>
     <verlader>
       <name>VEB Glaswerk Unterneubrunn</name>
@@ -108,47 +108,47 @@
         <ladegut ladestelle="Anschlu_VEB_Glaswerk">
           <name>Dolormit</name>
           <gattung>U</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
         <ladegut ladestelle="Anschlu_VEB_Glaswerk">
           <name>Soda</name>
           <gattung>U</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
         <ladegut ladestelle="Anschlu_VEB_Glaswerk">
           <name>Schweröl</name>
           <gattung>Z</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
         <ladegut ladestelle="Anschlu_VEB_Glaswerk">
-          <name>Natriumnitrat (Fässer/Säcke)</name>
+          <name>Natriumnitrat (Fassware/Sackware)</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">0.25</wagen>
+          <wagen>0.25</wagen>
         </ladegut>
         <ladegut ladestelle="Anschlu_VEB_Glaswerk">
-          <name>Aluminiumhydroxid (Fässer/Säcke)</name>
+          <name>Aluminiumhydroxid (Fassware/Sackware)</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">0.25</wagen>
+          <wagen>0.25</wagen>
         </ladegut>
         <ladegut ladestelle="Anschlu_VEB_Glaswerk">
-          <name>Natriumsulfat (Fässer/Säcke)</name>
+          <name>Natriumsulfat (Fassware/Sackware)</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">0.25</wagen>
+          <wagen>0.25</wagen>
         </ladegut>
         <ladegut ladestelle="Anschlu_VEB_Glaswerk">
-          <name>Koksgries / Kohlenstoff (Fässer/Säcke)</name>
+          <name>Koksgries / Kohlenstoff (Fassware/Sackware)</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">0.125</wagen>
+          <wagen>0.125</wagen>
         </ladegut>
         <ladegut ladestelle="Anschlu_VEB_Glaswerk">
           <name>Pappe</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="Anschlu_VEB_Glaswerk">
           <name>Paletten</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">0.25</wagen>
+          <wagen>0.25</wagen>
         </ladegut>
       </empfang>
       <versand>
@@ -185,19 +185,19 @@
         <ladegut ladestelle="Kopframpe_Ladestra_e Ladestra_e">
           <name>Pappe</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">0.25</wagen>
+          <wagen>0.25</wagen>
         </ladegut>
         <ladegut ladestelle="Kopframpe_Ladestra_e Ladestra_e">
           <name>Paletten</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">0.25</wagen>
+          <wagen>0.25</wagen>
         </ladegut>
       </empfang>
       <versand>
         <ladegut ladestelle="Kopframpe_Ladestra_e Ladestra_e">
           <name>Spirituosenflaschen</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="Kopframpe_Ladestra_e Ladestra_e">
           <name>Bier-/ Limoflaschen</name>
@@ -212,19 +212,19 @@
         <ladegut ladestelle="Lokschuppen">
           <name>Gewürze</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="Kopframpe_Ladestra_e Ladestra_e">
           <name>Pappe</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">0.25</wagen>
+          <wagen>0.25</wagen>
         </ladegut>
       </empfang>
       <versand>
         <ladegut ladestelle="Kopframpe_Ladestra_e Ladestra_e">
           <name>Gewürzmischung</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
       </versand>
     </verlader>
@@ -234,7 +234,7 @@
         <ladegut ladestelle="G_terschuppen">
           <name>Stiefel, Seile, Werkzeuge</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">0.25</wagen>
+          <wagen>0.25</wagen>
         </ladegut>
       </empfang>
       <versand>
@@ -251,7 +251,7 @@
         <ladegut ladestelle="Lokschuppen">
           <name>Kohle</name>
           <gattung>F</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
       </empfang>
     </verlader>
@@ -261,7 +261,7 @@
         <ladegut ladestelle="G_terschuppen">
           <name>Bier / Limo</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
       </empfang>
     </verlader>
@@ -271,7 +271,7 @@
         <ladegut ladestelle="G_terschuppen">
           <name>Konsumgüter (Schlitten; Küchengeräte)</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">0.5</wagen>
+          <wagen>0.5</wagen>
         </ladegut>
       </versand>
     </verlader>
@@ -281,7 +281,7 @@
         <ladegut ladestelle="G_terschuppen">
           <name>Konsumgüter (Kleiderbügel)</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">0.25</wagen>
+          <wagen>0.25</wagen>
         </ladegut>
       </versand>
     </verlader>
@@ -291,7 +291,7 @@
         <ladegut ladestelle="Kopframpe_Ladestra_e Ladestra_e">
           <name>Konsumgüter (Polstermöbel)</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
       </versand>
     </verlader>
@@ -306,7 +306,7 @@
         <ladegut ladestelle="Holzladeplatz">
           <name>Kisten</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">0.5</wagen>
+          <wagen>0.5</wagen>
         </ladegut>
       </versand>
     </verlader>
@@ -326,7 +326,7 @@
         <ladegut ladestelle="Holzladeplatz">
           <name>Bretter / Kanthölzer</name>
           <gattung>E</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
       </versand>
     </verlader>
@@ -336,7 +336,7 @@
         <ladegut ladestelle="Holzladeplatz">
           <name>Bretter / Kanthölzer</name>
           <gattung>E</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
       </versand>
     </verlader>
@@ -346,12 +346,12 @@
         <ladegut ladestelle="G_terschuppen">
           <name>Prüfgeräte (Stückgut)</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">0.25</wagen>
+          <wagen>0.25</wagen>
         </ladegut>
         <ladegut ladestelle="G_terschuppen">
           <name>Netzteile (Stückgut)</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">0.25</wagen>
+          <wagen>0.25</wagen>
         </ladegut>
       </versand>
     </verlader>

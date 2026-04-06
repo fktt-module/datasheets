@@ -165,12 +165,12 @@
           <wagen zeitraum="tag">9</wagen>
         </ladegut>
         <ladegut ladestelle="Zementwerk" typ="stueckgut">
-          <name>Zement, gesackt</name>
+          <name>Zement, als Sackware</name>
           <gattung>Stückgut, G, H</gattung>
           <wagen zeitraum="tag">2</wagen>
         </ladegut>
         <ladegut ladestelle="Zementwerk">
-          <name>Container (Zement, gesackt)</name>
+          <name>Container (Zement, als Sackware)</name>
           <gattung>K, R, S</gattung>
           <wagen zeitraum="tag">1</wagen>
         </ladegut>
@@ -428,7 +428,7 @@
       <name>Landhandel</name>
       <empfang>
         <ladegut ladestelle="G_terschuppen" typ="stueckgut">
-          <name>Saatgut, gesackt</name>
+          <name>Saatgut, als Sackware</name>
           <gattung>Stückgut, G, H</gattung>
           <wagen>1</wagen>
         </ladegut>
@@ -443,12 +443,12 @@
           <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="G_terschuppen" typ="stueckgut">
-          <name>Düngemittel, gesackt</name>
+          <name>Düngemittel, als Sackware</name>
           <gattung>Stückgut, G, H</gattung>
           <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="G_terschuppen" typ="stueckgut">
-          <name>Futtermittel, gesackt</name>
+          <name>Futtermittel, als Sackware</name>
           <gattung>Stückgut, G, H</gattung>
           <wagen>1</wagen>
         </ladegut>
@@ -465,12 +465,12 @@
           <wagen zeitraum="tag">3</wagen>
         </ladegut>
         <ladegut ladestelle="G_terschuppen" typ="stueckgut">
-          <name>Getreide, gesackt</name>
+          <name>Getreide, als Sackware</name>
           <gattung>Stückgut, G, H</gattung>
           <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="G_terschuppen" typ="stueckgut">
-          <name>Obst/Gemüse, Kisten</name>
+          <name>Obst/Gemüse, als Kistenware</name>
           <gattung>Stückgut, G, H</gattung>
           <wagen>1</wagen>
         </ladegut>

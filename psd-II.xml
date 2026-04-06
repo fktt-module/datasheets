@@ -17,38 +17,38 @@
     <hgleise>
       <gleis id="gleis_1">
         <name>1</name>
-        <laenge einheit="mm">950</laenge>
+        <laenge>950</laenge>
         <bemerkung>Bahnsteiggleis</bemerkung>
       </gleis>
       <gleis id="gleis_2">
         <name>2</name>
-        <laenge einheit="mm">800</laenge>
+        <laenge>800</laenge>
         <bemerkung>Bahnsteiggleis</bemerkung>
       </gleis>
       <gleis id="gleis_3">
         <name>3</name>
-        <laenge einheit="mm">1400</laenge>
+        <laenge>1400</laenge>
       </gleis>
     </hgleise>
     <ngleise>
       <gleis id="gleis_4">
         <name>4</name>
-        <laenge einheit="mm">480</laenge>
+        <laenge>480</laenge>
         <bemerkung>Lokschuppen</bemerkung>
       </gleis>
       <gleis id="gleis_5">
         <name>5</name>
-        <laenge einheit="mm">480</laenge>
+        <laenge>480</laenge>
         <bemerkung>Lokschuppen, Bekohlung</bemerkung>
       </gleis>
       <gleis id="gleis_6a">
         <name>6a</name>
-        <laenge einheit="mm">660</laenge>
+        <laenge>660</laenge>
         <bemerkung>Kopf- und Seitenladerampe, Ladestraße</bemerkung>
       </gleis>
       <gleis id="gleis_6b">
         <name>6b</name>
-        <laenge einheit="mm">600</laenge>
+        <laenge>600</laenge>
         <bemerkung>Ladestraße</bemerkung>
       </gleis>
     </ngleise>
@@ -56,46 +56,46 @@
   <pv>
     <bahnsteig gleis="gleis_1">
       <name>Bahnsteig 1</name>
-      <laenge einheit="mm">710</laenge>
+      <laenge>710</laenge>
     </bahnsteig>
     <bahnsteig gleis="gleis_2">
       <name>Bahnsteig 2</name>
-      <laenge einheit="mm">740</laenge>
+      <laenge>740</laenge>
     </bahnsteig>
     <bemerkung>Epoche II[br]Berufspendler, Ausflugsverkehr, Urlauber. Zwischen 1908 und 1914 verkehrten täglich acht Zugpaare sowie zusätzlich zahlreiche saisonspezifische "Extrafahrten". Ab 1930 deutlicher Rückgang des Fahrgastaufkommens durch neu einsetzenden Kraftomnibusbetrieb Dresden-Possendorf.</bemerkung>
   </pv>
   <gv>
     <ladestelle id="Kopf-_und_Seitenladerampe" gleis="gleis_6a">
       <name>Kopf- und Seitenladerampe</name>
-      <laenge einheit="mm">200</laenge>
+      <laenge>200</laenge>
     </ladestelle>
     <ladestelle id="Ladestra_e" gleis="gleis_6b">
       <name>Ladestraße</name>
-      <laenge einheit="mm">600</laenge>
+      <laenge>600</laenge>
     </ladestelle>
     <ladestelle id="G_terschuppen" gleis="gleis_6a">
       <name>Güterschuppen</name>
-      <laenge einheit="mm">100</laenge>
+      <laenge>100</laenge>
     </ladestelle>
     <ladestelle id="Lager-_und_G_tergeb_ude" gleis="gleis_6b">
       <name>Lager- und Gütergebäude</name>
-      <laenge einheit="mm">300</laenge>
+      <laenge>300</laenge>
     </ladestelle>
     <ladestelle id="Privatlagerplatz" gleis="gleis_6b">
       <name>Privatlagerplatz</name>
-      <laenge einheit="mm">150</laenge>
+      <laenge>150</laenge>
     </ladestelle>
     <ladestelle id="Lokschuppen" gleis="gleis_4">
       <name>Lokschuppen</name>
-      <laenge einheit="mm">200</laenge>
+      <laenge>200</laenge>
     </ladestelle>
     <ladestelle id="Kohlenschuppen" gleis="gleis_5">
       <name>Kohlenschuppen</name>
-      <laenge einheit="mm">200</laenge>
+      <laenge>200</laenge>
     </ladestelle>
     <ladestelle id="Bahnsteige_der_Reisez_ge" gleis="gleis_2 gleis_1">
       <name>Bahnsteige der Reisezüge</name>
-      <laenge einheit="mm">950</laenge>
+      <laenge>950</laenge>
     </ladestelle>
     <verlader>
       <name>Rittergut Possendorf</name>
@@ -103,7 +103,7 @@
         <ladegut ladestelle="Ladestra_e">
           <name>Jauche</name>
           <gattung>Sonderwagen</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestra_e Lager-_und_G_tergeb_ude">
           <name>Kunstdünger</name>
@@ -113,7 +113,7 @@
         <ladegut ladestelle="Ladestra_e Lager-_und_G_tergeb_ude">
           <name>Saatgetreide</name>
           <gattung>G, H, T</gattung>
-          <wagen zeitraum="woche">0.1</wagen>
+          <wagen>0.1</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestra_e Lager-_und_G_tergeb_ude">
           <name>Saatkartoffeln</name>
@@ -135,27 +135,27 @@
         <ladegut ladestelle="Ladestra_e">
           <name>Zuckerrüben</name>
           <gattung>E</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestra_e">
           <name>Kartoffeln, lose</name>
           <gattung>G, E</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestra_e">
           <name>Kohl</name>
           <gattung>G, E</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestra_e">
           <name>Äpfel</name>
           <gattung>G, E</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
         <ladegut ladestelle="Kopf-_und_Seitenladerampe Ladestra_e">
           <name>Kleinvieh</name>
           <gattung>V</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
       </versand>
     </verlader>
@@ -170,19 +170,19 @@
         <ladegut ladestelle="Ladestra_e">
           <name>Eierkohlen</name>
           <gattung>E</gattung>
-          <wagen zeitraum="woche">5</wagen>
+          <wagen>5</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestra_e">
           <name>Koks</name>
           <gattung>E</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
       </empfang>
       <versand>
         <ladegut ladestelle="Ladestra_e">
           <name>Brikettabrieb</name>
           <gattung>E</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
       </versand>
     </verlader>
@@ -190,7 +190,7 @@
       <name>Baumeister Arthur Schöne</name>
       <empfang>
         <ladegut ladestelle="Kopf-_und_Seitenladerampe Ladestra_e Lager-_und_G_tergeb_ude">
-          <name>Zement in Säcken</name>
+          <name>Zement, als Sackware</name>
           <gattung>G</gattung>
           <wagen>1</wagen>
         </ladegut>
@@ -251,7 +251,7 @@
         <ladegut ladestelle="G_terschuppen Lager-_und_G_tergeb_ude">
           <name>Hüte aller Art</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="G_terschuppen Lager-_und_G_tergeb_ude">
           <name>Matten, Strohdeckel, Einlegesohlen, Untersetzer</name>
@@ -273,7 +273,7 @@
         <ladegut ladestelle="Kopf-_und_Seitenladerampe Ladestra_e G_terschuppen">
           <name>Käse aller Art</name>
           <gattung>G, I</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
       </versand>
     </verlader>
@@ -300,7 +300,7 @@
         <ladegut ladestelle="Ladestra_e">
           <name>Getreide</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestra_e G_terschuppen">
           <name>Verpackungsmaterial (Papiersäcke)</name>
@@ -310,9 +310,9 @@
       </empfang>
       <versand>
         <ladegut ladestelle="Kopf-_und_Seitenladerampe Ladestra_e">
-          <name>Mehl in Säcken</name>
+          <name>Mehl, als Sackware</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
       </versand>
     </verlader>
@@ -329,7 +329,7 @@
         <ladegut ladestelle="Kopf-_und_Seitenladerampe Ladestra_e">
           <name>Särge aller Arten</name>
           <gattung>G, R</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
       </versand>
     </verlader>
@@ -339,24 +339,24 @@
         <ladegut ladestelle="G_terschuppen" typ="stueckgut">
           <name>Stückgut</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">7</wagen>
+          <wagen>7</wagen>
         </ladegut>
         <ladegut ladestelle="Bahnsteige_der_Reisez_ge" typ="expressgut">
           <name>Expressgut</name>
           <gattung>Pw</gattung>
-          <wagen zeitraum="woche">7</wagen>
+          <wagen>7</wagen>
         </ladegut>
       </empfang>
       <versand>
         <ladegut ladestelle="G_terschuppen" typ="stueckgut">
           <name>Stückgut</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">7</wagen>
+          <wagen>7</wagen>
         </ladegut>
         <ladegut ladestelle="Bahnsteige_der_Reisez_ge" typ="expressgut">
           <name>Expressgut</name>
           <gattung>Pw</gattung>
-          <wagen zeitraum="woche">7</wagen>
+          <wagen>7</wagen>
         </ladegut>
       </versand>
     </verlader>
@@ -388,24 +388,24 @@
         <ladegut ladestelle="Kohlenschuppen">
           <name>Dienstkohle</name>
           <gattung>E</gattung>
-          <wagen zeitraum="woche">3</wagen>
+          <wagen>3</wagen>
         </ladegut>
         <ladegut ladestelle="Lokschuppen">
           <name>Betriebsstoffe</name>
           <gattung>Z, U</gattung>
-          <wagen zeitraum="woche">0.5</wagen>
+          <wagen>0.5</wagen>
         </ladegut>
         <ladegut ladestelle="Lokschuppen">
           <name>Ersatzteile</name>
           <gattung>G, E</gattung>
-          <wagen zeitraum="woche">0.5</wagen>
+          <wagen>0.5</wagen>
         </ladegut>
       </empfang>
       <versand>
         <ladegut ladestelle="Kohlenschuppen">
           <name>Schlacke</name>
           <gattung>E, X</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
       </versand>
     </verlader>

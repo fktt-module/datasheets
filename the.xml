@@ -248,7 +248,7 @@
           <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestra_e_II">
-          <name>Farben (Faßware)</name>
+          <name>Farben, als Fassware</name>
           <gattung>G</gattung>
           <wagen>2</wagen>
         </ladegut>
@@ -285,7 +285,7 @@
           <wagen>2</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestra_e_I">
-          <name>Zement, Kalk (Sackware)</name>
+          <name>Zement, Kalk (als Sackware)</name>
           <gattung>G</gattung>
           <wagen>1</wagen>
         </ladegut>
@@ -315,7 +315,7 @@
           <wagen zeitraum="tag">2</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestra_e_II">
-          <name>Brantwein (Faßware)</name>
+          <name>Branntwein, als Fassware</name>
           <gattung>G</gattung>
           <wagen>1</wagen>
         </ladegut>
@@ -330,12 +330,12 @@
           <wagen>3</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestra_e_II">
-          <name>Zuckersirup (Faßware)</name>
+          <name>Zuckersirup, als Fassware</name>
           <gattung>G</gattung>
           <wagen>2</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestra_e_II">
-          <name>Stärke (Sackware)</name>
+          <name>Stärke, als Sackware</name>
           <gattung>G</gattung>
           <wagen zeitraum="tag">1</wagen>
         </ladegut>
@@ -540,7 +540,7 @@
           <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestra_e_II">
-          <name>Zement gesackt</name>
+          <name>Zement, als Sackware</name>
           <gattung>G</gattung>
           <wagen>7</wagen>
         </ladegut>
@@ -937,7 +937,7 @@
           <wagen>3</wagen>
         </ladegut>
         <ladegut ladestelle="G_terschuppen">
-          <name>Glasfarbe (Faßware)</name>
+          <name>Glasfarbe, als Fassware</name>
           <gattung>G</gattung>
           <wagen>1</wagen>
         </ladegut>
@@ -1001,7 +1001,7 @@
           <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="G_terschuppen" typ="stueckgut">
-          <name>Farbe (Faßware)</name>
+          <name>Farbe, als Fassware</name>
           <gattung>Stückgut</gattung>
           <wagen>1</wagen>
         </ladegut>

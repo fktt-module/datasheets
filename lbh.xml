@@ -77,7 +77,7 @@
       <name>Kaffeerösterei Laubach</name>
       <empfang>
         <ladegut ladestelle="Kopf-Seitenrampe">
-          <name>Rohkaffee in Säcken</name>
+          <name>Rohkaffee, als Sackware</name>
           <gattung>G, H</gattung>
           <wagen>3</wagen>
         </ladegut>

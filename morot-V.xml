@@ -80,7 +80,7 @@
                     <wagen zeitraum="tag">1</wagen>
                 </ladegut>
                 <ladegut ladestelle="schuppen">
-                    <name>Nudeln, abgepackt in Kisten</name>
+                    <name>Nudeln, als Kistenware</name>
                     <gattung>G, H</gattung>
                     <wagen zeitraum="tag">0.25</wagen>
                 </ladegut>

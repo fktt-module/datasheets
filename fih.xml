@@ -221,7 +221,7 @@
           <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="St_ckgutschuppen_BHG_Konservenfabrik_">
-          <name>Baustoffe (Zement, Anhydrit in Säcken)</name>
+          <name>Baustoffe (Zement, Anhydrit (als Sackware))</name>
           <gattung>G</gattung>
           <wagen>2</wagen>
         </ladegut>
@@ -263,7 +263,7 @@
           <wagen>2</wagen>
         </ladegut>
         <ladegut ladestelle="St_ckgutschuppen_BHG_Konservenfabrik_">
-          <name>Pulpe (Marmeladenrohstoff) in Fässern</name>
+          <name>Pulpe (Marmeladenrohstoff), als Fassware</name>
           <gattung>G</gattung>
           <wagen>4</wagen>
         </ladegut>
@@ -377,12 +377,12 @@
           <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="Kranbau">
-          <name>Farbe in Fässern (Latex, Chlorbuna)</name>
+          <name>Farbe als Fassware (Latex, Chlorbuna)</name>
           <gattung>G</gattung>
           <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="Kranbau">
-          <name>Verpackungsmaterial (Kistenbretter, Kanthölzer, RÃ¶deldraht)</name>
+          <name>Verpackungsmaterial (Kistenbretter, Kanthölzer, Rödeldraht)</name>
           <gattung>E, R</gattung>
           <wagen>1</wagen>
         </ladegut>

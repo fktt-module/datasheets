@@ -148,7 +148,7 @@
           <wagen>2</wagen>
         </ladegut>
         <ladegut ladestelle="l3">
-          <name>Zuschlagstoffe, Chemikalien in Fässern von Leunawerken</name>
+          <name>Zuschlagstoffe, Chemikalien als Fassware von Leunawerken</name>
           <gattung>G, E</gattung>
           <wagen>2</wagen>
         </ladegut>
@@ -222,12 +222,12 @@
                     <wagen zeitraum="tag">2</wagen>
                 </ladegut>
                 <ladegut ladestelle="lade2">
-                    <name>Düngemittel gesackt</name>
+                    <name>Düngemittel, als Sackware</name>
                     <gattung>G</gattung>
                     <wagen zeitraum="tag">1</wagen>
                 </ladegut>-->
         <ladegut ladestelle="l1">
-          <name>Dünger (lose / gesackt) von ACZ Dünger</name>
+          <name>Dünger (lose / als Sackware) von ACZ Dünger</name>
           <gattung>T, G</gattung>
           <wagen>4</wagen>
         </ladegut>

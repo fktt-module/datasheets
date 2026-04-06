@@ -178,7 +178,7 @@
             <name>Lebensmittelgenossenschaft</name>
             <empfang>
                 <ladegut ladestelle="lade3">
-                    <name>Mehl gesackt</name>
+                    <name>Mehl, als Sackware</name>
                     <gattung>G</gattung>
                     <wagen></wagen>
                 </ladegut>

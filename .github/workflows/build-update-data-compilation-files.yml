@@ -70,6 +70,7 @@ jobs:
       - name: Check git status
         run: |
           git status
+          git --no-pager diff
 
       # https://github.com/stefanzweifel/git-auto-commit-action
       # authentication done via runner checkout token
@@ -122,7 +123,6 @@ jobs:
         run: |
           python -m zipfile -c datenblaetter_gelbe-seiten.zip *.xml *.jpeg *.svg *.png *.jpg *.gif *.html bahnhof.* bahnhof_*.xsl GelbeSeiten*.json
       - name: Insert base url of github page inside index.html
-        # run: sed -i "s|const baseUrl = '';|const baseUrl = '${{ steps.pagessetup.outputs.base_url }}/';|g" index.html
         run: |
           sed -i 's|data-json-or-url="bahnhof.json"|data-json-or-url="${{ steps.pagessetup.outputs.base_url }}/bahnhof.json"|g' index.html
           sed -i 's|data-zip-file="datenblaetter_gelbe-seiten.zip"|data-zip-file="${{ steps.pagessetup.outputs.base_url }}/datenblaetter_gelbe-seiten.zip"|g' index.html

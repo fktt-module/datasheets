@@ -48,6 +48,10 @@ jobs:
         with:
           python-version: 3.8 # Install the python version needed
 
+      - name: Install python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install python-dateutil
       #- name: Check and correct files last change time due to reference file
       #  run: python .github/scripts/validate-correct-file-mtime.py -v -r ${{ env.target_file }}
 

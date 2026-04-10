@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE bahnhof SYSTEM "./bahnhof.dtd" >
+<?xml-stylesheet type="text/xsl" href="./bahnhof.xsl" ?>
+<bahnhof>
+	<name>Kurzlin</name>
+	<kuerzel>KUR</kuerzel>
+	<typ>Hp</typ>
+	<verwaltung>DR</verwaltung>
+	<maszstab>120</maszstab>
+	<modulnr>MaRue320</modulnr>
+	<plan src="kur.svg"/>
+	<gleise>
+		<zulaufstrecken>
+			<links nr="1">1gl</links>
+			<rechts nr="1">1gl</rechts>
+		</zulaufstrecken>
+		<hgleise>
+			<gleis id="Bahnsteiggleis">
+				<name>Streckengleis</name>
+				<laenge>690</laenge>
+			</gleis>
+			<gleis>
+				<name>Hauptgleis</name>
+				<laenge>580</laenge>
+			</gleis>
+		</hgleise>
+		<ngleise>
+			<gleis>
+				<name>Ausweichgleis</name>
+				<laenge>565</laenge>
+			</gleis>
+		</ngleise>
+	</gleise>
+	<pv>
+		<bahnsteig gleis="Bahnsteiggleis">
+			<laenge>510</laenge>
+		</bahnsteig>
+	</pv>
+</bahnhof>

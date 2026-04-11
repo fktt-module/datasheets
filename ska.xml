@@ -5,30 +5,62 @@
 <bahnhof>
   <name>Schkona</name>
   <kuerzel>SKA</kuerzel>
-  <typ>Hp</typ>
+  <typ>Hst</typ>
   <verwaltung>DR</verwaltung>
   <maszstab>120</maszstab>
-  <modulnr>MaRue307</modulnr>
+  <modulnr>RoRue433</modulnr>
   <plan src="ska.png" />
   <gleise>
     <zulaufstrecken>
       <links nr="1">1gl</links>
       <rechts nr="1">1gl</rechts>
+      <rechts nr="2">1gl</rechts>
     </zulaufstrecken>
     <hgleise>
-      <gleis id="Bahnsteiggleis">
-        <name>1</name>
-        <laenge einheit="mm">0</laenge>
+      <gleis id="Hauptgleis">
+        <name>Durchgehendes Hauptgleis</name>
+        <laenge/>
+      </gleis>
+      <gleis id="Abzweiggleis">
+        <name>Abzweigendes Hauptgleis</name>
+        <laenge/>
       </gleis>
     </hgleise>
+    <ngleise>
+      <gleis id="hwl-gleis">
+        <name>HWL-Anschluss</name>
+        <laenge>340</laenge>
+      </gleis>
+      <gleis id="feuergutrampe-gleis">
+        <name>Feuergutrampe</name>
+        <laenge>340</laenge>
+      </gleis>
+    </ngleise>
   </gleise>
   <pv>
-    <bahnsteig gleis="Bahnsteiggleis">
-      <name>1</name>
-      <laenge einheit="mm">0</laenge>
+    <bahnsteig gleis="Hauptgleis">
+      <name>West</name>
+      <laenge>760</laenge>
+    </bahnsteig>
+    <bahnsteig gleis="Abzweiggleis">
+      <name>Ost</name>
+      <laenge>470</laenge>
     </bahnsteig>
     <bemerkung />
   </pv>
-  <bemerkung>Erweiterung der Betriebsstelle GTW. In dieser Kombination  bilden GTW und SKA eine Haltestelle (Hst).</bemerkung>
+  <gv>
+    <ladestelle gleis="hwl-gleis">
+      <name>HWL-Platte</name>
+      <laenge>340</laenge>
+    </ladestelle>
+    <ladestelle gleis="feuergutrampe-gleis">
+      <name>Feuergutrampe</name>
+      <laenge>230</laenge>
+    </ladestelle>
+    <verlader>
+      <name>HWL-Platte</name>
+    </verlader>
+  </gv>
+  <bemerkung>Plan ist noch anzupassen!</bemerkung>
 </bahnhof>
 

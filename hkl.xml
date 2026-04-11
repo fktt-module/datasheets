@@ -17,17 +17,17 @@
 	<hgleise>
       <gleis id="Bf1">
          <name>1</name>
-         <laenge>3600</laenge>
+         <laenge>3200</laenge>
          <bemerkung>Bahnsteig- und Kreuzungsgleis</bemerkung>
       </gleis>
       <gleis id="Bf2">
          <name>2</name>
-         <laenge>3450</laenge>
+         <laenge>2800</laenge>
          <bemerkung>Bahnsteig- und Durchgangsgleis</bemerkung>
       </gleis>
       <gleis id="Bf3">
          <name>3</name>
-         <laenge>3350</laenge>
+         <laenge>2900</laenge>
          <bemerkung>Güterzugbehandlungsgleis</bemerkung>
       </gleis>
 	</hgleise>
@@ -59,7 +59,7 @@
       </gleis>
       <gleis id="Bf4b">
          <name>4b</name>
-         <laenge>500</laenge>
+         <laenge>280</laenge>
          <bemerkung>Schuppengleis</bemerkung>
       </gleis>
       <gleis id="Bf5">
@@ -100,18 +100,18 @@
    <pv>
       <bahnsteig gleis="Bf1">
          <name>A</name>
-         <laenge>1000</laenge>
+         <laenge>2700</laenge>
       </bahnsteig>
-      <bahnsteig gleis="Bf1 Bf2">
+      <bahnsteig gleis="Bf2">
          <name>B</name>
-         <laenge>1000</laenge>
+         <laenge>2600</laenge>
       </bahnsteig>
       <bemerkung>Berufs- und Pendlerverkehr</bemerkung>
    </pv>
    <gv>
       <ladestelle id="Lad1" gleis="Bf4b">
          <name>Güterschuppen</name>
-         <laenge>400</laenge>
+         <laenge>280</laenge>
       </ladestelle>
       <ladestelle id="Lad2" gleis="Bf4">
          <name>Ladestraße</name>

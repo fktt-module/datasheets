@@ -4,7 +4,7 @@
 <bahnhof>
 	<name>Kurzlin</name>
 	<kuerzel>KUR</kuerzel>
-	<typ>Hp</typ>
+	<typ>Hst</typ>
 	<verwaltung>DR</verwaltung>
 	<maszstab>120</maszstab>
 	<modulnr>MaRue320</modulnr>

@@ -16,17 +16,17 @@
 	<hgleise>
       <gleis id="Bf1">
          <name>1</name>
-         <laenge>2650</laenge>
+         <laenge>3200</laenge>
          <bemerkung>Bahnsteig- und Kreuzungsgleis</bemerkung>
       </gleis>
       <gleis id="Bf2">
          <name>2</name>
-         <laenge>2170</laenge>
+         <laenge>2800</laenge>
          <bemerkung>Bahnsteig- und Durchgangsgleis</bemerkung>
       </gleis>
       <gleis id="Bf3">
          <name>3</name>
-         <laenge>2130</laenge>
+         <laenge>2900</laenge>
          <bemerkung>Güterzugbehandlungsgleis</bemerkung>
       </gleis>
 	</hgleise>
@@ -99,11 +99,11 @@
    <pv>
       <bahnsteig gleis="Bf1">
          <name>A</name>
-         <laenge>1820</laenge>
+         <laenge>2700</laenge>
       </bahnsteig>
-      <bahnsteig gleis="Bf1 Bf2">
+      <bahnsteig gleis="Bf2">
          <name>B</name>
-         <laenge>1270</laenge>
+         <laenge>2600</laenge>
       </bahnsteig>
       <bemerkung>Berufs- und Pendlerverkehr</bemerkung>
    </pv>

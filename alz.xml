@@ -5,7 +5,7 @@
 <bahnhof>
   <name>Allzunah</name>
   <kuerzel>ALZ</kuerzel>
-  <typ>Bf</typ>
+  <typ>Hst</typ>
   <verwaltung>DR</verwaltung>
   <maszstab>120.0</maszstab>
   <modulnr>NoSch208</modulnr>

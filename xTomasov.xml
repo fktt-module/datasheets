@@ -5,6 +5,7 @@
     <name>Žst. Tomasov</name>
     <kuerzel>XCS Pool</kuerzel>
     <typ>Bf</typ>
+    <verwaltung>CSD</verwaltung>
     <maszstab>120</maszstab>
     <modulnr></modulnr>
     <plan src="xTomasov.gif"/>
@@ -85,7 +86,7 @@
             <name>VEB Mineralwasser Tomasov</name>
             <empfang>
                 <ladegut ladestelle="lade2">
-                    <name>Transportpaletten und -kisten</name>
+                    <name>Transportpaletten, Transportkisten</name>
                     <gattung>G</gattung>
                     <wagen zeitraum="woche"></wagen>
                 </ladegut>
@@ -177,7 +178,7 @@
             <name>Lebensmittelgenossenschaft</name>
             <empfang>
                 <ladegut ladestelle="lade3">
-                    <name>Mehl gesackt</name>
+                    <name>Mehl, als Sackware</name>
                     <gattung>G</gattung>
                     <wagen></wagen>
                 </ladegut>

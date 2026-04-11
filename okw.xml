@@ -5,6 +5,7 @@
    <name>Abzweig Oberkaselwitz</name>
    <kuerzel>OKW</kuerzel>
    <typ>Abzw</typ>
+   <verwaltung>DB</verwaltung>
    <maszstab>120</maszstab>
    <modulnr>RaGra405</modulnr>
    <plan src="okw.png"/>

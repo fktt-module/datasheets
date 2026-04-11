@@ -223,16 +223,16 @@
     </ladestelle>
     <ladestelle id="Metallbau_R_gen" gleis="gleis_10a">
       <name>Metallbau Rügen</name>
-      <laenge einheit="mm">40</laenge>
+      <laenge einheit="cm">40</laenge>
     </ladestelle>
     <ladestelle id="Fischfabrik_Rampe_Kulisse" gleis="gleis_16">
       <name>Fischfabrik, Rampe Kulisse</name>
-      <laenge einheit="mm">58</laenge>
+      <laenge einheit="cm">58</laenge>
     </ladestelle>
     <verlader>
       <name>GV Rostock, Aust. Sassnitz</name>
       <empfang>
-        <ladegut ladestelle="Seitenrampe Ladestra_e G_terschuppen">
+        <ladegut ladestelle="Seitenrampe Ladestra_e G_terschuppen" typ="stueckgut">
           <name>Stückgut, Ersatzteile, Konsumgüter</name>
           <gattung>G, Post</gattung>
           <wagen zeitraum="tag">6</wagen>
@@ -240,12 +240,12 @@
         <ladegut ladestelle="Seitenrampe G_terschuppen">
           <name>Obst, Gemüse</name>
           <gattung>G, T,</gattung>
-          <wagen zeitraum="woche">3</wagen>
+          <wagen>3</wagen>
         </ladegut>
         <ladegut ladestelle="Seitenrampe G_terschuppen">
           <name>Getränke, Konserven</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">8</wagen>
+          <wagen>8</wagen>
         </ladegut>
       </empfang>
     </verlader>
@@ -255,24 +255,24 @@
         <ladegut ladestelle="G_terschuppen">
           <name>Getränke</name>
           <gattung>G, Habbin</gattung>
-          <wagen zeitraum="woche">10</wagen>
+          <wagen>10</wagen>
         </ladegut>
         <ladegut ladestelle="Seitenrampe">
           <name>Verbrauchsmaterial</name>
           <gattung>G, Habbin</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
         <ladegut ladestelle="G_terschuppen">
           <name>Konsumgüter</name>
           <gattung>G,Habbin</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
       </empfang>
       <versand>
         <ladegut ladestelle="Seitenrampe">
           <name>Leergut, Leerverpackungen,</name>
           <gattung>G; Habbin</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
       </versand>
     </verlader>
@@ -282,19 +282,19 @@
         <ladegut ladestelle="Metallbau_R_gen">
           <name>Containerbau</name>
           <gattung>R, S, G, K, H</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
         <ladegut ladestelle="Metallbau_R_gen">
-          <name>Werftteile, Türen, Luken, Schotts, Geländer,</name>
+          <name>Werftteile, Türen, Luken, Schotts, Geländer</name>
           <gattung>R, S, G, K, H</gattung>
-          <wagen zeitraum="woche">4</wagen>
+          <wagen>4</wagen>
         </ladegut>
         <ladegut ladestelle="Metallbau_R_gen">
           <name>Ersatzteile</name>
           <gattung>R, S, G, K, H</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
-        <ladegut ladestelle="Metallbau_R_gen">
+        <ladegut ladestelle="Metallbau_R_gen" typ="stueckgut">
           <name>Verbrauchsartikel, Stückgut, Metallwaren</name>
           <gattung>R, S, G, K, H</gattung>
           <wagen zeitraum="tag">1</wagen>
@@ -309,17 +309,17 @@
         <ladegut ladestelle="Metallbau_R_gen">
           <name>Rettungsboote, Kranteile, Anker, Ketten</name>
           <gattung>R, S, G, K, H</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
         <ladegut ladestelle="Metallbau_R_gen">
-          <name>Militärgerät, Panzer,Fahrzeuge</name>
+          <name>Militärgerät, Panzer, Fahrzeuge</name>
           <gattung>R, S, G, K, H</gattung>
-          <wagen zeitraum="woche">4</wagen>
+          <wagen>4</wagen>
         </ladegut>
         <ladegut ladestelle="Metallbau_R_gen">
           <name>Reparaturen, def. Seecontainer</name>
           <gattung>R, S, G, K, H</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
         <ladegut ladestelle="Metallbau_R_gen">
           <name>Werftteile, Schiffsteile, Aufarbeitung OUT</name>
@@ -334,14 +334,14 @@
         <ladegut ladestelle="Est_Sassnitz_BW_Material">
           <name>Ersatzteile, Farbe, Schmierstoffe</name>
           <gattung>G, H, k, R</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="Est_Sassnitz_BW_Dieseltankst">
           <name>Diesel</name>
           <gattung>Z</gattung>
-          <wagen zeitraum="woche">3</wagen>
+          <wagen>3</wagen>
         </ladegut>
-        <ladegut ladestelle="Mitropa_Wagenbehandlung">
+        <ladegut ladestelle="Mitropa_Wagenbehandlung" typ="stueckgut">
           <name>Stückgut, Tücher, Papier, Verkauf Mitropa</name>
           <gattung>G, Express,</gattung>
           <wagen>2</wagen>
@@ -351,7 +351,7 @@
         <ladegut ladestelle="Est_Sassnitz_BW_Material">
           <name>Ersatzteile, Reparaturen</name>
           <gattung>G, H, K, R,</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
       </versand>
     </verlader>
@@ -406,9 +406,9 @@
       <name>Mitropa DR</name>
       <empfang>
         <ladegut ladestelle="Mitropa_Wagenbehandlung">
-          <name>Verbrauchsmaterial Speise- und Schlafwagen Bestückung</name>
+          <name>Verbrauchsmaterial Speisewagen, Schlafwagen Bestückung</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
       </empfang>
       <versand>
@@ -430,34 +430,34 @@
         <ladegut ladestelle="Baustoff_und_Kohlehandel">
           <name>Baustahl</name>
           <gattung>Rmms, Samms</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
-        <ladegut ladestelle="Ladestra_e">
+        <ladegut ladestelle="Ladestra_e" typ="stueckgut">
           <name>Container Stückgut Werft</name>
           <gattung>Res</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
       </empfang>
       <versand>
         <ladegut ladestelle="Baustoff_und_Kohlehandel">
           <name>Holz</name>
           <gattung>E, Res, Eaos</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestra_e">
           <name>Metallschrott</name>
           <gattung>Es, E,</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="Baustoff_und_Kohlehandel">
           <name>Sand</name>
           <gattung>Es, E, Res,Eaos</gattung>
           <wagen zeitraum="tag">1</wagen>
         </ladegut>
-        <ladegut ladestelle="Ladestra_e">
+        <ladegut ladestelle="Ladestra_e" typ="stueckgut">
           <name>Container Stückgut Werft</name>
           <gattung>Res</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
       </versand>
     </verlader>
@@ -467,7 +467,7 @@
         <ladegut ladestelle="Fischfabrik_Rampe_und_Indoor">
           <name>Verpackungen, Pappe, Metall, Gläser</name>
           <gattung>G, Hbis</gattung>
-          <wagen zeitraum="woche">6</wagen>
+          <wagen>6</wagen>
         </ladegut>
         <ladegut ladestelle="Fischfabrik_Rampe_und_Indoor">
           <name>Zutaten, Gemüse, Gewürze</name>
@@ -475,9 +475,9 @@
           <wagen zeitraum="tag">1</wagen>
         </ladegut>
         <ladegut ladestelle="Fischfabrik_Rampe_und_Indoor">
-          <name>Zutaten flüssig, Oele, Essig, Ketchup,Saucen</name>
+          <name>Zutaten flüssig, Öle, Essig, Ketchup, Saucen</name>
           <gattung>Z</gattung>
-          <wagen zeitraum="woche">3</wagen>
+          <wagen>3</wagen>
         </ladegut>
       </empfang>
       <versand>
@@ -509,7 +509,7 @@
         <ladegut ladestelle="Fischfabrik_Rampe_und_Indoor">
           <name>ScomberMix DDR</name>
           <gattung>G, Hbis</gattung>
-          <wagen zeitraum="woche">3</wagen>
+          <wagen>3</wagen>
         </ladegut>
         <ladegut ladestelle="Fischfabrik_Rampe_und_Indoor">
           <name>Frischfisch DDR</name>
@@ -519,7 +519,7 @@
         <ladegut ladestelle="Fischfabrik_Rampe_und_Indoor">
           <name>Räucherfisch DDR</name>
           <gattung>T</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
       </versand>
     </verlader>
@@ -529,7 +529,7 @@
         <ladegut ladestelle="Tanklager_Sassnitz_4_Pumpen">
           <name>Schweröl, Schiffsdiesel</name>
           <gattung>Z</gattung>
-          <wagen zeitraum="woche">12</wagen>
+          <wagen>12</wagen>
         </ladegut>
         <ladegut ladestelle="Tanklager_Sassnitz_4_Pumpen">
           <name>Leichtkraftstoffe, Benzin, Diesel</name>
@@ -539,12 +539,12 @@
         <ladegut ladestelle="Tanklager_Sassnitz_4_Pumpen">
           <name>Propangas</name>
           <gattung>Z</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
         <ladegut ladestelle="Seitenrampe">
           <name>Gasflaschen, Camping/Gewerbe</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
       </empfang>
     </verlader>
@@ -559,12 +559,12 @@
       </empfang>
       <versand>
         <ladegut ladestelle="Kopframpe">
-          <name>Schwere Ernemaschine, schwere Landmaschinen</name>
+          <name>Schwere Erntemaschine, schwere Landmaschinen</name>
           <gattung>Res</gattung>
           <wagen>1</wagen>
         </ladegut>
-        <ladegut ladestelle="Seitenrampe">
-          <name>Stückgute, Paletten, Sackware, Getreide, Erbsen</name>
+        <ladegut ladestelle="Seitenrampe" typ="stueckgut">
+          <name>Stückgüter, Paletten, Sackware, Getreide, Erbsen</name>
           <gattung>G</gattung>
           <wagen>1</wagen>
         </ladegut>

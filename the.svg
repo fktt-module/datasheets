@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<svg version="1.1"
+     width="1150"
+     height="325"
+     xmlns="http://www.w3.org/2000/svg">
+    <!--<defs>
+        <pattern id="grid" width="50" height="50" patternUnits="userSpaceOnUse">
+            <path d="M 50 0 L 0 0 0 50" fill="none" stroke="cyan" stroke-width=".75"/>
+        </pattern>
+    </defs>
+    <rect width="100%" height="100%" fill="url(#grid)"/>-->
+    <!-- Gleis 7 -->
+    <path  stroke="black" stroke-width="1" d="M450 75 l300 0 M750 75 l150 150"/>
+    <rect x="593" y="70" width="15" height="10" fill="#fff" style="stroke-width:.25;"/>
+    <text x="596" y="80">7</text>
+    <!-- Gleis 10 -->
+    <path  stroke="black" stroke-width="1" d="M750 75 l175 0 m0 0 v-5 0 v 10 0 m 0 0 h-2.5 0 m0 -10 h2.5 0"/>
+    <rect x="871" y="70" width="25" height="10" fill="#fff" style="stroke-width:.25;"/>
+    <text x="873" y="80">10</text>
+    <!-- Gleis 11 -->
+    <path  stroke="black" stroke-width="1" d="M800 75 l50 -50 m 0 0 l75 0 m 0 0 v-5 0 v 10 0 m 0 0 h-2.5 0 m0 -10 h2.5 0"/>
+    <rect x="873" y="20" width="25" height="10" fill="#fff" style="stroke-width:.25;"/>
+    <text x="875" y="30">11</text>
+    <!-- Gleis 6 -->
+    <path  stroke="black" stroke-width="1" d="M450 100 l300 0 m0 0 l50 50 M750 100 l25 0"/>
+    <rect x="593" y="95" width="15" height="10" fill="#fff" style="stroke-width:.25;"/>
+    <text x="596" y="105">6</text>
+    <!-- Gleis 5 -->
+    <path  stroke="black" stroke-width="1" d="M425 125 l350 0"/>
+    <rect x="593" y="120" width="15" height="10" fill="#fff" style="stroke-width:.25;"/>
+    <text x="596" y="130">5</text>
+    <!-- Gleis 9 -->
+    <path d='M800 125 l 125 0 m 0 0 v-5 0 v 10 0 m 0 0 h-2.5 0 m0 -10 h2.5 0' stroke='#000' fill='none' stroke-width='.79701' stroke-miterlimit='10'/>
+    <rect x="873" y="120" width="22" height="10" fill="#fff" style="stroke-width:.25;"/>
+    <text x="878" y="130">9</text>
+    <!-- Gleis 4 -->
+    <path  stroke="black" stroke-width="1" d="M400 150 l425 0"/>
+    <rect x="593" y="145" width="15" height="10" fill="#fff" style="stroke-width:.25;"/>
+    <text x="596" y="155">4</text>
+    <!-- Gleis 12 -->
+    <path  stroke="black" stroke-width="1" d="M50 175 l100 0 m 0 0 l50 50"/>
+    <path d='M52.5 170h-2.5v10h2.5' stroke='#000' fill='none' stroke-width='.79701' stroke-miterlimit='10'/>
+    <rect x="90" y="170" width="25" height="10" fill="#fff" style="stroke-width:.25;"/>
+    <text x="92.5" y="180">12</text>
+    <!-- Gleis 8 -->
+    <path d='M850 175 l 250 0 m 0 0 v-5 0 v 10 0 m 0 0 h-2.5 0 m0 -10 h2.5 0' stroke='#000' fill='none' stroke-width='.79701' stroke-miterlimit='10'/>
+    <rect x="990" y="170" width="20" height="10" fill="#fff" style="stroke-width:.25;"/>
+    <text x="996" y="180">8</text>
+    <!-- Gleis 3 -->
+    <path  stroke="black" stroke-width="1" d="M50 225 l400 0 M300 225 l150 -150 M325 200 l25 0 m0 0 l125 -125 M350 225 l25 -25 m 0 0 l450 0 m0 0 l25 25 m 0 0 l 275 0"/>
+    <path d='M52.5 220h-2.5v10h2.5' stroke='#000' fill='none' stroke-width='1' stroke-miterlimit='10'/>
+    <path d='M447.5 220h2.5v10h-2.5' stroke='#000' fill='none' stroke-width='1' stroke-miterlimit='10'/>
+    <rect x="593" y="195" width="15" height="10" fill="#fff" style="stroke-width:.25;"/>
+    <text x="596" y="205">3</text>
+    <rect x="397" y="220" width="25" height="10" fill="#fff" style="stroke-width:.25;"/>
+    <text x="400" y="230">3b</text>
+    <path d='M752.5 220 h-2.5 v10 h2.5 m-2.5 -5 l 100 0' stroke='#000' fill='none' stroke-width='1' stroke-miterlimit='10'/>
+    <rect x="790" y="220" width="25" height="10" fill="#fff" style="stroke-width:.25;"/>
+    <text x="792" y="230">3a</text>
+    <text x="1068" y="218">Schleu.</text>
+    <!-- Gleis 2 -->
+    <path  stroke="black" stroke-width="1" d="M50 250 l200 0 m 0 0 l875 0 M150 250 l-25 -25 M187.5 250 l25 25 M225 250 l25 -25 M975 250 l-25 -25 M1025 250 l25 -25"/>
+    <text x="60" y="243">Mng</text>
+    <text x="1068" y="268">Hbn</text>
+    <rect x="593" y="245" width="15" height="10" fill="#fff" style="stroke-width:.25;"/>
+    <text x="596" y="255">2</text>
+    <!-- Gleis 1 und 13-->
+    <path  stroke="black" stroke-width="1" d="M100 275 l800 0 m0 0 l25 -25"/>
+    <path d='M102.5 270 h-2.5 v10 h2.5' stroke='#000' fill='none' stroke-width='1' stroke-miterlimit='10'/>
+    <rect x="142" y="270" width="25" height="10" fill="#fff" style="stroke-width:.25;"/>
+    <text x="145" y="280">13</text>
+    <rect x="593" y="270" width="15" height="10" fill="#fff" style="stroke-width:.25;"/>
+    <text x="596" y="280">1</text>
+    <!-- Gleis 1B -->
+    <path d='M252.5 295 h-2.5 v10 h2.5 m-2.5 -5 l 100 0 m 0 0 l25 -25' stroke='#000' fill='none' stroke-width='1' stroke-miterlimit='10'/>
+    <rect x="290" y="295" width="25" height="10" fill="#fff" style="stroke-width:.25;"/>
+    <text x="292" y="305">1B</text>
+    <!-- Gleis 1A -->
+    <path d='M752.5 295 h-2.5 v10 h2.5 m-2.5 -5 l 100 0 m 0 0 l25 -25' stroke='#000' fill='none' stroke-width='1' stroke-miterlimit='10'/>
+    <rect x="790" y="295" width="25" height="10" fill="#fff" style="stroke-width:.25;"/>
+    <text x="792" y="305">1A</text>
+    <!-- Bahnsteige -->
+    <path d="M475 212 h250 v25 h-250Z" stroke='#808080' fill='none' stroke-width='.5' stroke-miterlimit='10'/>
+    <text x="475" y="212"  transform='matrix(1 0 0 1 85 17)'>Bahnsteig 2</text>
+    <path d="M400 290 h250 v25 h-250z" stroke='#808080' fill='none' stroke-width='.5' stroke-miterlimit='10'/>
+    <text x="400" y="290" transform='matrix(1 0 0 1 85 17.5)'>Bahnsteig 1</text>
+</svg>

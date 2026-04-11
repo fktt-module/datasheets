@@ -18,33 +18,33 @@
     <hgleise>
       <gleis id="gleis_Streckengleis">
         <name>Streckengleis</name>
-        <laenge einheit="mm">1962</laenge>
+        <laenge>1962</laenge>
       </gleis>
     </hgleise>
     <ngleise>
       <gleis id="gleis_1">
         <name>1</name>
-        <laenge einheit="mm">700</laenge>
+        <laenge>700</laenge>
         <bemerkung>Eingang sowie Ladegleis Kohle u. Frachten</bemerkung>
       </gleis>
       <gleis id="gleis_1a">
         <name>1a</name>
-        <laenge einheit="mm">250</laenge>
+        <laenge>250</laenge>
         <bemerkung>Eingang, Ladegleis Kohle u. Frachten sowie Lokumfahrgleis</bemerkung>
       </gleis>
       <gleis id="gleis_2">
         <name>2</name>
-        <laenge einheit="mm">700</laenge>
+        <laenge>700</laenge>
         <bemerkung>Ausgang und Lokumfahrgleis</bemerkung>
       </gleis>
       <gleis id="gleis_2a">
         <name>2a</name>
-        <laenge einheit="mm">390</laenge>
+        <laenge>390</laenge>
         <bemerkung>Ausgang und Reservewagen sowie Ladegleis Frachten</bemerkung>
       </gleis>
       <gleis id="gleis_3">
         <name>3</name>
-        <laenge einheit="mm">380</laenge>
+        <laenge>380</laenge>
         <bemerkung>Ladegleis Kohle und Frachten</bemerkung>
       </gleis>
     </ngleise>
@@ -57,11 +57,11 @@
   <gv>
     <ladestelle id="Kohle" gleis="gleis_1 gleis_3 gleis_1a">
       <name>Kohle</name>
-      <laenge einheit="mm">1330</laenge>
+      <laenge>1330</laenge>
     </ladestelle>
     <ladestelle id="Frachten" gleis="gleis_1 gleis_3 gleis_2a gleis_1a">
       <name>Frachten</name>
-      <laenge einheit="mm">1720</laenge>
+      <laenge>1720</laenge>
     </ladestelle>
     <verlader>
       <name>Marienschacht</name>
@@ -79,32 +79,32 @@
         <ladegut ladestelle="Frachten">
           <name>Stahlträger</name>
           <gattung>K, R, S</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
         <ladegut ladestelle="Frachten">
           <name>Zement, Kraftwerksasche</name>
           <gattung>U</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
         <ladegut ladestelle="Frachten">
           <name>Sand, Kies</name>
           <gattung>E, F</gattung>
-          <wagen zeitraum="woche">3</wagen>
+          <wagen>3</wagen>
         </ladegut>
         <ladegut ladestelle="Frachten">
           <name>Fahrzeuge, Maschinen, Ersatzteile</name>
           <gattung>G, K, R, S</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="Frachten">
-          <name>Öle, Schmierstoffe (in Fässern)</name>
+          <name>Öle, Schmierstoffe (als Fassware)</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">0.25</wagen>
+          <wagen>0.25</wagen>
         </ladegut>
         <ladegut ladestelle="Frachten">
           <name>Sprengmittel</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">0.25</wagen>
+          <wagen>0.25</wagen>
         </ladegut>
         <ladegut ladestelle="Frachten">
           <name>Säure</name>
@@ -119,24 +119,24 @@
       </empfang>
       <versand>
         <ladegut ladestelle="Frachten">
-          <name>Holz- u. andere Abfälle</name>
+          <name>Holzabfälle, andere Abfälle</name>
           <gattung>E, F</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="Frachten">
           <name>Fahrzeuge, Maschinen zur Reparatur</name>
           <gattung>G, K, R, S, E</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="Frachten">
           <name>Schrott</name>
           <gattung>E, F</gattung>
-          <wagen zeitraum="woche">0.25</wagen>
+          <wagen>0.25</wagen>
         </ladegut>
         <ladegut ladestelle="Frachten">
-          <name>Altöle (in Fässern)</name>
+          <name>Altöle, als Fassware</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">0.25</wagen>
+          <wagen>0.25</wagen>
         </ladegut>
         <ladegut ladestelle="Kohle">
           <name>Steinkohle, versch. Sorten</name>

@@ -118,17 +118,17 @@
         <ladegut ladestelle="Ladestra_e_Hafen G_terschuppen">
           <name>Stückgut, Konsumgüter, E-Teile</name>
           <gattung>G, Post</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestra_e_Hafen G_terschuppen">
           <name>Obst, Gemüse</name>
           <gattung>G, T</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
         <ladegut ladestelle="G_terschuppen">
           <name>Konserven, Getränke</name>
           <gattung>G, Habbin</gattung>
-          <wagen zeitraum="woche">3</wagen>
+          <wagen>3</wagen>
         </ladegut>
       </empfang>
     </verlader>
@@ -138,24 +138,24 @@
         <ladegut ladestelle="Ladestra_e_Hafen Ladestra_e_Hafenkante">
           <name>Briketts</name>
           <gattung>Fcs, Es</gattung>
-          <wagen zeitraum="woche">4</wagen>
+          <wagen>4</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestra_e_Industrie">
           <name>Holz</name>
           <gattung>Res, Es, E, Eaos</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
       </empfang>
       <versand>
         <ladegut ladestelle="Ladestra_e_Hafenkante">
           <name>Sand</name>
           <gattung>Samm, Samms, Eaos, E</gattung>
-          <wagen zeitraum="woche">5</wagen>
+          <wagen>5</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestra_e_Hafen">
           <name>Container Stückgut</name>
           <gattung>Res, L</gattung>
-          <wagen zeitraum="woche">0.5</wagen>
+          <wagen>0.5</wagen>
         </ladegut>
       </versand>
     </verlader>
@@ -170,7 +170,7 @@
         <ladegut ladestelle="G_terschuppen">
           <name>Expressgut, Stückgut, Gepäck Urlauber</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
       </empfang>
       <versand>
@@ -187,34 +187,34 @@
         <ladegut ladestelle="Ladestra_e_Industrie Industriegleis_Metallfabrik">
           <name>Stahl, Walzstahl, Brammen,</name>
           <gattung>Rmms, Samms</gattung>
-          <wagen zeitraum="woche">3</wagen>
+          <wagen>3</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestra_e_Industrie Industriegleis_Metallfabrik">
           <name>Steinkohle, Koks</name>
           <gattung>Es, E, Fcs</gattung>
-          <wagen zeitraum="woche">3</wagen>
+          <wagen>3</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestra_e_Industrie Industriegleis_Metallfabrik">
           <name>Holzkisten, Stapelholz, Paletten</name>
           <gattung>G, Shimms, Rmms, Samms</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestra_e_Industrie Industriegleis_Metallfabrik">
           <name>Verpackungsmateriel</name>
           <gattung>G, Shimms</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="Industriegleis_Metallfabrik">
           <name>Drahtrollen</name>
           <gattung>Es, Ks, Rlmmp</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
       </empfang>
       <versand>
         <ladegut ladestelle="Ladestra_e_Industrie Industriegleis_Metallfabrik">
           <name>Metallschrott, Gußabfälle,</name>
           <gattung>Es, E</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestra_e_Industrie Industriegleis_Metallfabrik">
           <name>Zahnräder, Ferigteile, Maschinenteile, Gehäuse</name>
@@ -224,7 +224,7 @@
         <ladegut ladestelle="Industriegleis_Metallfabrik">
           <name>Schlacke, Altsand</name>
           <gattung>E, ES,</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
       </versand>
     </verlader>
@@ -234,34 +234,34 @@
         <ladegut ladestelle="Ladestra_e_Hafen Ladestra_e_Hafenkante">
           <name>Kreide, Sand, Schotter, Kies, Kohle, Massengüter</name>
           <gattung>Samms, E, Es, Eaos, Fcs, Takkl, Rmms</gattung>
-          <wagen zeitraum="woche">5</wagen>
+          <wagen>5</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestra_e_Hafen Ladestra_e_Hafenkante">
           <name>Container Stückgut, Schiffsladung Feederschiffe</name>
           <gattung>Samms, E, Es, Eaos, Fcs, Takkl, Rmms</gattung>
-          <wagen zeitraum="woche">2.5</wagen>
+          <wagen>2.5</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestra_e_Hafen Ladestra_e_Hafenkante">
           <name>Landmaschinen, PKW, LKW</name>
           <gattung>Res,</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestra_e_Hafen Ladestra_e_Hafenkante">
           <name>Diesel, Benzin</name>
           <gattung>Z, Zz, ZZw, Zaes, Zacs</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
       </empfang>
       <versand>
         <ladegut ladestelle="Ladestra_e_Hafen Ladestra_e_Hafenkante">
           <name>Kreide, Sand, Schotter, Kies, Kohle, Massengüter</name>
           <gattung>Samms, E, Es, Eaos, Fcs, Rmms, Takkl</gattung>
-          <wagen zeitraum="woche">5</wagen>
+          <wagen>5</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestra_e_Hafen Ladestra_e_Hafenkante">
           <name>Container Stückgut</name>
           <gattung>Lgs, Rgs</gattung>
-          <wagen zeitraum="woche">2.5</wagen>
+          <wagen>2.5</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestra_e_Hafen Ladestra_e_Hafenkante">
           <name>Frischfisch</name>
@@ -271,12 +271,12 @@
         <ladegut ladestelle="Ladestra_e_Hafen Ladestra_e_Hafenkante">
           <name>Sackwaren, Kaffee, Kakao, Getreide, Paletten, Stückgut</name>
           <gattung>G, Shimms</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestra_e_Hafen Ladestra_e_Hafenkante">
-          <name>Kuba Orangen, Obst palettiert</name>
+          <name>Kuba Orangen, Obst (als Palettenware)</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
       </versand>
     </verlader>
@@ -286,24 +286,24 @@
         <ladegut ladestelle="Ladestra_e_Hafen">
           <name>Ersatzteile, Schmierstoffe, Farbe</name>
           <gattung />
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestra_e_Hafen">
           <name>Diesel</name>
           <gattung />
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestra_e_Hafen">
           <name>Kohle</name>
           <gattung />
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
       </empfang>
       <versand>
         <ladegut ladestelle="Ladestra_e_Industrie">
           <name>Reparaturen</name>
           <gattung />
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
       </versand>
     </verlader>

@@ -5,6 +5,7 @@
 	<name>Fliesenwerk</name>
 	<kuerzel>FLW</kuerzel>
 	<typ>Anst</typ>
+	<verwaltung>DR</verwaltung>
 	<maszstab>120</maszstab>
 	<modulnr>ReBuc358</modulnr>
     <plan src="flw.jpg"/>
@@ -16,7 +17,7 @@
 		<hgleise>
 			<gleis>
 				<name>Strecke</name>
-				<laenge></laenge>
+				<laenge/>
 			</gleis>
 		</hgleise>
 		<ngleise>
@@ -119,7 +120,7 @@
 					<wagen zeitraum="tag">6</wagen>
 				</ladegut>
 				<ladegut ladestelle="ladestelle2">
-					<name>Kaolin gesackt</name>
+					<name>Kaolin, als Sackware</name>
 					<gattung>G, H</gattung>
 					<wagen zeitraum="tag">6</wagen>
 				</ladegut>

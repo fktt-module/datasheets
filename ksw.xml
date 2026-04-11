@@ -5,6 +5,7 @@
 	<name>Klein Starkow</name>
 	<kuerzel>KSW</kuerzel>
 	<typ>Bf</typ>
+	<verwaltung>DR</verwaltung>
 	<maszstab>120</maszstab>
 	<modulnr>JoLan241</modulnr>
 	<plan src="ksw.png"/>

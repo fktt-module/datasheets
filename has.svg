@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<svg version="1.1"
+     width="1500"
+     height="275"
+     xmlns="http://www.w3.org/2000/svg">
+  <path  stroke="black" stroke-width="3" fill="none" d="M500 100 l50 -50 m0 0 l400 0 m-5 -5 h5 v10 h-5 m-100 -5 l50 50"/>
+  <!-- Durchgehendes Hauptgleis 2-->
+  <path  stroke="black" stroke-width="3" d="M50 150 l1400 0"/>
+  <!-- Gleis 1 -->
+  <path  stroke="black" stroke-width="3" d="M150 150 l50 -50 m0 0 l1200 0 m0 0 l50 -50"/>
+  <!-- Gleis 3 -->
+  <path  stroke="black" stroke-width="3" fill="none" d="M250 150 l50 50 m0 0 l1000 0 m-5 -5 h5 v10 h-5 m-100 -5 l100 -100"/>
+  <!-- Gueterverkehr -->
+  <path d="M550 0 v35 h400 m0 0 l35 -35" stroke='#808080' fill='none' stroke-width='1.5' stroke-miterlimit='10'/>
+  <path d="M1250 210 v0 h56 v-25 h70 v50 h-127Z" stroke='#808080' fill='none' stroke-width='1.5' stroke-miterlimit='10'/>
+  <!-- Bahnsteige -->
+  <path d="M950 70 v15 h325 v-15" stroke='#808080' fill='none' stroke-width='1.5' stroke-miterlimit='10'/>
+  <path d="M900 120 v15 h325 v-15" stroke='#808080' fill='none' stroke-width='1.5' stroke-miterlimit='10'/>
+  <!-- Beschriftungen -->
+  <rect x="685" y="40" fill="#fff" width="30" height="30" style="stroke-width:0;"/>
+  <text x="693" y="57" font-size="17.5pt" stroke-width="2">4</text>
+  <rect x="685" y="72" fill="#fff" width="30" height="40" style="stroke-width:0;"/>
+  <text x="693" y="107" font-size="17.5pt" stroke-width="2">1</text>
+  <rect x="685" y="122" fill="#fff" width="30" height="40" style="stroke-width:0;"/>
+  <text x="693" y="157" font-size="17.5pt" stroke-width="2">2</text>
+  <rect x="685" y="175" fill="#fff" width="30" height="40" style="stroke-width:0;"/>
+  <text x="693" y="210" font-size="17.5pt" stroke-width="2">3</text>
+</svg>

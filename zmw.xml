@@ -6,6 +6,7 @@
   <name>Zella-Mehlis West</name>
   <kuerzel>ZMW</kuerzel>
   <typ>Bf</typ>
+  <verwaltung>DR</verwaltung>
   <maszstab>120</maszstab>
   <modulnr>MaLan275</modulnr>
   <plan src="zmw.png" />

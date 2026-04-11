@@ -5,6 +5,7 @@
 	<name>Abzweig UBB</name>
 	<kuerzel>UBB</kuerzel>
 	<typ>Abzw</typ>
+	<verwaltung>DR</verwaltung>
 	<maszstab>120</maszstab>
 	<modulnr>UlHas420</modulnr>
 	<plan src="ubb.png" />

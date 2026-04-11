@@ -5,6 +5,7 @@
 	<name>Laabermoos</name>
 	<kuerzel>LAB</kuerzel>
 	<typ>Bf</typ>
+	<verwaltung>DB</verwaltung>
 	<maszstab>120</maszstab>
 	<modulnr>MiSie239</modulnr>
 	<plan src="lab.png" />

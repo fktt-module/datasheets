@@ -18,44 +18,44 @@
     <hgleise>
       <gleis id="gl5">
         <name>Strecke</name>
-        <laenge einheit="mm">1800</laenge>
+        <laenge>1800</laenge>
         <bemerkung>Strecke mit Anschlußweiche</bemerkung>
       </gleis>
     </hgleise>
     <ngleise>
       <gleis id="gleis_1">
         <name>1</name>
-        <laenge einheit="mm">700</laenge>
+        <laenge>700</laenge>
         <bemerkung>Aufstellgleis</bemerkung>
       </gleis>
       <gleis id="gleis_1a">
         <name>1a</name>
-        <laenge einheit="mm">260</laenge>
+        <laenge>260</laenge>
         <bemerkung>Abstellgleis</bemerkung>
       </gleis>
       <gleis id="gleis_1b">
         <name>1b</name>
-        <laenge einheit="mm">200</laenge>
+        <laenge>200</laenge>
         <bemerkung>Auszieh-, Sicherungsgleis</bemerkung>
       </gleis>
       <gleis id="gleis_2">
         <name>2</name>
-        <laenge einheit="mm">650</laenge>
+        <laenge>650</laenge>
         <bemerkung>Ladegleis</bemerkung>
       </gleis>
       <gleis id="gleis_2a">
         <name>2a</name>
-        <laenge einheit="mm">120</laenge>
+        <laenge>120</laenge>
         <bemerkung>Ausziehgleis</bemerkung>
       </gleis>
       <gleis id="gl3">
         <name>3</name>
-        <laenge einheit="mm">550</laenge>
+        <laenge>550</laenge>
         <bemerkung>Ladegleis</bemerkung>
       </gleis>
       <gleis id="gl4">
         <name>4</name>
-        <laenge einheit="mm">300</laenge>
+        <laenge>300</laenge>
         <bemerkung>Rampe, Freiladegleis</bemerkung>
       </gleis>
     </ngleise>
@@ -63,15 +63,15 @@
   <gv>
     <ladestelle id="Rampe" gleis="gl4">
       <name>Rampe</name>
-      <laenge einheit="mm">190</laenge>
+      <laenge>190</laenge>
     </ladestelle>
     <ladestelle id="Freiladebereich" gleis="gl4">
       <name>Freiladebereich</name>
-      <laenge einheit="mm">110</laenge>
+      <laenge>110</laenge>
     </ladestelle>
     <ladestelle id="Gro_kunden" gleis="gleis_2 gleis_1 gl3">
       <name>Großkunden</name>
-      <laenge einheit="mm">550</laenge>
+      <laenge>550</laenge>
     </ladestelle>
     <verlader>
       <name>Tagebau</name>
@@ -79,22 +79,22 @@
         <ladegut ladestelle="Freiladebereich">
           <name>Schmierstoffe</name>
           <gattung>Z</gattung>
-          <wagen zeitraum="woche">3</wagen>
+          <wagen>3</wagen>
         </ladegut>
         <ladegut ladestelle="Rampe Freiladebereich">
           <name>Ersatzteile, Verbrauchsmaterial</name>
           <gattung>G, R, S</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
         <ladegut ladestelle="Freiladebereich">
           <name>Heizstoffe</name>
           <gattung>Z, E, T</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
         <ladegut ladestelle="Gro_kunden Rampe Freiladebereich">
           <name>Baumaterial, Maschinen</name>
           <gattung>G, R, S, E</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
         <!--<ladegut ladestelle="halle1 halle2">
 					<name>Kleinteile für Wäschemangeln, Bügelmaschinen, Stoffballen, Schaltschränke, Diverse Frachten</name>
@@ -111,17 +111,17 @@
         <ladegut ladestelle="Freiladebereich">
           <name>Schmierstoffe, alt</name>
           <gattung>G, Z</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
         <ladegut ladestelle="Freiladebereich">
           <name>Asche</name>
           <gattung>T, U</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="Gro_kunden Rampe Freiladebereich">
           <name>Schrott</name>
           <gattung>R, E</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
         <!--<ladegut ladestelle="halle2">
 					<name>Wäschemangeln, Bügelmaschinen, Kabelrollen, Kleinteile, Stoffballen, Schaltschränke</name>
@@ -131,7 +131,7 @@
         <ladegut ladestelle="Gro_kunden">
           <name>Schüttgüter</name>
           <gattung>E, F, T</gattung>
-          <wagen zeitraum="woche">150</wagen>
+          <wagen>150</wagen>
         </ladegut>
       </versand>
     </verlader>

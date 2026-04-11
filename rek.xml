@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="./bahnhof.xsl" type="text/xsl"?>
+<!DOCTYPE bahnhof SYSTEM "./bahnhof.dtd">
+
+<bahnhof>
+  <name>Haltepunkt Rainerseck</name>
+  <kuerzel>REK</kuerzel>
+  <typ>Hp</typ>
+  <verwaltung>DR, DB</verwaltung>
+  <maszstab>120</maszstab>
+  <modulnr>RaBec321</modulnr>
+  <plan src="rek.png" />
+  <gleise>
+    <zulaufstrecken>
+      <links nr="1">1gl</links>
+      <rechts nr="1">1gl</rechts>
+    </zulaufstrecken>
+    <hgleise>
+      <gleis id="gleis_1">
+        <name>1</name>
+        <laenge>950</laenge>
+      </gleis>
+    </hgleise>
+  </gleise>
+  <pv>
+    <bahnsteig gleis="gleis_1">
+      <name>Haltepunkt</name>
+      <laenge>700</laenge>
+    </bahnsteig>
+    <bemerkung>Pendlerverkehr[br]Schülerverkehr</bemerkung>
+  </pv>
+</bahnhof>
+

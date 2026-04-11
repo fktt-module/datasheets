@@ -74,7 +74,7 @@
         <ladegut ladestelle="glager">
           <name>Getreide</name>
           <gattung>T</gattung>
-          <wagen zeitraum="woche">20</wagen>
+          <wagen>20</wagen>
         </ladegut>
       </versand>
     </verlader>
@@ -84,12 +84,12 @@
         <ladegut ladestelle="ladestr">
           <name>Kohle</name>
           <gattung>E, F</gattung>
-          <wagen zeitraum="woche">3.5</wagen>
+          <wagen>3.5</wagen>
         </ladegut>
         <ladegut ladestelle="ladestr">
           <name>Heizöl</name>
           <gattung>Z</gattung>
-          <wagen zeitraum="woche">3.5</wagen>
+          <wagen>3.5</wagen>
         </ladegut>
       </empfang>
     </verlader>
@@ -99,22 +99,22 @@
         <ladegut ladestelle="ladestr laderampe">
           <name>Kartoffeln lose</name>
           <gattung>O, E, G</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
         <ladegut ladestelle="ladestr laderampe">
-          <name>Kartoffeln gesackt</name>
+          <name>Kartoffeln, als Sackware</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="ladestr laderampe">
           <name>Obst aller Art</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="ladestr laderampe">
           <name>Gemüse aller Art</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
       </empfang>
     </verlader>
@@ -124,34 +124,34 @@
         <ladegut ladestelle="laderampe">
           <name>Blechdosen</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="laderampe">
           <name>Konservengläser</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="laderampe">
           <name>Kartonagen</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
       </empfang>
       <versand>
         <ladegut ladestelle="laderampe">
           <name>Obstkonserven</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="laderampe">
           <name>Gemüsekonserven</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="laderampe">
           <name>Trockengemüse</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">0.5</wagen>
+          <wagen>0.5</wagen>
         </ladegut>
       </versand>
     </verlader>

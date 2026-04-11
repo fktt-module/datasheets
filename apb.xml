@@ -5,6 +5,7 @@
 	<name>Hp. Apenburg mit "Jägerheim"</name>
 	<kuerzel>APB</kuerzel>
 	<typ>Hp</typ>
+	<verwaltung>DR</verwaltung>
 	<maszstab>120</maszstab>
 	<modulnr>JeBuc308</modulnr>
 	<plan src="apb.png"/>

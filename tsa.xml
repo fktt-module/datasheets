@@ -6,6 +6,7 @@
   <name>Torschau</name>
   <kuerzel>TSA</kuerzel>
   <typ>Bf</typ>
+  <verwaltung>DB</verwaltung>
   <maszstab>120</maszstab>
   <modulnr>ToSch9999</modulnr>
   <plan src="tsa.png" />
@@ -14,29 +15,29 @@
     <hgleise>
       <gleis id="gleis1">
         <name>1</name>
-        <laenge einheit="mm">2450.0</laenge>
+        <laenge>2450.0</laenge>
         <bemerkung>Bahnsteiggleis</bemerkung>
       </gleis>
       <gleis id="gleis2">
         <name>2</name>
-        <laenge einheit="mm">2430.0</laenge>
+        <laenge>2430.0</laenge>
         <bemerkung>Bahnsteiggleis</bemerkung>
       </gleis>
     </hgleise>
     <ngleise>
       <gleis id="gleis4a">
         <name>4a</name>
-        <laenge einheit="mm">400.0</laenge>
+        <laenge>400.0</laenge>
         <bemerkung>Güterschuppen nicht aktiv</bemerkung>
       </gleis>
       <gleis id="gleis5">
         <name>5</name>
-        <laenge einheit="mm">930.0</laenge>
+        <laenge>930.0</laenge>
         <bemerkung>Anschluss Baustoffhandel</bemerkung>
       </gleis>
       <gleis id="gleis4">
         <name>4</name>
-        <laenge einheit="mm">850.0</laenge>
+        <laenge>850.0</laenge>
         <bemerkung>Zufahrt Kleinlokschuppen</bemerkung>
       </gleis>
     </ngleise>
@@ -44,18 +45,18 @@
   <pv>
     <bahnsteig gleis="gleis1">
       <name>Hausbahnsteig</name>
-      <laenge einheit="mm">1200.0</laenge>
+      <laenge>1200.0</laenge>
     </bahnsteig>
     <bahnsteig gleis="gleis1 gleis2">
       <name>Inselbahnsteig</name>
-      <laenge einheit="mm">1900.0</laenge>
+      <laenge>1900.0</laenge>
     </bahnsteig>
     <bemerkung>Pendlerverkehr, Ausflugsverkehr / Sonderzüge</bemerkung>
   </pv>
   <gv>
     <ladestelle gleis="gleis5" id="ladestelle1">
       <name>Baustoffhandel</name>
-      <laenge einheit="mm">600.0</laenge>
+      <laenge>600.0</laenge>
     </ladestelle>
     <verlader>
       <name>Baustoffhandel Schulz</name>
@@ -63,32 +64,32 @@
         <ladegut ladestelle="ladestelle1">
           <name>Baumaschinen</name>
           <gattung>G,H,K,R,S</gattung>
-          <wagen zeitraum="woche">1.0</wagen>
+          <wagen>1.0</wagen>
         </ladegut>
         <ladegut ladestelle="ladestelle1">
-          <name>Zement in Säcken</name>
+          <name>Zement, als Sackware</name>
           <gattung>G,H</gattung>
-          <wagen zeitraum="woche">1.0</wagen>
+          <wagen>1.0</wagen>
         </ladegut>
         <ladegut ladestelle="ladestelle1">
-          <name>Isolier-und Installationsmaterial</name>
+          <name>Isoliermaterial, Installationsmaterial</name>
           <gattung>G,H</gattung>
-          <wagen zeitraum="woche">1.0</wagen>
+          <wagen>1.0</wagen>
         </ladegut>
         <ladegut ladestelle="ladestelle1">
           <name>Farben / Lacke</name>
           <gattung>G,H</gattung>
-          <wagen zeitraum="woche">1.0</wagen>
+          <wagen>1.0</wagen>
         </ladegut>
         <ladegut ladestelle="ladestelle1">
           <name>Dieselkraftstoff</name>
           <gattung>Z</gattung>
-          <wagen zeitraum="woche">1.0</wagen>
+          <wagen>1.0</wagen>
         </ladegut>
         <ladegut ladestelle="ladestelle1">
           <name>Sand, Kies, Schotter</name>
           <gattung>E, F, K, O, R</gattung>
-          <wagen zeitraum="woche">1.0</wagen>
+          <wagen>1.0</wagen>
         </ladegut>
       </empfang>
     </verlader>
@@ -96,4 +97,3 @@
   </gv>
   <bemerkung>Bahnhof rückgebaut, zwei Bahnsteige, Anschluss Baustoffhandel Schulz.</bemerkung>
 </bahnhof>
-

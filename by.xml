@@ -5,6 +5,7 @@
 	<name>Barby</name>
 	<kuerzel>BY</kuerzel>
 	<typ>Bf</typ>
+	<verwaltung>DR</verwaltung>
 	<maszstab>120</maszstab>
 	<modulnr>SvTar205</modulnr>
 	<plan src="by.png" />

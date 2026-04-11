@@ -5,6 +5,7 @@
 	<name>Leonardshafen</name>
 	<kuerzel>LHH</kuerzel>
 	<typ>Anst</typ>
+	<verwaltung>DB</verwaltung>
 	<maszstab>120</maszstab>
 	<modulnr>HeSch368</modulnr>
 	<plan src="lhh.png" />
@@ -84,12 +85,12 @@
 			<name>G.Ruch Chemische Erzeugnisse</name>
 			<empfang>
 				<ladegut ladestelle="ruch">
-					<name>Soda in Fässern</name>
+					<name>Soda, als Fassware</name>
 					<gattung>G, H</gattung>
 					<wagen>0.33</wagen>
 				</ladegut>
 				<ladegut ladestelle="ruch">
-					<name>Wachse in Fässern</name>
+					<name>Wachse, als Fassware</name>
 					<gattung>G, H</gattung>
 					<wagen>0.33</wagen>
 				</ladegut>
@@ -109,29 +110,29 @@
 					<wagen>0.33</wagen>
 				</ladegut>
 				<ladegut ladestelle="ruch">
-					<name>Tenside in Gebinden und Fässern</name>
+					<name>Tenside als Gebinde und Fassware</name>
 					<gattung>G, H</gattung>
 					<wagen>0.33</wagen>
 				</ladegut>
 			</empfang>
 			<versand>
 				<ladegut ladestelle="ruch">
-					<name>Polierwachs in Fässern und Gebinden</name>
+					<name>Polierwachs als Fassware und Gebinde</name>
 					<gattung>G, H</gattung>
 					<wagen>0.5</wagen>
 				</ladegut>
 				<ladegut ladestelle="ruch">
-					<name>Bodenreiniger in Fässern und Gebinden</name>
+					<name>Bodenreiniger als Fassware und Gebinde</name>
 					<gattung>G, H</gattung>
 					<wagen>0.5</wagen>
 				</ladegut>
 				<ladegut ladestelle="ruch">
-					<name>Maschinenreiniger in Fässern und Gebinden</name>
+					<name>Maschinenreiniger als Fassware und Gebinde</name>
 					<gattung>G, H</gattung>
 					<wagen>0.5</wagen>
 				</ladegut>
 				<ladegut ladestelle="ruch">
-					<name>Waschcreme in Fässern und Gebinden</name>
+					<name>Waschcreme als Fassware und Gebinde</name>
 					<gattung>G, H</gattung>
 					<wagen>0.5</wagen>
 				</ladegut>
@@ -141,7 +142,7 @@
 			<name>Armaturenfabrik Gebrüder Gutermuth</name>
 			<empfang>
 				<ladegut ladestelle="gutermuth">
-					<name>Chromsalze in Fässern</name>
+					<name>Chromsalze, als Fassware</name>
 					<gattung>G</gattung>
 					<wagen>1</wagen>
 				</ladegut>

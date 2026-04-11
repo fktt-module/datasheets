@@ -10,19 +10,22 @@
 	<xsl:variable name="filterStueckgut" select="'stueckgut'" />
 	<xsl:variable name="filterExpressgut" select="'expressgut'"/>
    <xsl:template match="/">
-      <html>
+	   <xsl:text disable-output-escaping="yes">&lt;!DOCTYPE html&gt;</xsl:text>
+      <html lang="cz">
 			<head>
 				<title><xsl:value-of select="bahnhof/name"/></title>
-				<meta http-equiv="Content-Style-Type" content="text/css" />
 				<link rel="stylesheet" type="text/css" href="bahnhof.css" />
 				<link rel="icon" href="data:," />
 			</head>
          <body>
             <xsl:for-each select="bahnhof">
                <table border="1">
+				  <tbody>
+				  <tr style="display:none;"><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
                   <tr>
-                     <td class="links" colspan="8">stanice: <span><xsl:value-of select="name"/></span></td>
+                     <td class="links" colspan="6">stanice: <span><xsl:value-of select="name"/></span></td>
                      <td class="links" colspan="2"><xsl:text disable-output-escaping="yes">zkratka: </xsl:text><span><xsl:value-of select="kuerzel"/></span></td>
+                     <td class="links" colspan="2"><xsl:text disable-output-escaping="yes">správa: </xsl:text><span><xsl:value-of select="verwaltung"/></span></td>
                   </tr>
                   <tr>
                      <td class="links" colspan="2">typ: <span><xsl:value-of select="typ"/></span></td>
@@ -40,6 +43,7 @@
                   <xsl:call-template name="caroutput"/>
                   <xsl:call-template name="leerzeile"/>
                   <xsl:apply-templates select="bemerkung"/>
+				  </tbody>
                </table>
             </xsl:for-each>
          </body>
@@ -159,7 +163,7 @@
       </xsl:choose>
    </xsl:template>
    <xsl:template match="plan">
-      <tr><td class="mitte" colspan="{$maxcols}"><img src="{@src}"></img></td></tr>
+      <tr><td class="mitte" colspan="{$maxcols}"><img src="{@src}" alt="Plán kolejí"></img></td></tr>
    </xsl:template>
    <xsl:template match="gleise">
       <tr>
@@ -225,7 +229,7 @@
          <td><xsl:text disable-output-escaping="yes">&#160;</xsl:text></td>
          <td class="mitte">kolej</td>
 			<td class="rechts"><xsl:text disable-output-escaping="yes">délka</xsl:text></td>
-			<td colspan="{$maxcols -3}" rowspan="{count(bahnsteig)+1}" class="mitte" valign="top">Poznámky k osobní dopravě:<br/>
+			<td colspan="{$maxcols -3}" rowspan="{count(bahnsteig)+1}" class="mitte oben">Poznámky k osobní dopravě:<br/>
 				<span class="m">
 						<xsl:call-template name="recurse_break">
 							<xsl:with-param name="idlist" select="bemerkung"/>
@@ -274,7 +278,7 @@
 			<td class="mitte">kolej</td>
          <td class="rechts"><xsl:text disable-output-escaping="yes">délka</xsl:text></td>
 			<td class="rechts"><xsl:text disable-output-escaping="yes">délka (náprav)</xsl:text></td>
-			<td colspan="{$maxcols -4}" rowspan="{count(ladestelle)+1}" class="mitte" valign="top">
+			<td colspan="{$maxcols -4}" rowspan="{count(ladestelle)+1}" class="mitte oben">
 			<xsl:text disable-output-escaping="yes">Poznámky k nákladní dopravě:</xsl:text>
 			<br/><span class="m">
 	      <xsl:call-template name="recurse_break">
@@ -366,7 +370,7 @@
 	         </xsl:call-template><!--</xsl:text>-->
 				</span>
 				</td>
-				<td nowrap="nowrap"><span class="m"><xsl:apply-templates select="wagen"/></span></td>
+				<td style="white-space: nowrap;"><span class="m"><xsl:apply-templates select="wagen"/></span></td>
 			</tr>
       </xsl:for-each>
    </xsl:template>

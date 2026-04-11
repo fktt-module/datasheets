@@ -27,265 +27,265 @@
     <hgleise>
       <gleis id="gleis1">
         <name>1</name>
-        <laenge einheit="mm">4000</laenge>
+        <laenge>4000</laenge>
         <bemerkung>Bahnsteiggleis - durchgehendes Hauptgleis der eingleisigen Hauptstrecke</bemerkung>
       </gleis>
       <gleis id="gleis2">
         <name>2</name>
-        <laenge einheit="mm">3300</laenge>
+        <laenge>3300</laenge>
         <bemerkung>Bahnsteiggleis - durchgehendes Hauptgleis der zweigleisigen Hauptstrecke - Fahrtrichtung rechts</bemerkung>
       </gleis>
       <gleis id="gleis3">
         <name>3</name>
-        <laenge einheit="mm">3200</laenge>
+        <laenge>3200</laenge>
         <bemerkung>Bahnsteiggleis - durchgehendes Hauptgleis der zweigleisigen Hauptstrecke - Fahrtrichtung links</bemerkung>
       </gleis>
       <gleis id="gleis4">
         <name>4</name>
-        <laenge einheit="mm">3200</laenge>
+        <laenge>3200</laenge>
         <bemerkung>Güterzuggleis - alle Richtungen</bemerkung>
       </gleis>
       <gleis id="gleis4a">
         <name>4a</name>
-        <laenge einheit="mm">450</laenge>
+        <laenge>450</laenge>
         <bemerkung>Güterzuggleis - kein Fahrweg zur Nebenstrecke (Gesamtnutzlänge 4 + 4a = 4100 mm)</bemerkung>
       </gleis>
       <gleis id="gleis5">
         <name>5</name>
-        <laenge einheit="mm">3600</laenge>
+        <laenge>3600</laenge>
         <bemerkung>Güterzuggleis - kein Fahrweg zur Nebenstrecke</bemerkung>
       </gleis>
       <gleis id="gleis_6">
         <name>6</name>
-        <laenge einheit="mm">3600</laenge>
+        <laenge>3600</laenge>
         <bemerkung>Güterzuggleis - kein Fahrweg zur Nebenstrecke</bemerkung>
       </gleis>
       <gleis id="gleis_8">
         <name>8</name>
-        <laenge einheit="mm">1800</laenge>
+        <laenge>1800</laenge>
         <bemerkung>Bahnsteiggleis - Stumpfgleis</bemerkung>
       </gleis>
       <gleis id="gleis10">
         <name>10</name>
-        <laenge einheit="mm">1500</laenge>
+        <laenge>1500</laenge>
         <bemerkung>Bahnsteiggleis - Stumpfgleis</bemerkung>
       </gleis>
       <gleis id="gleis11">
         <name>11</name>
-        <laenge einheit="mm">1500</laenge>
+        <laenge>1500</laenge>
         <bemerkung>Bahnsteiggleis - Stumpfgleis</bemerkung>
       </gleis>
     </hgleise>
     <ngleise>
       <gleis id="gleis3a">
         <name>3a</name>
-        <laenge einheit="mm">1300</laenge>
+        <laenge>1300</laenge>
         <bemerkung>Abstellgleis</bemerkung>
       </gleis>
       <gleis id="gleis_7">
         <name>7</name>
-        <laenge einheit="mm">750</laenge>
+        <laenge>750</laenge>
         <bemerkung>Abstellgleis</bemerkung>
       </gleis>
       <gleis id="gleis_9">
         <name>9</name>
-        <laenge einheit="mm">1200</laenge>
+        <laenge>1200</laenge>
         <bemerkung>Abstellgleis</bemerkung>
       </gleis>
       <gleis id="gleis_9a">
         <name>9a</name>
-        <laenge einheit="mm">1200</laenge>
+        <laenge>1200</laenge>
         <bemerkung>Abstellgleis/Ziehgleis</bemerkung>
       </gleis>
       <gleis id="gleis10a">
         <name>10a/10b</name>
-        <laenge einheit="mm">0</laenge>
+        <laenge>0</laenge>
         <bemerkung>Betriebsgleis (maximale Ausziehlänge in 10b = 380 mm)</bemerkung>
       </gleis>
       <gleis id="gleis12">
         <name>12</name>
-        <laenge einheit="mm">400</laenge>
+        <laenge>400</laenge>
         <bemerkung>Lokabstellgleis</bemerkung>
       </gleis>
       <gleis id="gleis13">
         <name>13</name>
-        <laenge einheit="mm">1300</laenge>
+        <laenge>1300</laenge>
         <bemerkung>Abstellgleis</bemerkung>
       </gleis>
       <gleis id="gleis14">
         <name>14</name>
-        <laenge einheit="mm">1300</laenge>
+        <laenge>1300</laenge>
         <bemerkung>Abstellgleis</bemerkung>
       </gleis>
       <gleis id="gleis_16">
         <name>16</name>
-        <laenge einheit="mm">0</laenge>
+        <laenge>0</laenge>
         <bemerkung>Betriebsgleis (Bergumfahrung)</bemerkung>
       </gleis>
       <!-- hier können noch mehr Gleise nach obigen Schema eingefügt werden -->
       <gleis id="gleis_17">
         <name>17</name>
-        <laenge einheit="mm">600</laenge>
+        <laenge>600</laenge>
         <bemerkung>Abstellgleis</bemerkung>
       </gleis>
       <gleis id="gleis_18">
         <name>18</name>
-        <laenge einheit="mm">2000</laenge>
+        <laenge>2000</laenge>
         <bemerkung>Richtungs-/Überlaufgleis</bemerkung>
       </gleis>
       <gleis id="gleis_19">
         <name>19</name>
-        <laenge einheit="mm">2500</laenge>
+        <laenge>2500</laenge>
         <bemerkung>Richtungsgleis</bemerkung>
       </gleis>
       <gleis id="gleis_20">
         <name>20</name>
-        <laenge einheit="mm">2500</laenge>
+        <laenge>2500</laenge>
         <bemerkung>Richtungsgleis</bemerkung>
       </gleis>
       <gleis id="gleis_21">
         <name>21</name>
-        <laenge einheit="mm">2200</laenge>
+        <laenge>2200</laenge>
         <bemerkung>Richtungsgleis</bemerkung>
       </gleis>
       <gleis id="gleis_22">
         <name>22</name>
-        <laenge einheit="mm">2500</laenge>
+        <laenge>2500</laenge>
         <bemerkung>Richtungsgleis</bemerkung>
       </gleis>
       <gleis id="gleis_23">
         <name>23</name>
-        <laenge einheit="mm">2800</laenge>
+        <laenge>2800</laenge>
         <bemerkung>Richtungsgleis</bemerkung>
       </gleis>
       <gleis id="gleis_24">
         <name>24</name>
-        <laenge einheit="mm">0</laenge>
+        <laenge>0</laenge>
         <bemerkung>Betriebsgleis</bemerkung>
       </gleis>
       <gleis id="gleis_24k">
         <name>24k</name>
-        <laenge einheit="mm">300</laenge>
+        <laenge>300</laenge>
         <bemerkung>Anschluß Kohlehandel / Gleitlagerwerk</bemerkung>
       </gleis>
       <gleis id="gleis_24m">
         <name>24m</name>
-        <laenge einheit="mm">300</laenge>
+        <laenge>300</laenge>
         <bemerkung>Anschluß Minol</bemerkung>
       </gleis>
       <gleis id="gleis_25">
         <name>25</name>
-        <laenge einheit="mm">2000</laenge>
+        <laenge>2000</laenge>
         <bemerkung>Abstellgleis</bemerkung>
       </gleis>
       <gleis id="gleis_26">
         <name>26</name>
-        <laenge einheit="mm">1000</laenge>
+        <laenge>1000</laenge>
         <bemerkung>Abstellgleis</bemerkung>
       </gleis>
       <gleis id="gleis_27">
         <name>27</name>
-        <laenge einheit="mm">0</laenge>
+        <laenge>0</laenge>
         <bemerkung>Betriebsgleis</bemerkung>
       </gleis>
       <gleis id="gleis_28">
         <name>28</name>
-        <laenge einheit="mm">0</laenge>
+        <laenge>0</laenge>
         <bemerkung>Betriebsgleis</bemerkung>
       </gleis>
       <gleis id="gleis_29">
         <name>29</name>
-        <laenge einheit="mm">600</laenge>
+        <laenge>600</laenge>
         <bemerkung>Wüst</bemerkung>
       </gleis>
       <gleis id="gleis_30">
         <name>30</name>
-        <laenge einheit="mm">2600</laenge>
+        <laenge>2600</laenge>
         <bemerkung>Ausziehgleis</bemerkung>
       </gleis>
       <gleis id="gleis_31">
         <name>31</name>
-        <laenge einheit="mm">1000</laenge>
+        <laenge>1000</laenge>
         <bemerkung>Ladestraße</bemerkung>
       </gleis>
       <gleis id="gleis_31a">
         <name>31a</name>
-        <laenge einheit="mm">1100</laenge>
+        <laenge>1100</laenge>
         <bemerkung>Abstellgleis</bemerkung>
       </gleis>
       <gleis id="gleis_32">
         <name>32</name>
-        <laenge einheit="mm">600</laenge>
+        <laenge>600</laenge>
         <bemerkung>Seitenrampe</bemerkung>
       </gleis>
       <gleis id="gleis_33">
         <name>33</name>
-        <laenge einheit="mm">300</laenge>
+        <laenge>300</laenge>
         <bemerkung>Kopframpe</bemerkung>
       </gleis>
       <gleis id="gleis_34">
         <name>34</name>
-        <laenge einheit="mm">700</laenge>
+        <laenge>700</laenge>
         <bemerkung>Güterboden</bemerkung>
       </gleis>
       <gleis id="gleis_35">
         <name>35</name>
-        <laenge einheit="mm">700</laenge>
+        <laenge>700</laenge>
         <bemerkung>Abstellgleis</bemerkung>
       </gleis>
       <gleis id="gleis_36">
         <name>36</name>
-        <laenge einheit="mm">0</laenge>
+        <laenge>0</laenge>
         <bemerkung>Betriebsgleis</bemerkung>
       </gleis>
       <gleis id="gleis_36a">
         <name>36a</name>
-        <laenge einheit="mm">300</laenge>
+        <laenge>300</laenge>
         <bemerkung>Abstellgleis</bemerkung>
       </gleis>
       <gleis id="gleis_37">
         <name>37</name>
-        <laenge einheit="mm">2000</laenge>
+        <laenge>2000</laenge>
         <bemerkung>Abstellgleis / Wüst</bemerkung>
       </gleis>
       <gleis id="gleis_38">
         <name>38</name>
-        <laenge einheit="mm">2000</laenge>
+        <laenge>2000</laenge>
         <bemerkung>Abstellgleis / Wüst</bemerkung>
       </gleis>
       <gleis id="gleis_M1">
         <name>M1</name>
-        <laenge einheit="mm">2100</laenge>
+        <laenge>2100</laenge>
         <bemerkung>Ölmühle Eingang (Ausgang Lg)</bemerkung>
       </gleis>
       <gleis id="gleis_M2">
         <name>M2</name>
-        <laenge einheit="mm">800</laenge>
+        <laenge>800</laenge>
         <bemerkung>Ölmühle Ausgang</bemerkung>
       </gleis>
       <gleis id="gleis_M3">
         <name>M3</name>
-        <laenge einheit="mm">300</laenge>
+        <laenge>300</laenge>
         <bemerkung>Ölmühle Freiladegleis</bemerkung>
       </gleis>
       <gleis id="gleis_M4">
         <name>M4</name>
-        <laenge einheit="mm">200</laenge>
+        <laenge>200</laenge>
         <bemerkung>Ölmühle Heizölentladung</bemerkung>
       </gleis>
       <gleis id="gleis_M5">
         <name>M5</name>
-        <laenge einheit="mm">600</laenge>
+        <laenge>600</laenge>
         <bemerkung>Ölmühle Getreideentladung / Ölschrotenverladung</bemerkung>
       </gleis>
       <gleis id="gleis_M6">
         <name>M6</name>
-        <laenge einheit="mm">500</laenge>
+        <laenge>500</laenge>
         <bemerkung>Ölmühle Rampe</bemerkung>
       </gleis>
       <gleis id="gleis_M7">
         <name>M7</name>
-        <laenge einheit="mm">200</laenge>
+        <laenge>200</laenge>
         <bemerkung>Ölmühle Kesselwagenverladung</bemerkung>
       </gleis>
     </ngleise>
@@ -293,27 +293,27 @@
   <pv>
     <bahnsteig gleis="gleis1">
       <name>1</name>
-      <laenge einheit="mm">2800</laenge>
+      <laenge>2800</laenge>
     </bahnsteig>
     <bahnsteig gleis="gleis2">
       <name>2</name>
-      <laenge einheit="mm">2800</laenge>
+      <laenge>2800</laenge>
     </bahnsteig>
     <bahnsteig gleis="gleis3">
       <name>3</name>
-      <laenge einheit="mm">2800</laenge>
+      <laenge>2800</laenge>
     </bahnsteig>
     <bahnsteig gleis="gleis10">
       <name>4</name>
-      <laenge einheit="mm">1200</laenge>
+      <laenge>1200</laenge>
     </bahnsteig>
     <bahnsteig gleis="gleis11">
       <name>5</name>
-      <laenge einheit="mm">1200</laenge>
+      <laenge>1200</laenge>
     </bahnsteig>
     <bahnsteig gleis="gleis_8">
       <name>6</name>
-      <laenge einheit="mm">1300</laenge>
+      <laenge>1300</laenge>
     </bahnsteig>
     <bemerkung>alle Verkehrsarten[br]kein Verkehrshalt von Ex und Ext</bemerkung>
   </pv>
@@ -321,76 +321,76 @@
     <!--                         -vvvvvvvvvvvvvvv- hier Gleis-IDs mit Leerzeichen getrennt eingeben! -->
     <ladestelle id="ladestrasse" gleis="gleis_31">
       <name>Ladestraße</name>
-      <laenge einheit="mm">1000</laenge>
+      <laenge>1000</laenge>
     </ladestelle>
     <!-- hier können noch mehr Ladestellen nach obigen Schema eingefügt werden -->
     <ladestelle id="Seitenrampe" gleis="gleis_32">
       <name>Seitenrampe</name>
-      <laenge einheit="mm">600</laenge>
+      <laenge>600</laenge>
     </ladestelle>
     <ladestelle id="Kopframpe" gleis="gleis_33">
       <name>Kopframpe</name>
-      <laenge einheit="mm">300</laenge>
+      <laenge>300</laenge>
     </ladestelle>
     <ladestelle id="G_terboden" gleis="gleis_34">
       <name>Güterboden</name>
-      <laenge einheit="mm">700</laenge>
+      <laenge>700</laenge>
     </ladestelle>
     <ladestelle id="Kohlehandel" gleis="gleis_24k">
       <name>Kohlehandel</name>
-      <laenge einheit="mm">300</laenge>
+      <laenge>300</laenge>
     </ladestelle>
     <ladestelle id="Minol" gleis="gleis_24m">
       <name>Minol</name>
-      <laenge einheit="mm">300</laenge>
+      <laenge>300</laenge>
     </ladestelle>
     <ladestelle id="_lm_hle_Freiladebereich" gleis="gleis_M3">
       <name>Ölmühle Freiladebereich</name>
-      <laenge einheit="mm">300</laenge>
+      <laenge>300</laenge>
     </ladestelle>
     <ladestelle id="_lm_hle_Heiz_lentladung" gleis="gleis_M4">
       <name>Ölmühle Heizölentladung</name>
-      <laenge einheit="mm">200</laenge>
+      <laenge>200</laenge>
     </ladestelle>
     <ladestelle id="_lm_hle_Getreideentladung" gleis="gleis_M5">
       <name>Ölmühle Getreideentladung</name>
-      <laenge einheit="mm">600</laenge>
+      <laenge>600</laenge>
     </ladestelle>
     <ladestelle id="_lm_hle_lschrotenverladung" gleis="gleis_M5">
       <name>Ölmühle Ölschrotenverladung</name>
-      <laenge einheit="mm">150</laenge>
+      <laenge>150</laenge>
     </ladestelle>
     <ladestelle id="_lm_hle_Rampe" gleis="gleis_M6">
       <name>Ölmühle Rampe</name>
-      <laenge einheit="mm">500</laenge>
+      <laenge>500</laenge>
     </ladestelle>
     <ladestelle id="_lm_hle_Kesselwagenverladung" gleis="gleis_M7">
       <name>Ölmühle Kesselwagenverladung</name>
-      <laenge einheit="mm">200</laenge>
+      <laenge>200</laenge>
     </ladestelle>
     <ladestelle id="Gleitlagerwerk" gleis="gleis_24k">
       <name>Gleitlagerwerk</name>
-      <laenge einheit="mm">200</laenge>
+      <laenge>200</laenge>
     </ladestelle>
     <verlader>
       <name>BM Knotitz</name>
       <empfang>
         <ladegut ladestelle="ladestrasse">
-          <name>Kleinteile (palettiert)</name>
+          <name>Kleinteile, als Palettenware</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="ladestrasse">
           <name>Schotter</name>
           <gattung>F</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
       </empfang>
       <versand>
         <ladegut ladestelle="ladestrasse">
           <name>Schrott</name>
           <gattung>E</gattung>
-          <wagen zeitraum="woche">0.5</wagen>
+          <wagen>0.5</wagen>
         </ladegut>
       </versand>
     </verlader>
@@ -401,29 +401,29 @@
         <ladegut ladestelle="ladestrasse">
           <name>Bretter</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">1.0</wagen>
+          <wagen>1.0</wagen>
         </ladegut>
         <ladegut ladestelle="ladestrasse">
           <name>Spanplatten</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">2.0</wagen>
+          <wagen>2.0</wagen>
         </ladegut>
         <ladegut ladestelle="G_terboden" typ="stueckgut">
           <name>Möbelbeschläge</name>
           <gattung>Stückgut</gattung>
-          <wagen zeitraum="woche">0.25</wagen>
+          <wagen>0.25</wagen>
         </ladegut>
         <ladegut ladestelle="G_terboden ladestrasse" typ="stueckgut">
           <name>Holzleim (Kanister)</name>
           <gattung>Stückgut, G</gattung>
-          <wagen zeitraum="woche">0.1</wagen>
+          <wagen>0.1</wagen>
         </ladegut>
       </empfang>
       <versand>
         <ladegut ladestelle="G_terboden ladestrasse" typ="stueckgut">
           <name>Kleinmöbel</name>
           <gattung>Stückgut, G</gattung>
-          <wagen zeitraum="woche">3.0</wagen>
+          <wagen>3.0</wagen>
         </ladegut>
       </versand>
     </verlader>
@@ -433,12 +433,12 @@
         <ladegut ladestelle="Kohlehandel">
           <name>Briketts</name>
           <gattung>E, F</gattung>
-          <wagen zeitraum="woche">8.0</wagen>
+          <wagen>8.0</wagen>
         </ladegut>
         <ladegut ladestelle="Kohlehandel">
           <name>Anfeuerholz</name>
           <gattung>E</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
       </empfang>
     </verlader>
@@ -448,29 +448,29 @@
         <ladegut ladestelle="G_terboden ladestrasse" typ="stueckgut">
           <name>Kupferdraht</name>
           <gattung>Stückgut,G</gattung>
-          <wagen zeitraum="woche">0.2</wagen>
+          <wagen>0.2</wagen>
         </ladegut>
         <ladegut ladestelle="ladestrasse">
           <name>Bleche, Profile</name>
           <gattung>G, E</gattung>
-          <wagen zeitraum="woche">1.0</wagen>
+          <wagen>1.0</wagen>
         </ladegut>
       </empfang>
       <versand>
         <ladegut ladestelle="ladestrasse">
           <name>Schaltschränke individuell</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">2.0</wagen>
+          <wagen>2.0</wagen>
         </ladegut>
         <ladegut ladestelle="G_terboden ladestrasse" typ="stueckgut">
           <name>Elektromotoren nach Kundenwunsch</name>
           <gattung>Stückgut, G</gattung>
-          <wagen zeitraum="woche">0.5</wagen>
+          <wagen>0.5</wagen>
         </ladegut>
         <ladegut ladestelle="G_terboden ladestrasse" typ="stueckgut">
           <name>Schaltelemente Ex-geschützt</name>
           <gattung>Stückgut, G</gattung>
-          <wagen zeitraum="woche">0.5</wagen>
+          <wagen>0.5</wagen>
         </ladegut>
       </versand>
     </verlader>
@@ -480,32 +480,32 @@
         <ladegut ladestelle="Kopframpe Seitenrampe ladestrasse">
           <name>Baumaschinen, Aggregate</name>
           <gattung>R, K, S</gattung>
-          <wagen zeitraum="woche">0.1</wagen>
+          <wagen>0.1</wagen>
         </ladegut>
         <ladegut ladestelle="ladestrasse">
           <name>Ziegel, Hohlblocksteine</name>
           <gattung>E</gattung>
-          <wagen zeitraum="woche">1.0</wagen>
+          <wagen>1.0</wagen>
         </ladegut>
         <ladegut ladestelle="Seitenrampe ladestrasse">
           <name>Fertigteile aus Beton und Stein</name>
           <gattung>E, R, K, G</gattung>
-          <wagen zeitraum="woche">2.0</wagen>
+          <wagen>2.0</wagen>
         </ladegut>
         <ladegut ladestelle="ladestrasse">
-          <name>Zement, Kalk (Sackware)</name>
+          <name>Zement, Kalk (als Sackware)</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">1.0</wagen>
+          <wagen>1.0</wagen>
         </ladegut>
         <ladegut ladestelle="ladestrasse">
           <name>Kies</name>
           <gattung>S</gattung>
-          <wagen zeitraum="woche">2.0</wagen>
+          <wagen>2.0</wagen>
         </ladegut>
         <ladegut ladestelle="ladestrasse">
           <name>Schalbretter, Balken</name>
           <gattung>E, K, R</gattung>
-          <wagen zeitraum="woche">0.2</wagen>
+          <wagen>0.2</wagen>
         </ladegut>
       </empfang>
     </verlader>
@@ -523,9 +523,9 @@
           <wagen zeitraum="tag">2.0</wagen>
         </ladegut>
         <ladegut ladestelle="ladestrasse">
-          <name>Brantwein (Faßware)</name>
+          <name>Branntwein, als Fassware</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">1.0</wagen>
+          <wagen>1.0</wagen>
         </ladegut>
         <ladegut ladestelle="ladestrasse">
           <name>leere Konservengläser</name>
@@ -535,22 +535,22 @@
         <ladegut ladestelle="ladestrasse">
           <name>leere Konservendosen</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">3.0</wagen>
+          <wagen>3.0</wagen>
         </ladegut>
         <ladegut ladestelle="ladestrasse">
-          <name>Zuckersirup (Faßware)</name>
+          <name>Zuckersirup, als Fassware</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">2.0</wagen>
+          <wagen>2.0</wagen>
         </ladegut>
         <ladegut ladestelle="ladestrasse">
-          <name>Stärke (Sackware)</name>
+          <name>Stärke, als Sackware</name>
           <gattung>G</gattung>
           <wagen zeitraum="tag">1.0</wagen>
         </ladegut>
         <ladegut ladestelle="ladestrasse">
           <name>Europaletten</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">1.0</wagen>
+          <wagen>1.0</wagen>
         </ladegut>
       </empfang>
       <versand>
@@ -572,34 +572,34 @@
         <ladegut ladestelle="Seitenrampe">
           <name>Stammholz</name>
           <gattung>E, R</gattung>
-          <wagen zeitraum="woche">4.0</wagen>
+          <wagen>4.0</wagen>
         </ladegut>
         <ladegut ladestelle="Seitenrampe">
           <name>Altpapier</name>
           <gattung>G, E</gattung>
-          <wagen zeitraum="woche">2.0</wagen>
+          <wagen>2.0</wagen>
         </ladegut>
         <ladegut ladestelle="Seitenrampe">
           <name>Kaolin</name>
           <gattung>E</gattung>
-          <wagen zeitraum="woche">1.0</wagen>
+          <wagen>1.0</wagen>
         </ladegut>
       </empfang>
       <versand>
         <ladegut ladestelle="G_terboden ladestrasse" typ="stueckgut">
           <name>Packpapier</name>
           <gattung>Stückgut, G</gattung>
-          <wagen zeitraum="woche">2.0</wagen>
+          <wagen>2.0</wagen>
         </ladegut>
         <ladegut ladestelle="G_terboden ladestrasse" typ="stueckgut">
           <name>Druckpapier</name>
           <gattung>Stückgut, G</gattung>
-          <wagen zeitraum="woche">2.0</wagen>
+          <wagen>2.0</wagen>
         </ladegut>
         <ladegut ladestelle="G_terboden" typ="stueckgut">
           <name>Schreibpapier (Stückgut)</name>
           <gattung>Stückgut</gattung>
-          <wagen zeitraum="woche">2.0</wagen>
+          <wagen>2.0</wagen>
         </ladegut>
       </versand>
     </verlader>
@@ -609,24 +609,24 @@
         <ladegut ladestelle="Seitenrampe ladestrasse">
           <name>Schlachtvieh</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">3.0</wagen>
+          <wagen>3.0</wagen>
         </ladegut>
         <ladegut ladestelle="ladestrasse">
           <name>leere Konservendosen</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">1.0</wagen>
+          <wagen>1.0</wagen>
         </ladegut>
         <ladegut ladestelle="ladestrasse">
           <name>leere Konservengläser</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">2.0</wagen>
+          <wagen>2.0</wagen>
         </ladegut>
       </empfang>
       <versand>
         <ladegut ladestelle="ladestrasse">
           <name>Fleischkonserven</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">2.0</wagen>
+          <wagen>2.0</wagen>
         </ladegut>
       </versand>
     </verlader>
@@ -634,36 +634,36 @@
       <name>VEB Gleitlagerwerk Osterwiek BT Knotitz</name>
       <empfang>
         <ladegut ladestelle="Gleitlagerwerk">
-          <name>Getriebeöl (Faßware)</name>
+          <name>Getriebeöl, als Fassware</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">1.0</wagen>
+          <wagen>1.0</wagen>
         </ladegut>
         <ladegut ladestelle="Gleitlagerwerk">
           <name>Getriebegehäuse</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">1.0</wagen>
+          <wagen>1.0</wagen>
         </ladegut>
         <ladegut ladestelle="Gleitlagerwerk" typ="stueckgut">
           <name>Wellen</name>
           <gattung>Stückgut</gattung>
-          <wagen zeitraum="woche">0.5</wagen>
+          <wagen>0.5</wagen>
         </ladegut>
         <ladegut ladestelle="Gleitlagerwerk" typ="stueckgut">
           <name>Zahnräder</name>
           <gattung>Stückgut</gattung>
-          <wagen zeitraum="woche">0.25</wagen>
+          <wagen>0.25</wagen>
         </ladegut>
         <ladegut ladestelle="Gleitlagerwerk" typ="stueckgut">
           <name>Blechteile</name>
           <gattung>Stückgut, G</gattung>
-          <wagen zeitraum="woche">1.0</wagen>
+          <wagen>1.0</wagen>
         </ladegut>
       </empfang>
       <versand>
         <ladegut ladestelle="Gleitlagerwerk" typ="stueckgut">
           <name>Getriebe</name>
           <gattung>Stückgut, G</gattung>
-          <wagen zeitraum="woche">2.0</wagen>
+          <wagen>2.0</wagen>
         </ladegut>
       </versand>
     </verlader>
@@ -673,19 +673,19 @@
         <ladegut ladestelle="Kopframpe">
           <name>Pkw</name>
           <gattung>Laaeqrss</gattung>
-          <wagen zeitraum="woche">5.0</wagen>
+          <wagen>5.0</wagen>
         </ladegut>
         <ladegut ladestelle="ladestrasse">
           <name>Ersatzteile</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">1.0</wagen>
+          <wagen>1.0</wagen>
         </ladegut>
       </empfang>
       <versand>
         <ladegut ladestelle="Kopframpe">
           <name>Pkw</name>
           <gattung>Laaeqrss</gattung>
-          <wagen zeitraum="woche">2.0</wagen>
+          <wagen>2.0</wagen>
         </ladegut>
       </versand>
     </verlader>
@@ -695,39 +695,39 @@
         <ladegut ladestelle="ladestrasse">
           <name>Feinstahlrohre</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">1.0</wagen>
+          <wagen>1.0</wagen>
         </ladegut>
         <ladegut ladestelle="G_terboden ladestrasse" typ="stueckgut">
           <name>Drahtrollen</name>
           <gattung>Stückgut, G</gattung>
-          <wagen zeitraum="woche">1.0</wagen>
+          <wagen>1.0</wagen>
         </ladegut>
         <ladegut ladestelle="ladestrasse">
           <name>Kunststoffgranulat</name>
           <gattung>U</gattung>
-          <wagen zeitraum="woche">1.0</wagen>
+          <wagen>1.0</wagen>
         </ladegut>
         <ladegut ladestelle="ladestrasse">
           <name>Stoffe</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">1.0</wagen>
+          <wagen>1.0</wagen>
         </ladegut>
         <ladegut ladestelle="G_terboden" typ="stueckgut">
           <name>Garn</name>
           <gattung>Stückgut</gattung>
-          <wagen zeitraum="woche">0.5</wagen>
+          <wagen>0.5</wagen>
         </ladegut>
       </empfang>
       <versand>
         <ladegut ladestelle="G_terboden ladestrasse" typ="stueckgut">
           <name>Kinderwagen</name>
           <gattung>Stückgut, G</gattung>
-          <wagen zeitraum="woche">2.5</wagen>
+          <wagen>2.5</wagen>
         </ladegut>
         <ladegut ladestelle="G_terboden ladestrasse" typ="stueckgut">
           <name>Puppenwagen</name>
           <gattung>Stückgut, G</gattung>
-          <wagen zeitraum="woche">1.25</wagen>
+          <wagen>1.25</wagen>
         </ladegut>
       </versand>
     </verlader>
@@ -737,22 +737,22 @@
         <ladegut ladestelle="ladestrasse">
           <name>Sand</name>
           <gattung>S, E</gattung>
-          <wagen zeitraum="woche">4.0</wagen>
+          <wagen>4.0</wagen>
         </ladegut>
         <ladegut ladestelle="ladestrasse">
           <name>Kies</name>
           <gattung>S, E</gattung>
-          <wagen zeitraum="woche">2.0</wagen>
+          <wagen>2.0</wagen>
         </ladegut>
         <ladegut ladestelle="ladestrasse">
           <name>Zement</name>
           <gattung>U</gattung>
-          <wagen zeitraum="woche">1.0</wagen>
+          <wagen>1.0</wagen>
         </ladegut>
         <ladegut ladestelle="ladestrasse">
-          <name>Zement (gesackt)</name>
+          <name>Zement, als Sackware</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">1.0</wagen>
+          <wagen>1.0</wagen>
         </ladegut>
       </empfang>
     </verlader>
@@ -767,7 +767,7 @@
         <ladegut ladestelle="Minol">
           <name>Benzin VK95</name>
           <gattung>Z</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
         <ladegut ladestelle="Minol">
           <name>Diesel</name>
@@ -797,79 +797,79 @@
         <ladegut ladestelle="_lm_hle_Freiladebereich">
           <name>Ersatzteile (Großteile)</name>
           <gattung>R, S</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="_lm_hle_Rampe">
           <name>Ersatzteile (Kleinteile)</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="_lm_hle_Rampe _lm_hle_Freiladebereich">
           <name>Paletten</name>
           <gattung>G, E</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
         <ladegut ladestelle="_lm_hle_Rampe _lm_hle_Freiladebereich">
           <name>Fässer</name>
           <gattung>G, E</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
         <ladegut ladestelle="_lm_hle_Rampe">
           <name>Flaschen</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">5</wagen>
+          <wagen>5</wagen>
         </ladegut>
         <ladegut ladestelle="_lm_hle_Rampe">
           <name>Kartonagen</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
         <ladegut ladestelle="_lm_hle_Rampe">
           <name>Verpackungspapier bedruckt</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
         <ladegut ladestelle="_lm_hle_Heiz_lentladung">
           <name>Heizöl S</name>
           <gattung>Z</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
       </empfang>
       <versand>
         <ladegut ladestelle="_lm_hle_Kesselwagenverladung">
           <name>Rapsöl (roh)</name>
           <gattung>Z</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
         <ladegut ladestelle="_lm_hle_Kesselwagenverladung">
           <name>Sonnenblumenöl (roh)</name>
           <gattung>Z</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="_lm_hle_Kesselwagenverladung">
           <name>sonstige Speiseöle (roh)</name>
           <gattung>Z</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
         <ladegut ladestelle="_lm_hle_Rampe">
           <name>Salatöl in Flaschen</name>
           <gattung>I</gattung>
-          <wagen zeitraum="woche">5</wagen>
+          <wagen>5</wagen>
         </ladegut>
         <ladegut ladestelle="_lm_hle_Rampe">
           <name>Salatöl in Kanistern</name>
           <gattung>I</gattung>
-          <wagen zeitraum="woche">4</wagen>
+          <wagen>4</wagen>
         </ladegut>
         <ladegut ladestelle="_lm_hle_Rampe">
           <name>Margarine</name>
           <gattung>I</gattung>
-          <wagen zeitraum="woche">5</wagen>
+          <wagen>5</wagen>
         </ladegut>
         <ladegut ladestelle="_lm_hle_lschrotenverladung">
           <name>Ölschroten/Futtermittel</name>
           <gattung>E</gattung>
-          <wagen zeitraum="woche">8</wagen>
+          <wagen>8</wagen>
         </ladegut>
       </versand>
     </verlader>

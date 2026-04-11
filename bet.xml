@@ -5,6 +5,7 @@
 	<name>Beetzendorf/Kleinbahn</name>
 	<kuerzel>BET</kuerzel>
 	<typ>Bf</typ>
+	<verwaltung>DR</verwaltung>
 	<maszstab>120</maszstab>
 	<modulnr>JeBuc215</modulnr>
 	<plan src="bet.gif"/>
@@ -68,11 +69,11 @@
 	<gv>
 		<ladestelle id="ladestrasse" gleis="freiladegleis">
 			<name>Ladestraße</name>
-			<laenge einheit="mm">400</laenge>
+			<laenge>400</laenge>
 		</ladestelle>
 		<ladestelle id="veab" gleis="anschluss">
 			<name>Getreidemühle/VEAB</name>
-			<laenge einheit="mm">300</laenge>
+			<laenge>300</laenge>
 		</ladestelle>
 		<ladestelle id="bw" gleis="loks">
 			<name>Tfz-Einsatzstelle</name>
@@ -84,14 +85,14 @@
 				<ladegut ladestelle="veab">
 					<name>Getreide</name>
 					<gattung>E, F, G, T</gattung>
-					<wagen zeitraum="woche">6</wagen>
+					<wagen>6</wagen>
 				</ladegut>
 			</empfang>
 			<versand>
 				<ladegut ladestelle="veab">
 					<name>Mehl</name>
 					<gattung>G, T</gattung>
-					<wagen zeitraum="woche">4</wagen>
+					<wagen>4</wagen>
 				</ladegut>
 			</versand>
 		</verlader>
@@ -101,7 +102,7 @@
 				<ladegut ladestelle="veab">
 					<name>Landwirtschaftliche Erzeugnisse</name>
 					<gattung>E, G</gattung>
-					<wagen zeitraum="woche">3</wagen>
+					<wagen>3</wagen>
 				</ladegut>
 			</versand>
 		</verlader>
@@ -111,7 +112,7 @@
 				<ladegut ladestelle="ladestrasse">
 					<name>SERO (Glas, Papier, Schrott)</name>
 					<gattung>E</gattung>
-					<wagen zeitraum="woche">1</wagen>
+					<wagen>1</wagen>
 				</ladegut>
 			</versand>
 		</verlader>
@@ -128,7 +129,7 @@
 				<ladegut ladestelle="bw">
 					<name>Schlacke</name>
 					<gattung>E</gattung>
-					<wagen zeitraum="woche">0.2</wagen>
+					<wagen>0.2</wagen>
 				</ladegut>
 			</versand>
 		</verlader>
@@ -138,7 +139,7 @@
 				<ladegut ladestelle="ladestrasse">
 					<name>Kartoffeln</name>
 					<gattung>E, G</gattung>
-					<wagen zeitraum="woche">4</wagen>
+					<wagen>4</wagen>
 				</ladegut>
 			</versand>
 		</verlader>
@@ -148,7 +149,7 @@
 				<ladegut ladestelle="ladestrasse">
 					<name>Dünger</name>
 					<gattung>T</gattung>
-					<wagen zeitraum="woche">1</wagen>
+					<wagen>1</wagen>
 				</ladegut>
 			</empfang>
 		</verlader>
@@ -156,14 +157,14 @@
 			<name>BHG Beetzendorf</name>
 			<empfang>
 				<ladegut ladestelle="ladestrasse">
-					<name>Zement (gesackt)</name>
+					<name>Zement, als Sackware</name>
 					<gattung>G</gattung>
-					<wagen zeitraum="woche">1</wagen>
+					<wagen>1</wagen>
 				</ladegut>
 				<ladegut ladestelle="ladestrasse">
-					<name>Baustoffe (Stückgut)</name>
+					<name>Baustoffe (als Stückgut)</name>
 					<gattung>E, G, K</gattung>
-					<wagen zeitraum="woche">2</wagen>
+					<wagen>2</wagen>
 				</ladegut>
 			</empfang>
 		</verlader>

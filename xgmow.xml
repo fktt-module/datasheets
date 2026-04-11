@@ -5,6 +5,7 @@
     <name>Giemolewo</name>
     <kuerzel>XGMOW</kuerzel>
     <typ>Bf</typ>
+    <verwaltung>CSD</verwaltung>
     <maszstab>120</maszstab>
     <modulnr>Grzegorz Molenda</modulnr>
     <plan src="xgmow.png"/>
@@ -56,7 +57,7 @@
         <bahnsteig gleis="gleis1 gleis3">
             <laenge einheit="cm">165</laenge>
         </bahnsteig>
-        <bemerkung></bemerkung>
+        <bemerkung/>
     </pv>
     <gv>
         <ladestelle id="lade1" gleis="gleis7">
@@ -78,57 +79,57 @@
         <verlader>
             <name>GS Giemolewo {BHG Giemolewo}</name>
             <empfang>
-                <ladegut ladestelle="lade1">
+                <ladegut ladestelle="lade1" typ="stueckgut">
                     <name>drobnica (wyroby gotowe) {Stückgut (Fertigwaren)}</name>
                     <gattung>G, H</gattung>
-                    <wagen zeitraum="woche">1</wagen>
+                    <wagen>1</wagen>
                 </ladegut>
                 <ladegut ladestelle="lade2">
                     <name>węgiel {Kohle}</name>
                     <gattung>E</gattung>
-                    <wagen zeitraum="woche">2</wagen>
+                    <wagen>2</wagen>
                 </ladegut>
                 <ladegut ladestelle="lade1 lade3">
-                    <name>pasze i nawozy {Futter- und Düngemittel}</name>
+                    <name>pasze i nawozy {Futtermittel, Düngemittel}</name>
                     <gattung>G, H</gattung>
-                    <wagen zeitraum="woche">1</wagen>
+                    <wagen>1</wagen>
                 </ladegut>
                 <ladegut ladestelle="lade3">
                     <name>maszyny rolnicze {Landmaschinen}</name>
                     <gattung>K, R, S</gattung>
-                    <wagen zeitraum="woche">2</wagen>
+                    <wagen>2</wagen>
                 </ladegut>
                 <ladegut ladestelle="lade1 lade3">
                     <name>produkty rolne (zboże, ziemniaki) {landwirtschaftliche Erzeugnisse (Getreide, Kartoffeln)}</name>
                     <gattung>G</gattung>
-                    <wagen zeitraum="woche">1</wagen>
+                    <wagen>1</wagen>
                 </ladegut>
             </empfang>
         </verlader>
         <verlader>
             <name>Fabryka mebli "Sosenka" {Möbelfabrik "Sosenka"}</name>
             <empfang>
-                <ladegut ladestelle="lade1">
+                <ladegut ladestelle="lade1" typ="stueckgut">
                     <name>drobnica (wyroby gotowe) {Stückgut (Fertigwaren)}</name>
                     <gattung>G, H</gattung>
-                    <wagen zeitraum="woche">1</wagen>
+                    <wagen>1</wagen>
                 </ladegut>
                 <ladegut ladestelle="lade2">
                     <name>drewno cięte {Schnittholz}</name>
                     <gattung>E, K, R, S</gattung>
-                    <wagen zeitraum="woche">1</wagen>
+                    <wagen>1</wagen>
                 </ladegut>
                 <ladegut ladestelle="lade2">
                     <name>węgiel {Kohle}</name>
                     <gattung>E</gattung>
-                    <wagen zeitraum="woche">1</wagen>
+                    <wagen>1</wagen>
                 </ladegut>
             </empfang>
             <versand>
                 <ladegut ladestelle="lade1">
                     <name>meble {Möbel}</name>
                     <gattung>G, H</gattung>
-                    <wagen zeitraum="woche">2</wagen>
+                    <wagen>2</wagen>
                 </ladegut>
             </versand>
         </verlader>
@@ -138,12 +139,12 @@
                 <ladegut ladestelle="lade2">
                     <name>dłużyca (kłody) {lange Bretter/Baumstämme}</name>
                     <gattung>K, R, S</gattung>
-                    <wagen zeitraum="woche">1</wagen>
+                    <wagen>1</wagen>
                 </ladegut>
                 <ladegut ladestelle="lade2">
                     <name>drewno (tarcica) {Holz}</name>
                     <gattung>E, K, R, S</gattung>
-                    <wagen zeitraum="woche">1</wagen>
+                    <wagen>1</wagen>
                 </ladegut>
             </versand>
         </verlader>
@@ -153,24 +154,24 @@
                 <ladegut ladestelle="lade3">
                     <name>kwasy {Säure}</name>
                     <gattung>Z</gattung>
-                    <wagen zeitraum="woche">1</wagen>
+                    <wagen>1</wagen>
                 </ladegut>
                 <ladegut ladestelle="lade3">
                     <name>wapno {Kalk}</name>
                     <gattung>T</gattung>
-                    <wagen zeitraum="woche">1</wagen>
+                    <wagen>1</wagen>
                 </ladegut>
                 <ladegut ladestelle="lade2 lade3">
                     <name>drób, trzoda chlewna, bydło {Geflügel, Schweine, Rinder}</name>
                     <gattung>H</gattung>
-                    <wagen zeitraum="woche">2</wagen>
+                    <wagen>2</wagen>
                 </ladegut>
             </empfang>
             <versand>
                 <ladegut ladestelle="lade1">
                     <name>mięso {Fleisch}</name>
                     <gattung>I</gattung>
-                    <wagen zeitraum="woche">2</wagen>
+                    <wagen>2</wagen>
                 </ladegut>
             </versand>
         </verlader>
@@ -180,7 +181,7 @@
                 <ladegut ladestelle="lade2">
                     <name>prefabrykaty betonowe {Betonfertigteile}</name>
                     <gattung>K, R</gattung>
-                    <wagen zeitraum="woche">1</wagen>
+                    <wagen>1</wagen>
                 </ladegut>
             </empfang>
         </verlader>
@@ -190,7 +191,7 @@
                 <ladegut ladestelle="lade2">
                     <name>wyroby betonowe (słupy energetyczne) {Betonprodukte (Strommasten)}</name>
                     <gattung>K, R</gattung>
-                    <wagen zeitraum="woche">1</wagen>
+                    <wagen>1</wagen>
                 </ladegut>
             </empfang>
         </verlader>
@@ -200,7 +201,7 @@
                 <ladegut ladestelle="lade3">
                     <name>samochody {Autos}</name>
                     <gattung>L, S, K, R</gattung>
-                    <wagen zeitraum="woche">2</wagen>
+                    <wagen>2</wagen>
                 </ladegut>
             </empfang>
         </verlader>
@@ -210,24 +211,24 @@
                 <ladegut ladestelle="lade4">
                     <name>gazy techniczne {Technische Gase}</name>
                     <gattung>G, H</gattung>
-                    <wagen zeitraum="woche">1</wagen>
+                    <wagen>1</wagen>
                 </ladegut>
                 <ladegut ladestelle="lade4">
                     <name>części zamienne do maszyn {Ersatzteile für Maschinen}</name>
                     <gattung>G, H</gattung>
-                    <wagen zeitraum="woche">1</wagen>
+                    <wagen>1</wagen>
                 </ladegut>
                 <ladegut ladestelle="lade4">
-                    <name>oleje i smary {Öle und Fette}</name>
+                    <name>oleje i smary {Öle, Fette}</name>
                     <gattung>G, H</gattung>
-                    <wagen zeitraum="woche">1</wagen>
+                    <wagen>1</wagen>
                 </ladegut>
             </empfang>
             <versand>
                 <ladegut ladestelle="lade4">
-                    <name>złom, materiały zużyte {Schrott und Abfälle}</name>
+                    <name>złom, materiały zużyte {Schrott, Abfälle}</name>
                     <gattung>E, G, H</gattung>
-                    <wagen zeitraum="woche">1</wagen>
+                    <wagen>1</wagen>
                 </ladegut>
             </versand>
         </verlader>

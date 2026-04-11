@@ -5,6 +5,7 @@
     <name>Týniste</name>
     <kuerzel>XTYN</kuerzel>
     <typ>Bf</typ>
+    <verwaltung>CSD</verwaltung>
     <maszstab>120</maszstab>
     <modulnr></modulnr>
     <!--<plan src="zb.png"/>-->
@@ -123,7 +124,7 @@
             <name>Armee</name>
             <empfang>
                 <ladegut ladestelle="lade4">
-                    <name>Rad- und Raupenfahrzeuge</name>
+                    <name>Radfahrzeuge, Raupenfahrzeuge</name>
                     <gattung>R</gattung>
                     <wagen></wagen>
                 </ladegut>
@@ -135,7 +136,7 @@
             </empfang>
             <versand>
                 <ladegut ladestelle="lade4">
-                    <name>Rad- und Raupenfahrzeuge</name>
+                    <name>Radfahrzeuge, Raupenfahrzeuge</name>
                     <gattung>R</gattung>
                     <wagen></wagen>
                 </ladegut>

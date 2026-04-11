@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="./bahnhof.xsl" type="text/xsl"?>
+<!DOCTYPE bahnhof SYSTEM "./bahnhof.dtd">
+
+<bahnhof>
+  <name>Anschluss Viehrampe</name>
+  <kuerzel>AVR</kuerzel>
+  <typ>Anst</typ>
+  <verwaltung>DR</verwaltung>
+  <maszstab>120</maszstab>
+  <modulnr>HaSan387</modulnr>
+  <plan src="avr.jpg" />
+  <gleise>
+    <zulaufstrecken>
+      <links nr="1">1gl</links>
+      <rechts nr="1">1gl</rechts>
+    </zulaufstrecken>
+    <hgleise>
+      <gleis id="gleis_Streckengleis">
+        <name>Streckengleis</name>
+        <laenge einheit="mm">900</laenge>
+      </gleis>
+    </hgleise>
+    <ngleise>
+      <gleis id="gleis_1">
+        <name>1</name>
+        <laenge einheit="mm">380</laenge>
+        <bemerkung>Laderampe</bemerkung>
+      </gleis>
+    </ngleise>
+  </gleise>
+  <gv>
+    <ladestelle id="Viehrampe" gleis="gleis_1">
+      <name>Viehrampe</name>
+      <laenge einheit="mm">150</laenge>
+    </ladestelle>
+    <ladestelle id="Kopf-_Seitenrampe" gleis="gleis_1">
+      <name>Kopf-/ Seitenrampe</name>
+      <laenge einheit="mm">80</laenge>
+    </ladestelle>
+    <verlader>
+      <name>LPG (T) Kuhfraß</name>
+      <empfang>
+        <ladegut ladestelle="Viehrampe" typ="normal">
+          <name>Zuchtbullen</name>
+          <gattung>G, H</gattung>
+          <wagen zeitraum="woche">0.5</wagen>
+        </ladegut>
+        <ladegut ladestelle="Kopf-_Seitenrampe" typ="normal">
+          <name>Ersatzteile</name>
+          <gattung>G, H, K</gattung>
+          <wagen zeitraum="woche">0.5</wagen>
+        </ladegut>
+        <ladegut ladestelle="Kopf-_Seitenrampe" typ="normal">
+          <name>Traktor</name>
+          <gattung>K, R</gattung>
+          <wagen zeitraum="woche">0.25</wagen>
+        </ladegut>
+        <ladegut ladestelle="Kopf-_Seitenrampe" typ="normal">
+          <name>Futterrüben</name>
+          <gattung>E</gattung>
+          <wagen zeitraum="woche">2</wagen>
+        </ladegut>
+        <ladegut ladestelle="Kopf-_Seitenrampe" typ="normal">
+          <name>Ohrmarkenrohlinge</name>
+          <gattung>G, H</gattung>
+          <wagen zeitraum="woche">0.25</wagen>
+        </ladegut>
+        <ladegut ladestelle="Kopf-_Seitenrampe" typ="normal">
+          <name>Heu</name>
+          <gattung>K</gattung>
+          <wagen zeitraum="woche">0.5</wagen>
+        </ladegut>
+        <ladegut ladestelle="Kopf-_Seitenrampe" typ="normal">
+          <name>Mastfutter</name>
+          <gattung>G, H, T</gattung>
+          <wagen zeitraum="woche">3</wagen>
+        </ladegut>
+      </empfang>
+      <versand>
+        <ladegut ladestelle="Viehrampe" typ="normal">
+          <name>Färsen</name>
+          <gattung>G, H</gattung>
+          <wagen zeitraum="woche">2</wagen>
+        </ladegut>
+        <ladegut ladestelle="Viehrampe" typ="normal">
+          <name>Zuchtbullen</name>
+          <gattung>G, H</gattung>
+          <wagen zeitraum="woche">1</wagen>
+        </ladegut>
+        <ladegut ladestelle="Kopf-_Seitenrampe" typ="normal">
+          <name>Traktor zur Reparatur</name>
+          <gattung>K, R</gattung>
+          <wagen zeitraum="woche">0.25</wagen>
+        </ladegut>
+        <ladegut ladestelle="Viehrampe" typ="normal">
+          <name>Schlachtrinder</name>
+          <gattung>G, H</gattung>
+          <wagen zeitraum="woche">3</wagen>
+        </ladegut>
+      </versand>
+    </verlader>
+    <verlader>
+      <name>LPG (P) Kuhfraß</name>
+      <empfang>
+        <ladegut ladestelle="Kopf-_Seitenrampe" typ="normal">
+          <name>Traktor, Landmaschine</name>
+          <gattung>K, R</gattung>
+          <wagen zeitraum="woche">0.25</wagen>
+        </ladegut>
+        <ladegut ladestelle="Kopf-_Seitenrampe" typ="normal">
+          <name>Saatgut</name>
+          <gattung>G, H, T</gattung>
+          <wagen zeitraum="woche">2</wagen>
+        </ladegut>
+        <ladegut ladestelle="Kopf-_Seitenrampe" typ="normal">
+          <name>Ersatzteile</name>
+          <gattung>G, H, K</gattung>
+          <wagen zeitraum="woche">0.5</wagen>
+        </ladegut>
+      </empfang>
+      <versand>
+        <ladegut ladestelle="Kopf-_Seitenrampe" typ="normal">
+          <name>Traktor zur Reparatur</name>
+          <gattung>K, R</gattung>
+          <wagen zeitraum="woche">0.25</wagen>
+        </ladegut>
+        <ladegut ladestelle="Kopf-_Seitenrampe" typ="normal">
+          <name>Saatgut</name>
+          <gattung>G, H</gattung>
+          <wagen zeitraum="woche">1</wagen>
+        </ladegut>
+      </versand>
+    </verlader>
+  </gv>
+  <bemerkung>Anschlussstelle ist mit Gleissperre gesichert</bemerkung>
+</bahnhof>
+

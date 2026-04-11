@@ -20,7 +20,7 @@
     <hgleise>
       <gleis>
         <name>Strecke</name>
-        <laenge einheit="mm" />
+        <laenge/>
       </gleis>
     </hgleise>
     <ngleise>
@@ -57,22 +57,22 @@
         <ladegut ladestelle="l1 l2">
           <name>Braunkohlebriketts</name>
           <gattung>E, F</gattung>
-          <wagen zeitraum="woche">5.0</wagen>
+          <wagen>5.0</wagen>
         </ladegut>
         <ladegut ladestelle="l1 l2">
           <name>Steinkohlebriketts</name>
           <gattung>F</gattung>
-          <wagen zeitraum="woche">1.0</wagen>
+          <wagen>1.0</wagen>
         </ladegut>
         <ladegut ladestelle="l1 l2">
           <name>Koks</name>
           <gattung>F, E</gattung>
-          <wagen zeitraum="woche">1.0</wagen>
+          <wagen>1.0</wagen>
         </ladegut>
         <ladegut ladestelle="l1 l2">
           <name>Heizöl</name>
           <gattung>Z</gattung>
-          <wagen zeitraum="woche">3.0</wagen>
+          <wagen>3.0</wagen>
         </ladegut>
         <!--<ladegut ladestelle="l2">
                <name>Wagendecken</name>
@@ -80,7 +80,7 @@
                <wagen zeitraum="tag">0.25</wagen>
             </ladegut>-->
         <ladegut ladestelle="l2 l1">
-          <name>Bündelbriketts palettiert</name>
+          <name>Bündelbriketts, als Palettenware</name>
           <gattung>G, H</gattung>
           <wagen>3.0</wagen>
         </ladegut>
@@ -89,7 +89,7 @@
         <ladegut ladestelle="l2 l1">
           <name>Leerwagen</name>
           <gattung>E, F, G, H,  Z</gattung>
-          <wagen zeitraum="woche">13.0</wagen>
+          <wagen>13.0</wagen>
         </ladegut>
         <!--            <ladegut ladestelle="">
                <name>Kohle</name>

@@ -5,6 +5,7 @@
 	<name>Blütenweiß</name>
 	<kuerzel>BLW</kuerzel>
 	<typ>Anst</typ>
+	<verwaltung>DR</verwaltung>
 	<maszstab>120</maszstab>
 	<modulnr>ReBuc359</modulnr>
     <plan src="blw.jpg"/>

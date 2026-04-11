@@ -5,6 +5,7 @@
     <name>Platerów</name>
     <kuerzel>XPLOW</kuerzel>
     <typ>Bf</typ>
+    <verwaltung>CSD</verwaltung>
     <maszstab>120</maszstab>
     <modulnr>Wojciech Krzyczkowski WoKrz001</modulnr>
     <plan src="xplow.png"/>
@@ -74,7 +75,7 @@
         <verlader>
             <name>GS Platerów {BHG Platerów}</name>
             <empfang>
-                <ladegut ladestelle="lade1">
+                <ladegut ladestelle="lade1" typ="stueckgut">
                     <name>drobnica (wyroby gotowe) {Stückgut (Fertigwaren)}</name>
                     <gattung>G, H</gattung>
                     <wagen zeitraum="woche">3</wagen>
@@ -85,7 +86,7 @@
                     <wagen zeitraum="woche">8</wagen>
                 </ladegut>
                 <ladegut ladestelle="lade1">
-                    <name>pasze i nawozy {Futter- und Düngemittel}</name>
+                    <name>pasze i nawozy {Futtermittel, Düngemittel}</name>
                     <gattung>G, H</gattung>
                     <wagen zeitraum="woche">3</wagen>
                 </ladegut>
@@ -99,7 +100,7 @@
         <verlader>
             <name>Fabryka prefabrykatów "Nad Bugiem" {Fertigbetonteilewerk "Nad Bugiem"}</name>
             <empfang>
-                <ladegut ladestelle="lade1">
+                <ladegut ladestelle="lade1" typ="stueckgut">
                     <name>drobnica (wyroby gotowe) {Stückgut (Fertigwaren)}</name>
                     <gattung>G, H</gattung>
                     <wagen zeitraum="woche">2</wagen>
@@ -147,14 +148,14 @@
                     <wagen zeitraum="woche">1</wagen>
                 </ladegut>
                 <ladegut ladestelle="lade2">
-                    <name>oleje i smary {Öle und Fette}</name>
+                    <name>oleje i smary {Öle, Fette}</name>
                     <gattung>G, H</gattung>
                     <wagen zeitraum="woche">1</wagen>
                 </ladegut>
             </empfang>
             <versand>
                 <ladegut ladestelle="lade2">
-                    <name>złom, materiały zużyte {Schrott und Abfälle}</name>
+                    <name>złom, materiały zużyte {Schrott, Abfälle}</name>
                     <gattung>E, G, H</gattung>
                     <wagen zeitraum="woche">1</wagen>
                 </ladegut>

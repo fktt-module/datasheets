@@ -5,6 +5,7 @@
     <name>Görzig</name>
     <kuerzel>GZG</kuerzel>
     <typ>Hst</typ>
+    <verwaltung>DB</verwaltung>
     <maszstab>120</maszstab>
     <modulnr>HaPeiXXX</modulnr>
     <plan src="gzg.png"/>

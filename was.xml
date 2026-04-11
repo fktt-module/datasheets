@@ -5,76 +5,77 @@
     <name>Wasungen</name>
     <kuerzel>WAS</kuerzel>
     <typ>Bf</typ>
+    <verwaltung>DR</verwaltung>
     <maszstab>120</maszstab>
     <modulnr>RoGro266</modulnr>
     <plan src="was.png" />
     <gleise>
         <zulaufstrecken>
-           <links nr="1">2</links>
-           <rechts nr="1">1</rechts>
+            <links nr="1">2</links>
+            <rechts nr="1">1</rechts>
         </zulaufstrecken>
         <hgleise>
-           <gleis id="G1">
-               <name>1</name>
-               <laenge einheit="mm">4200</laenge>
+            <gleis id="G1">
+                <name>1</name>
+                <laenge>4200</laenge>
                 <bemerkung>Durchgehendes Hauptgleis</bemerkung>
-           </gleis>
-           <gleis id="G2">
+            </gleis>
+            <gleis id="G2">
                 <name>2</name>
-                <laenge einheit="mm">4000</laenge>
+                <laenge>4000</laenge>
                 <bemerkung>Kreuzungsgleis</bemerkung>
             </gleis>
             <gleis id="G3">
                 <name>3</name>
-                <laenge einheit="mm">3600</laenge>
+                <laenge>3600</laenge>
                 <bemerkung>Güterzuggleis</bemerkung>
             </gleis>
         </hgleise>
         <ngleise>
-           <gleis id="G4">
-               <name>4</name>
-               <laenge einheit="mm">1560</laenge>
-               <bemerkung>Rangier,-Umfahrgleis mit Lademaß</bemerkung>
-           </gleis>
-           <gleis id="G5">
-               <name>5</name>
-               <laenge einheit="mm">580</laenge>
-               <bemerkung>Ladestraße 1</bemerkung>
-           </gleis>
-           <gleis id="G6">
+            <gleis id="G4">
+                <name>4</name>
+                <laenge>1560</laenge>
+                <bemerkung>Rangier,-Umfahrgleis mit Lademaß</bemerkung>
+            </gleis>
+            <gleis id="G5">
+                <name>5</name>
+                <laenge>580</laenge>
+                <bemerkung>Ladestraße 1</bemerkung>
+            </gleis>
+            <gleis id="G6">
                 <name>6</name>
-                <laenge einheit="mm">1550</laenge>
+                <laenge>1550</laenge>
                 <bemerkung>Holzverladerampe</bemerkung>
             </gleis>
             <gleis id="G7">
                 <name>7</name>
-                <laenge einheit="mm">620</laenge>
+                <laenge>620</laenge>
                 <bemerkung>Kopframpe</bemerkung>
             </gleis>
             <gleis id="G8">
                 <name>8</name>
-                <laenge einheit="mm">250</laenge>
+                <laenge>250</laenge>
                 <!--<bemerkung>Kleinlokschuppen Ep.III</bemerkung>-->
                 <bemerkung>Kl-Schuppen Bm Ep IV</bemerkung>
             </gleis>
             <gleis id="G9">
                 <name>9</name>
-                <laenge einheit="mm">800</laenge>
+                <laenge>800</laenge>
                 <bemerkung>Ausziehgleis</bemerkung>
             </gleis>
             <gleis id="G10a">
                 <name>10a (unten)</name>
-                <laenge einheit="mm">500</laenge>
+                <laenge>500</laenge>
                 <bemerkung>Ladestraße 2</bemerkung>
             </gleis>
             <gleis id="G10b">
                 <name>10b</name>
-                <laenge einheit="mm">350 (oben)</laenge>
+                <laenge>350 (oben)</laenge>
                 <bemerkung>Anschluß Dachpappenwerk</bemerkung>
             </gleis>
             <gleis id="G11">
                 <name>11</name>
-                <laenge einheit="mm">400</laenge>
+                <laenge>400</laenge>
                 <bemerkung>Güterschuppen</bemerkung>
             </gleis>
         </ngleise>
@@ -82,30 +83,30 @@
     <pv>
         <bahnsteig gleis="G1">
             <name>Bst.1</name>
-            <laenge einheit="mm">2100</laenge>
+            <laenge>2100</laenge>
         </bahnsteig>
         <bahnsteig gleis="G2">
             <name>Bst.2</name>
-            <laenge einheit="mm">2100</laenge>
+            <laenge>2100</laenge>
         </bahnsteig>
         <bemerkung>Berufs- und Schülerverkehr</bemerkung>
     </pv>
     <gv>
         <ladestelle id="L1" gleis="G5">
             <name>Ladestraße 1</name>
-            <laenge einheit="mm">500</laenge>
+            <laenge>500</laenge>
         </ladestelle>
         <ladestelle id="L2" gleis="G6">
             <name>Holzverladerampe</name>
-            <laenge einheit="mm">1400</laenge>
+            <laenge>1400</laenge>
         </ladestelle>
         <ladestelle id="L3" gleis="G7">
             <name>Kopframpe</name>
-            <laenge einheit="mm">200</laenge>
+            <laenge>200</laenge>
         </ladestelle>
         <ladestelle id="L4" gleis="G10a">
             <name>Ladestraße 2</name>
-            <laenge einheit="mm">350</laenge>
+            <laenge>350</laenge>
         </ladestelle>
         <ladestelle id="L5" gleis="G10b">
             <name>Anschluß Dachpappenwerk</name>
@@ -113,7 +114,7 @@
         </ladestelle>
         <ladestelle id="L6" gleis="G11">
             <name>Güterschuppen</name>
-            <laenge einheit="mm">250</laenge>
+            <laenge>250</laenge>
         </ladestelle>
         <verlader>
             <name>Forstamt Wasungen</name>
@@ -121,7 +122,7 @@
                 <ladegut ladestelle="L6">
                     <name>Werkzeuge</name>
                     <gattung>G</gattung>
-                    <wagen zeitraum="woche">0.25</wagen>
+                    <wagen>0.25</wagen>
                 </ladegut>
             </empfang>
             <versand>
@@ -131,7 +132,7 @@
                     <wagen zeitraum="tag">10</wagen>
                 </ladegut>
             </versand>
-         </verlader>
+        </verlader>
         <verlader>
             <name>VEB Kohlehandel Wasungen</name>
             <empfang>
@@ -222,7 +223,7 @@
                 <ladegut ladestelle="L1">
                     <name>Ersatzteile</name>
                     <gattung>G</gattung>
-                    <wagen zeitraum="woche">0.25</wagen>
+                    <wagen>0.25</wagen>
                 </ladegut>
             </empfang>
         </verlader>
@@ -242,7 +243,7 @@
                     <wagen zeitraum="tag">1.5</wagen>
                 </ladegut>
                 <ladegut ladestelle="L1">
-                    <name>Sägespäne gesackt</name>
+                    <name>Sägespäne, als Sackware</name>
                     <gattung>G</gattung>
                     <wagen zeitraum="tag">3</wagen>
                 </ladegut>
@@ -289,6 +290,6 @@
                     <wagen zeitraum="tag">1</wagen>
                 </ladegut>
             </versand>
-        </verlader>  
+        </verlader>
     </gv>
 </bahnhof>

@@ -9,7 +9,7 @@
   <verwaltung>DR</verwaltung>
   <maszstab>120</maszstab>
   <modulnr>HaSan377</modulnr>
-  <plan src="abm.jpeg" />
+  <plan src="abm.jpg" />
   <gleise>
     <zulaufstrecken>
       <links nr="1">1gl</links>
@@ -25,7 +25,7 @@
       <gleis id="gleis_1">
         <name>1</name>
         <laenge>320</laenge>
-        <bemerkung>Rampengleis Abfüllung und Freirampe</bemerkung>
+        <bemerkung>Rampengleis, Abfüllung und Freirampe</bemerkung>
       </gleis>
       <gleis id="gleis_WDS">
         <name>WDS</name>
@@ -35,7 +35,7 @@
       <gleis id="gleis_1a">
         <name>1a</name>
         <laenge>100</laenge>
-        <bemerkung>Getreideentladung</bemerkung>
+        <bemerkung>Getreide-Tiefbunker</bemerkung>
       </gleis>
       <gleis id="gleis_2">
         <name>2</name>
@@ -45,92 +45,92 @@
     </ngleise>
   </gleise>
   <gv>
+    <ladestelle id="Freirampe" gleis="gleis_1">
+      <name>Freirampe</name>
+      <laenge>250</laenge>
+    </ladestelle>
+    <ladestelle id="Getreide-Tiefbunker" gleis="gleis_1a">
+      <name>Getreide-Tiefbunker</name>
+      <laenge>100</laenge>
+    </ladestelle>
     <ladestelle id="K_hlhaus" gleis="gleis_2">
       <name>Kühlhaus</name>
       <laenge>150</laenge>
     </ladestelle>
-    <ladestelle id="Getreideentladung" gleis="gleis_1a">
-      <name>Getreideentladung</name>
-      <laenge>100</laenge>
-    </ladestelle>
-    <ladestelle id="Rampe" gleis="gleis_1">
-      <name>Rampe</name>
-      <laenge>250</laenge>
-    </ladestelle>
     <verlader>
       <name>Brauerei Mommelbräu</name>
       <empfang>
-        <ladegut ladestelle="Rampe">
+        <ladegut ladestelle="Freirampe">
           <name>Hefe</name>
+          <gattung>G, H</gattung>
+          <wagen>0.25</wagen>
+        </ladegut>
+        <ladegut ladestelle="Freirampe">
+          <name>Hopfen, als Sackware</name>
           <gattung>G, H</gattung>
           <wagen>1</wagen>
         </ladegut>
-        <ladegut ladestelle="Rampe">
-          <name>Hopfen, gesackt</name>
-          <gattung>G, H</gattung>
-          <wagen>2</wagen>
-        </ladegut>
-        <ladegut ladestelle="Rampe">
-          <name>Malz, gesackt</name>
-          <gattung>G, H</gattung>
-          <wagen>4</wagen>
-        </ladegut>
-        <ladegut ladestelle="Getreideentladung">
+        <ladegut ladestelle="Getreide-Tiefbunker">
           <name>Gerste</name>
           <gattung>G, T nur zweiachsig</gattung>
           <wagen>3</wagen>
         </ladegut>
-        <ladegut ladestelle="Rampe">
+        <ladegut ladestelle="Freirampe">
           <name>Leergut - Flaschen</name>
           <gattung>G, H</gattung>
-          <wagen>5</wagen>
+          <wagen>2</wagen>
         </ladegut>
-        <ladegut ladestelle="Rampe">
+        <ladegut ladestelle="Freirampe">
           <name>Leergut - Fässer</name>
           <gattung>G, H, E, K</gattung>
-          <wagen>5</wagen>
+          <wagen>2</wagen>
         </ladegut>
-        <ladegut ladestelle="Rampe">
+        <ladegut ladestelle="Freirampe">
           <name>Etiketten</name>
           <gattung>G, H</gattung>
-          <wagen>0.5</wagen>
+          <wagen>0.25</wagen>
         </ladegut>
-        <ladegut ladestelle="Rampe">
+        <ladegut ladestelle="Freirampe">
           <name>Klebstoff</name>
           <gattung>G, H, Z</gattung>
-          <wagen>0.5</wagen>
+          <wagen>0.25</wagen>
         </ladegut>
-        <ladegut ladestelle="Rampe">
+        <ladegut ladestelle="Freirampe">
           <name>Natronlauge</name>
           <gattung>Z</gattung>
-          <wagen>1</wagen>
+          <wagen>0.5</wagen>
         </ladegut>
-        <ladegut ladestelle="Rampe">
+        <ladegut ladestelle="Freirampe">
           <name>Maschinenteile</name>
-          <gattung>G, K</gattung>
-          <wagen>0.1</wagen>
+          <gattung>G, H, K</gattung>
+          <wagen>0.25</wagen>
         </ladegut>
-        <ladegut ladestelle="Rampe">
+        <ladegut ladestelle="Freirampe">
           <name>Paletten</name>
-          <gattung>G, E, K</gattung>
+          <gattung>G, H, E, K</gattung>
           <wagen>1</wagen>
         </ladegut>
-        <ladegut ladestelle="Rampe">
+        <ladegut ladestelle="Freirampe">
           <name>Feinblech für Kronkorken</name>
-          <gattung>G, K, T</gattung>
-          <wagen>1</wagen>
+          <gattung>G, H, K, T</gattung>
+          <wagen>0.5</wagen>
+        </ladegut>
+        <ladegut ladestelle="Freirampe">
+          <name>Malz, als Sackware</name>
+          <gattung>G, H</gattung>
+          <wagen>2</wagen>
         </ladegut>
       </empfang>
       <versand>
         <ladegut ladestelle="K_hlhaus">
-          <name>Bier</name>
+          <name>Bier, gekühlt</name>
           <gattung>I</gattung>
-          <wagen>7</wagen>
+          <wagen>5</wagen>
         </ladegut>
-        <ladegut ladestelle="Rampe">
+        <ladegut ladestelle="Freirampe K_hlhaus">
           <name>Fassbier</name>
           <gattung>G, H, I</gattung>
-          <wagen>10</wagen>
+          <wagen>5</wagen>
         </ladegut>
       </versand>
     </verlader>

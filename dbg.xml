@@ -5,6 +5,7 @@
 	<name>Dammbachsgrund</name>
 	<kuerzel>DBG</kuerzel>
 	<typ>Hp</typ>
+	<verwaltung>DR</verwaltung>
 	<maszstab>120</maszstab>
 	<modulnr>JuUhl310</modulnr>
 	<plan src="dbg.png"/>

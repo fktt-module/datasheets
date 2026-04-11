@@ -5,6 +5,7 @@
     <name>Žst. Rumburk</name>
     <kuerzel>XCS Pool</kuerzel>
     <typ>Bf</typ>
+    <verwaltung>CSD</verwaltung>
     <maszstab>120</maszstab>
     <modulnr></modulnr>
     <plan src="xRumburk.gif"/>

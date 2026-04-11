@@ -5,6 +5,7 @@
     <name>Žst. Svor</name>
     <kuerzel>XSVO</kuerzel>
     <typ>Bf</typ>
+    <verwaltung>CSD</verwaltung>
     <maszstab>120</maszstab>
     <modulnr>HCep036</modulnr>
     <plan src="xsvo.gif"/>

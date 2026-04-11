@@ -5,6 +5,7 @@
 	<name>Holzhandel Schubert</name>
 	<kuerzel>HHS</kuerzel>
 	<typ>Anst</typ>
+	<verwaltung>DB</verwaltung>
 	<maszstab>120</maszstab>
 	<modulnr>RiSch395</modulnr>
 	<plan src="hhs.png"/>

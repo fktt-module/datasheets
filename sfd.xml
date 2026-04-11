@@ -18,34 +18,34 @@
     <hgleise>
       <gleis id="gleis_1">
         <name>1</name>
-        <laenge einheit="mm">1270</laenge>
+        <laenge>1270</laenge>
         <bemerkung>Bahnsteig</bemerkung>
       </gleis>
       <gleis id="gleis_2">
         <name>2</name>
-        <laenge einheit="mm">970</laenge>
+        <laenge>970</laenge>
         <bemerkung>Bahnsteig</bemerkung>
       </gleis>
     </hgleise>
     <ngleise>
       <gleis id="gleis_3a">
         <name>3a</name>
-        <laenge einheit="mm">840</laenge>
+        <laenge>840</laenge>
         <bemerkung>Ladestrasse</bemerkung>
       </gleis>
       <gleis id="gleis_3b">
         <name>3b</name>
-        <laenge einheit="mm">360</laenge>
+        <laenge>360</laenge>
         <bemerkung>Ladestrasse</bemerkung>
       </gleis>
       <gleis id="gleis_4a">
         <name>4a</name>
-        <laenge einheit="mm">140</laenge>
+        <laenge>140</laenge>
         <bemerkung>Güterschuppen</bemerkung>
       </gleis>
       <gleis id="gleis_4b">
         <name>4b</name>
-        <laenge einheit="mm">380</laenge>
+        <laenge>380</laenge>
         <bemerkung>Seiten-, Holzladerampe</bemerkung>
       </gleis>
     </ngleise>
@@ -53,41 +53,41 @@
   <pv>
     <bahnsteig gleis="gleis_1">
       <name>Bahnsteig Bst.1</name>
-      <laenge einheit="mm">900</laenge>
+      <laenge>900</laenge>
     </bahnsteig>
     <bahnsteig gleis="gleis_2">
       <name>Bahnsteig Bst.2</name>
-      <laenge einheit="mm">950</laenge>
+      <laenge>950</laenge>
     </bahnsteig>
     <bemerkung>Berufs-,Schüler- und Urlauberverkehr</bemerkung>
   </pv>
   <gv>
     <ladestelle id="Ladestrasse_3a" gleis="gleis_3a">
       <name>Ladestrasse 3a</name>
-      <laenge einheit="mm">840</laenge>
+      <laenge>840</laenge>
     </ladestelle>
     <ladestelle id="Ladestrasse_3b" gleis="gleis_3b">
       <name>Ladestrasse 3b</name>
-      <laenge einheit="mm">360</laenge>
+      <laenge>360</laenge>
     </ladestelle>
     <ladestelle id="G_terschuppen_4a" gleis="gleis_4a">
       <name>Güterschuppen 4a</name>
-      <laenge einheit="mm">140</laenge>
+      <laenge>140</laenge>
     </ladestelle>
     <ladestelle id="Seiten-_Holzladerampe_4b" gleis="gleis_4b">
       <name>Seiten-, Holzladerampe 4b</name>
-      <laenge einheit="mm">380</laenge>
+      <laenge>380</laenge>
     </ladestelle>
     <verlader>
       <name>Brauerei Schmiedefeld</name>
       <empfang>
         <ladegut ladestelle="G_terschuppen_4a">
-          <name>Malz, gesackt</name>
+          <name>Malz, als Sackware</name>
           <gattung>G</gattung>
           <wagen zeitraum="tag">0.25</wagen>
         </ladegut>
         <ladegut ladestelle="G_terschuppen_4a">
-          <name>Hopfen gesackt</name>
+          <name>Hopfen, als Sackware</name>
           <gattung>G</gattung>
           <wagen zeitraum="tag">0.25</wagen>
         </ladegut>
@@ -99,7 +99,7 @@
         <ladegut ladestelle="Ladestrasse_3b">
           <name>Gerste</name>
           <gattung>T</gattung>
-          <wagen zeitraum="woche">0.5</wagen>
+          <wagen>0.5</wagen>
         </ladegut>
       </empfang>
       <versand>
@@ -121,22 +121,22 @@
         <ladegut ladestelle="Ladestrasse_3a">
           <name>Soda</name>
           <gattung>U</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestrasse_3a">
           <name>Dolomit</name>
           <gattung>U</gattung>
-          <wagen zeitraum="woche">0.5</wagen>
+          <wagen>0.5</wagen>
         </ladegut>
         <ladegut ladestelle="Seiten-_Holzladerampe_4b">
           <name>Karton</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="Seiten-_Holzladerampe_4b">
           <name>Holzwolle</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">0.5</wagen>
+          <wagen>0.5</wagen>
         </ladegut>
       </empfang>
       <versand>
@@ -156,7 +156,7 @@
           <wagen zeitraum="tag">0.5</wagen>
         </ladegut>
         <ladegut ladestelle="G_terschuppen_4a">
-          <name>Braunkohlebriketts gesackt</name>
+          <name>Braunkohlebriketts, als Sackware</name>
           <gattung>G</gattung>
           <wagen zeitraum="tag">0.5</wagen>
         </ladegut>

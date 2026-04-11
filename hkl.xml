@@ -5,6 +5,7 @@
    <name>Hermsdorf-Klosterlausnitz</name>
    <kuerzel>HKL</kuerzel>
    <typ>Bf</typ>
+   <verwaltung>DR</verwaltung>
    <maszstab>120</maszstab>
    <modulnr>GuRol233</modulnr>
    <plan src="hkl.png"/>
@@ -150,7 +151,7 @@
             <ladegut ladestelle="Lad2">
                <name>Sägespäne</name>
                <gattung>E, F, T, G</gattung>
-               <wagen zeitraum="woche">3</wagen>
+               <wagen>3</wagen>
             </ladegut>
          </versand>
       </verlader>
@@ -160,12 +161,12 @@
             <ladegut ladestelle="Lad4">
                <name>Kalisalze</name>
                <gattung>E, F, T</gattung>
-               <wagen zeitraum="woche">3</wagen>
+               <wagen>3</wagen>
             </ladegut>
             <ladegut ladestelle="Lad4">
                <name>Kalk</name>
                <gattung>E, F, T</gattung>
-               <wagen zeitraum="woche">2</wagen>
+               <wagen>2</wagen>
             </ladegut>
          </empfang>
       </verlader>
@@ -175,22 +176,22 @@
             <ladegut ladestelle="Lad1">
                <name>Holzleitern</name>
                <gattung>G, H</gattung>
-               <wagen zeitraum="woche">1</wagen>
+               <wagen>1</wagen>
             </ladegut>
             <ladegut ladestelle="Lad1">
                <name>Holzgerüste</name>
                <gattung>G, H, E</gattung>
-               <wagen zeitraum="woche">1</wagen>
+               <wagen>1</wagen>
             </ladegut>
             <ladegut ladestelle="Lad1">
                <name>Futterraufen</name>
                <gattung>G, H, E</gattung>
-               <wagen zeitraum="woche">1</wagen>
+               <wagen>1</wagen>
             </ladegut>
             <ladegut ladestelle="Lad1">
                <name>Europaletten</name>
                <gattung>G, H, E</gattung>
-               <wagen zeitraum="woche">1</wagen>
+               <wagen>1</wagen>
             </ladegut>
          </versand>
       </verlader>
@@ -200,29 +201,29 @@
             <ladegut ladestelle="Lad2">
                <name>Ton</name>
                <gattung>E, F</gattung>
-               <wagen zeitraum="woche">2</wagen>
+               <wagen>2</wagen>
             </ladegut>
             <ladegut ladestelle="Lad1">
                <name>Farbpulver</name>
                <gattung>G, H</gattung>
-               <wagen zeitraum="woche">1</wagen>
+               <wagen>1</wagen>
             </ladegut>
             <ladegut ladestelle="Lad2">
                <name>Kohlen</name>
                <gattung>E, F</gattung>
-               <wagen zeitraum="woche">3</wagen>
+               <wagen>3</wagen>
             </ladegut>
          </empfang>
          <versand>
             <ladegut ladestelle="Lad1">
                <name>Keramikgefäße</name>
                <gattung>G, H</gattung>
-               <wagen zeitraum="woche">3</wagen>
+               <wagen>3</wagen>
             </ladegut>
             <ladegut ladestelle="Lad1">
                <name>Geschirr</name>
                <gattung>G, H</gattung>
-               <wagen zeitraum="woche">3</wagen>
+               <wagen>3</wagen>
             </ladegut>
          </versand>
       </verlader>
@@ -232,14 +233,14 @@
             <ladegut ladestelle="Lad2">
                <name>Moor in Fäßern (Ep IV)</name>
                <gattung>G, H</gattung>
-               <wagen zeitraum="woche">2</wagen>
+               <wagen>2</wagen>
             </ladegut>
          </empfang>
          <versand>
             <ladegut ladestelle="Lad2">
                <name>Moor in Fäßern (Ep III)</name>
                <gattung>G, H</gattung>
-               <wagen zeitraum="woche">2</wagen>
+               <wagen>2</wagen>
             </ladegut>
          </versand>
       </verlader>
@@ -249,19 +250,19 @@
             <ladegut ladestelle="Lad3">
                <name>KFZ Technik</name>
                <gattung>K, R, S</gattung>
-               <wagen zeitraum="woche">3</wagen>
+               <wagen>3</wagen>
             </ladegut>
             <ladegut ladestelle="Lad2">
                <name>Baumaterial</name>
                <gattung>E, K, R, S</gattung>
-               <wagen zeitraum="woche">1</wagen>
+               <wagen>1</wagen>
             </ladegut>
          </empfang>
          <versand>
             <ladegut ladestelle="Lad3">
                <name>KFZ Technik</name>
                <gattung>K, R, S</gattung>
-               <wagen zeitraum="woche">3</wagen>
+               <wagen>3</wagen>
             </ladegut>
          </versand>
       </verlader>
@@ -271,24 +272,24 @@
             <ladegut ladestelle="Lad3">
                <name>Forstwirtschaftstechnik</name>
                <gattung>K, R, S</gattung>
-               <wagen zeitraum="woche">1</wagen>
+               <wagen>1</wagen>
             </ladegut>
             <ladegut ladestelle="Lad2">
                <name>Leerfässer</name>
                <gattung>G, H, E</gattung>
-               <wagen zeitraum="woche">2</wagen>
+               <wagen>2</wagen>
             </ladegut>
          </empfang>
          <versand>
             <ladegut ladestelle="Lad2">
                <name>Baumstämme</name>
                <gattung>E, K, R</gattung>
-               <wagen zeitraum="woche">3</wagen>
+               <wagen>3</wagen>
             </ladegut>
             <ladegut ladestelle="Lad2">
-               <name>Harz in Fässern</name>
+               <name>Harz, als Fassware</name>
                <gattung>G, H, E</gattung>
-               <wagen zeitraum="woche">3</wagen>
+               <wagen>3</wagen>
             </ladegut>
          </versand>
       </verlader>
@@ -296,29 +297,29 @@
          <name>BHG Hermsdorf</name>
          <empfang>
             <ladegut ladestelle="Lad2">
-               <name>Zement, gesackt</name>
+               <name>Zement, als Sackware</name>
                <gattung>G, H</gattung>
-               <wagen zeitraum="woche">2</wagen>
+               <wagen>2</wagen>
             </ladegut>
             <ladegut ladestelle="Lad2">
                <name>Betonfertigteile</name>
                <gattung>K, R, S</gattung>
-               <wagen zeitraum="woche">2</wagen>
+               <wagen>2</wagen>
             </ladegut>
             <ladegut ladestelle="Lad2">
                <name>Dachpappe</name>
                <gattung>G, H, E</gattung>
-               <wagen zeitraum="woche">1</wagen>
+               <wagen>1</wagen>
             </ladegut>
             <ladegut ladestelle="Lad2">
                <name>Dachziegel</name>
                <gattung>E, K, R</gattung>
-               <wagen zeitraum="woche">2</wagen>
+               <wagen>2</wagen>
             </ladegut>
             <ladegut ladestelle="Lad2">
                <name>Ziegelsteine</name>
                <gattung>E, K, R, S</gattung>
-               <wagen zeitraum="woche">3</wagen>
+               <wagen>3</wagen>
             </ladegut>
          </empfang>
       </verlader>
@@ -338,32 +339,32 @@
             <ladegut ladestelle="Lad5">
                <name>Stahl</name>
                <gattung>E, K, R, S</gattung>
-               <wagen zeitraum="woche">1</wagen>
+               <wagen>1</wagen>
             </ladegut>
             <ladegut ladestelle="Lad5">
                <name>Bleche</name>
                <gattung>E, K, R, S</gattung>
-               <wagen zeitraum="woche">1</wagen>
+               <wagen>1</wagen>
             </ladegut>
             <ladegut ladestelle="Lad5">
                <name>Schnittholz</name>
                <gattung>E, K, R</gattung>
-               <wagen zeitraum="woche">2</wagen>
+               <wagen>2</wagen>
             </ladegut>
             <ladegut ladestelle="Lad5">
                <name>Kartonagen</name>
                <gattung>G, H</gattung>
-               <wagen zeitraum="woche">2</wagen>
+               <wagen>2</wagen>
             </ladegut>
             <ladegut ladestelle="Lad5">
                <name>Halbzeuge</name>
                <gattung>G, H</gattung>
-               <wagen zeitraum="woche">2</wagen>
+               <wagen>2</wagen>
             </ladegut>
             <ladegut ladestelle="Lad5">
                <name>Kohlen</name>
                <gattung>E, F</gattung>
-               <wagen zeitraum="woche">5</wagen>
+               <wagen>5</wagen>
             </ladegut>
          </empfang>
          <versand>
@@ -375,12 +376,12 @@
             <ladegut ladestelle="Lad6">
                <name>Konsumgüter</name>
                <gattung>G, H</gattung>
-               <wagen zeitraum="woche">2</wagen>
+               <wagen>2</wagen>
             </ladegut>
             <ladegut ladestelle="Lad6" typ="stueckgut">
                <name>Stückgüter</name>
                <gattung>G, H</gattung>
-               <wagen zeitraum="woche">2</wagen>
+               <wagen>2</wagen>
             </ladegut>
          </versand>
       </verlader>

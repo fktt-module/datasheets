@@ -19,84 +19,84 @@
     <hgleise>
       <gleis id="gleis_1">
         <name>1</name>
-        <laenge einheit="mm">3980</laenge>
+        <laenge>3980</laenge>
         <bemerkung>Bahnsteig und Ladestraße</bemerkung>
       </gleis>
       <gleis id="gleis_2">
         <name>2</name>
-        <laenge einheit="mm">3830</laenge>
+        <laenge>3830</laenge>
         <bemerkung>Bahnsteiggleis</bemerkung>
       </gleis>
       <gleis id="gleis_3">
         <name>3</name>
-        <laenge einheit="mm">3650</laenge>
+        <laenge>3650</laenge>
         <bemerkung>Bahnsteiggleis</bemerkung>
       </gleis>
       <gleis id="gleis_4">
         <name>4</name>
-        <laenge einheit="mm">3530</laenge>
+        <laenge>3530</laenge>
         <bemerkung>Durchfahrtsgleis</bemerkung>
       </gleis>
       <gleis id="gleis_5">
         <name>5</name>
-        <laenge einheit="mm">3630</laenge>
+        <laenge>3630</laenge>
         <bemerkung>Bahnsteiggleis</bemerkung>
       </gleis>
       <gleis id="gleis_6">
         <name>6</name>
-        <laenge einheit="mm">4160</laenge>
+        <laenge>4160</laenge>
         <bemerkung>Bahnsteiggleis</bemerkung>
       </gleis>
     </hgleise>
     <ngleise>
       <gleis id="gleis_7">
         <name>7</name>
-        <laenge einheit="mm">620</laenge>
+        <laenge>620</laenge>
         <bemerkung>Bekohlung</bemerkung>
       </gleis>
       <gleis id="gleis_8">
         <name>8</name>
-        <laenge einheit="mm">800</laenge>
+        <laenge>800</laenge>
         <bemerkung>Ein-/Ausfahrt BW</bemerkung>
       </gleis>
       <gleis id="gleis_9">
         <name>9</name>
-        <laenge einheit="mm">890</laenge>
+        <laenge>890</laenge>
         <bemerkung>Tankstelle und Ein-/Ausfahrt BW</bemerkung>
       </gleis>
       <gleis id="gleis_10">
         <name>10</name>
-        <laenge einheit="mm">320</laenge>
+        <laenge>320</laenge>
         <bemerkung>neben Lokschuppen</bemerkung>
       </gleis>
       <gleis id="gleis_11">
         <name>11</name>
-        <laenge einheit="mm">310</laenge>
+        <laenge>310</laenge>
         <bemerkung>neben Lokschuppen</bemerkung>
       </gleis>
       <gleis id="gleis_12">
         <name>12</name>
-        <laenge einheit="mm">310</laenge>
+        <laenge>310</laenge>
         <bemerkung>Lokschuppen</bemerkung>
       </gleis>
       <gleis id="gleis_13">
         <name>13</name>
-        <laenge einheit="mm">310</laenge>
+        <laenge>310</laenge>
         <bemerkung>Lokschuppen</bemerkung>
       </gleis>
       <gleis id="gleis_14">
         <name>14</name>
-        <laenge einheit="mm">310</laenge>
+        <laenge>310</laenge>
         <bemerkung>Lokschuppen</bemerkung>
       </gleis>
       <gleis id="gleis_15">
         <name>15</name>
-        <laenge einheit="mm">310</laenge>
+        <laenge>310</laenge>
         <bemerkung>neben Lokschuppen</bemerkung>
       </gleis>
       <gleis id="gleis_16">
         <name>16</name>
-        <laenge einheit="mm">320</laenge>
+        <laenge>320</laenge>
         <bemerkung>neben Lokschuppen</bemerkung>
       </gleis>
     </ngleise>
@@ -104,38 +104,38 @@
   <pv>
     <bahnsteig gleis="gleis_1">
       <name>1</name>
-      <laenge einheit="mm">1480</laenge>
+      <laenge>1480</laenge>
     </bahnsteig>
     <bahnsteig gleis="gleis_2">
       <name>2</name>
-      <laenge einheit="mm">3640</laenge>
+      <laenge>3640</laenge>
     </bahnsteig>
     <bahnsteig gleis="gleis_3">
       <name>3</name>
-      <laenge einheit="mm">3480</laenge>
+      <laenge>3480</laenge>
     </bahnsteig>
     <bahnsteig gleis="gleis_5">
       <name>4</name>
-      <laenge einheit="mm">3450</laenge>
+      <laenge>3450</laenge>
     </bahnsteig>
     <bahnsteig gleis="gleis_6">
       <name>5</name>
-      <laenge einheit="mm">3790</laenge>
+      <laenge>3790</laenge>
     </bahnsteig>
     <bemerkung>Alle Zuggattungen ohne Einschränkung</bemerkung>
   </pv>
   <gv>
     <ladestelle id="Ladestra_e_mit_Lagerhallen_und_G_terschuppen" gleis="gleis_1">
       <name>Ladestraße mit Lagerhallen und Güterschuppen</name>
-      <laenge einheit="mm">2200</laenge>
+      <laenge>2200</laenge>
     </ladestelle>
     <ladestelle id="Kohlebunker" gleis="gleis_7">
       <name>Kohlebunker</name>
-      <laenge einheit="mm">620</laenge>
+      <laenge>620</laenge>
     </ladestelle>
     <ladestelle id="Tankstelle_mt_Tanklager" gleis="gleis_9">
       <name>Tankstelle mt Tanklager</name>
-      <laenge einheit="mm">840</laenge>
+      <laenge>840</laenge>
     </ladestelle>
     <verlader>
       <name>Bundespost Sortierzentrum Krümelburg</name>
@@ -160,12 +160,12 @@
         <ladegut ladestelle="Ladestra_e_mit_Lagerhallen_und_G_terschuppen">
           <name>Kfz-Zulieferteile</name>
           <gattung>G,H</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestra_e_mit_Lagerhallen_und_G_terschuppen">
           <name>Stahlblech</name>
           <gattung>K,R,S</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
       </empfang>
     </verlader>
@@ -175,7 +175,7 @@
         <ladegut ladestelle="Kohlebunker">
           <name>Kohle</name>
           <gattung>E,F</gattung>
-          <wagen zeitraum="woche">3</wagen>
+          <wagen>3</wagen>
         </ladegut>
       </empfang>
     </verlader>
@@ -185,7 +185,7 @@
         <ladegut ladestelle="Tankstelle_mt_Tanklager">
           <name>Diesel</name>
           <gattung>Z</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
       </empfang>
     </verlader>
@@ -193,16 +193,16 @@
       <name>ALB - GOLD Teigwaren Trochtelfingen</name>
       <empfang>
         <ladegut ladestelle="Ladestra_e_mit_Lagerhallen_und_G_terschuppen">
-          <name>Hartweizen in Säcken</name>
+          <name>Hartweizen, als Sackware</name>
           <gattung>G,H</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
       </empfang>
       <versand>
         <ladegut ladestelle="Ladestra_e_mit_Lagerhallen_und_G_terschuppen">
-          <name>Nudelprodukte auf Paletten</name>
+          <name>Nudelprodukte, als Palettenware</name>
           <gattung>G,H</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
       </versand>
     </verlader>
@@ -210,21 +210,21 @@
       <name>Robert Bosch Werk Reutlingen</name>
       <empfang>
         <ladegut ladestelle="Ladestra_e_mit_Lagerhallen_und_G_terschuppen">
-          <name>Maschinen und Maschinenteile</name>
+          <name>Maschinen, Maschinenteile</name>
           <gattung>G,H</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestra_e_mit_Lagerhallen_und_G_terschuppen">
-          <name>Kabel und Leitungen</name>
+          <name>Kabel, Leitungen</name>
           <gattung>G,H</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
       </empfang>
       <versand>
         <ladegut ladestelle="Ladestra_e_mit_Lagerhallen_und_G_terschuppen">
           <name>Scheinwerfer, Anlasser, Lichtmaschinen</name>
           <gattung>G,H</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
       </versand>
     </verlader>
@@ -232,16 +232,16 @@
       <name>Samen Fetzer Reutlingen-Gönningen</name>
       <empfang>
         <ladegut ladestelle="Ladestra_e_mit_Lagerhallen_und_G_terschuppen">
-          <name>Blumenzwiebeln und Samen in Säcken</name>
+          <name>Blumenzwiebeln, Samen (als Sackware)</name>
           <gattung>G,H</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
       </empfang>
       <versand>
         <ladegut ladestelle="Ladestra_e_mit_Lagerhallen_und_G_terschuppen">
-          <name>Blumenzwiebeln und Samen in Säcken</name>
+          <name>Blumenzwiebeln, Samen (als Sackware)</name>
           <gattung>G,H</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
       </versand>
     </verlader>
@@ -251,14 +251,14 @@
         <ladegut ladestelle="Ladestra_e_mit_Lagerhallen_und_G_terschuppen">
           <name>Aushuberde, belastete Deponieerde</name>
           <gattung>E,F</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
       </empfang>
       <versand>
         <ladegut ladestelle="Ladestra_e_mit_Lagerhallen_und_G_terschuppen">
           <name>Schotter</name>
           <gattung>E,F</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
       </versand>
     </verlader>
@@ -268,19 +268,19 @@
         <ladegut ladestelle="Ladestra_e_mit_Lagerhallen_und_G_terschuppen">
           <name>Stoffballen</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestra_e_mit_Lagerhallen_und_G_terschuppen">
           <name>Textilmaschinen</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">0.5</wagen>
+          <wagen>0.5</wagen>
         </ladegut>
       </empfang>
       <versand>
         <ladegut ladestelle="Ladestra_e_mit_Lagerhallen_und_G_terschuppen">
           <name>Bekleidungsstücke</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
       </versand>
     </verlader>
@@ -290,7 +290,7 @@
         <ladegut ladestelle="Ladestra_e_mit_Lagerhallen_und_G_terschuppen">
           <name>Schlachtvieh</name>
           <gattung>H</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
       </empfang>
     </verlader>
@@ -298,21 +298,21 @@
       <name>Häusermann Kelterei Neckartailfingen</name>
       <empfang>
         <ladegut ladestelle="Ladestra_e_mit_Lagerhallen_und_G_terschuppen">
-          <name>Streuobst in Säcken</name>
+          <name>Streuobst, als Sackware</name>
           <gattung>G,U</gattung>
-          <wagen zeitraum="woche">0.5</wagen>
+          <wagen>0.5</wagen>
         </ladegut>
       </empfang>
       <versand>
         <ladegut ladestelle="Ladestra_e_mit_Lagerhallen_und_G_terschuppen">
           <name>Weinfässer</name>
           <gattung>G,U</gattung>
-          <wagen zeitraum="woche">0.5</wagen>
+          <wagen>0.5</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestra_e_mit_Lagerhallen_und_G_terschuppen">
-          <name>Saft und Wein in Flaschen</name>
+          <name>Saft, Wein in Flaschen</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
       </versand>
     </verlader>
@@ -322,14 +322,14 @@
         <ladegut ladestelle="Ladestra_e_mit_Lagerhallen_und_G_terschuppen">
           <name>Rohholz</name>
           <gattung>E,F,K,R,S</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
       </empfang>
       <versand>
         <ladegut ladestelle="Ladestra_e_mit_Lagerhallen_und_G_terschuppen">
-          <name>Hobelware (Balken und Bretter)</name>
+          <name>Hobelware (Balken, Bretter)</name>
           <gattung>E,F,K,R,S</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
       </versand>
     </verlader>
@@ -339,7 +339,7 @@
         <ladegut ladestelle="Ladestra_e_mit_Lagerhallen_und_G_terschuppen">
           <name>Spezialmaschinen, Werkzeugmaschinen</name>
           <gattung>G,H</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
       </versand>
     </verlader>
@@ -349,12 +349,12 @@
         <ladegut ladestelle="Ladestra_e_mit_Lagerhallen_und_G_terschuppen">
           <name>Schotter</name>
           <gattung>E,F,K,R,S</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestra_e_mit_Lagerhallen_und_G_terschuppen">
           <name>Pflastersteine</name>
           <gattung>E,F,K,R,S</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
       </empfang>
     </verlader>

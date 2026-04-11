@@ -5,6 +5,7 @@
 	<name>Trebbichau</name>
 	<kuerzel>TBC</kuerzel>
 	<typ>Ülst</typ>
+	<verwaltung>DR</verwaltung>
 	<maszstab>120</maszstab>
 	<modulnr>ChKet445 (optional 446 und 454)</modulnr>
 	<plan src="tbc.gif"/>

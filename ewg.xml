@@ -5,6 +5,7 @@
 	<name>Erdweg</name>
 	<kuerzel>EWG</kuerzel>
 	<typ>Anst</typ>
+	<verwaltung>DB</verwaltung>
 	<maszstab>120</maszstab>
 	<modulnr>HeMuf391</modulnr>
 	<plan src="ewg.png" />

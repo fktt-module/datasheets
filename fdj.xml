@@ -6,6 +6,7 @@
   <name>Fiddlejardsen</name>
   <kuerzel>FDJ</kuerzel>
   <typ>Sbf</typ>
+  <verwaltung>DR</verwaltung>
   <maszstab>120</maszstab>
   <modulnr>JoLan110</modulnr>
   <plan src="fdj.png"/>

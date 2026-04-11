@@ -5,6 +5,7 @@
     <name>Semolice/Semolitz</name>
     <kuerzel>SEM</kuerzel>
     <typ>Hp</typ>
+    <verwaltung>DR, CSD</verwaltung>
     <maszstab>120</maszstab>
     <modulnr>ThHan301</modulnr>
     <gleise>

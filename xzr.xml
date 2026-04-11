@@ -5,6 +5,7 @@
     <name>ŻABI RÓG</name>
     <kuerzel>XŻR</kuerzel>
     <typ>Bf</typ>
+    <verwaltung>PKP</verwaltung>
     <maszstab>120</maszstab>
     <modulnr>Andrzej Czarnak</modulnr>
     <plan src="xzr.png"/>

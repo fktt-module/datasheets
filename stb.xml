@@ -18,39 +18,39 @@
     <hgleise>
       <gleis id="gleis_2">
         <name>2</name>
-        <laenge einheit="mm">1800</laenge>
+        <laenge>1800</laenge>
         <bemerkung>Bahnsteig-/ Richtungsgleis Schleusingen</bemerkung>
       </gleis>
       <gleis id="gleis_3">
         <name>3</name>
-        <laenge einheit="mm">2000</laenge>
+        <laenge>2000</laenge>
         <bemerkung>Bahnsteig-/ Richtungsgleis Ilmenau</bemerkung>
       </gleis>
     </hgleise>
     <ngleise>
       <gleis id="gleis_4">
         <name>4</name>
-        <laenge einheit="mm">1300</laenge>
+        <laenge>1300</laenge>
         <bemerkung>Umfahrgleis/ Abstellgleis Güter- bzw. Wagenzug</bemerkung>
       </gleis>
       <gleis id="gleis_5">
         <name>5</name>
-        <laenge einheit="mm">1100</laenge>
+        <laenge>1100</laenge>
         <bemerkung>Ladegleis - Ladestraße I</bemerkung>
       </gleis>
       <gleis id="gleis_6">
         <name>6</name>
-        <laenge einheit="mm">280</laenge>
+        <laenge>280</laenge>
         <bemerkung>Abstellgleis Güterwagen/ Übergaben/ Schneepflug</bemerkung>
       </gleis>
       <gleis id="gleis_1a">
         <name>1a</name>
-        <laenge einheit="mm">500</laenge>
+        <laenge>500</laenge>
         <bemerkung>Ladegleis Rampe</bemerkung>
       </gleis>
       <gleis id="gleis_1b">
         <name>1b</name>
-        <laenge einheit="mm">800</laenge>
+        <laenge>800</laenge>
         <bemerkung>Ladegleis - Ladestraße II &amp; Güterschuppen</bemerkung>
       </gleis>
     </ngleise>
@@ -58,30 +58,30 @@
   <pv>
     <bahnsteig gleis="gleis_2">
       <name>1</name>
-      <laenge einheit="mm">875</laenge>
+      <laenge>875</laenge>
     </bahnsteig>
     <bahnsteig gleis="gleis_3">
       <name>2</name>
-      <laenge einheit="mm">875</laenge>
+      <laenge>875</laenge>
     </bahnsteig>
     <bemerkung>Berufs-, Schüler- und Ausflugsverkehr durch Urlauber &amp; Kurgäste</bemerkung>
   </pv>
   <gv>
     <ladestelle id="Holzladerampe" gleis="gleis_1a">
       <name>Holzladerampe</name>
-      <laenge einheit="mm">400</laenge>
+      <laenge>400</laenge>
     </ladestelle>
     <ladestelle id="G_terschuppen" gleis="gleis_1b">
       <name>Güterschuppen</name>
-      <laenge einheit="mm">100</laenge>
+      <laenge>100</laenge>
     </ladestelle>
     <ladestelle id="Ladestra_e_I" gleis="gleis_5">
       <name>Ladestraße I</name>
-      <laenge einheit="mm">1000</laenge>
+      <laenge>1000</laenge>
     </ladestelle>
     <ladestelle id="Ladestra_e_II" gleis="gleis_1b">
       <name>Ladestraße II</name>
-      <laenge einheit="mm">450</laenge>
+      <laenge>450</laenge>
     </ladestelle>
     <verlader>
       <name>Staatl. Forstwirtschaftsbetrieb Stützerbach</name>
@@ -89,12 +89,12 @@
         <ladegut ladestelle="Ladestra_e_I">
           <name>Diesel/ Benzin</name>
           <gattung>Z</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="G_terschuppen">
           <name>Ersatzteile</name>
           <gattung>G, H</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
       </empfang>
       <versand>
@@ -116,12 +116,12 @@
         <ladegut ladestelle="G_terschuppen" typ="stueckgut">
           <name>Brennholz im Netz (Stückgut)</name>
           <gattung>G, H</gattung>
-          <wagen zeitraum="woche">3</wagen>
+          <wagen>3</wagen>
         </ladegut>
         <ladegut ladestelle="G_terschuppen" typ="expressgut">
           <name>Wild (Reh, Hirsch, Wildschwein als Expressgut)</name>
           <gattung>G, I</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
       </versand>
     </verlader>
@@ -131,27 +131,27 @@
         <ladegut ladestelle="G_terschuppen" typ="stueckgut">
           <name>Glasblaskunst (Stückgut)</name>
           <gattung>G, H</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="G_terschuppen" typ="stueckgut">
-          <name>Holzkohle, gesackt (Stückgut)</name>
+          <name>Holzkohle, als Sackware (Stückgut)</name>
           <gattung>G, H</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
         <ladegut ladestelle="G_terschuppen" typ="stueckgut">
           <name>Weihnachtsbaumschmuck (Stückgut)</name>
           <gattung>G, H</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="G_terschuppen" typ="stueckgut">
           <name>Holzschnitzereien (Stückgut)</name>
           <gattung>G, H</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="G_terschuppen" typ="stueckgut">
           <name>Laborglas Sonderanfertigung (Stückgut)</name>
           <gattung>G, H</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
       </versand>
     </verlader>
@@ -159,7 +159,7 @@
       <name>VEB Glaswerke Stützerbach (Westglas)</name>
       <empfang>
         <ladegut ladestelle="Ladestra_e_I">
-          <name>Quarzsand, gesackt</name>
+          <name>Quarzsand, als Sackware</name>
           <gattung>G, H</gattung>
           <wagen zeitraum="tag">1</wagen>
         </ladegut>
@@ -181,12 +181,12 @@
         <ladegut ladestelle="Ladestra_e_I">
           <name>Glasbruch, weiß</name>
           <gattung>E, G</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestra_e_I">
-          <name>Bortrioxid, gesackt</name>
+          <name>Bortrioxid, als Sackware</name>
           <gattung>G, H</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
       </empfang>
       <versand>
@@ -198,7 +198,7 @@
         <ladegut ladestelle="Ladestra_e_I" typ="stueckgut">
           <name>Laborgläser (Stückgut)</name>
           <gattung>G, H</gattung>
-          <wagen zeitraum="woche">3</wagen>
+          <wagen>3</wagen>
         </ladegut>
       </versand>
     </verlader>
@@ -206,16 +206,16 @@
       <name>PGB "Frischfisch" Manebach</name>
       <empfang>
         <ladegut ladestelle="G_terschuppen">
-          <name>Fischfutter, gesackt</name>
+          <name>Fischfutter, als Sackware</name>
           <gattung>G, H</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
       </empfang>
       <versand>
         <ladegut ladestelle="G_terschuppen" typ="expressgut">
           <name>Frischfisch (Forelle, Karpfen, Saibling als Expressgut)</name>
           <gattung>G, I</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
       </versand>
     </verlader>
@@ -225,12 +225,12 @@
         <ladegut ladestelle="G_terschuppen" typ="stueckgut">
           <name>Pilze (Stückgut)</name>
           <gattung>G, H</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="G_terschuppen" typ="stueckgut">
           <name>Waldbeeren (Stückgut)</name>
           <gattung>G, H</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
       </versand>
     </verlader>
@@ -240,19 +240,19 @@
         <ladegut ladestelle="Ladestra_e_II Ladestra_e_I">
           <name>Braunkohlebriketts</name>
           <gattung>E, F, O</gattung>
-          <wagen zeitraum="woche">3</wagen>
+          <wagen>3</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestra_e_II Ladestra_e_I">
-          <name>Braunkohlebriketts, gesackt</name>
+          <name>Braunkohlebriketts, als Sackware</name>
           <gattung>G, H</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
       </empfang>
       <versand>
         <ladegut ladestelle="Ladestra_e_II Ladestra_e_I" typ="stueckgut">
           <name>Leere Kohlesäcke (Stückgut)</name>
           <gattung>G, H</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
       </versand>
     </verlader>
@@ -262,7 +262,7 @@
         <ladegut ladestelle="Ladestra_e_II">
           <name>Lebensmittel</name>
           <gattung>G, H, I</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestra_e_II">
           <name>Getränkekisten</name>
@@ -274,7 +274,7 @@
         <ladegut ladestelle="Ladestra_e_II">
           <name>Leere Verpackungen/ Paletten</name>
           <gattung>G, H</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
       </versand>
     </verlader>
@@ -284,32 +284,32 @@
         <ladegut ladestelle="Ladestra_e_I">
           <name>Sand</name>
           <gattung>E, O</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestra_e_I">
           <name>Kies</name>
           <gattung>E, O</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestra_e_I">
-          <name>Zement, gesackt</name>
+          <name>Zement, als Sackware</name>
           <gattung>G, H</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestra_e_I">
           <name>Ziegelsteine</name>
           <gattung>E, O, G, H</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestra_e_I">
           <name>Baustoffe</name>
           <gattung>E, K, R, O, S</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestra_e_I">
           <name>Schiefer</name>
           <gattung>E, O, G, H</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
       </empfang>
     </verlader>

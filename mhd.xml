@@ -5,6 +5,7 @@
 	<name>Mittelherwigsdorf</name>
 	<kuerzel>MHD</kuerzel>
 	<typ>Sbf</typ>
+	<verwaltung>DR</verwaltung>
 	<maszstab>120</maszstab>
 	<modulnr>HaVol181</modulnr>
 	<plan src="mhd.png" />

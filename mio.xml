@@ -5,6 +5,7 @@
    <name>Mittenwalde (Mark) Ost</name>
    <kuerzel>MIO</kuerzel>
    <typ>Bf</typ>
+   <verwaltung>DR</verwaltung>
    <maszstab>120</maszstab>
    <modulnr>MoEiC240</modulnr>
    <plan src="mio.png"/>
@@ -123,7 +124,7 @@
                <wagen>2.5</wagen>
             </ladegut>
             <ladegut ladestelle="ACZ1">
-               <name>Spezialdüngemittel gesackt, in Fässern</name>
+               <name>Spezialdüngemittel als Sackware oder Fassware</name>
                <gattung>G, H</gattung>
                <wagen>2.5</wagen>
             </ladegut>
@@ -168,7 +169,7 @@
          <name>Viessmann Heiztechnik</name>
          <empfang>
             <ladegut ladestelle="LADE">
-               <name>Baugruppen und Material f. Heizungsanlagen</name>
+               <name>Baugruppen, Material für Heizungsanlagen</name>
                <gattung>H, G, K</gattung>
                <wagen>2</wagen>
             </ladegut>
@@ -195,5 +196,5 @@
          </versand>
       </verlader>
    </gv>
-   <bemerkung>Ansprechpartner: MEC Rosswein, Torsten Stein (stein@digitalzentrale.de)</bemerkung>
+   <bemerkung>Ansprechpartner: MEC Rosswein, Torsten Stein</bemerkung>
 </bahnhof>

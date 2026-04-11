@@ -18,37 +18,37 @@
     <hgleise>
       <gleis id="gleis_2">
         <name>2</name>
-        <laenge einheit="mm">1200.0</laenge>
+        <laenge>1200.0</laenge>
       </gleis>
       <gleis id="gleis_3">
         <name>3</name>
-        <laenge einheit="mm">1950.0</laenge>
+        <laenge>1950.0</laenge>
         <bemerkung>Nutzlänge inkl. Weiche und Stumpf</bemerkung>
       </gleis>
       <gleis id="gleis_4">
         <name>4</name>
-        <laenge einheit="mm">1250.0</laenge>
+        <laenge>1250.0</laenge>
       </gleis>
     </hgleise>
     <ngleise>
       <gleis id="gleis_5">
         <name>5</name>
-        <laenge einheit="mm">1400.0</laenge>
+        <laenge>1400.0</laenge>
         <bemerkung>Abstellgleis Reisezugwagen/Güterwagen</bemerkung>
       </gleis>
       <gleis id="gleis_6">
         <name>6</name>
-        <laenge einheit="mm">1200.0</laenge>
+        <laenge>1200.0</laenge>
         <bemerkung>Abstellgleis Reisezugwagen/Güterwagen</bemerkung>
       </gleis>
       <gleis id="gleis_7">
         <name>7</name>
-        <laenge einheit="mm">1200.0</laenge>
+        <laenge>1200.0</laenge>
         <bemerkung>Abstellgleis Reisezugwagen/Güterwagen</bemerkung>
       </gleis>
       <gleis id="gleis_1">
         <name>1</name>
-        <laenge einheit="mm">1000.0</laenge>
+        <laenge>1000.0</laenge>
         <bemerkung>Lstr/Gs</bemerkung>
       </gleis>
       <gleis id="gleis_1a">
@@ -76,37 +76,37 @@
   <pv>
     <bahnsteig gleis="gleis_2">
       <name>Bstg. 1</name>
-      <laenge einheit="mm">1200.0</laenge>
+      <laenge>1200.0</laenge>
     </bahnsteig>
     <bahnsteig gleis="gleis_3">
       <name>Bstg. 2</name>
-      <laenge einheit="mm">1850.0</laenge>
+      <laenge>1850.0</laenge>
     </bahnsteig>
     <bahnsteig gleis="gleis_4">
       <name>Bstg. 3</name>
-      <laenge einheit="mm">1200.0</laenge>
+      <laenge>1200.0</laenge>
     </bahnsteig>
   </pv>
   <gv>
     <ladestelle id="Kopf-_und_Seitenrampe" gleis="gleis_1">
       <name>Kopf- und Seitenrampe</name>
-      <laenge einheit="mm">300.0</laenge>
+      <laenge>300.0</laenge>
     </ladestelle>
     <ladestelle id="Ladestr._1" gleis="gleis_1">
       <name>Ladestr. 1</name>
-      <laenge einheit="mm">300.0</laenge>
+      <laenge>300.0</laenge>
     </ladestelle>
     <ladestelle id="Ladestr._2" gleis="gleis_1">
       <name>Ladestr. 2</name>
-      <laenge einheit="mm">300.0</laenge>
+      <laenge>300.0</laenge>
     </ladestelle>
     <ladestelle id="Anschl._Br_ninghaus" gleis="gleis_1">
       <name>Anschl. Brüninghaus</name>
-      <laenge einheit="mm">250.0</laenge>
+      <laenge>250.0</laenge>
     </ladestelle>
     <ladestelle id="Anschl._BayWa" gleis="gleis_2">
       <name>Anschl. BayWa</name>
-      <laenge einheit="mm">300.0</laenge>
+      <laenge>300.0</laenge>
     </ladestelle>
     <verlader>
       <name>Brüninghaus Metallwaren</name>
@@ -117,7 +117,7 @@
           <wagen>6.0</wagen>
         </ladegut>
         <ladegut ladestelle="Anschl._Br_ninghaus">
-          <name>Polyethylen Formlinge palettiert</name>
+          <name>Polyethylen Formlinge, als Palettenware</name>
           <gattung>G, H</gattung>
           <wagen>1.0</wagen>
         </ladegut>

@@ -73,7 +73,7 @@
           <wagen zeitraum="tag">1</wagen>
         </ladegut>
         <ladegut ladestelle="Minol">
-          <name>Öle (Fässer und Kanister)</name>
+          <name>Öle (Fassware und Kanisterware)</name>
           <gattung>G</gattung>
           <wagen>0.5</wagen>
         </ladegut>
@@ -103,7 +103,7 @@
           <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="Werkhalle">
-          <name>Öle (Faßware)</name>
+          <name>Öle, als Fassware</name>
           <gattung>G</gattung>
           <wagen>1</wagen>
         </ladegut>
@@ -155,12 +155,12 @@
           <wagen>3</wagen>
         </ladegut>
         <ladegut ladestelle="Sero">
-          <name>Altöl in Fässern</name>
+          <name>Altöl, als Fassware</name>
           <gattung>G</gattung>
           <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="Sero">
-          <name>Lunpen (Sackware)</name>
+          <name>Lumpen, als Sackware</name>
           <gattung>G</gattung>
           <wagen>1</wagen>
         </ladegut>

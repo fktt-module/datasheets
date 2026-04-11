@@ -5,6 +5,7 @@
 	<name>Frauenwald</name>
 	<kuerzel>FW</kuerzel>
 	<typ>Bf</typ>
+	<verwaltung>DR</verwaltung>
 	<maszstab>120</maszstab>
 	<modulnr>MaMic227</modulnr>
 	<plan src="fw.gif"/>
@@ -76,7 +77,7 @@
 				<ladegut ladestelle="Gueterschuppen">
 					<name>Ersatzteile</name>
 					<gattung>G</gattung>
-					<wagen zeitraum="woche">0.25</wagen>
+					<wagen>0.25</wagen>
 				</ladegut>
 			</empfang>
 			<versand>
@@ -88,12 +89,12 @@
 				<ladegut ladestelle="Ladestrasse">
 					<name>Bauholz</name>
 					<gattung>E,R</gattung>
-					<wagen zeitraum="woche">2</wagen>
+					<wagen>2</wagen>
 				</ladegut>
 				<ladegut ladestelle="Ladestrasse">
 					<name>Brennholz</name>
 					<gattung>E</gattung>
-					<wagen zeitraum="woche">1</wagen>
+					<wagen>1</wagen>
 				</ladegut>
 			</versand>
 		</verlader>
@@ -103,14 +104,14 @@
 				<ladegut ladestelle="Gueterschuppen">
 					<name>Kiste Filme</name>
 					<gattung>G</gattung>
-					<wagen zeitraum="woche">0.25</wagen>
+					<wagen>0.25</wagen>
 				</ladegut>
 			</empfang>
 			<versand>
 				<ladegut ladestelle="Gueterschuppen">
 					<name>Kiste Filme</name>
 					<gattung>G</gattung>
-					<wagen zeitraum="woche">0.25</wagen>
+					<wagen>0.25</wagen>
 				</ladegut>
 			</versand>
 		</verlader>
@@ -120,14 +121,14 @@
 				<ladegut ladestelle="Gueterschuppen">
 					<name>Laborgeräte</name>
 					<gattung>G</gattung>
-					<wagen zeitraum="woche">0.5</wagen>
+					<wagen>0.5</wagen>
 				</ladegut>
 			</empfang>
 			<versand>
 				<ladegut ladestelle="Gueterschuppen">
 					<name>CO2-Kartuschen</name>
 					<gattung>G</gattung>
-					<wagen zeitraum="woche">0.5</wagen>
+					<wagen>0.5</wagen>
 				</ladegut>
 			</versand>
 		</verlader>
@@ -137,7 +138,7 @@
 				<ladegut ladestelle="Ladestrasse">
 					<name>Käsehorden</name>
 					<gattung>G</gattung>
-					<wagen zeitraum="woche">1</wagen>
+					<wagen>1</wagen>
 				</ladegut>
 			</versand>
 		</verlader>
@@ -157,19 +158,19 @@
 				<ladegut ladestelle="Lokschuppen">
 					<name>Ersatzteile</name>
 					<gattung>G,E</gattung>
-					<wagen zeitraum="woche">1</wagen>
+					<wagen>1</wagen>
 				</ladegut>
 				<ladegut ladestelle="Lokschuppen">
 					<name>Betriebsstoffe</name>
 					<gattung>Z,U</gattung>
-					<wagen zeitraum="woche">1</wagen>
+					<wagen>1</wagen>
 				</ladegut>
 			</empfang>
 			<versand>
 				<ladegut ladestelle="Lokschuppen">
 					<name>Schlacke</name>
 					<gattung>E</gattung>
-					<wagen zeitraum="woche">1</wagen>
+					<wagen>1</wagen>
 				</ladegut>
 			</versand>
 		</verlader>
@@ -179,7 +180,7 @@
 				<ladegut ladestelle="Ladestrasse">
 					<name>Zuchtbullen</name>
 					<gattung>V</gattung>
-					<wagen zeitraum="woche">2</wagen>
+					<wagen>2</wagen>
 				</ladegut>
 			</versand>
 		</verlader>
@@ -189,7 +190,7 @@
 				<ladegut ladestelle="Gueterschuppen">
 					<name>Ersatzteile</name>
 					<gattung>G</gattung>
-					<wagen zeitraum="woche">0.25</wagen>
+					<wagen>0.25</wagen>
 				</ladegut>
 			</versand>
 		</verlader>
@@ -197,21 +198,21 @@
 			<name>Glasbläserei Ewald</name>
 			<empfang>
 				<ladegut ladestelle="Ladestrasse">
-					<name>Quarzsand gesackt</name>
+					<name>Quarzsand, als Sackware</name>
 					<gattung>G</gattung>
-					<wagen zeitraum="woche">1</wagen>
+					<wagen>1</wagen>
 				</ladegut>
 				<ladegut ladestelle="Ladestrasse">
 					<name>Chemikalien</name>
 					<gattung>G</gattung>
-					<wagen zeitraum="woche">1</wagen>
+					<wagen>1</wagen>
 				</ladegut>
 			</empfang>
 			<versand>
 				<ladegut ladestelle="Ladestrasse">
-					<name>Weihnachtsschmuck und Kunstglas</name>
+					<name>Weihnachtsschmuck, Kunstglas</name>
 					<gattung>G</gattung>
-					<wagen zeitraum="woche">1</wagen>
+					<wagen>1</wagen>
 				</ladegut>
 			</versand>
 		</verlader>
@@ -221,7 +222,7 @@
 				<ladegut ladestelle="Ladestrasse">
 					<name>Holzkohle</name>
 					<gattung>G</gattung>
-					<wagen zeitraum="woche">7</wagen>
+					<wagen>7</wagen>
 				</ladegut>
 			</versand>
 		</verlader>
@@ -231,7 +232,7 @@
 				<ladegut ladestelle="Ladestrasse">
 					<name>Brikett</name>
 					<gattung>E</gattung>
-					<wagen zeitraum="woche">4</wagen>
+					<wagen>4</wagen>
 				</ladegut>
 			</versand>
 		</verlader>
@@ -241,12 +242,12 @@
 				<ladegut ladestelle="Ladestrasse">
 					<name>Zement</name>
 					<gattung>G</gattung>
-					<wagen zeitraum="woche">1</wagen>
+					<wagen>1</wagen>
 				</ladegut>
 				<ladegut ladestelle="Ladestrasse">
 					<name>Sand/Kies</name>
 					<gattung>E,L</gattung>
-					<wagen zeitraum="woche">1</wagen>
+					<wagen>1</wagen>
 				</ladegut>
 			</empfang>
 		</verlader>
@@ -256,7 +257,7 @@
 				<ladegut ladestelle="Ladestrasse">
 					<name>Natursteine</name>
 					<gattung>R,E</gattung>
-					<wagen zeitraum="woche">1</wagen>
+					<wagen>1</wagen>
 				</ladegut>
 			</versand>
 		</verlader>
@@ -266,7 +267,7 @@
 				<ladegut ladestelle="Ladestrasse">
 					<name>Ziegel</name>
 					<gattung>R,E</gattung>
-					<wagen zeitraum="woche">2</wagen>
+					<wagen>2</wagen>
 				</ladegut>
 			</versand>
 		</verlader>
@@ -276,24 +277,24 @@
 				<ladegut ladestelle="Kopframpe">
 					<name>W50 Mannschaftstransporter</name>
 					<gattung>L,S,R</gattung>
-					<wagen zeitraum="woche">1</wagen>
+					<wagen>1</wagen>
 				</ladegut>
 			</empfang>
 			<versand>
 				<ladegut ladestelle="Ladestrasse">
 					<name>Heu</name>
 					<gattung>R,E</gattung>
-					<wagen zeitraum="woche">7</wagen>
+					<wagen>7</wagen>
 				</ladegut>
 				<ladegut ladestelle="Gueterschuppen">
 					<name>Obst/Gemüse</name>
 					<gattung>G</gattung>
-					<wagen zeitraum="woche">0.5</wagen>
+					<wagen>0.5</wagen>
 				</ladegut>
 				<ladegut ladestelle="Ladestrasse">
 					<name>Kartoffeln</name>
 					<gattung>G</gattung>
-					<wagen zeitraum="woche">1</wagen>
+					<wagen>1</wagen>
 				</ladegut>
 			</versand>
 		</verlader>
@@ -303,7 +304,7 @@
 				<ladegut ladestelle="Gueterschuppen">
 					<name>Kräuterlikör</name>
 					<gattung>G</gattung>
-					<wagen zeitraum="woche">0.25</wagen>
+					<wagen>0.25</wagen>
 				</ladegut>
 			</versand>
 		</verlader>
@@ -313,12 +314,12 @@
 				<ladegut ladestelle="Gueterschuppen">
 					<name>Servietten</name>
 					<gattung>G</gattung>
-					<wagen zeitraum="woche">0.25</wagen>
+					<wagen>0.25</wagen>
 				</ladegut>
 				<ladegut ladestelle="Gueterschuppen">
 					<name>Klopapier</name>
 					<gattung>G</gattung>
-					<wagen zeitraum="woche">0.25</wagen>
+					<wagen>0.25</wagen>
 				</ladegut>
 			</empfang>
 		</verlader>

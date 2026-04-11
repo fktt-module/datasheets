@@ -185,12 +185,12 @@
                 <ladegut ladestelle="lade1">
                     <name>zboże {Getreide}</name>
                     <gattung>G, T, U</gattung>
-                    <wagen zeitraum="woche">105</wagen>
+                    <wagen>105</wagen>
                 </ladegut>
                 <ladegut ladestelle="lade4">
                     <name>węgiel {Kohle}</name>
                     <gattung>E</gattung>
-                    <wagen zeitraum="woche">14</wagen>
+                    <wagen>14</wagen>
                 </ladegut>
             </empfang>-->
     </verlader>
@@ -200,7 +200,7 @@
         <ladegut ladestelle="Kohlehandel_B_">
           <name>Kohle, Koks, Briketten</name>
           <gattung>E</gattung>
-          <wagen zeitraum="woche">4</wagen>
+          <wagen>4</wagen>
         </ladegut>
         <ladegut ladestelle="Kohlehandel_B_">
           <name>Brennholz</name>
@@ -215,7 +215,7 @@
         <ladegut ladestelle="Allg._Lagerfl_che_freie_Fl_che_D_">
           <name>Treibstoffe, Schmiere</name>
           <gattung>Z, G</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="Bahnhofsg_terschuppen_A_">
           <name>Ersatzteile</name>
@@ -230,12 +230,12 @@
         <ladegut ladestelle="Allg._Lagerfl_che_Rampe_Kopframpe_C_">
           <name>Eisenschrott</name>
           <gattung>E</gattung>
-          <wagen zeitraum="woche">3</wagen>
+          <wagen>3</wagen>
         </ladegut>
         <ladegut ladestelle="Allg._Lagerfl_che_Rampe_Kopframpe_C_">
           <name>Glasscherben</name>
           <gattung>E</gattung>
-          <wagen zeitraum="woche">0.5</wagen>
+          <wagen>0.5</wagen>
         </ladegut>
       </versand>
     </verlader>
@@ -458,7 +458,7 @@
           <wagen>6</wagen>
         </ladegut>
         <ladegut ladestelle="Wareneingang_K_">
-          <name>Blechdosen 5l, 10l, 20l (Paletten)</name>
+          <name>Blechdosen 5l, 10l, 20l (als Palettenware)</name>
           <gattung>G, E</gattung>
           <wagen>5</wagen>
         </ladegut>

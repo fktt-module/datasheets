@@ -69,7 +69,7 @@
           <wagen>1.5</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestra_e">
-          <name>Brennstoffe (Öl in Fässern, Kohle)</name>
+          <name>Brennstoffe (Öl als Fassware, Kohle)</name>
           <gattung>G, E</gattung>
           <wagen>2</wagen>
         </ladegut>

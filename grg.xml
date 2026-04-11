@@ -5,6 +5,7 @@
 	<name>Ueberleitstelle/Gleiswechsel Günther</name>
 	<kuerzel>GRG</kuerzel>
 	<typ>Ülst</typ>
+	<verwaltung>DR</verwaltung>
 	<maszstab>120</maszstab>
 	<modulnr>RoGue670</modulnr>
 	<plan src="grg.jpg"/>

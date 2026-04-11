@@ -5,6 +5,7 @@
 	<name>Spitz</name>
 	<kuerzel>SPZ</kuerzel>
 	<typ>Bf</typ>
+	<verwaltung>DR</verwaltung>
 	<maszstab>120</maszstab>
 	<modulnr>UdSpi255</modulnr>
 	<plan src="spz.png" />

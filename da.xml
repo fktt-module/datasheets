@@ -2,71 +2,72 @@
 <!DOCTYPE bahnhof SYSTEM "./bahnhof.dtd" >
 <?xml-stylesheet type="text/xsl" href="./bahnhof.xsl" ?>
 <bahnhof>
-    <name>Dahme (Mark)</name>
-    <kuerzel>DA</kuerzel>
+   <name>Dahme (Mark)</name>
+   <kuerzel>DA</kuerzel>
    <typ>Ebf</typ>
-	<maszstab>120</maszstab>
-    <modulnr>ThWul225</modulnr>
-    <plan src="da.png"/>
-    <gleise>
-		<zulaufstrecken>
-			<rechts nr="1">1gl</rechts>
-		</zulaufstrecken>
-	<hgleise>
-       <gleis id="gl1">
-          <name>1</name>
-          <laenge einheit="cm">230</laenge>
-          <bemerkung>Ein- und Ausfahrgleis, Bahnsteiggleis</bemerkung>
-       </gleis>
-	</hgleise>
-	<ngleise>
-       <gleis id="gl2">
-          <name>2</name>
-          <laenge einheit="cm">125</laenge>
-          <bemerkung>Umfahrgleis</bemerkung>
-       </gleis>
-       <gleis id="gl2a">
-          <name>2a</name>
-          <laenge einheit="cm">30</laenge>
-          <bemerkung>Lokschuppengleis</bemerkung>
-       </gleis>
-       <gleis id="gl2b">
-          <name>2b</name>
-          <laenge einheit="cm">86</laenge>
-          <bemerkung>Abstellgleis</bemerkung>
-       </gleis>
-       <gleis id="gl3">
-          <name>3</name>
-          <laenge einheit="cm">95</laenge>
-          <bemerkung>Ladegleis</bemerkung>
-       </gleis>
-       <gleis id="gl3a">
-          <name>3</name>
-          <laenge einheit="cm">20</laenge>
-          <bemerkung>Güterschuppen</bemerkung>
-       </gleis>
-       <gleis id="gl3b">
-          <name>3b</name>
-          <laenge einheit="cm">14</laenge>
-          <bemerkung>Rampengleis</bemerkung>
-       </gleis>
-       <gleis id="gl4">
-          <name>4</name>
-          <laenge einheit="cm">65</laenge>
-          <bemerkung>Ladegleis</bemerkung>
-       </gleis>
-       <gleis id="gl5">
-          <name>5</name>
-          <laenge einheit="cm">30</laenge>
-          <bemerkung>Lokschuppengleis</bemerkung>
-       </gleis>
-       <gleis id="gl6">
-          <name>6</name>
-          <laenge einheit="cm">157</laenge>
-          <bemerkung>Ladegleis</bemerkung>
-       </gleis>
-	</ngleise>
-    </gleise>
+   <verwaltung>DR</verwaltung>
+   <maszstab>120</maszstab>
+   <modulnr>ThWul225</modulnr>
+   <plan src="da.png"/>
+   <gleise>
+      <zulaufstrecken>
+         <rechts nr="1">1gl</rechts>
+      </zulaufstrecken>
+      <hgleise>
+         <gleis id="gl1">
+            <name>1</name>
+            <laenge einheit="cm">230</laenge>
+            <bemerkung>Ein- und Ausfahrgleis, Bahnsteiggleis</bemerkung>
+         </gleis>
+      </hgleise>
+      <ngleise>
+         <gleis id="gl2">
+            <name>2</name>
+            <laenge einheit="cm">125</laenge>
+            <bemerkung>Umfahrgleis</bemerkung>
+         </gleis>
+         <gleis id="gl2a">
+            <name>2a</name>
+            <laenge einheit="cm">30</laenge>
+            <bemerkung>Lokschuppengleis</bemerkung>
+         </gleis>
+         <gleis id="gl2b">
+            <name>2b</name>
+            <laenge einheit="cm">86</laenge>
+            <bemerkung>Abstellgleis</bemerkung>
+         </gleis>
+         <gleis id="gl3">
+            <name>3</name>
+            <laenge einheit="cm">95</laenge>
+            <bemerkung>Ladegleis</bemerkung>
+         </gleis>
+         <gleis id="gl3a">
+            <name>3</name>
+            <laenge einheit="cm">20</laenge>
+            <bemerkung>Güterschuppen</bemerkung>
+         </gleis>
+         <gleis id="gl3b">
+            <name>3b</name>
+            <laenge einheit="cm">14</laenge>
+            <bemerkung>Rampengleis</bemerkung>
+         </gleis>
+         <gleis id="gl4">
+            <name>4</name>
+            <laenge einheit="cm">65</laenge>
+            <bemerkung>Ladegleis</bemerkung>
+         </gleis>
+         <gleis id="gl5">
+            <name>5</name>
+            <laenge einheit="cm">30</laenge>
+            <bemerkung>Lokschuppengleis</bemerkung>
+         </gleis>
+         <gleis id="gl6">
+            <name>6</name>
+            <laenge einheit="cm">157</laenge>
+            <bemerkung>Ladegleis</bemerkung>
+         </gleis>
+      </ngleise>
+   </gleise>
    <pv>
       <bahnsteig gleis="gl1">
          <laenge einheit="cm">84</laenge>
@@ -75,27 +76,27 @@
    <gv>
       <ladestelle id="lade1a" gleis="gl3">
          <name>Ladestraße 1 (Gl. 3)</name>
-         <laenge></laenge>
+         <laenge/>
       </ladestelle>
       <ladestelle id="gboden" gleis="gl3a">
          <name>Güterschuppen</name>
-         <laenge></laenge>
+         <laenge/>
       </ladestelle>
       <ladestelle id="lade1b" gleis="gl4">
          <name>Ladestraße 1 (Gl. 4)</name>
-         <laenge></laenge>
+         <laenge/>
       </ladestelle>
       <ladestelle id="lade2" gleis="gl6">
          <name>Ladestraße 2</name>
-         <laenge></laenge>
+         <laenge/>
       </ladestelle>
       <ladestelle id="ksrampe" gleis="gl3b">
          <name>Kopf- und Seitenrampe</name>
-         <laenge></laenge>
+         <laenge/>
       </ladestelle>
       <ladestelle id="lschuppen" gleis="gl5">
          <name>Lokschuppen</name>
-         <laenge></laenge>
+         <laenge/>
       </ladestelle>
       <verlader>
          <name>ACZ Hohenseefeld</name>
@@ -106,7 +107,7 @@
                <wagen zeitraum="tag">2</wagen>
             </ladegut>
             <ladegut ladestelle="lade2">
-               <name>Düngemittel gesackt</name>
+               <name>Düngemittel, als Sackware</name>
                <gattung>G</gattung>
                <wagen zeitraum="tag">1</wagen>
             </ladegut>
@@ -136,7 +137,7 @@
                <wagen zeitraum="tag">3</wagen>
             </ladegut>
             <ladegut ladestelle="lade2">
-               <name>Zement gesackt</name>
+               <name>Zement, als Sackware</name>
                <gattung>G</gattung>
                <wagen zeitraum="tag">3</wagen>
             </ladegut>
@@ -191,7 +192,7 @@
                <wagen zeitraum="tag">0</wagen><!-- S -->
             </ladegut>
             <ladegut ladestelle="lade1a lade1b">
-               <name>Kartoffeln gesackt</name>
+               <name>Kartoffeln, als Sackware</name>
                <gattung>G</gattung>
                <wagen zeitraum="tag">2</wagen>
             </ladegut>
@@ -216,7 +217,7 @@
                <wagen zeitraum="tag">0</wagen><!-- S -->
             </ladegut>
             <ladegut ladestelle="lade1a lade1b">
-               <name>Kartoffeln gesackt</name>
+               <name>Kartoffeln, als Sackware</name>
                <gattung>G</gattung>
                <wagen zeitraum="tag">1</wagen>
             </ladegut>
@@ -243,7 +244,7 @@
          <name>VEB Feinkartonagen (ehem. Klatt KG)</name>
          <versand>
             <ladegut ladestelle="lade1a lade1b">
-               <name>Wellpappe auf Paletten</name>
+               <name>Wellpappe, als Palettenware</name>
                <gattung>G</gattung>
                <wagen zeitraum="tag">2</wagen>
             </ladegut>
@@ -273,7 +274,7 @@
                <wagen zeitraum="tag">0.1</wagen>
             </ladegut>
             <ladegut ladestelle="lade1a lade1b">
-               <name>Öle, Fette in Fässern</name>
+               <name>Öle, Fette (als Fassware)</name>
                <gattung>G</gattung>
                <wagen zeitraum="tag">0.1</wagen>
             </ladegut>
@@ -376,5 +377,5 @@
       </verlader>
       <bemerkung>Das Abstoßen und Ablaufen lassen von Wagen und Fahrzeugen ist grundsätzlich verboten.</bemerkung>
    </gv>
-    <bemerkung>Bahnhof besitzt keine Ausfahrsignale</bemerkung>
+   <bemerkung>Bahnhof besitzt keine Ausfahrsignale</bemerkung>
 </bahnhof>

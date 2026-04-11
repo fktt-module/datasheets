@@ -5,6 +5,7 @@
 	<name>Abzweig Werkstraße</name>
 	<kuerzel>AWS</kuerzel>
 	<typ>Anst</typ>
+	<verwaltung>DR</verwaltung>
 	<maszstab>120</maszstab>
 	<modulnr>BeKas400</modulnr>
     <plan src="aws.png"/>

@@ -9,7 +9,7 @@
   <verwaltung>DR</verwaltung>
   <maszstab>120</maszstab>
   <modulnr>MiSch219</modulnr>
-  <plan src="the.png" />
+  <plan src="the.svg" />
   <gleise>
     <zulaufstrecken>
       <links nr="1">1gl</links>
@@ -19,67 +19,96 @@
       <gleis id="gleis_1">
         <name>1</name>
         <laenge einheit="cm">355</laenge>
+        <bemerkung>Hauptgleis</bemerkung>
       </gleis>
       <gleis id="gleis_2">
         <name>2</name>
         <laenge einheit="cm">535</laenge>
+        <bemerkung>Hauptgleis</bemerkung>
       </gleis>
       <gleis id="gleis_3">
         <name>3</name>
         <laenge einheit="cm">415</laenge>
+        <bemerkung>Hauptgleis</bemerkung>
       </gleis>
       <gleis id="gleis_4">
         <name>4</name>
         <laenge einheit="cm">330</laenge>
+        <bemerkung>Güterzuggleis</bemerkung>
       </gleis>
     </hgleise>
     <ngleise>
       <gleis id="gleis_5">
         <name>5</name>
         <laenge einheit="cm">293</laenge>
+        <bemerkung>Bereitstellungsgleis</bemerkung>
       </gleis>
       <gleis id="gleis_6">
         <name>6</name>
         <laenge einheit="cm">270</laenge>
+        <bemerkung>Bereitstellungsgleis</bemerkung>
       </gleis>
       <gleis id="gleis_7">
         <name>7</name>
         <laenge einheit="cm">223</laenge>
+        <bemerkung>Containergleis</bemerkung>
       </gleis>
       <gleis id="gleis_8">
         <name>8</name>
         <laenge einheit="cm">40</laenge>
+        <bemerkung>Betonwerk</bemerkung>
       </gleis>
       <gleis id="gleis_9">
         <name>9</name>
         <laenge einheit="cm">230</laenge>
+        <bemerkung>Kieswerk</bemerkung>
       </gleis>
       <gleis id="gleis_10">
         <name>10</name>
         <laenge einheit="cm">35</laenge>
+        <bemerkung>Abstellgleis</bemerkung>
       </gleis>
       <gleis id="gleis_11">
         <name>11</name>
         <laenge einheit="cm">55</laenge>
+        <bemerkung>Möbelwerk</bemerkung>
       </gleis>
       <gleis id="gleis_12">
         <name>12</name>
         <laenge einheit="cm">65</laenge>
+        <bemerkung>Getreide</bemerkung>
       </gleis>
       <gleis id="gleis_13">
         <name>13</name>
         <laenge einheit="cm">25</laenge>
         <bemerkung>Anschluß Kohlehandel</bemerkung>
       </gleis>
-      <gleis id="gleis_14">
-        <name>14</name>
-        <laenge einheit="cm">95</laenge>
+      <gleis id="gleis_3a">
+        <name>3a</name>
+        <laenge einheit="cm">125</laenge>
+        <bemerkung>Abstellgleis</bemerkung>
       </gleis>
-      <!--<gleis id="gleis_M67">
-        <name>M67</name>
-        <laenge einheit="cm">2458</laenge>
+      <gleis id="gleis_3b">
+        <name>3b</name>
+        <laenge einheit="cm">50</laenge>
+        <bemerkung>Abstellgleis</bemerkung>
       </gleis>
-      <gleis id="gleis_M68">
+      <gleis id="gleis_1a">
+        <name>1A</name>
+        <laenge einheit="cm">220</laenge>
+        <bemerkung>Abstellgleis</bemerkung>
+      </gleis>
+      <gleis id="gleis_1b">
+        <name>1B</name>
+        <laenge einheit="cm">30</laenge>
+        <bemerkung>Abstellgleis</bemerkung>
+      </gleis>
+      <gleis id="gleis_7_umfahrung">
+        <name/>
+        <laenge einheit="cm">80</laenge>
+        <bemerkung>Umfahrung Gleis 7</bemerkung>
+      </gleis>
+      <!--<gleis id="gleis_M68">
         <name>M68</name>
         <laenge einheit="cm">130</laenge>
       </gleis>
@@ -142,19 +171,19 @@
         <ladegut ladestelle="Ladestra_e_I" typ="stueckgut">
           <name>Elektrobauteile</name>
           <gattung>G / Stückgut</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestra_e_I">
           <name>Kunststoffgranulat</name>
           <gattung>G, U</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
       </empfang>
       <versand>
         <ladegut ladestelle="Ladestra_e_I" typ="stueckgut">
           <name>Radios / Stereoanlagen</name>
           <gattung>G, Stückgut</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
       </versand>
     </verlader>
@@ -164,29 +193,29 @@
         <ladegut ladestelle="Ladestra_e_II Ladestra_e_I">
           <name>Bretter</name>
           <gattung>R, E</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestra_e_II Ladestra_e_I">
           <name>Spanplatte</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
         <ladegut ladestelle="G_terschuppen" typ="stueckgut">
           <name>Möbelbeschläge</name>
           <gattung>Stückgut</gattung>
-          <wagen zeitraum="woche">0.5</wagen>
+          <wagen>0.5</wagen>
         </ladegut>
         <ladegut ladestelle="G_terschuppen" typ="stueckgut">
           <name>Holzleim (Kanister)</name>
           <gattung>G, Stückgut</gattung>
-          <wagen zeitraum="woche">0.1</wagen>
+          <wagen>0.1</wagen>
         </ladegut>
       </empfang>
       <versand>
         <ladegut ladestelle="G_terschuppen" typ="stueckgut">
           <name>Schrankwände / Tische</name>
           <gattung>G, Stückgut</gattung>
-          <wagen zeitraum="woche">3</wagen>
+          <wagen>3</wagen>
         </ladegut>
       </versand>
     </verlader>
@@ -196,12 +225,12 @@
         <ladegut ladestelle="Kohlehandel">
           <name>Briketts</name>
           <gattung>E, F</gattung>
-          <wagen zeitraum="woche">8</wagen>
+          <wagen>8</wagen>
         </ladegut>
         <ladegut ladestelle="Kohlehandel">
           <name>Anfeuerholz</name>
           <gattung>E</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
       </empfang>
     </verlader>
@@ -211,29 +240,29 @@
         <ladegut ladestelle="Ladestra_e_II G_terschuppen" typ="stueckgut">
           <name>Kupferdraht</name>
           <gattung>G, Stückgut</gattung>
-          <wagen zeitraum="woche">0.5</wagen>
+          <wagen>0.5</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestra_e_II">
           <name>Bleche, Profile</name>
           <gattung>G, E</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestra_e_II">
-          <name>Farben (Faßware)</name>
+          <name>Farben, als Fassware</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestra_e_II G_terschuppen" typ="stueckgut">
           <name>Elektronikbauteile, Normteile</name>
           <gattung>G, Stückgut</gattung>
-          <wagen zeitraum="woche">0.5</wagen>
+          <wagen>0.5</wagen>
         </ladegut>
       </empfang>
       <versand>
         <ladegut ladestelle="Ladestra_e_II G_terschuppen" typ="stueckgut">
           <name>Modellflugzeuge, Spielzeug</name>
           <gattung>G, Stückgut</gattung>
-          <wagen zeitraum="woche">0.5</wagen>
+          <wagen>0.5</wagen>
         </ladegut>
       </versand>
     </verlader>
@@ -243,32 +272,32 @@
         <ladegut ladestelle="Seitenrampe_I Kopframpe Ladestra_e_I">
           <name>Baumaschinen, Aggregate</name>
           <gattung>R, K, S</gattung>
-          <wagen zeitraum="woche">0.1</wagen>
+          <wagen>0.1</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestra_e_I">
           <name>Ziegel, Hohlblocksteine</name>
           <gattung>E</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestra_e_I">
           <name>Betonfertigteile</name>
           <gattung>E, R, K</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestra_e_I">
-          <name>Zement, Kalk (Sackware)</name>
+          <name>Zement, Kalk (als Sackware)</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestra_e_I">
           <name>Kies</name>
           <gattung>S</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestra_e_I">
           <name>Schalbretter, Balken</name>
           <gattung>E, K ,R</gattung>
-          <wagen zeitraum="woche">0.2</wagen>
+          <wagen>0.2</wagen>
         </ladegut>
       </empfang>
     </verlader>
@@ -286,9 +315,9 @@
           <wagen zeitraum="tag">2</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestra_e_II">
-          <name>Brantwein (Faßware)</name>
+          <name>Branntwein, als Fassware</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestra_e_II">
           <name>Konservengläser</name>
@@ -298,27 +327,27 @@
         <ladegut ladestelle="Ladestra_e_II">
           <name>Konservendosen</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">3</wagen>
+          <wagen>3</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestra_e_II">
-          <name>Zuckersirup (Faßware)</name>
+          <name>Zuckersirup, als Fassware</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestra_e_II">
-          <name>Stärke (Sackware)</name>
+          <name>Stärke, als Sackware</name>
           <gattung>G</gattung>
           <wagen zeitraum="tag">1</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestra_e_II">
           <name>Europaletten</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
       </empfang>
       <versand>
         <ladegut ladestelle="Ladestra_e_II">
-          <name>Obst- und Gemüsekonserven</name>
+          <name>Obstkonserven, Gemüsekonserven</name>
           <gattung>G</gattung>
           <wagen zeitraum="tag">2</wagen>
         </ladegut>
@@ -330,34 +359,34 @@
         <ladegut ladestelle="Seitenrampe_II Ladestra_e_I">
           <name>Stammholz</name>
           <gattung>E, R</gattung>
-          <wagen zeitraum="woche">4</wagen>
+          <wagen>4</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestra_e_II">
           <name>Altpapier</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
         <ladegut ladestelle="Seitenrampe_II">
           <name>Kaolin</name>
           <gattung>E</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
       </empfang>
       <versand>
         <ladegut ladestelle="Seitenrampe_II G_terschuppen" typ="stueckgut">
           <name>Packpapier</name>
           <gattung>G, Stückgut</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
         <ladegut ladestelle="Seitenrampe_II G_terschuppen" typ="stueckgut">
           <name>Kartons</name>
           <gattung>G, Stückgut</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
         <ladegut ladestelle="G_terschuppen" typ="stueckgut">
           <name>Verpackungsmaterial</name>
           <gattung>Stückgut</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
       </versand>
     </verlader>
@@ -367,24 +396,24 @@
         <ladegut ladestelle="Seitenrampe_I Ladestra_e_I">
           <name>Schlachtvieh</name>
           <gattung>G, H</gattung>
-          <wagen zeitraum="woche">3</wagen>
+          <wagen>3</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestra_e_I">
           <name>Konservendosen</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestra_e_I">
           <name>Konservengläser</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
       </empfang>
       <versand>
         <ladegut ladestelle="Ladestra_e_I">
-          <name>Fleisch- und Wurstkonserven</name>
+          <name>Fleischkonserven, Wurstkonserven</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
       </versand>
     </verlader>
@@ -394,34 +423,34 @@
         <ladegut ladestelle="Ladestra_e_II">
           <name>Kunststoffgranulat</name>
           <gattung>G, U</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestra_e_II">
           <name>Getriebgehäuse</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="G_terschuppen" typ="stueckgut">
           <name>Wellen</name>
           <gattung>Stückgut</gattung>
-          <wagen zeitraum="woche">0.5</wagen>
+          <wagen>0.5</wagen>
         </ladegut>
         <ladegut ladestelle="G_terschuppen" typ="stueckgut">
           <name>Zahnräder</name>
           <gattung>Stückgut</gattung>
-          <wagen zeitraum="woche">0.25</wagen>
+          <wagen>0.25</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestra_e_II G_terschuppen" typ="stueckgut">
           <name>Blechteile</name>
           <gattung>G, Stückgut</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
       </empfang>
       <versand>
         <ladegut ladestelle="Ladestra_e_II G_terschuppen" typ="stueckgut">
           <name>Elektrogeräte</name>
           <gattung>G, Stückgut</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
       </versand>
     </verlader>
@@ -431,17 +460,17 @@
         <ladegut ladestelle="Kopframpe">
           <name>Pkw</name>
           <gattung>L</gattung>
-          <wagen zeitraum="woche">5</wagen>
+          <wagen>5</wagen>
         </ladegut>
         <ladegut ladestelle="G_terschuppen" typ="stueckgut">
-          <name>Fahrräder und Ersatzteile</name>
+          <name>Fahrräder, Ersatzteile</name>
           <gattung>G, Stückgut</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="G_terschuppen" typ="stueckgut">
           <name>Ersatzteile</name>
           <gattung>Stückgut</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
       </empfang>
     </verlader>
@@ -451,39 +480,39 @@
         <ladegut ladestelle="Ladestra_e_I">
           <name>Kunststoffgranulat</name>
           <gattung>U, G</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="G_terschuppen" typ="stueckgut">
           <name>Wolle</name>
           <gattung>G, Stückgut</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestra_e_I">
           <name>Textilfarbe</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestra_e_I">
           <name>Textilien</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="G_terschuppen" typ="stueckgut">
           <name>Stoffe</name>
           <gattung>Stückgut</gattung>
-          <wagen zeitraum="woche">0.5</wagen>
+          <wagen>0.5</wagen>
         </ladegut>
       </empfang>
       <versand>
         <ladegut ladestelle="G_terschuppen Ladestra_e_I" typ="stueckgut">
           <name>Puppenköpfe</name>
           <gattung>G, Stückgut</gattung>
-          <wagen zeitraum="woche">2.5</wagen>
+          <wagen>2.5</wagen>
         </ladegut>
         <ladegut ladestelle="G_terschuppen Ladestra_e_I" typ="stueckgut">
           <name>Puppenkleider</name>
           <gattung>G, Stückgut</gattung>
-          <wagen zeitraum="woche">1.25</wagen>
+          <wagen>1.25</wagen>
         </ladegut>
       </versand>
     </verlader>
@@ -493,27 +522,27 @@
         <ladegut ladestelle="Ladestra_e_II">
           <name>Betonstahl</name>
           <gattung>R, E</gattung>
-          <wagen zeitraum="woche">4</wagen>
+          <wagen>4</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestra_e_II">
           <name>Sand</name>
           <gattung>S, E</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestra_e_II">
           <name>Kies</name>
           <gattung>S, E</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestra_e_II">
           <name>Zement lose</name>
           <gattung>U</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestra_e_II">
-          <name>Zement gesackt</name>
+          <name>Zement, als Sackware</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">7</wagen>
+          <wagen>7</wagen>
         </ladegut>
       </empfang>
       <versand>
@@ -530,17 +559,17 @@
         <ladegut ladestelle="Minol">
           <name>VK88</name>
           <gattung>Z</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
         <ladegut ladestelle="Minol">
           <name>VK95</name>
           <gattung>Z</gattung>
-          <wagen zeitraum="woche">7</wagen>
+          <wagen>7</wagen>
         </ladegut>
         <ladegut ladestelle="Minol">
           <name>Diesel</name>
           <gattung>Z</gattung>
-          <wagen zeitraum="woche">7</wagen>
+          <wagen>7</wagen>
         </ladegut>
       </empfang>
     </verlader>
@@ -550,24 +579,24 @@
         <ladegut ladestelle="G_terschuppen">
           <name>Stoffballen, Textilien, Textilfarbe</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">3</wagen>
+          <wagen>3</wagen>
         </ladegut>
         <ladegut ladestelle="G_terschuppen" typ="stueckgut">
           <name>Herrenanzüge</name>
           <gattung>Stückgut</gattung>
-          <wagen zeitraum="woche">0.2</wagen>
+          <wagen>0.2</wagen>
         </ladegut>
       </empfang>
       <versand>
         <ladegut ladestelle="G_terschuppen" typ="stueckgut">
           <name>Oberbekleidung</name>
           <gattung>Stückgut</gattung>
-          <wagen zeitraum="woche">0.2</wagen>
+          <wagen>0.2</wagen>
         </ladegut>
         <ladegut ladestelle="G_terschuppen" typ="stueckgut">
           <name>Hemden</name>
           <gattung>Stückgut</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
       </versand>
     </verlader>
@@ -577,24 +606,24 @@
         <ladegut ladestelle="Ladestra_e_II G_terschuppen">
           <name>Kunststoffgranulat</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="G_terschuppen" typ="stueckgut">
           <name>Elektronikbauteile, Normteile, Feindraht</name>
           <gattung>Stückgut</gattung>
-          <wagen zeitraum="woche">5</wagen>
+          <wagen>5</wagen>
         </ladegut>
       </empfang>
       <versand>
         <ladegut ladestelle="Ladestra_e_II">
           <name>Modellbahn</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">3</wagen>
+          <wagen>3</wagen>
         </ladegut>
         <ladegut ladestelle="G_terschuppen" typ="stueckgut">
           <name>Spielzeug</name>
           <gattung>Stückgut</gattung>
-          <wagen zeitraum="woche">0.2</wagen>
+          <wagen>0.2</wagen>
         </ladegut>
       </versand>
     </verlader>
@@ -604,7 +633,7 @@
         <ladegut ladestelle="Kopframpe">
           <name>Fahrzeuge</name>
           <gattung>L, S</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
       </empfang>
     </verlader>
@@ -614,12 +643,12 @@
         <ladegut ladestelle="Ladestra_e_II">
           <name>Maschinenteile</name>
           <gattung>G, R</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestra_e_II">
           <name>Sprengstoff</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
       </empfang>
       <versand>
@@ -639,9 +668,9 @@
       <name>VEB Metallwaren Rensteig</name>
       <empfang>
         <ladegut ladestelle="Ladestra_e_I">
-          <name>Roh- und Halbzeuge</name>
+          <name>Rohzeuge, Halbzeuge</name>
           <gattung>G, R</gattung>
-          <wagen zeitraum="woche">3</wagen>
+          <wagen>3</wagen>
         </ladegut>
         <ladegut ladestelle="G_terschuppen" typ="stueckgut">
           <name>Elektronikbauteile</name>
@@ -651,14 +680,14 @@
         <ladegut ladestelle="G_terschuppen" typ="stueckgut">
           <name>Normteile</name>
           <gattung>G, Stückgut</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
       </empfang>
       <versand>
         <ladegut ladestelle="G_terschuppen" typ="stueckgut">
           <name>Elektromotoren</name>
           <gattung>G, Stückgut</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
       </versand>
     </verlader>
@@ -668,17 +697,17 @@
         <ladegut ladestelle="Ladestra_e_I">
           <name>Kunststoffgranulat</name>
           <gattung>G, U</gattung>
-          <wagen zeitraum="woche">3</wagen>
+          <wagen>3</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestra_e_I">
           <name>Textilfarbe</name>
           <gattung>Z</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestra_e_I">
           <name>Glasfaserrollen, Glaswolle</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestra_e_I">
           <name>Papierrollen</name>
@@ -690,17 +719,17 @@
         <ladegut ladestelle="G_terschuppen" typ="stueckgut">
           <name>Tapeten</name>
           <gattung>Stückgut</gattung>
-          <wagen zeitraum="woche">0.2</wagen>
+          <wagen>0.2</wagen>
         </ladegut>
         <ladegut ladestelle="G_terschuppen" typ="stueckgut">
           <name>Glasfasertapeten</name>
           <gattung>Stückgut</gattung>
-          <wagen zeitraum="woche">0.2</wagen>
+          <wagen>0.2</wagen>
         </ladegut>
         <ladegut ladestelle="G_terschuppen">
           <name>Spielzeug</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">0.2</wagen>
+          <wagen>0.2</wagen>
         </ladegut>
       </versand>
     </verlader>
@@ -710,29 +739,29 @@
         <ladegut ladestelle="Ladestra_e_I">
           <name>Stoffballen</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestra_e_I">
           <name>Textilien</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
       </empfang>
       <versand>
         <ladegut ladestelle="G_terschuppen">
           <name>Oberbekleidung</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="G_terschuppen" typ="stueckgut">
           <name>Herrenanzüge</name>
           <gattung>Stückgut</gattung>
-          <wagen zeitraum="woche">0.2</wagen>
+          <wagen>0.2</wagen>
         </ladegut>
         <ladegut ladestelle="G_terschuppen" typ="stueckgut">
           <name>Kinderbekleidung</name>
           <gattung>Stückgut</gattung>
-          <wagen zeitraum="woche">0.2</wagen>
+          <wagen>0.2</wagen>
         </ladegut>
       </versand>
     </verlader>
@@ -740,46 +769,46 @@
       <name>VEB Maschinenwerk Grimmelshausen</name>
       <empfang>
         <ladegut ladestelle="Ladestra_e_I">
-          <name>Roh- und Halbzeuge</name>
+          <name>Rohzeuge, Halbzeuge</name>
           <gattung>K, R</gattung>
-          <wagen zeitraum="woche">4</wagen>
+          <wagen>4</wagen>
         </ladegut>
         <ladegut ladestelle="G_terschuppen" typ="stueckgut">
           <name>Normteile</name>
           <gattung>Stückgut</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestra_e_I">
           <name>Maschinenteile</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
       </empfang>
       <versand>
         <ladegut ladestelle="Ladestra_e_I">
           <name>Schleifmaschinen</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">4</wagen>
+          <wagen>4</wagen>
         </ladegut>
         <ladegut ladestelle="G_terschuppen" typ="stueckgut">
           <name>Bügelmaschinen</name>
           <gattung>Stückgut</gattung>
-          <wagen zeitraum="woche">0.2</wagen>
+          <wagen>0.2</wagen>
         </ladegut>
         <ladegut ladestelle="G_terschuppen" typ="stueckgut">
           <name>Bohrmaschinen</name>
           <gattung>Stückgut</gattung>
-          <wagen zeitraum="woche">0.2</wagen>
+          <wagen>0.2</wagen>
         </ladegut>
         <ladegut ladestelle="G_terschuppen" typ="stueckgut">
           <name>Winkelschleifer</name>
           <gattung>Stückgut</gattung>
-          <wagen zeitraum="woche">0.2</wagen>
+          <wagen>0.2</wagen>
         </ladegut>
         <ladegut ladestelle="G_terschuppen" typ="stueckgut">
           <name>Trennschleifer</name>
           <gattung>Stückgut</gattung>
-          <wagen zeitraum="woche">0.2</wagen>
+          <wagen>0.2</wagen>
         </ladegut>
       </versand>
     </verlader>
@@ -789,17 +818,17 @@
         <ladegut ladestelle="G_terschuppen" typ="stueckgut">
           <name>Ersatzteile</name>
           <gattung>Stückgut</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestra_e_II">
           <name>Dünger</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
         <ladegut ladestelle="Seitenrampe_I Kopframpe">
-          <name>Lndwirtschaftliche Fahrzeuge</name>
+          <name>Landwirtschaftliche Fahrzeuge</name>
           <gattung>R, S</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
       </empfang>
       <versand>
@@ -816,7 +845,7 @@
         <ladegut ladestelle="Seitenrampe_II">
           <name>Vieh</name>
           <gattung>G, H</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
       </versand>
     </verlader>
@@ -853,12 +882,12 @@
         <ladegut ladestelle="Ladestra_e_II">
           <name>Briketts</name>
           <gattung>E, F</gattung>
-          <wagen zeitraum="woche">3</wagen>
+          <wagen>3</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestra_e_II">
           <name>Brennholz</name>
           <gattung>E</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
       </empfang>
     </verlader>
@@ -868,22 +897,22 @@
         <ladegut ladestelle="G_terschuppen" typ="stueckgut">
           <name>Beschläge</name>
           <gattung>Stückgut</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="G_terschuppen" typ="stueckgut">
           <name>Spezielles Holz</name>
           <gattung>Stückgut</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
         <ladegut ladestelle="G_terschuppen" typ="stueckgut">
           <name>Eisenstangen</name>
           <gattung>Stückgut</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
       </empfang>
       <versand>
         <ladegut ladestelle="G_terschuppen" typ="stueckgut">
-          <name>Jagd- und Sportwaffen</name>
+          <name>Jagdwaffen, Sportwaffen</name>
           <gattung>Stückgut</gattung>
           <wagen zeitraum="tag">1</wagen>
         </ladegut>
@@ -900,22 +929,22 @@
         <ladegut ladestelle="Ladestra_e_I">
           <name>Holzbretter</name>
           <gattung>R, E</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestra_e_I">
           <name>Tuffstein</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">3</wagen>
+          <wagen>3</wagen>
         </ladegut>
         <ladegut ladestelle="G_terschuppen">
-          <name>Glasfarbe (Faßware)</name>
+          <name>Glasfarbe, als Fassware</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestra_e_I">
           <name>Rohglas</name>
           <gattung>U</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestra_e_I">
           <name>Kalk</name>
@@ -942,17 +971,17 @@
         <ladegut ladestelle="G_terschuppen">
           <name>Glasfarbe</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestra_e_I">
           <name>Glasgranulat</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestra_e_I">
           <name>Quarzsand</name>
           <gattung>U</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
       </empfang>
       <versand>
@@ -969,34 +998,34 @@
         <ladegut ladestelle="G_terschuppen" typ="stueckgut">
           <name>Granulat</name>
           <gattung>Stückgut</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="G_terschuppen" typ="stueckgut">
-          <name>Farbe (Faßware)</name>
+          <name>Farbe, als Fassware</name>
           <gattung>Stückgut</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="G_terschuppen" typ="stueckgut">
           <name>Normteile</name>
           <gattung>Stückgut</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="G_terschuppen" typ="stueckgut">
           <name>Elektronikbauteile</name>
           <gattung>Stückgut</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="G_terschuppen" typ="stueckgut">
           <name>Feindrahtrollen</name>
           <gattung>Stückgut</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
       </empfang>
       <versand>
         <ladegut ladestelle="Ladestra_e_I">
           <name>Keramik, Waschbecken, Fliesen, Kochfelder</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
       </versand>
     </verlader>
@@ -1006,24 +1035,24 @@
         <ladegut ladestelle="G_terschuppen" typ="stueckgut">
           <name>Kupferdraht</name>
           <gattung>Stückgut</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestra_e_II">
           <name>Stahlrohre</name>
           <gattung>R</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="G_terschuppen" typ="stueckgut">
           <name>Feindraht</name>
           <gattung>G, Stückgut</gattung>
-          <wagen zeitraum="woche">3</wagen>
+          <wagen>3</wagen>
         </ladegut>
       </empfang>
       <versand>
         <ladegut ladestelle="G_terschuppen" typ="stueckgut">
           <name>Abzeichen</name>
           <gattung>Stückgut</gattung>
-          <wagen zeitraum="woche">0.5</wagen>
+          <wagen>0.5</wagen>
         </ladegut>
         <ladegut ladestelle="G_terschuppen" typ="stueckgut">
           <name>Schrauben, Muttern</name>
@@ -1032,7 +1061,8 @@
         </ladegut>
       </versand>
     </verlader>
-    <bemerkung>Themar war Containerumschlagplatz für die gesamte Region. Frachten, die im G-Wagen laufen, können alternativ auch im Container transportiert werden.[br][br]Zusätzlich zum Einzelladungsverkehr besteht je nach Treffensausrichtung auch die Möglichkeit , bis zu drei Containerganzzugpaare in Themar zu behandeln.</bemerkung>
+  <bemerkung>Themar war Containerumschlagplatz für die gesamte Region. Frachten, die im G-Wagen laufen, können alternativ auch im Container transportiert werden.[br][br]Zusätzlich zum Einzelladungsverkehr besteht je nach Treffensausrichtung auch die Möglichkeit, bis zu drei Containerganzzugpaare in Themar zu behandeln.</bemerkung>
   </gv>
+  <bemerkung>Ausfahrt nach Mng (1-gleisig) in Absprache auch 2-gleisig möglich.</bemerkung>
 </bahnhof>
 

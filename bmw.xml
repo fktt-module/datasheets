@@ -5,6 +5,7 @@
    <name>Brennstoffhandel Mallow</name>
    <kuerzel>BMW</kuerzel>
    <typ>Anst</typ>
+   <verwaltung>DR</verwaltung>
    <maszstab>120</maszstab>
    <modulnr>HaMal353</modulnr>
    <plan src="bmw.png"/>
@@ -18,7 +19,7 @@
         <hgleise>
       	   <gleis>
               <name>Strecke</name>
-              <laenge></laenge>
+              <laenge/>
            </gleis>
 	    </hgleise>
 	    <ngleise>
@@ -80,7 +81,7 @@
             <ladegut ladestelle="l1 l2">
                <name>Heizöl</name>
                <gattung>Z</gattung>
-               <wagen zeitraum="woche">1</wagen>
+               <wagen>1</wagen>
             </ladegut>
             <ladegut ladestelle="l1 l2">
                <name>Brennholz</name>
@@ -90,15 +91,15 @@
             <ladegut ladestelle="l1 l2">
                <name>Petroleum</name>
                <gattung>G, H</gattung>
-               <wagen zeitraum="woche">1</wagen>
+               <wagen>1</wagen>
             </ladegut>
             <ladegut ladestelle="l2">
                <name>Kohleanzünder</name>
                <gattung>Stückgut</gattung>
-               <wagen zeitraum="woche">0.25</wagen>
+               <wagen>0.25</wagen>
             </ladegut>
             <ladegut ladestelle="l2">
-               <name>Holzkohle gesackt</name>
+               <name>Holzkohle, als Sackware</name>
                <gattung>Stückgut, G</gattung>
                <wagen zeitraum="tag">0.25</wagen>
             </ladegut>
@@ -160,7 +161,7 @@
                <wagen zeitraum="tag">0</wagen>
             </ladegut>-->
             <ladegut ladestelle="l1 l2">
-               <name>Kohlenstaub gesackt</name>
+               <name>Kohlenstaub, als Sackware</name>
                <gattung>E, G</gattung>
                <wagen zeitraum="tag">2</wagen>
             </ladegut>

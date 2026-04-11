@@ -6,6 +6,7 @@
   <name>Dahmstadt</name>
   <kuerzel>DST</kuerzel>
   <typ>Bf</typ>
+  <verwaltung>DB</verwaltung>
   <maszstab>120</maszstab>
   <modulnr>JeRei230</modulnr>
   <plan src="dst.png" />
@@ -179,14 +180,14 @@
         <ladegut ladestelle="Kohlebansen">
           <name>Lokkohle, Tauschteile, Schmierstoffe</name>
           <gattung>G, E, K, X</gattung>
-          <wagen zeitraum="woche">3</wagen>
+          <wagen>3</wagen>
         </ladegut>
       </empfang>
       <versand>
         <ladegut ladestelle="Kohlebansen">
-          <name>Altöl in Fässern, Schlacke, Tauschteile</name>
+          <name>Altöl (als Fassware), Schlacke, Tauschteile</name>
           <gattung>G, K, X</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
       </versand>
     </verlader>
@@ -218,7 +219,7 @@
         <ladegut ladestelle="Werner_Gr_nzweig_KG">
           <name>Kunststoffgranulat lose</name>
           <gattung>U</gattung>
-          <wagen zeitraum="woche">3.0</wagen>
+          <wagen>3.0</wagen>
         </ladegut>
         <ladegut ladestelle="Werner_Gr_nzweig_KG">
           <name>Gehäuserohlinge</name>
@@ -235,7 +236,7 @@
         <ladegut ladestelle="Werner_Gr_nzweig_KG" typ="stueckgut">
           <name>Zulieferteile für Elektrogeräte als Stückgut</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
         <ladegut ladestelle="Werner_Gr_nzweig_KG">
           <name>Bügeleisen</name>
@@ -265,7 +266,7 @@
         <ladegut ladestelle="Sandverladung-2_Kopframpe">
           <name>Maschinen, LKW, Bagger, Ersatzteile</name>
           <gattung>K, R, S</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
       </empfang>
       <versand>
@@ -285,7 +286,7 @@
           <wagen zeitraum="tag">4</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestrasse">
-          <name>Futter- und Düngemittel, lose und gesackt</name>
+          <name>Futtermittel, Düngemittel, lose und als Sackware</name>
           <gattung>G, T</gattung>
           <wagen zeitraum="tag">1</wagen>
         </ladegut>
@@ -299,7 +300,7 @@
         <ladegut ladestelle="Postrampe" typ="stueckgut">
           <name>Leergut als Stückgut</name>
           <gattung>G, H</gattung>
-          <wagen zeitraum="woche">3</wagen>
+          <wagen>3</wagen>
         </ladegut>
       </versand>
     </verlader>
@@ -309,19 +310,19 @@
         <ladegut ladestelle="Postrampe" typ="stueckgut">
           <name>Holzwolle als Stückgut</name>
           <gattung>G, H</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestrasse">
           <name>Steinblöcke aller Art, Schnittholz</name>
           <gattung>K, R, S, E</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
       </empfang>
       <versand>
         <ladegut ladestelle="Ladestrasse">
           <name>Bordsteine, Pflastersteine, Springbrunnen, Steinplastiken</name>
           <gattung>G, K, R, S, E</gattung>
-          <wagen zeitraum="woche">3</wagen>
+          <wagen>3</wagen>
         </ladegut>
       </versand>
     </verlader>
@@ -346,9 +347,9 @@
       <name>VEB Getreidewirtschaft, Betriebsteil IV Getreidelager Dahmstadt</name>
       <empfang>
         <ladegut ladestelle="Getreideverladung">
-          <name>diverses Saatgetreide lose und gesackt</name>
+          <name>diverses Saatgetreide lose und als Sackware</name>
           <gattung>G, Tg</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
       </empfang>
       <versand>
@@ -365,22 +366,22 @@
         <ladegut ladestelle="Ladestrasse">
           <name>Maschinen</name>
           <gattung>K, R, S</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestrasse">
           <name>Dünger lose</name>
           <gattung>T</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestrasse" typ="stueckgut">
-          <name>Saatgut gesackt als Stückgut</name>
+          <name>Saatgut als Stückgutsackware</name>
           <gattung>G, H</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
       </empfang>
       <versand>
         <ladegut ladestelle="Ladestrasse">
-          <name>Saat- und Speisekartoffeln lose und gesackt, Zuckerrüben</name>
+          <name>Saatkartoffeln, Speisekartoffeln lose und als Sackware, Zuckerrüben</name>
           <gattung>G, I</gattung>
           <wagen zeitraum="tag">3</wagen>
         </ladegut>
@@ -392,7 +393,7 @@
         <ladegut ladestelle="Seiten-_Viehrampe">
           <name>Jungvieh, Maschinen</name>
           <gattung>V, G, K, R, S</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <wagen>2</wagen>
         </ladegut>
       </empfang>
       <versand>
@@ -409,14 +410,14 @@
         <ladegut ladestelle="Postrampe" typ="stueckgut">
           <name>Leder, Leergut als Stückgut</name>
           <gattung>G, H</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
       </empfang>
       <versand>
         <ladegut ladestelle="Postrampe" typ="stueckgut">
           <name>Schuhhalbzeuge als Stückgut</name>
           <gattung>G, H</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
       </versand>
     </verlader>
@@ -443,10 +444,10 @@
         <ladegut ladestelle="Postrampe" typ="stueckgut">
           <name>Obstbrände, Liköre als Stückgut</name>
           <gattung>G, H</gattung>
-          <wagen zeitraum="woche">3</wagen>
+          <wagen>3</wagen>
         </ladegut>
         <ladegut ladestelle="Lik_rfabrik-2">
-          <name>Obstbrände , Liköre</name>
+          <name>Obstbrände, Liköre</name>
           <gattung>G</gattung>
           <wagen>3.0</wagen>
         </ladegut>

@@ -10,20 +10,23 @@
 	<xsl:variable name="filterStueckgut" select="'stueckgut'" />
 	<xsl:variable name="filterExpressgut" select="'expressgut'"/>
    <xsl:template match="/">
-      <html>
+	   <xsl:text disable-output-escaping="yes">&lt;!DOCTYPE html&gt;</xsl:text>
+      <html lang="de">
 			<head>
 				<title><xsl:value-of select="bahnhof/name"/> - Fahrplaner Ansicht</title>
-				<meta http-equiv="Content-Style-Type" content="text/css" />
 				<link rel="stylesheet" type="text/css" href="bahnhof.css" />
 				<link rel="icon" href="data:," />
 			</head>
          <body>
             <xsl:for-each select="bahnhof">
                <table border="1">
+				  <tbody>
+				  <tr style="display:none;"><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
                   <tr>
-                     <td class="links" colspan="8">Betriebsstelle: <span><xsl:value-of select="name"/></span></td>
+                     <td class="links" colspan="7">Betriebsstelle: <span><xsl:value-of select="name"/></span></td>
                      <td class="links" colspan="1"><xsl:text disable-output-escaping="yes">Kürzel: </xsl:text><span><xsl:value-of select="kuerzel"/></span></td>
                      <td class="links" colspan="1">Typ: <span><xsl:value-of select="typ"/></span></td>
+                     <td class="links" colspan="1">Verwaltung: <span><xsl:value-of select="verwaltung"/></span></td>
                   </tr>
                   <xsl:apply-templates select="plan"/>
                   <xsl:call-template name="leerzeile"/>
@@ -36,6 +39,7 @@
                   <xsl:call-template name="caroutput"/>
                   <xsl:call-template name="leerzeile"/>
                   <xsl:apply-templates select="bemerkung"/>
+				  </tbody>
                </table>
             </xsl:for-each>
          </body>
@@ -122,7 +126,7 @@
       </xsl:choose>
    </xsl:template>
    <xsl:template match="plan">
-      <tr><td class="mitte" colspan="{$maxcols}"><img src="{@src}"></img></td></tr>
+      <tr><td class="mitte" colspan="{$maxcols}"><img src="{@src}" alt="Gleisplan"></img></td></tr>
    </xsl:template>
    <xsl:template match="gleise">
       <tr>
@@ -188,7 +192,7 @@
          <td><xsl:text disable-output-escaping="yes">&#160;</xsl:text></td>
          <td class="mitte">Gleis</td>
 			<td class="rechts"><xsl:text disable-output-escaping="yes">Länge</xsl:text></td>
-			<td colspan="{$maxcols -3}" rowspan="{count(bahnsteig)+1}" class="mitte" valign="top">Bemerkungen zum Personenverkehr:<br/>
+			<td colspan="{$maxcols -3}" rowspan="{count(bahnsteig)+1}" class="mitte oben">Bemerkungen zum Personenverkehr:<br/>
 				<span class="m">
 						<xsl:call-template name="recurse_break">
 							<xsl:with-param name="idlist" select="bemerkung"/>
@@ -232,7 +236,7 @@
    </xsl:template>
    <xsl:template match="gv">
       <tr>
-			<td colspan="{$maxcols}" class="mitte" valign="top">
+			<td colspan="{$maxcols}" class="mitte oben">
 			<xsl:text disable-output-escaping="yes">Bemerkungen zum Güterverkehr:</xsl:text>
 			<br/><span class="m">
 	      <xsl:call-template name="recurse_break">

@@ -40,7 +40,7 @@ from typing import Union, Generator, Any
 # noinspection PyPep8Naming
 import xml.etree.ElementTree as ET
 
-__version__ = "2024.08"
+__version__ = "2026.01"
 
 # Update symlinks only if the platform supports not following them
 UPDATE_SYMLINKS = bool(os.utime in getattr(os, 'supports_follow_symlinks', []))
@@ -236,7 +236,7 @@ def get_reference_latest_commit_time(
 
 
 def is_track_map_file(file_name: str) -> bool:
-    valid_extensions = {'.jpeg', 'jpg', '.png', 'gif', '.bmp'}
+    valid_extensions = {'.jpeg', 'jpg', '.png', 'gif', '.bmp', '.svg'}
     return any(file_name.lower().endswith(ext) for ext in valid_extensions)
 
 

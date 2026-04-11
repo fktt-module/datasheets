@@ -6,6 +6,7 @@
   <name>Altranft</name>
   <kuerzel>ART</kuerzel>
   <typ>Bf</typ>
+  <verwaltung>DR</verwaltung>
   <maszstab>120</maszstab>
   <modulnr>AdRan204</modulnr>
   <plan src="art.png" />
@@ -68,7 +69,7 @@
       </empfang>
       <versand>
         <ladegut ladestelle="ladestr">
-          <name>leere Paletten und Kisten</name>
+          <name>leere Paletten, Kisten</name>
           <gattung>G, E, O</gattung>
           <wagen zeitraum="tag">0.25</wagen>
         </ladegut>
@@ -88,7 +89,7 @@
       <name>LPG</name>
       <empfang>
         <ladegut ladestelle="ladestr">
-          <name>Paletten, Kisten und Boxen</name>
+          <name>Paletten, Kisten, Boxen</name>
           <gattung>G</gattung>
           <wagen zeitraum="tag">0.25</wagen>
         </ladegut>

@@ -5,6 +5,7 @@
 	<name>Rokytnice/Rokitnitz</name>
 	<kuerzel>ROK</kuerzel>
 	<typ>Bf</typ>
+	<verwaltung>CSD,DR</verwaltung>
 	<maszstab>120</maszstab>
 	<modulnr>ThHan253</modulnr>
 	<plan src="rok.png"/>
@@ -100,17 +101,27 @@
 		<verlader>
 			<name>Stückgutschuppen</name>
 			<empfang>
-				<ladegut ladestelle="Gueterschuppen1">
-					<name>Stückgut, Expressgut</name>
+				<ladegut ladestelle="Gueterschuppen1" typ="stueckgut">
+					<name>Stückgut</name>
 					<gattung>G/Pwg</gattung>
-					<wagen zeitraum="woche">7</wagen>
+					<wagen>3.5</wagen>
+				</ladegut>
+				<ladegut ladestelle="Gueterschuppen1" typ="expressgut">
+					<name>Expressgut</name>
+					<gattung>G/Pwg</gattung>
+					<wagen>3.5</wagen>
 				</ladegut>
 			</empfang>
 			<versand>
-				<ladegut ladestelle="Gueterschuppen1">
-					<name>Stückgut, Expressgut</name>
+				<ladegut ladestelle="Gueterschuppen1" typ="stueckgut">
+					<name>Stückgut</name>
 					<gattung>G/Pwg</gattung>
-					<wagen zeitraum="woche">7</wagen>
+					<wagen>3.5</wagen>
+				</ladegut>
+				<ladegut ladestelle="Gueterschuppen1" typ="expressgut">
+					<name>Expressgut</name>
+					<gattung>G/Pwg</gattung>
+					<wagen>3.5</wagen>
 				</ladegut>
 			</versand>
 		</verlader>
@@ -120,24 +131,24 @@
 				<ladegut ladestelle="Freiladegleis1">
 					<name>leere Gemüsestiegen</name>
 					<gattung>G/H/Container</gattung>
-					<wagen zeitraum="woche">2</wagen>
+					<wagen>2</wagen>
 				</ladegut>
 				<ladegut ladestelle="Gueterschuppen1">
 					<name>Saatgut</name>
 					<gattung>G/H</gattung>
-					<wagen zeitraum="woche">0.5</wagen>
+					<wagen>0.5</wagen>
 				</ladegut>
 				<ladegut ladestelle="Freiladegleis2">
 					<name>Dünger lose</name>
 					<gattung>T</gattung>
-					<wagen zeitraum="woche">1</wagen>
+					<wagen>1</wagen>
 				</ladegut>
 			</empfang>
 			<versand>
 				<ladegut ladestelle="Freiladegleis1">
 					<name>Edelgemüse</name>
 					<gattung>I</gattung>
-					<wagen zeitraum="woche">2</wagen>
+					<wagen>2</wagen>
 				</ladegut>
 			</versand>
 		</verlader>
@@ -147,22 +158,22 @@
 				<ladegut ladestelle="Kopframpe">
 					<name>Fahrzeuge</name>
 					<gattung>R</gattung>
-					<wagen zeitraum="woche">0.5</wagen>
+					<wagen>0.5</wagen>
 				</ladegut>
 				<ladegut ladestelle="Freiladegleis2">
 					<name>Ersatzteile</name>
 					<gattung>G/H</gattung>
-					<wagen zeitraum="woche">0.5</wagen>
+					<wagen>0.5</wagen>
 				</ladegut>
 				<ladegut ladestelle="Freiladegleis1">
-					<name>div. Baumaterialien</name>
+					<name>diverse Baumaterialien</name>
 					<gattung>G/H/E/K</gattung>
-					<wagen zeitraum="woche">2</wagen>
+					<wagen>2</wagen>
 				</ladegut>
 				<ladegut ladestelle="Freiladegleis1">
 					<name>Telegrafenmasten, Strommasten</name>
 					<gattung>K/R</gattung>
-					<wagen zeitraum="woche">1</wagen>
+					<wagen>1</wagen>
 				</ladegut>
 			</empfang>
 		</verlader>
@@ -172,24 +183,24 @@
 				<ladegut ladestelle="Freiladegleis2">
 					<name>Pestizide</name>
 					<gattung>G/H</gattung>
-					<wagen zeitraum="woche">0.5</wagen>
+					<wagen>0.5</wagen>
 				</ladegut>
 				<ladegut ladestelle="Freiladegleis1">
 					<name>Kiefernsetzlinge</name>
 					<gattung>G/H</gattung>
-					<wagen zeitraum="woche">1</wagen>
+					<wagen>1</wagen>
 				</ladegut>
 			</empfang>
 			<versand>
 				<ladegut ladestelle="Freiladegleis3">
 					<name>Stammholz</name>
 					<gattung>E/R/S</gattung>
-					<wagen zeitraum="woche">6</wagen>
+					<wagen>6</wagen>
 				</ladegut>
 				<ladegut ladestelle="Seitenrampe">
 					<name>Rindenmulch</name>
 					<gattung>E</gattung>
-					<wagen zeitraum="woche">1</wagen>
+					<wagen>1</wagen>
 				</ladegut>
 			</versand>
 		</verlader>
@@ -197,14 +208,14 @@
 			<name>Sägewerk Rokytnice</name>
 			<versand>
 				<ladegut ladestelle="Seitenrampe">
-					<name>Balken u. Bretter</name>
+					<name>Balken, Bretter</name>
 					<gattung>E/R/S</gattung>
-					<wagen zeitraum="woche">5</wagen>
+					<wagen>5</wagen>
 				</ladegut>
 				<ladegut ladestelle="Seitenrampe">
 					<name>Sägespäne</name>
 					<gattung>E</gattung>
-					<wagen zeitraum="woche">1</wagen>
+					<wagen>1</wagen>
 				</ladegut>
 			</versand>
 		</verlader>
@@ -212,36 +223,36 @@
 			<name>LPG (P) Rokytnice</name>
 			<empfang>
 				<ladegut ladestelle="Gueterschuppen1">
-					<name>Saatgut gesackt</name>
+					<name>Saatgut, als Sackware</name>
 					<gattung>G/H</gattung>
-					<wagen zeitraum="woche">2</wagen>
+					<wagen>2</wagen>
 				</ladegut>
 				<ladegut ladestelle="Kopframpe">
 					<name>Maschinen</name>
 					<gattung>K/R/S</gattung>
-					<wagen zeitraum="woche">1</wagen>
+					<wagen>1</wagen>
 				</ladegut>
 				<ladegut ladestelle="Freiladegleis2">
 					<name>Dünger lose</name>
 					<gattung>T</gattung>
-					<wagen zeitraum="woche">1</wagen>
+					<wagen>1</wagen>
 				</ladegut>
 			</empfang>
 			<versand>
 				<ladegut ladestelle="Freiladegleis1">
 					<name>Getreide</name>
 					<gattung>G/H/T(a)dg</gattung>
-					<wagen zeitraum="woche">6</wagen>
+					<wagen>6</wagen>
 				</ladegut>
 				<ladegut ladestelle="Freiladegleis1">
 					<name>Braugerste</name>
 					<gattung>G/H/T(a)dg</gattung>
-					<wagen zeitraum="woche">2</wagen>
+					<wagen>2</wagen>
 				</ladegut>
 				<ladegut ladestelle="Freiladegleis1">
-					<name>Saat- und Speisekartoffeln lose und gesackt</name>
+					<name>Saatkartoffeln, Speisekartoffeln lose und als Sackware</name>
 					<gattung>G/H</gattung>
-					<wagen zeitraum="woche">3</wagen>
+					<wagen>3</wagen>
 				</ladegut>
 			</versand>
 		</verlader>
@@ -251,14 +262,14 @@
 				<ladegut ladestelle="Gueterschuppen1">
 					<name>Jungvieh, Maschinen</name>
 					<gattung>V/G/K/R/S</gattung>
-					<wagen zeitraum="woche">1</wagen>
+					<wagen>1</wagen>
 				</ladegut>
 			</empfang>
 			<versand>
 				<ladegut ladestelle="Gueterschuppen1">
 					<name>Schlachtrinder, Schlachtschweine</name>
 					<gattung>V/G</gattung>
-					<wagen zeitraum="woche">2</wagen>
+					<wagen>2</wagen>
 				</ladegut>
 			</versand>
 		</verlader>
@@ -268,14 +279,14 @@
 				<ladegut ladestelle="Gueterschuppen1">
 					<name>Getränke aller Art</name>
 					<gattung>G/H</gattung>
-					<wagen zeitraum="woche">3</wagen>
+					<wagen>3</wagen>
 				</ladegut>
 			</empfang>
 			<versand>
 				<ladegut ladestelle="Freiladegleis2">
 					<name>Leergut</name>
 					<gattung>G/H</gattung>
-					<wagen zeitraum="woche">1.5</wagen>
+					<wagen>1.5</wagen>
 				</ladegut>
 			</versand>
 		</verlader>
@@ -283,34 +294,34 @@
 			<name>BHG Rokytnice</name>
 			<empfang>
 				<ladegut ladestelle="Gueterschuppen2">
-					<name>Zement, gesackt</name>
+					<name>Zement, als Sackware</name>
 					<gattung>G/H</gattung>
-					<wagen zeitraum="woche">0.5</wagen>
+					<wagen>0.5</wagen>
 				</ladegut>
 				<ladegut ladestelle="Gueterschuppen2">
 					<name>Gartengeräte</name>
 					<gattung>G/H</gattung>
-					<wagen zeitraum="woche">1</wagen>
+					<wagen>1</wagen>
 				</ladegut>
 				<ladegut ladestelle="Gueterschuppen2">
 					<name>Saatgut</name>
 					<gattung>G/H</gattung>
-					<wagen zeitraum="woche">0.5</wagen>
+					<wagen>0.5</wagen>
 				</ladegut>
 				<ladegut ladestelle="Gueterschuppen2">
 					<name>Eisenwaren</name>
 					<gattung>G/H</gattung>
-					<wagen zeitraum="woche">1</wagen>
+					<wagen>1</wagen>
 				</ladegut>
 				<ladegut ladestelle="Gueterschuppen2">
 					<name>Tierzuchtbedarf</name>
 					<gattung>G/H</gattung>
-					<wagen zeitraum="woche">0.5</wagen>
+					<wagen>0.5</wagen>
 				</ladegut>
 				<ladegut ladestelle="Gueterschuppen2">
 					<name>Baustoffe</name>
 					<gattung>G/H/K/R/E</gattung>
-					<wagen zeitraum="woche">1.5</wagen>
+					<wagen>1.5</wagen>
 				</ladegut>
 			</empfang>
 		</verlader>
@@ -320,12 +331,12 @@
 				<ladegut ladestelle="Freiladegleis1">
 					<name>Altglas</name>
 					<gattung>G/H</gattung>
-					<wagen zeitraum="woche">2</wagen>
+					<wagen>2</wagen>
 				</ladegut>
 				<ladegut ladestelle="Freiladegleis1">
 					<name>Alteisen</name>
 					<gattung>E</gattung>
-					<wagen zeitraum="woche">2</wagen>
+					<wagen>2</wagen>
 				</ladegut>
 			</versand>
 		</verlader>
@@ -335,31 +346,31 @@
 				<ladegut ladestelle="Gueterschuppen1">
 					<name>Lebensmittel</name>
 					<gattung>I/G/H</gattung>
-					<wagen zeitraum="woche">3</wagen>
+					<wagen>3</wagen>
 				</ladegut>
 			</empfang>
 			<versand>
 				<ladegut ladestelle="Freiladegleis1">
 					<name>leere Verpackungen</name>
 					<gattung>G/H</gattung>
-					<wagen zeitraum="woche">1</wagen>
+					<wagen>1</wagen>
 				</ladegut>
 			</versand>
 		</verlader>
 		<verlader>
 			<name>Werkstätten für Körperbehinderte</name>
 			<empfang>
-				<ladegut ladestelle="Gueterschuppen1">
+				<ladegut ladestelle="Gueterschuppen1" typ="stueckgut">
 					<name>Schweinsborsten (Stückgut)</name>
 					<gattung>G/H</gattung>
-					<wagen zeitraum="woche">0.5</wagen>
+					<wagen>0.5</wagen>
 				</ladegut>
 			</empfang>
 			<versand>
-				<ladegut ladestelle="Gueterschuppen1">
-					<name>Bürsten u. Besen (Stückgut)</name>
+				<ladegut ladestelle="Gueterschuppen1" typ="stueckgut">
+					<name>Bürsten, Besen (Stückgut)</name>
 					<gattung>G/H</gattung>
-					<wagen zeitraum="woche">1.5</wagen>
+					<wagen>1.5</wagen>
 				</ladegut>
 			</versand>
 		</verlader>
@@ -369,29 +380,29 @@
 				<ladegut ladestelle="Freiladegleis3">
 					<name>Brikett</name>
 					<gattung>E/F</gattung>
-					<wagen zeitraum="woche">1</wagen>
+					<wagen>1</wagen>
 				</ladegut>
 				<ladegut ladestelle="Freiladegleis3">
 					<name>Braunkohle</name>
 					<gattung>E/F</gattung>
-					<wagen zeitraum="woche">3</wagen>
+					<wagen>3</wagen>
 				</ladegut>
 				<ladegut ladestelle="Freiladegleis3">
 					<name>Steinkohle</name>
 					<gattung>E/F</gattung>
-					<wagen zeitraum="woche">4</wagen>
+					<wagen>4</wagen>
 				</ladegut>
 				<ladegut ladestelle="Freiladegleis3">
 					<name>Heizöl</name>
 					<gattung>Z</gattung>
-					<wagen zeitraum="woche">1</wagen>
+					<wagen>1</wagen>
 				</ladegut>
 			</empfang>
 			<versand>
 				<ladegut ladestelle="Freiladegleis3">
 					<name>Brikettabrieb</name>
 					<gattung>E</gattung>
-					<wagen zeitraum="woche">0.5</wagen>
+					<wagen>0.5</wagen>
 				</ladegut>
 			</versand>
 		</verlader>
@@ -401,17 +412,17 @@
 				<ladegut ladestelle="Einsatzstelle">
 					<name>Dieselkraftstoff</name>
 					<gattung>Z</gattung>
-					<wagen zeitraum="woche">1</wagen>
+					<wagen>1</wagen>
 				</ladegut>
 				<ladegut ladestelle="Einsatzstelle">
 					<name>Schmieröle, Hilfsstoffe</name>
 					<gattung>G/H/Z</gattung>
-					<wagen zeitraum="woche">0.5</wagen>
+					<wagen>0.5</wagen>
 				</ladegut>
 				<ladegut ladestelle="Einsatzstelle">
 					<name>Ersatzteile</name>
 					<gattung>G/H/K</gattung>
-					<wagen zeitraum="woche">0.5</wagen>
+					<wagen>0.5</wagen>
 				</ladegut>
 			</empfang>
 		</verlader>
@@ -419,36 +430,36 @@
 			<name>Militär</name>
 			<empfang>
 				<ladegut ladestelle="Kopframpe">
-					<name>Rad- und Kettenfahrzeuge</name>
+					<name>Radfahrzeuge, Kettenfahrzeuge</name>
 					<gattung>K/R</gattung>
-					<wagen zeitraum="woche">3</wagen>
+					<wagen>3</wagen>
 				</ladegut>
 				<ladegut ladestelle="Seitenrampe">
 					<name>Radfahrzeuge</name>
 					<gattung>K/R</gattung>
-					<wagen zeitraum="woche">2</wagen>
+					<wagen>2</wagen>
 				</ladegut>
 				<ladegut ladestelle="Seitenrampe">
 					<name>Treibstoffe</name>
 					<gattung>Z</gattung>
-					<wagen zeitraum="woche">2</wagen>
+					<wagen>2</wagen>
 				</ladegut>
 				<ladegut ladestelle="Seitenrampe">
 					<name>Ersatzteile</name>
 					<gattung>G/H</gattung>
-					<wagen zeitraum="woche">1</wagen>
+					<wagen>1</wagen>
 				</ladegut>
 			</empfang>
 			<versand>
 				<ladegut ladestelle="Kopframpe">
-					<name>Rad- und Kettenfahrzeuge</name>
+					<name>Radfahrzeuge, Kettenfahrzeuge</name>
 					<gattung>K/R</gattung>
-					<wagen zeitraum="woche">3</wagen>
+					<wagen>3</wagen>
 				</ladegut>
 				<ladegut ladestelle="Seitenrampe">
 					<name>Radfahrzeuge</name>
 					<gattung>K/R</gattung>
-					<wagen zeitraum="woche">2</wagen>
+					<wagen>2</wagen>
 				</ladegut>
 			</versand>
 		</verlader>

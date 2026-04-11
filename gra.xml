@@ -6,6 +6,7 @@
   <name>Granzlin</name>
   <kuerzel>GRA</kuerzel>
   <typ>Bf</typ>
+  <verwaltung>DR</verwaltung>
   <maszstab>120.0</maszstab>
   <modulnr>MaRue202</modulnr>
   <plan src="gra.jpg" />

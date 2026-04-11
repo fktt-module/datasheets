@@ -6,6 +6,7 @@
   <name>Umformerwerk</name>
   <kuerzel>UFW</kuerzel>
   <typ>Anst</typ>
+  <verwaltung>DR</verwaltung>
   <maszstab>120</maszstab>
   <modulnr>MaKoh361</modulnr>
   <plan src="ufw.jpg" />

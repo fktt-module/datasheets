@@ -18,64 +18,64 @@
     <hgleise>
       <gleis id="gleis_1">
         <name>1</name>
-        <laenge einheit="mm">920</laenge>
+        <laenge>920</laenge>
         <bemerkung>Einfahrgleis für Personenzüge</bemerkung>
       </gleis>
       <gleis id="gleis_2">
         <name>2</name>
-        <laenge einheit="mm">1100</laenge>
+        <laenge>1100</laenge>
         <bemerkung>Einfahrgleis für GmP und Güterzüge</bemerkung>
       </gleis>
     </hgleise>
     <ngleise>
       <gleis id="gleis_1a">
         <name>1a</name>
-        <laenge einheit="mm">250</laenge>
+        <laenge>250</laenge>
         <bemerkung>Expressgutschuppen am EG</bemerkung>
       </gleis>
       <gleis id="gleis_3">
         <name>3</name>
-        <laenge einheit="mm">550</laenge>
+        <laenge>550</laenge>
         <bemerkung>Verkehrsgleis</bemerkung>
       </gleis>
       <gleis id="gleis_3a">
         <name>3a</name>
-        <laenge einheit="mm">450</laenge>
+        <laenge>450</laenge>
         <bemerkung>Verkehrsgleis</bemerkung>
       </gleis>
       <gleis id="gleis_4">
         <name>4</name>
-        <laenge einheit="mm">550</laenge>
+        <laenge>550</laenge>
         <bemerkung>Ladestraße und Güterschuppen</bemerkung>
       </gleis>
       <gleis id="gleis_5">
         <name>5</name>
-        <laenge einheit="mm">200</laenge>
+        <laenge>200</laenge>
         <bemerkung>örtlicher Kohlehandel</bemerkung>
       </gleis>
       <gleis id="gleis_6">
         <name>6</name>
-        <laenge einheit="mm">280</laenge>
+        <laenge>280</laenge>
         <bemerkung>Dieseltankstelle / Kö-Schuppen</bemerkung>
       </gleis>
       <gleis id="gleis_7">
         <name>7</name>
-        <laenge einheit="mm">600</laenge>
+        <laenge>600</laenge>
         <bemerkung>Versorgungsgleis Est</bemerkung>
       </gleis>
       <gleis id="gleis_8">
         <name>8</name>
-        <laenge einheit="mm">460</laenge>
+        <laenge>460</laenge>
         <bemerkung>Kohlenladegleis</bemerkung>
       </gleis>
       <gleis id="gleis_9">
         <name>9</name>
-        <laenge einheit="mm">460</laenge>
+        <laenge>460</laenge>
         <bemerkung>Lokbehandlung</bemerkung>
       </gleis>
       <gleis id="gleis_10">
         <name>10</name>
-        <laenge einheit="mm">400</laenge>
+        <laenge>400</laenge>
         <bemerkung>Ziehgleis</bemerkung>
       </gleis>
     </ngleise>
@@ -83,38 +83,38 @@
   <pv>
     <bahnsteig gleis="gleis_1">
       <name>Hausbahnsteig</name>
-      <laenge einheit="mm">700.0</laenge>
+      <laenge>700.0</laenge>
     </bahnsteig>
     <bahnsteig gleis="gleis_2">
       <name>Inselbahnsteig</name>
-      <laenge einheit="mm">800.0</laenge>
+      <laenge>800.0</laenge>
     </bahnsteig>
     <bemerkung>ca. 6-7 Personenzugpaare je Tag, in verkehrsschwachen Zeiten (vorm., abends) auch Triebwagen, Urlaubs- / Ausflugsverkehr durch Nähe zur See, oft zusätzliche Expressgutwagen in P-Zügen, beladen mit Urlaubsgepäck und Fahrrädern</bemerkung>
   </pv>
   <gv>
     <ladestelle id="Kohlehandel" gleis="gleis_5">
       <name>Kohlehandel</name>
-      <laenge einheit="mm">200.0</laenge>
+      <laenge>200.0</laenge>
     </ladestelle>
     <ladestelle id="Tankstelle" gleis="gleis_6">
       <name>Tankstelle</name>
-      <laenge einheit="mm">100</laenge>
+      <laenge>100</laenge>
     </ladestelle>
     <ladestelle id="G_terschuppen" gleis="gleis_10">
       <name>Güterschuppen</name>
-      <laenge einheit="mm">180.0</laenge>
+      <laenge>180.0</laenge>
     </ladestelle>
     <ladestelle id="Ladestra_e" gleis="gleis_10">
       <name>Ladestraße</name>
-      <laenge einheit="mm">260.0</laenge>
+      <laenge>260.0</laenge>
     </ladestelle>
     <ladestelle id="Expressgutschuppen" gleis="gleis_1a">
       <name>Expressgutschuppen</name>
-      <laenge einheit="mm">200</laenge>
+      <laenge>200</laenge>
     </ladestelle>
     <ladestelle id="Versorgung_Est" gleis="gleis_7">
       <name>Versorgung Est</name>
-      <laenge einheit="mm">400.0</laenge>
+      <laenge>400.0</laenge>
     </ladestelle>
     <ladestelle id="Seitenampe" gleis="gleis_1a">
       <name>Seitenampe</name>
@@ -159,12 +159,12 @@
           <wagen>2.0</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestra_e">
-          <name>Zement gesackt</name>
+          <name>Zement, als Sackware</name>
           <gattung>G</gattung>
           <wagen>1.0</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestra_e">
-          <name>Rohr und Schachtmaterial</name>
+          <name>Rohr, Schachtmaterial</name>
           <gattung>R, K</gattung>
           <wagen>1.0</wagen>
         </ladegut>
@@ -188,7 +188,7 @@
     <verlader>
       <name>Stückgut</name>
       <empfang>
-        <ladegut ladestelle="G_terschuppen">
+        <ladegut ladestelle="G_terschuppen" typ="stueckgut">
           <name>Marmelade</name>
           <gattung>G</gattung>
           <wagen zeitraum="tag">0.25</wagen>
@@ -198,12 +198,12 @@
     <verlader>
       <name>Expressgut</name>
       <empfang>
-        <ladegut ladestelle="Expressgutschuppen">
+        <ladegut ladestelle="Expressgutschuppen" typ="expressgut">
           <name>Urlaubsgepäck</name>
           <gattung>G</gattung>
           <wagen>1.0</wagen>
         </ladegut>
-        <ladegut ladestelle="Expressgutschuppen">
+        <ladegut ladestelle="Expressgutschuppen" typ="expressgut">
           <name>Fahrräder</name>
           <gattung>G</gattung>
           <wagen>1.0</wagen>

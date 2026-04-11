@@ -140,20 +140,30 @@
     </verlader>
     <verlader>
       <name>Stückgutschuppen</name>
-      <empfang>
-        <ladegut ladestelle="Güterschuppen">
-          <name>Stückgut, Expressgut</name>
-          <gattung>G/Pwg</gattung>
-          <wagen zeitraum="woche">7</wagen>
-        </ladegut>
-      </empfang>
-      <versand>
-        <ladegut ladestelle="Güterschuppen">
-          <name>Stückgut, Expressgut</name>
-          <gattung>G/Pwg</gattung>
-          <wagen zeitraum="woche">7</wagen>
-        </ladegut>
-      </versand>
+			<empfang>
+				<ladegut ladestelle="Güterschuppen" typ="stueckgut">
+					<name>Stückgut</name>
+					<gattung>G/Pwg</gattung>
+					<wagen zeitraum="woche">3.5</wagen>
+				</ladegut>
+				<ladegut ladestelle="Güterschuppen" typ="expressgut">
+					<name>Expressgut</name>
+					<gattung>G/Pwg</gattung>
+					<wagen zeitraum="woche">3.5</wagen>
+				</ladegut>
+			</empfang>
+			<versand>
+				<ladegut ladestelle="Güterschuppen" typ="stueckgut">
+					<name>Stückgut</name>
+					<gattung>G/Pwg</gattung>
+					<wagen zeitraum="woche">3.5</wagen>
+				</ladegut>
+				<ladegut ladestelle="Güterschuppen" typ="expressgut">
+					<name>Expressgut</name>
+					<gattung>G/Pwg</gattung>
+					<wagen zeitraum="woche">3.5</wagen>
+				</ladegut>
+			</versand>
     </verlader>
     <verlader>
       <name>Stilmöbel Kranichsfeld</name>

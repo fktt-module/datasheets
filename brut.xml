@@ -17,54 +17,54 @@
     <hgleise>
       <gleis id="G1">
         <name>1</name>
-        <laenge einheit="mm">1800.0</laenge>
+        <laenge>1800.0</laenge>
         <bemerkung>Hausbahnsteig 1</bemerkung>
       </gleis>
       <gleis id="G2">
         <name>2</name>
-        <laenge einheit="mm">1900.0</laenge>
+        <laenge>1900.0</laenge>
         <bemerkung>Umfahrgleis/Bahnsteig 2</bemerkung>
       </gleis>
       <gleis id="G3">
         <name>3</name>
-        <laenge einheit="mm">1780.0</laenge>
+        <laenge>1780.0</laenge>
         <bemerkung>Güterzugbehandlungsgleis</bemerkung>
       </gleis>
     </hgleise>
     <ngleise>
       <gleis id="gleis_11">
         <name>11</name>
-        <laenge einheit="mm">650.0</laenge>
+        <laenge>650.0</laenge>
         <bemerkung>Kohlehandel</bemerkung>
       </gleis>
       <gleis id="gleis_12">
         <name>12</name>
-        <laenge einheit="mm">1110.0</laenge>
+        <laenge>1110.0</laenge>
         <bemerkung>Güterhalle</bemerkung>
       </gleis>
       <gleis id="gleis_13">
         <name>13</name>
-        <laenge einheit="mm">1240.0</laenge>
+        <laenge>1240.0</laenge>
         <bemerkung>Ladestrasse</bemerkung>
       </gleis>
       <gleis id="gleis_21">
         <name>21</name>
-        <laenge einheit="mm">570.0</laenge>
+        <laenge>570.0</laenge>
         <bemerkung>Lokschuppen</bemerkung>
       </gleis>
       <gleis id="gleis_22">
         <name>22</name>
-        <laenge einheit="mm">290.0</laenge>
+        <laenge>290.0</laenge>
         <bemerkung>Umfahrstutzen</bemerkung>
       </gleis>
       <gleis id="gleis_23">
         <name>23</name>
-        <laenge einheit="mm">420.0</laenge>
+        <laenge>420.0</laenge>
         <bemerkung>Kopf-/Seitenrampe</bemerkung>
       </gleis>
       <gleis id="gleis_24">
         <name>24</name>
-        <laenge einheit="mm">910.0</laenge>
+        <laenge>910.0</laenge>
         <bemerkung>Schrotthandel</bemerkung>
       </gleis>
     </ngleise>
@@ -72,42 +72,42 @@
   <pv>
     <bahnsteig gleis="G1">
       <name>Bahnsteig 1</name>
-      <laenge einheit="mm">1050.0</laenge>
+      <laenge>1050.0</laenge>
     </bahnsteig>
     <bahnsteig gleis="G2">
       <name>Bahnsteig 2</name>
-      <laenge einheit="mm">1050</laenge>
+      <laenge>1050</laenge>
     </bahnsteig>
     <bemerkung>Berufs- und Schülerverkehr</bemerkung>
   </pv>
   <gv>
     <ladestelle id="Kohlehandel" gleis="gleis_11">
       <name>Kohlehandel</name>
-      <laenge einheit="mm">500.0</laenge>
+      <laenge>500.0</laenge>
     </ladestelle>
     <ladestelle id="G_terhalle" gleis="gleis_12">
       <name>Güterhalle</name>
-      <laenge einheit="mm">140.0</laenge>
+      <laenge>140.0</laenge>
     </ladestelle>
     <ladestelle id="Ladestrasse" gleis="gleis_13">
       <name>Ladestrasse</name>
-      <laenge einheit="mm">1240.0</laenge>
+      <laenge>1240.0</laenge>
     </ladestelle>
     <ladestelle id="Lok-Einsatzstelle" gleis="gleis_21">
       <name>Lok-Einsatzstelle</name>
-      <laenge einheit="mm">570.0</laenge>
+      <laenge>570.0</laenge>
     </ladestelle>
     <ladestelle id="Kopf-_Seitenrampe" gleis="gleis_23">
       <name>Kopf-/Seitenrampe</name>
-      <laenge einheit="mm">420.0</laenge>
+      <laenge>420.0</laenge>
     </ladestelle>
     <ladestelle id="Schrotthandel" gleis="gleis_24">
       <name>Schrotthandel</name>
-      <laenge einheit="mm">490.0</laenge>
+      <laenge>490.0</laenge>
     </ladestelle>
     <ladestelle id="St_ckgut" gleis="gleis_12">
       <name>Stückgut</name>
-      <laenge einheit="mm">0.0</laenge>
+      <laenge>0.0</laenge>
     </ladestelle>
     <verlader>
       <name>Lokeinsatzstelle</name>
@@ -115,7 +115,7 @@
         <ladegut ladestelle="Kohlehandel">
           <name>Lokkohle, Tauschteile, Schmierstoffe</name>
           <gattung>G, E, K, X</gattung>
-          <wagen zeitraum="woche">1.0</wagen>
+          <wagen>1.0</wagen>
         </ladegut>
       </empfang>
     </verlader>
@@ -150,12 +150,12 @@
         <ladegut ladestelle="Kopf-_Seitenrampe">
           <name>Pkw</name>
           <gattung>L/K/R/S</gattung>
-          <wagen zeitraum="woche">4.0</wagen>
+          <wagen>4.0</wagen>
         </ladegut>
         <ladegut ladestelle="Kopf-_Seitenrampe">
           <name>Kleintransporter</name>
           <gattung>L/K/R/S</gattung>
-          <wagen zeitraum="woche">2.0</wagen>
+          <wagen>2.0</wagen>
         </ladegut>
       </empfang>
     </verlader>
@@ -180,7 +180,7 @@
         <ladegut ladestelle="Ladestrasse">
           <name>Fernmeldetechnik</name>
           <gattung>G/H</gattung>
-          <wagen zeitraum="woche">1.0</wagen>
+          <wagen>1.0</wagen>
         </ladegut>
       </empfang>
       <versand>
@@ -197,7 +197,7 @@
         <ladegut ladestelle="Kopf-_Seitenrampe">
           <name>Traktoren/Maschinen</name>
           <gattung>K/R/S/L</gattung>
-          <wagen zeitraum="woche">1.0</wagen>
+          <wagen>1.0</wagen>
         </ladegut>
       </empfang>
     </verlader>
@@ -207,14 +207,14 @@
         <ladegut ladestelle="Kopf-_Seitenrampe">
           <name>Militärtechnik</name>
           <gattung>S/R/K/L</gattung>
-          <wagen zeitraum="woche">2.0</wagen>
+          <wagen>2.0</wagen>
         </ladegut>
       </empfang>
       <versand>
         <ladegut ladestelle="Kopf-_Seitenrampe">
           <name>Militärtechnik</name>
           <gattung>S/K/R/L</gattung>
-          <wagen zeitraum="woche">2.0</wagen>
+          <wagen>2.0</wagen>
         </ladegut>
       </versand>
     </verlader>
@@ -236,7 +236,7 @@
         <ladegut ladestelle="Ladestrasse">
           <name>Laborglas (auch als Stückgut)</name>
           <gattung>G/H</gattung>
-          <wagen zeitraum="woche">3.0</wagen>
+          <wagen>3.0</wagen>
         </ladegut>
       </versand>
     </verlader>
@@ -246,7 +246,7 @@
         <ladegut ladestelle="Ladestrasse">
           <name>Weißblech</name>
           <gattung>G/H</gattung>
-          <wagen zeitraum="woche">2.5</wagen>
+          <wagen>2.5</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestrasse">
           <name>Konservengläser</name>
@@ -268,7 +268,7 @@
         <ladegut ladestelle="Ladestrasse">
           <name>Dünger</name>
           <gattung>Td</gattung>
-          <wagen zeitraum="woche">3.0</wagen>
+          <wagen>3.0</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestrasse">
           <name>Baumaterial</name>
@@ -288,105 +288,105 @@
         <ladegut ladestelle="Ladestrasse">
           <name>Feuerholz</name>
           <gattung>E</gattung>
-          <wagen zeitraum="woche">2.0</wagen>
+          <wagen>2.0</wagen>
         </ladegut>
       </versand>
     </verlader>
     <verlader>
       <name>PGH Schuhhandwerk</name>
       <empfang>
-        <ladegut ladestelle="St_ckgut">
+        <ladegut ladestelle="St_ckgut" typ="stueckgut">
           <name>Halbzeuge als Stückgut</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">2.0</wagen>
+          <wagen>2.0</wagen>
         </ladegut>
-        <ladegut ladestelle="St_ckgut">
+        <ladegut ladestelle="St_ckgut" typ="stueckgut">
           <name>Pappe als Stückgut</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">1.0</wagen>
+          <wagen>1.0</wagen>
         </ladegut>
       </empfang>
       <versand>
-        <ladegut ladestelle="St_ckgut">
+        <ladegut ladestelle="St_ckgut" typ="stueckgut">
           <name>Arbeitsschuhe als Stückgut</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">2.0</wagen>
+          <wagen>2.0</wagen>
         </ladegut>
-        <ladegut ladestelle="St_ckgut">
+        <ladegut ladestelle="St_ckgut" typ="stueckgut">
           <name>Arbeitsstiefel als Stückgut</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">2.0</wagen>
+          <wagen>2.0</wagen>
         </ladegut>
       </versand>
     </verlader>
     <verlader>
       <name>PGH Elektro Oberndorf</name>
       <empfang>
-        <ladegut ladestelle="St_ckgut">
+        <ladegut ladestelle="St_ckgut" typ="stueckgut">
           <name>Halbzeuge als Stückgut</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">1.0</wagen>
+          <wagen>1.0</wagen>
         </ladegut>
       </empfang>
       <versand>
-        <ladegut ladestelle="St_ckgut">
+        <ladegut ladestelle="St_ckgut" typ="stueckgut">
           <name>Heizelemente als Stückgut</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">2.0</wagen>
+          <wagen>2.0</wagen>
         </ladegut>
       </versand>
     </verlader>
     <verlader>
       <name>GHG Haushaltswaren</name>
       <empfang>
-        <ladegut ladestelle="St_ckgut">
+        <ladegut ladestelle="St_ckgut" typ="stueckgut">
           <name>Haushaltsartikel als Stückgut</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">1.0</wagen>
+          <wagen>1.0</wagen>
         </ladegut>
       </empfang>
     </verlader>
     <verlader>
       <name>PGH Feinmechanik Brunnthal</name>
       <empfang>
-        <ladegut ladestelle="St_ckgut">
+        <ladegut ladestelle="St_ckgut" typ="stueckgut">
           <name>Halbzeuge als Stückgut</name>
           <gattung>G</gattung>
           <wagen zeitraum="tag">0.5</wagen>
         </ladegut>
       </empfang>
       <versand>
-        <ladegut ladestelle="St_ckgut">
+        <ladegut ladestelle="St_ckgut" typ="stueckgut">
           <name>Rändelschrauben als Stückgut</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">1.0</wagen>
+          <wagen>1.0</wagen>
         </ladegut>
-        <ladegut ladestelle="St_ckgut">
+        <ladegut ladestelle="St_ckgut" typ="stueckgut">
           <name>Gewindestangen als Stückgut</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">1.0</wagen>
+          <wagen>1.0</wagen>
         </ladegut>
-        <ladegut ladestelle="St_ckgut">
+        <ladegut ladestelle="St_ckgut" typ="stueckgut">
           <name>Kleinteile als Stückgut</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">1.0</wagen>
+          <wagen>1.0</wagen>
         </ladegut>
       </versand>
     </verlader>
     <verlader>
       <name>VEB ESDA Werk Brunnthal</name>
       <empfang>
-        <ladegut ladestelle="St_ckgut">
+        <ladegut ladestelle="St_ckgut" typ="stueckgut">
           <name>Garne als Stückgut</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">2.0</wagen>
+          <wagen>2.0</wagen>
         </ladegut>
       </empfang>
       <versand>
-        <ladegut ladestelle="St_ckgut">
+        <ladegut ladestelle="St_ckgut" typ="stueckgut">
           <name>Strümpfe als Stückgut</name>
           <gattung>G</gattung>
-          <wagen zeitraum="woche">2.0</wagen>
+          <wagen>2.0</wagen>
         </ladegut>
       </versand>
     </verlader>

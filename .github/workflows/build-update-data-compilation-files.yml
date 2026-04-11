@@ -12,6 +12,7 @@ on:
       - '*.jpeg'
       - '*.png'
       - '*.gif'
+      - '*.svg'
       - '*.css'
       - '*.dtd'
       - '*.xsl'
@@ -31,7 +32,7 @@ jobs:
     steps:
       # Checkout the repository content to github runner.
       - name: Checkout repository content
-        uses: actions/checkout@v4
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd #v6.0.2
         with:
           ref: ${{ github.ref_name }}
 
@@ -43,10 +44,14 @@ jobs:
           ls -la ${{ github.workspace }}
 
       - name: Setup Python Version
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405 #v6.2.0
         with:
           python-version: 3.8 # Install the python version needed
 
+      - name: Install python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install python-dateutil
       #- name: Check and correct files last change time due to reference file
       #  run: python .github/scripts/validate-correct-file-mtime.py -v -r ${{ env.target_file }}
 
@@ -65,11 +70,12 @@ jobs:
       - name: Check git status
         run: |
           git status
+          git --no-pager diff
 
       # https://github.com/stefanzweifel/git-auto-commit-action
       # authentication done via runner checkout token
       - name: Commit changes on data compilations back to repository
-        uses: stefanzweifel/git-auto-commit-action@v5
+        uses: stefanzweifel/git-auto-commit-action@04702edda442b2e678b25b537cec683a1493fcb9 #v7.1.0
         with:
           commit_message: Apply generated data compilation changes
 
@@ -81,21 +87,55 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository content
-        uses: actions/checkout@v4
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd #v6.0.2
         with:
           ref: ${{ github.ref_name }}
       - name: Setup Pages
         id: pagessetup
-        uses: actions/configure-pages@v4
-      - name: Replace base url using production
-        run: sed -i "s|const baseUrl = '';|const baseUrl = '${{ steps.pagessetup.outputs.base_url }}/';|g" index.html
+        uses: actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d #v6.0.0
+      - name: Setup Python Version
+        uses: actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405 #v6.2.0
+        with:
+          python-version: 3.9 # Install the python version needed
+          # cache: 'pip'
+      - name: Install python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install lxml
+      - name: Execute Python script for Yellow Pages JSON generation (Distribution)
+        run: python .github/scripts/build_yellowpage_json.py ${{ github.workspace }}
+      - name: Execute Python script for Yellow Pages JSON generation (Receiving)
+        run: python .github/scripts/build_yellowpage_json.py -t empfang ${{ github.workspace }}
+      # building html files using transformation xml + xslt in {{ github.workspace }}
+      - name: Execute Python script for HTML files generation
+        run: python .github/scripts/build_update_html.py ${{ github.workspace }}
+      - name: Download yellow pages application
+        uses: dsaltares/fetch-gh-release-asset@aa2ab1243d6e0d5b405b973c89fa4d06a2d0fff7 #v1.1.2
+        with:
+          repo: 'fktt-module/web-apps'
+          file: 'gelbe-seiten-2.1.0.zip'
+          target: '_gs/_gs.zip'
+      - name: Prepare yellow pages application
+        run: |
+          unzip _gs/_gs.zip -d _gs
+          cp _gs/gelbe-seiten-base64.html gelbe-seiten.html
+      - name: Create Archive including all files for local view
+        run: |
+          python -m zipfile -c datenblaetter_gelbe-seiten.zip *.xml *.jpeg *.svg *.png *.jpg *.gif *.html bahnhof.* bahnhof_*.xsl GelbeSeiten*.json
+      - name: Insert base url of github page inside index.html
+        run: |
+          sed -i 's|data-json-or-url="bahnhof.json"|data-json-or-url="${{ steps.pagessetup.outputs.base_url }}/bahnhof.json"|g' index.html
+          sed -i 's|data-zip-file="datenblaetter_gelbe-seiten.zip"|data-zip-file="${{ steps.pagessetup.outputs.base_url }}/datenblaetter_gelbe-seiten.zip"|g' index.html
+          sed -i 's|data-yellow-pages="gelbe-seiten.html"|data-yellow-pages="${{ steps.pagessetup.outputs.base_url }}/gelbe-seiten.html"|g' index.html
+          sed -i 's|data-versand-url="GelbeSeitenVersand.json"|data-versand-url="${{ steps.pagessetup.outputs.base_url }}/GelbeSeitenVersand.json"|g' gelbe-seiten.html
+          sed -i 's|data-empfang-url="GelbeSeitenEmpfang.json"|data-empfang-url="${{ steps.pagessetup.outputs.base_url }}/GelbeSeitenEmpfang.json"|g' gelbe-seiten.html
       - name: Build with Jekyll
-        uses: actions/jekyll-build-pages@v1
+        uses: actions/jekyll-build-pages@44a6e6beabd48582f863aeeb6cb2151cc1716697 #v1.0.13
         with:
           source: ./
           destination: ./_site
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 #v5.0.0
 
   # Deployment job
   deploy:
@@ -117,4 +157,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@cd2ce8fcbc39b97be8ca5fce6e763baed58fa128 #v5.0.0

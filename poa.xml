@@ -5,6 +5,7 @@
    <name>Abzweig Porz</name>
    <kuerzel>POA</kuerzel>
    <typ>Abzw</typ>
+   <verwaltung>DB</verwaltung>
    <maszstab>120</maszstab>
    <modulnr>SiFen426</modulnr>
    <plan src="poa.gif" />

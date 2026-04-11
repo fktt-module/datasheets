@@ -5,6 +5,7 @@
 	<name>Hirschfelde</name>
 	<kuerzel>HFD</kuerzel>
 	<typ>Sbf</typ>
+	<verwaltung>DR</verwaltung>
 	<maszstab>120</maszstab>
 	<modulnr>HaVol180</modulnr>
 	<plan src="hfd.png" />

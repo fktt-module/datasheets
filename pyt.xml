@@ -5,6 +5,7 @@
 	<name>Anst. Pyrotechnik</name>
 	<kuerzel>PYT</kuerzel>
 	<typ>Anst</typ>
+	<verwaltung>DR</verwaltung>
 	<maszstab>120</maszstab>
 	<modulnr>JuUhl350</modulnr>
 	<plan src="pyt.jpg"/>

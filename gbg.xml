@@ -5,6 +5,7 @@
 	<name>Geraberg</name>
 	<kuerzel>GBG</kuerzel>
 	<typ>Bf</typ>
+	<verwaltung>DR</verwaltung>
 	<maszstab>120</maszstab>
 	<modulnr>MaSch231</modulnr>
 	<plan src="gbg.png" />

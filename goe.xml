@@ -6,6 +6,7 @@
   <name>Görzke</name>
   <kuerzel>GOE</kuerzel>
   <typ>Bf, Ebf</typ>
+  <verwaltung>DB</verwaltung>
   <maszstab>120</maszstab>
   <modulnr>JuRam855-857</modulnr>
   <plan src="goe.png" />
@@ -136,7 +137,7 @@
           <gattung>R</gattung>
           <wagen>1</wagen>
         </ladegut>
-        <ladegut ladestelle="l2">
+        <ladegut ladestelle="l2" typ="stueckgut">
           <name>Verpackungsmaterial Stückgut von VEB Kombinat Zellstoff Heidenau</name>
           <gattung>G</gattung>
           <wagen>1</wagen>
@@ -147,7 +148,7 @@
           <wagen>2</wagen>
         </ladegut>
         <ladegut ladestelle="l3">
-          <name>Zuschlagstoffe, Chemikalien in Fässern von Leunawerken</name>
+          <name>Zuschlagstoffe, Chemikalien als Fassware von Leunawerken</name>
           <gattung>G, E</gattung>
           <wagen>2</wagen>
         </ladegut>
@@ -159,11 +160,11 @@
           <wagen>6</wagen>
         </ladegut>
         <ladegut ladestelle="l1 l3">
-          <name>Fertigtöpferwaren an Kombinat Gaststätten u. Werksküchenporzellan</name>
+          <name>Fertigtöpferwaren an Kombinat Gaststätten und Werksküchenporzellan</name>
           <gattung>G, H, E, R</gattung>
           <wagen>5</wagen>
         </ladegut>
-        <ladegut ladestelle="l2">
+        <ladegut ladestelle="l2" typ="stueckgut">
           <name>Feinkeramikwaren Stückgut an dto.</name>
           <gattung>G, H</gattung>
           <wagen>2</wagen>
@@ -198,14 +199,14 @@
     <verlader>
       <name>Verschiedene</name>
       <empfang>
-        <ladegut ladestelle="l2">
+        <ladegut ladestelle="l2" typ="stueckgut">
           <name>Stückgüter</name>
           <gattung>G</gattung>
           <wagen>7</wagen>
         </ladegut>
       </empfang>
       <versand>
-        <ladegut ladestelle="l2">
+        <ladegut ladestelle="l2" typ="stueckgut">
           <name>Stückgüter</name>
           <gattung>G</gattung>
           <wagen>7</wagen>
@@ -221,12 +222,12 @@
                     <wagen zeitraum="tag">2</wagen>
                 </ladegut>
                 <ladegut ladestelle="lade2">
-                    <name>Düngemittel gesackt</name>
+                    <name>Düngemittel, als Sackware</name>
                     <gattung>G</gattung>
                     <wagen zeitraum="tag">1</wagen>
                 </ladegut>-->
         <ladegut ladestelle="l1">
-          <name>Dünger (lose / gesackt) von ACZ Dünger</name>
+          <name>Dünger (lose / als Sackware) von ACZ Dünger</name>
           <gattung>T, G</gattung>
           <wagen>4</wagen>
         </ladegut>

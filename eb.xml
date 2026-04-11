@@ -6,6 +6,7 @@
   <name>Eichstätt Bahnhof</name>
   <kuerzel>EB</kuerzel>
   <typ>Bf</typ>
+  <verwaltung>DB</verwaltung>
   <maszstab>120</maszstab>
   <modulnr>RiSch266</modulnr>
   <!--<plan src="eb.gif"/>-->

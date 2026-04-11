@@ -6,6 +6,7 @@
   <name>Holzladeplatz</name>
   <kuerzel>HPG</kuerzel>
   <typ>Awanst</typ>
+  <verwaltung>DR</verwaltung>
   <maszstab>120</maszstab>
   <modulnr>ChKet352</modulnr>
   <plan src="hpg.png" />

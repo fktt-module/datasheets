@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE bahnhof SYSTEM "./bahnhof.dtd" >
+<?xml-stylesheet type="text/xsl" href="./bahnhof.xsl" ?>
+<bahnhof>
+  <name>Guddenberg</name>
+  <kuerzel>GUD</kuerzel>
+  <typ>Sbf</typ>
+  <verwaltung>DR</verwaltung>
+  <maszstab>120</maszstab>
+  <modulnr>MaRue105</modulnr>
+  <plan src="gud.svg"/>
+  <gleise>
+    <zulaufstrecken>
+      <links nr="1">1gl</links>
+    </zulaufstrecken>
+    <hgleise>
+      <gleis id="gl1">
+        <name>1</name>
+        <laenge>2200</laenge>
+      </gleis>
+      <gleis id="gl2">
+        <name>2</name>
+        <laenge>2000</laenge>
+      </gleis>
+      <gleis id="gl3">
+        <name>3</name>
+        <laenge>2000</laenge>
+      </gleis>
+      <gleis id="gl4">
+        <name>4</name>
+        <laenge>2000</laenge>
+      </gleis>
+      <gleis id="gl5">
+        <name>5</name>
+        <laenge>2000</laenge>
+      </gleis>
+      <gleis id="gl6">
+        <name>6</name>
+        <laenge>2100</laenge>
+      </gleis>
+      <gleis id="gl7">
+        <name>7</name>
+        <laenge>2100</laenge>
+      </gleis>
+    </hgleise>
+  </gleise>
+  <bemerkung>Die Gleisnutzlänge hängt von der Aufbaulänge ab. Angegebene Maße beziehen sich auf den kompletten Aufbau mit einer Gesamtlänge von 2700mm.[br][br]Aufbaulänge um 900mm reduzierbar.</bemerkung>
+</bahnhof>

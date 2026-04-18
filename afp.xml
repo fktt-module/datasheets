@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE bahnhof SYSTEM "./bahnhof.dtd" >
+<?xml-stylesheet type="text/xsl" href="./bahnhof.xsl" ?>
+<bahnhof>
+  <name>Filzpantoffelfabrik</name>
+  <kuerzel>AFP</kuerzel>
+  <typ>Anst</typ>
+  <verwaltung>DR</verwaltung>
+  <maszstab>120</maszstab>
+  <modulnr>MaRue394</modulnr>
+  <plan src="afp.svg" />
+  <gleise>
+    <zulaufstrecken>
+      <links nr="1">1gl</links>
+      <rechts nr="1">1gl</rechts>
+    </zulaufstrecken>
+    <hgleise>
+      <gleis id="hg1">
+        <name>durchgehendes Streckengleis</name>
+        <laenge>1395</laenge>
+      </gleis>
+    </hgleise>
+    <ngleise>
+      <gleis id="ng1">
+        <name>1</name>
+        <laenge>455</laenge>
+      </gleis>
+      <gleis id="ng2">
+        <name>2</name>
+        <laenge>190</laenge>
+      </gleis>
+    </ngleise>
+  </gleise>
+  <gv>
+    <ladestelle id="ladestrasse" gleis="ng1">
+      <name>Ladestraße</name>
+      <laenge>160</laenge>
+    </ladestelle>
+    <ladestelle id="rampe_1" gleis="ng1">
+      <name>Rampe 1</name>
+      <laenge>185</laenge>
+    </ladestelle>
+    <ladestelle id="rampe_2" gleis="ng2">
+      <name>Rampe 2</name>
+      <laenge>115</laenge>
+    </ladestelle>
+    <verlader>
+      <name>VEB Filzpantoffel</name>
+    </verlader>
+    <bemerkung>Verlader und Ladegüter sind noch einzutragen.</bemerkung>
+  </gv>
+</bahnhof>

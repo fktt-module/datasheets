@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.2" width="1350" height="519">
+  <g fill="none" stroke="black" stroke-linecap="round" stroke-linejoin="round" transform="translate(50,-150) scale(.45)">
+    <g stroke-width="5">
+      <!-- Gleise und Weichen -->
+      <path d="M1,500 L2798,500" vector-effect="non-scaling-stroke"/>
+      <path d="M2444,1450 L2079,1085 " vector-effect="non-scaling-stroke"/>
+      <path d="M 2079 1085 A 2000 2000 0 0 0 665 500" vector-effect="non-scaling-stroke"/>
+      <path d="M1251,590 L461,590" vector-effect="non-scaling-stroke"/>
+    </g>
+    <g stroke-width="2">
+      <!-- Watti-Rahmen -->
+      <path d="M41,607 L121,607 L121,527 L41,527 Z" vector-effect="non-scaling-stroke"/>
+      <path d="M2537,468 L2617,468 L2617,388 L2537,388 L2537,468 Z" vector-effect="non-scaling-stroke"/>
+      <path d="M2287,1242 L2367,1242 L2367,1162 L2287,1162 Z" transform="rotate(45, 2287, 1242)" vector-effect="non-scaling-stroke"/>
+    </g>
+  </g>
+  <g text-anchor="middle" font-size="30" font-family="Arial">
+    <text x="87" y="116">W</text>
+    <text x="1210" y="53.5">W</text>
+    <text x="1097" y="417" transform="rotate(45, 1097, 417)">W</text>
+  </g>
+</svg>

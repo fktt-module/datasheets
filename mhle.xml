@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="./bahnhof.xsl" type="text/xsl"?>
+<!DOCTYPE bahnhof SYSTEM "./bahnhof.dtd">
+
+<bahnhof>
+  <name>Mühle</name>
+  <kuerzel>MHLE</kuerzel>
+  <typ>Abzw</typ>
+  <verwaltung>DB</verwaltung>
+  <maszstab>120</maszstab>
+  <modulnr>HeMuf419</modulnr>
+  <plan src="mhle.svg"/>
+  <gleise>
+    <zulaufstrecken>
+      <links nr="1">1gl</links>
+      <rechts nr="1">1gl</rechts>
+      <rechts nr="2">1gl</rechts>
+    </zulaufstrecken>
+    <hgleise>
+      <gleis id="gleis_1">
+        <name>1</name>
+        <laenge/>
+        <bemerkung>durchgehendes Streckengleis</bemerkung>
+      </gleis>
+      <gleis id="gleis_2">
+        <name>2</name>
+        <laenge/>
+        <bemerkung>abzweigendes Streckengleis</bemerkung>
+      </gleis>
+    </hgleise>
+    <ngleise>
+      <gleis id="gleis_3">
+        <name>3</name>
+        <laenge>0</laenge>
+        <bemerkung>Anschlussgleis Mauscha Mühle</bemerkung>
+      </gleis>
+    </ngleise>
+  </gleise>
+  <gv>
+    <ladestelle id="a" gleis="gleis_3">
+      <name>a</name>
+      <laenge>250</laenge>
+    </ladestelle>
+    <ladestelle id="a_rampe" gleis="gleis_3">
+      <name>a mit Seitenrampe</name>
+      <laenge>200</laenge>
+    </ladestelle>
+    <ladestelle id="b" gleis="gleis_3">
+      <name>b</name>
+      <laenge>300</laenge>
+    </ladestelle>
+    <ladestelle id="c" gleis="gleis_3">
+      <name>c</name>
+      <laenge>300</laenge>
+    </ladestelle>
+    <verlader>
+      <name>Morsza Mühle</name>
+      <empfang>
+        <ladegut ladestelle="a">
+          <name>Säcke</name>
+          <gattung>G, GG (Ga), H</gattung>
+          <wagen>2</wagen>
+        </ladegut>
+        <ladegut ladestelle="a">
+          <name>Verbrauchsmaterial</name>
+          <gattung>G, GG (Ga), H</gattung>
+          <wagen>0.5</wagen>
+        </ladegut>
+        <ladegut ladestelle="a">
+          <name>Werkzeug</name>
+          <gattung>G, GG (Ga), H</gattung>
+          <wagen>0.5</wagen>
+        </ladegut>
+        <ladegut ladestelle="c">
+          <name>Getreide</name>
+          <gattung>Gg, GGg (Gag), Td, Tad, K, KK</gattung>
+          <wagen zeitraum="tag">7</wagen>
+        </ladegut>
+      </empfang>
+      <versand>
+        <ladegut ladestelle="a">
+          <name>Getreideprodukte als Sackware</name>
+          <gattung>G, GG (Ga), H</gattung>
+          <wagen zeitraum="tag">3.5</wagen>
+        </ladegut>
+        <ladegut ladestelle="b">
+          <name>Getreideprodukte, lose</name>
+          <gattung>Tdg, Uc</gattung>
+          <wagen zeitraum="tag">3.5</wagen>
+        </ladegut>
+      </versand>
+    </verlader>
+    <bemerkung>Wenn Ladestellen a(b) und c gleichzeitig bedient werden jeweils maximal 6 Achsen, wird in c nur Getreide entladen können bis 12 Achsen entladen werden[br][br]Alles für einen 2 Schichtbetrieb gerechnet, also 2 Bedienungen, bei 3 Schicht je 10 Wagen</bemerkung>
+  </gv>
+  <bemerkung>Betrieblich kann der Abzweig mitten in der Strecke als auch als Bahnhofskopf eingesetzt werden[br][br]Stumpf befahren sind 2 Lichtsignale wie eingezeichnet verbaut, entsprechende Vorsignalmodule sind vorhanden….nein keine Schächte….[br][br]Spitz befahren existieren 2 Signalmodule mit Haupt und Vorsignal[br][br]Das Stellpult kann mittels Verlängerungskabel (ca 9m) versetzt werden</bemerkung>
+</bahnhof>

@@ -9,44 +9,39 @@
   <verwaltung>DR</verwaltung>
   <maszstab>120</maszstab>
   <modulnr>MaRue369</modulnr>
-  <plan src="sero.jpg" />
+  <plan src="sero.svg"/>
   <gleise>
     <zulaufstrecken>
       <links nr="1">1gl</links>
       <rechts nr="1">1gl</rechts>
     </zulaufstrecken>
     <hgleise>
-      <gleis id="gleis_1">
-        <name>1</name>
-        <laenge einheit="mm">590</laenge>
+      <gleis id="strecke">
+        <name>Streckengleis</name>
+        <laenge>590</laenge>
       </gleis>
     </hgleise>
+    <ngleise>
+      <gleis id="anschluss">
+        <name>Anschlussgleis</name>
+        <laenge>539</laenge>
+      </gleis>
+    </ngleise>
   </gleise>
   <gv>
-    <ladestelle id="SERO" gleis="gleis_1">
+    <ladestelle id="SERO" gleis="anschluss">
       <name>SERO</name>
-      <laenge einheit="mm">350</laenge>
+      <laenge>350</laenge>
     </ladestelle>
     <verlader>
       <name>SERO</name>
       <versand>
         <ladegut ladestelle="SERO">
-          <name>Flaschen, Gläser, Altpapier</name>
-          <gattung>G</gattung>
-          <wagen zeitraum="tag">0.5</wagen>
-        </ladegut>
-        <ladegut ladestelle="SERO">
-          <name>Schrott</name>
-          <gattung>E</gattung>
-          <wagen zeitraum="woche">1</wagen>
-        </ladegut>
-        <ladegut ladestelle="SERO">
-          <name>Glasbruch</name>
-          <gattung>E</gattung>
-          <wagen zeitraum="woche">2</wagen>
+          <name>Altglas, Altpapier, Weißgleis, Schrott</name>
+          <gattung>G, H, E</gattung>
+          <wagen>2</wagen>
         </ladegut>
       </versand>
     </verlader>
   </gv>
 </bahnhof>
-

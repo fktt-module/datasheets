@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./bahnhof.xsl"?>
 <!DOCTYPE bahnhof SYSTEM "./bahnhof.dtd">
 
-<?xml-stylesheet type="text/xsl" href="./bahnhof.xsl" ?>
 <bahnhof>
   <name>Schkona</name>
   <kuerzel>SKA</kuerzel>
@@ -49,18 +49,52 @@
     <bemerkung />
   </pv>
   <gv>
-    <ladestelle gleis="hwl-gleis">
-      <name>HWL-Platte</name>
-      <laenge>340</laenge>
+    <ladestelle id="hwl-rampe" gleis="hwl-gleis">
+      <name>HWL-Rampe</name>
+      <laenge>340?</laenge>
     </ladestelle>
-    <ladestelle gleis="feuergutrampe-gleis">
+    <ladestelle id="hwl-platte" gleis="hwl-gleis">
+      <name>VEB HWL-Platte</name>
+      <laenge>340?</laenge>
+    </ladestelle>
+    <ladestelle id="feuergutrampe" gleis="feuergutrampe-gleis">
       <name>Feuergutrampe</name>
       <laenge>230</laenge>
     </ladestelle>
     <verlader>
-      <name>HWL-Platte</name>
+      <name>VEB HWL-Platte</name>
+      <empfang>
+        <ladegut ladestelle="hwl-rampe">
+          <name>Bretter, Holzabfälle, Zement</name>
+          <gattung>G, H, E, U</gattung>
+          <wagen>1</wagen>
+        </ladegut>
+      </empfang>
+      <versand>
+        <ladegut ladestelle="hwl-platte">
+          <name>HWL-Platten</name>
+          <gattung>G, H</gattung>
+          <wagen>2</wagen>
+        </ladegut>
+      </versand>
+    </verlader>
+    <verlader>
+      <name>Feuergutrampe</name>
+      <empfang>
+        <ladegut ladestelle="feuergutrampe">
+          <name>Farben, Lacke, Kraftstoff als Fassware</name>
+          <gattung>E, G, H, R</gattung>
+          <wagen>1</wagen>
+        </ladegut>
+      </empfang>
+      <versand>
+        <ladegut ladestelle="feuergutrampe">
+          <name>Farben, Lacke, Kraftstoff als Fassware</name>
+          <gattung>E, G, H, R</gattung>
+          <wagen>1</wagen>
+        </ladegut>
+      </versand>
     </verlader>
   </gv>
   <bemerkung>Plan ist noch anzupassen!</bemerkung>
 </bahnhof>
-

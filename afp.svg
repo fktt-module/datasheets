@@ -29,10 +29,10 @@
   <g text-anchor="middle" font-size="25" font-family="Arial">
     <!-- Ladestellen -->
     <path d="M350, 150 v15 h150 v-15" stroke="black" fill="none" stroke-width="2"/>
-    <text x="425" y="150" stroke-width="1">Rampe 2</text>
+    <text x="425" y="150" stroke-width="1">Heizhaus</text>
     <g transform="rotate(-11.5, 850, 100)">
       <path d="M850,100 v15 h150 v-15 M1050,100 v15 h150 v-15" stroke="black" fill="none" stroke-width="2"/>
-      <text x="925" y="100" stroke-width="1">Rampe 1</text>
+      <text x="925" y="100" stroke-width="1">Rampe</text>
       <text x="1125" y="100" stroke-width="1">Ladestraße</text>
     </g>
   </g>

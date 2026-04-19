@@ -36,16 +36,40 @@
       <name>Ladestraße</name>
       <laenge>160</laenge>
     </ladestelle>
-    <ladestelle id="rampe_1" gleis="ng1">
-      <name>Rampe 1</name>
+    <ladestelle id="rampe" gleis="ng1">
+      <name>Rampe</name>
       <laenge>185</laenge>
     </ladestelle>
-    <ladestelle id="rampe_2" gleis="ng2">
-      <name>Rampe 2</name>
+    <ladestelle id="heizhaus" gleis="ng2">
+      <name>Heizhaus</name>
       <laenge>115</laenge>
     </ladestelle>
     <verlader>
       <name>VEB Filzpantoffel</name>
+      <empfang>
+        <ladegut ladestelle="rampe">
+          <name>Filz als Rollenware, Klebstoffe, Stoff</name>
+          <gattung>G, H</gattung>
+          <wagen>2</wagen>
+        </ladegut>
+        <ladegut ladestelle="heizhaus">
+          <name>Braunkohle, Koks</name>
+          <gattung>E</gattung>
+          <wagen>1</wagen>
+        </ladegut>
+      </empfang>
+      <versand>
+        <ladegut ladestelle="rampe">
+          <name>Filzprodukte Hausschuhe, Stiefel, Hüte</name>
+          <gattung>G, H</gattung>
+          <wagen>2</wagen>
+        </ladegut>
+        <ladegut ladestelle="heizhaus">
+          <name>Schlacke, Asche</name>
+          <gattung>E, U</gattung>
+          <wagen>0.5</wagen>
+        </ladegut>
+      </versand>
     </verlader>
     <bemerkung>Verlader und Ladegüter sind noch einzutragen.</bemerkung>
   </gv>

@@ -25,7 +25,7 @@
 			</gleis>
 		</hgleise>
 		<ngleise>
-			<gleis>
+			<gleis id="ausweichgleis">
 				<name>Ausweichgleis</name>
 				<laenge>565</laenge>
 			</gleis>
@@ -36,4 +36,20 @@
 			<laenge>510</laenge>
 		</bahnsteig>
 	</pv>
+	<gv>
+		<ladestelle id="ladestrasse" gleis="ausweichgleis">
+			<name>Ladestraße</name>
+			<laenge>300</laenge>
+		</ladestelle>
+		<verlader>
+			<name>LPG (P) Kurzlin</name>
+			<versand>
+				<ladegut ladestelle="ladestrasse">
+					<name>Kartoffeln, Rüben, Kohl, Gemüse (alles Saisonware)</name>
+					<gattung>G, H, E</gattung>
+					<wagen>0</wagen>
+				</ladegut>
+			</versand>
+		</verlader>
+	</gv>
 </bahnhof>

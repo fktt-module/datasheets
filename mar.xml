@@ -5,7 +5,7 @@
 <bahnhof>
   <name>Anschluss Marienschacht</name>
   <kuerzel>MAR</kuerzel>
-  <typ>Anst</typ>
+  <typ>Awanst</typ>
   <verwaltung>DR</verwaltung>
   <maszstab>120</maszstab>
   <modulnr>AnMul372</modulnr>

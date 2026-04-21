@@ -20,13 +20,13 @@
 				<laenge>690</laenge>
 			</gleis>
 			<gleis>
-				<name>Hauptgleis</name>
+				<name>1</name>
 				<laenge>580</laenge>
 			</gleis>
 		</hgleise>
 		<ngleise>
 			<gleis id="ausweichgleis">
-				<name>Ausweichgleis</name>
+				<name>2</name>
 				<laenge>565</laenge>
 			</gleis>
 		</ngleise>

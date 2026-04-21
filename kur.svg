@@ -1,18 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg version="1.2" width="950" height="150" xmlns="http://www.w3.org/2000/svg">
-  <g stroke-width="3" stroke="black"  stroke-linecap="round" stroke-linejoin="round">
-  <!-- Durchgehendes Hauptgleis -->
-  <path d="M0 75 l950 0"/>
-  <!-- Ausweichgleis -->
-  <path d="M25 75 l25 -25 m0 0 h400 m0 0 l25 25"/>
-  <!-- Gleissperren -->
-  <path d="M50 65 v-25 M50 40 l7.5 7.5 M50 40 l-7.5 7.5" transform="rotate(-45 45 55)"/>
-  <path d="M450 65 v-25 M450 40 l7.5 7.5 M450 40 l-7.5 7.5" transform="rotate(45 455 55)"/>
+<svg width="1150" height="150" xmlns="http://www.w3.org/2000/svg" version="1.2">
+  <g fill="none" stroke="black" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" transform="scale(.3) translate(100, -300)">
+    <path vector-effect="non-scaling-stroke" d="M3601,499 L1,499"/>
+    <path vector-effect="non-scaling-stroke" d="M1788,543 A2000,2000 0 0 0 1374,499"/>
+    <path vector-effect="non-scaling-stroke" d="M1788,543 A2000,2000 0 0 0 2202,587"/>
+    <path vector-effect="non-scaling-stroke" d="M2708,587 L2195,587"/>
+    <path vector-effect="non-scaling-stroke" d="M2700,587 A2000,2000 0 0 0 3114,543"/>
+    <path vector-effect="non-scaling-stroke" d="M3528,499 A2000,2000 0 0 0 3114,543"/>
+    <!-- Bahnsteig -->
+    <g stroke-width="3" stroke="lime">
+      <path vector-effect="non-scaling-stroke" d="M288,546 L324,527 L1008,527 L1041,542"/>
+    </g>
   </g>
-  <!-- Bahnsteig + Beschriftungen -->
-  <path d="M600 40 h325 v25 h-325Z" stroke='#808080' fill='none' stroke-width='.5' stroke-miterlimit='10'/>
-  <text x="650" y="40" font-size="15pt" transform='matrix(1 0 0 1 40 18)'>Haltepunkt Kurzlin</text>
-  <!-- Bahnsteig + Beschriftungen -->
-  <path d="M90 30 v10 h300 v-10" stroke='#808080' fill='none' stroke-width='1' stroke-miterlimit='10'/>
-  <text text-anchor="middle" x="200" y="15" font-size="15pt" transform='matrix(1 0 0 1 40 18)'>Ladestraße</text>
+  <rect x="770" y="48" width="30" height="50" fill="white"/>
+  <g text-anchor="middle" font-size="22">
+    <text x="785" y="67">1</text>
+    <text x="785" y="93">2</text>
+    <text x="785" y="117">Ladestraße</text>
+    <!-- Gleissperren -->
+    <text x="960" y="86" font-size="30">&#8600;</text>
+    <text x="570" y="77" font-size="30" transform="rotate(90,570,77)">&#8600;</text>
+  </g>
+  <g stroke="black" fill="none" stroke-width="2">
+    <!-- Ladestellen -->
+    <path d="M600,107 v-15 m0,0 a250,250 0 0 0 50,5 m0,0 h200 m0,0 a500,500 0 0 0 100,-10 v15"/>
+  </g>
 </svg>

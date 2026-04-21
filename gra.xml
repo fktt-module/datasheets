@@ -9,7 +9,7 @@
   <verwaltung>DR</verwaltung>
   <maszstab>120.0</maszstab>
   <modulnr>MaRue202</modulnr>
-  <plan src="gra.jpg" />
+  <plan src="gra.svg" />
   <gleise>
     <zulaufstrecken>
       <links nr="1">1gl</links>
@@ -18,17 +18,17 @@
     <hgleise>
       <gleis id="gleis_1">
         <name>1</name>
-        <laenge einheit="mm">1600.0</laenge>
+        <laenge>1600</laenge>
       </gleis>
       <gleis id="gleis_2">
         <name>2</name>
-        <laenge einheit="mm">1400.0</laenge>
+        <laenge>1400</laenge>
       </gleis>
     </hgleise>
     <ngleise>
       <gleis id="gleis_3">
         <name>3</name>
-        <laenge einheit="mm">1000.0</laenge>
+        <laenge>1000</laenge>
         <bemerkung>Ladegleis</bemerkung>
       </gleis>
     </ngleise>
@@ -36,37 +36,37 @@
   <pv>
     <bahnsteig gleis="gleis_1">
       <name>Bstg.1</name>
-      <laenge einheit="mm">500.0</laenge>
+      <laenge>500</laenge>
     </bahnsteig>
     <bahnsteig gleis="gleis_2">
       <name>Bstg.2</name>
-      <laenge einheit="mm">450.0</laenge>
+      <laenge>450</laenge>
     </bahnsteig>
   </pv>
   <gv>
     <ladestelle id="Ladestra_e" gleis="gleis_3">
       <name>Ladestraße</name>
-      <laenge>600.0</laenge>
+      <laenge>600</laenge>
     </ladestelle>
     <verlader>
       <name>LPG (P) Granzlin</name>
       <empfang>
         <ladegut ladestelle="Ladestra_e">
           <name>Leerpaletten, Gemüsekisten</name>
-          <gattung>G/E</gattung>
-          <wagen zeitraum="woche">1.0</wagen>
+          <gattung>G, E</gattung>
+          <wagen>1</wagen>
         </ladegut>
       </empfang>
       <versand>
         <ladegut ladestelle="Ladestra_e">
           <name>Kartoffeln, Rüben, Getreide</name>
-          <gattung>T/G/E</gattung>
-          <wagen zeitraum="woche">4.0</wagen>
+          <gattung>T, G, E</gattung>
+          <wagen>2</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestra_e">
           <name>Gemüse</name>
           <gattung>I</gattung>
-          <wagen zeitraum="woche">1.0</wagen>
+          <wagen>1</wagen>
         </ladegut>
       </versand>
     </verlader>
@@ -74,17 +74,16 @@
       <name>Kohlehandel Granzlin</name>
       <empfang>
         <ladegut ladestelle="Ladestra_e">
-          <name>Heizöl / Kraftstoffe</name>
+          <name>Heizöl, Kraftstoffe</name>
           <gattung>Z</gattung>
-          <wagen>2.0</wagen>
+          <wagen>0.5</wagen>
         </ladegut>
         <ladegut ladestelle="Ladestra_e">
           <name>Kohle</name>
           <gattung>E</gattung>
-          <wagen>2.0</wagen>
+          <wagen>0.5</wagen>
         </ladegut>
       </empfang>
     </verlader>
   </gv>
 </bahnhof>
-

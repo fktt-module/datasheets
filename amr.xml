@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="./bahnhof.xsl" type="text/xsl"?>
+<!DOCTYPE bahnhof SYSTEM "./bahnhof.dtd">
+
+<bahnhof>
+  <name>Motorenreparatur</name>
+  <kuerzel>AMR</kuerzel>
+  <typ>Anst</typ>
+  <verwaltung>DR</verwaltung>
+  <maszstab>120</maszstab>
+  <modulnr>MaRue370</modulnr>
+  <plan src="amr.svg"/>
+  <gleise>
+    <zulaufstrecken>
+      <links nr="1">1gl</links>
+    </zulaufstrecken>
+    <hgleise>
+      <gleis id="strecke">
+        <name>Streckengleis</name>
+        <laenge>350</laenge>
+      </gleis>
+    </hgleise>
+  </gleise>
+  <gv>
+    <ladestelle id="l" gleis="strecke">
+      <name>Laderampe</name>
+      <laenge>200</laenge>
+    </ladestelle>
+    <verlader>
+      <name>Reiman Motoren PGH</name>
+      <empfang>
+        <ladegut ladestelle="l">
+          <name>Elektromotoren zur Reparatur</name>
+          <gattung>E, R</gattung>
+          <wagen>1</wagen>
+        </ladegut>
+      </empfang>
+      <versand>
+        <ladegut ladestelle="l">
+          <name>Elektromotoren zur Reparatur</name>
+          <gattung>E, R</gattung>
+          <wagen>1</wagen>
+        </ladegut>
+      </versand>
+    </verlader>
+  </gv>
+</bahnhof>

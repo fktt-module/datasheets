@@ -6,7 +6,7 @@
   <name>Mühle</name>
   <kuerzel>MHLE</kuerzel>
   <typ>Abzw</typ>
-  <verwaltung>DB</verwaltung>
+  <verwaltung/>
   <maszstab>120</maszstab>
   <modulnr>HeMuf419</modulnr>
   <plan src="mhle.svg"/>

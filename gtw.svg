@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1465" height="400" xmlns="http://www.w3.org/2000/svg" version="1.2">
+  <g transform="translate(10, -50) scale(.4)">
+    <g fill="none" stroke="black" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+      <path vector-effect="non-scaling-stroke" d="M1,499 L401,499"/>
+      <path vector-effect="non-scaling-stroke" d="M401,499 A2000,2000 0 0 0 1152,359"/>
+      <path vector-effect="non-scaling-stroke" d="M1930,199 A2000,2000 0 0 0 1152,359"/>
+      <path vector-effect="non-scaling-stroke" d="M1930,199 L2072,199"/>
+      <path vector-effect="non-scaling-stroke" d="M2850,359 A2000,2000 0 0 0 2072,199"/>
+      <path vector-effect="non-scaling-stroke" d="M2850,359 A2000,2000 0 0 0 3600,499"/>
+      <path vector-effect="non-scaling-stroke" d="M401,543 A1500,1500 0 0 0 69,499"/>
+      <path vector-effect="non-scaling-stroke" d="M401,543 A1500,1500 0 0 0 732,610"/>
+      <path vector-effect="non-scaling-stroke" d="M102,610 L3563,610"/>
+      <path vector-effect="non-scaling-stroke" d="M102,598 L102,622"/>
+      <path vector-effect="non-scaling-stroke" d="M1064,663 A1500,1500 0 0 0 732,610"/>
+      <path vector-effect="non-scaling-stroke" d="M1064,663 A1500,1500 0 0 0 1395,730"/>
+      <path vector-effect="non-scaling-stroke" d="M2513,610 A1500,1500 0 0 0 2181,663"/>
+      <path vector-effect="non-scaling-stroke" d="M1850,730.5 A1250,1250 0 0 0 2181,663"/>
+      <path vector-effect="non-scaling-stroke" d="M1395,730 L1850,730"/>
+      <path vector-effect="non-scaling-stroke" d="M2397,543 A1500,1500 0 0 0 2065,499"/>
+      <path vector-effect="non-scaling-stroke" d="M2397,543 A1500,1500 0 0 0 2728,610"/>
+      <path vector-effect="non-scaling-stroke" d="M2065,499 L1070,499"/>
+      <path vector-effect="non-scaling-stroke" d="M1727,783 A1200,1250 0 0 0 1395,730"/>
+      <path vector-effect="non-scaling-stroke" d="M1727,783 A1250,1250 0 0 0 2059,849"/>
+      <path vector-effect="non-scaling-stroke" d="M2059,849 L3443,849"/>
+      <path vector-effect="non-scaling-stroke" d="M3443,849 L1126,849"/>
+      <path vector-effect="non-scaling-stroke" d="M1126,849 L1126,861"/>
+      <path vector-effect="non-scaling-stroke" d="M1126,849 L1126,837"/>
+      <path vector-effect="non-scaling-stroke" d="M3563,610 L3563,622"/>
+      <path vector-effect="non-scaling-stroke" d="M3563,610 L3563,598"/>
+      <path vector-effect="non-scaling-stroke" d="M3443,849 L3443,861"/>
+      <path vector-effect="non-scaling-stroke" d="M3443,849 L3443,837"/>
+      <path vector-effect="non-scaling-stroke" d="M1070,499 L1070,511"/>
+      <path vector-effect="non-scaling-stroke" d="M1070,499 L1070,487"/>
+    </g>
+    <g fill="none" stroke="lime" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+      <!-- Getreidelagerkasten -->
+      <path vector-effect="non-scaling-stroke" d="M1517,486 L1858,486 L1858,326 L1517,326 Z"/>
+      <!-- Kleinlokschuppenkasten -->
+      <path vector-effect="non-scaling-stroke" d="M1126,886 L919,886 L919,817 L1126,817 Z"/>
+      <!-- Ladestraße -->
+      <path vector-effect="non-scaling-stroke" d="M2225,893 v-15 h1125 v15"/>
+      <path vector-effect="non-scaling-stroke" d="M2800,807 v15 h550 v-15"/>
+    </g>
+  </g>
+  <g font-family="Arial" text-anchor="middle">
+    <g stroke="lime" fill="lime" font-size="30" stroke-width="1">
+      <text x="870" y="122">Getreidelager</text>
+      <text x="355" y="265">Kleinlokschuppen</text>
+      <text x="1290" y="265">Kopf- und Seitenrampe</text>
+      <text x="1125" y="328">Ladestraße</text>
+    </g>
+    <g font-size="22">
+      <rect x="790" y="146.5" width="20" height="6" fill="white"/>
+      <text x="800" y="157">3</text>
+      <rect x="765" y="238" width="20" height="6" fill="white" transform="rotate(-7,765,238)"/>
+      <text x="775" y="248">2</text>
+      <rect x="640" y="191" width="20" height="6" fill="white"/>
+      <text x="650" y="202">1</text>
+      <rect x="135" y="191" width="30" height="6" fill="white"/>
+      <text x="150" y="202">1a</text>
+      <rect x="1235" y="191" width="30" height="6" fill="white"/>
+      <text x="1250" y="202">1b</text>
+      <rect x="590" y="286.5" width="20" height="6" fill="white"/>
+      <text x="600" y="297">4</text>
+      <rect x="990" y="286.5" width="20" height="6" fill="white"/>
+      <text x="1000" y="297">5</text>
+    </g>
+  </g>
+</svg>

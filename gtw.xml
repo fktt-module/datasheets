@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./bahnhof.xsl" ?>
 <!DOCTYPE bahnhof SYSTEM "./bahnhof.dtd">
 
-<?xml-stylesheet type="text/xsl" href="./bahnhof.xsl" ?>
 <bahnhof>
   <name>Getreide Schulz</name>
   <kuerzel>GTW</kuerzel>
@@ -9,7 +9,7 @@
   <verwaltung>DR</verwaltung>
   <maszstab>120</maszstab>
   <modulnr>MaRue354</modulnr>
-  <plan src="gtw.png" />
+  <plan src="gtw.svg" />
   <gleise>
     <zulaufstrecken>
       <links nr="1">1gl</links>
@@ -74,7 +74,7 @@
         <ladegut ladestelle="glager">
           <name>Getreide</name>
           <gattung>T</gattung>
-          <wagen>20</wagen>
+          <wagen>10</wagen>
         </ladegut>
       </versand>
     </verlader>
@@ -84,12 +84,12 @@
         <ladegut ladestelle="ladestr">
           <name>Kohle</name>
           <gattung>E, F</gattung>
-          <wagen>3.5</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="ladestr">
           <name>Heizöl</name>
           <gattung>Z</gattung>
-          <wagen>3.5</wagen>
+          <wagen>1</wagen>
         </ladegut>
       </empfang>
     </verlader>
@@ -99,7 +99,7 @@
         <ladegut ladestelle="ladestr laderampe">
           <name>Kartoffeln lose</name>
           <gattung>O, E, G</gattung>
-          <wagen>2</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="ladestr laderampe">
           <name>Kartoffeln, als Sackware</name>
@@ -118,44 +118,5 @@
         </ladegut>
       </empfang>
     </verlader>
-    <verlader>
-      <name>Konservenfabrik</name>
-      <empfang>
-        <ladegut ladestelle="laderampe">
-          <name>Blechdosen</name>
-          <gattung>G</gattung>
-          <wagen>1</wagen>
-        </ladegut>
-        <ladegut ladestelle="laderampe">
-          <name>Konservengläser</name>
-          <gattung>G</gattung>
-          <wagen>1</wagen>
-        </ladegut>
-        <ladegut ladestelle="laderampe">
-          <name>Kartonagen</name>
-          <gattung>G</gattung>
-          <wagen>1</wagen>
-        </ladegut>
-      </empfang>
-      <versand>
-        <ladegut ladestelle="laderampe">
-          <name>Obstkonserven</name>
-          <gattung>G</gattung>
-          <wagen>1</wagen>
-        </ladegut>
-        <ladegut ladestelle="laderampe">
-          <name>Gemüsekonserven</name>
-          <gattung>G</gattung>
-          <wagen>1</wagen>
-        </ladegut>
-        <ladegut ladestelle="laderampe">
-          <name>Trockengemüse</name>
-          <gattung>G</gattung>
-          <wagen>0.5</wagen>
-        </ladegut>
-      </versand>
-    </verlader>
   </gv>
-  <bemerkung>Es gibt noch einen Fehlerchen im Gleisplan.</bemerkung>
 </bahnhof>
-

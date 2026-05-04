@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./bahnhof.xsl" ?>
 <!DOCTYPE bahnhof SYSTEM "./bahnhof.dtd">
 
-<?xml-stylesheet type="text/xsl" href="./bahnhof.xsl" ?>
 <bahnhof>
   <name>Eichstätt Bahnhof</name>
   <kuerzel>EB</kuerzel>
   <typ>Bf</typ>
   <verwaltung>DB</verwaltung>
   <maszstab>120</maszstab>
-  <modulnr>RiSch266</modulnr>
-  <!--<plan src="eb.gif"/>-->
+  <modulnr>RiSch226</modulnr>
   <plan src="eb.png" />
   <gleise>
     <zulaufstrecken>
@@ -22,7 +21,7 @@
       <gleis id="Gl1">
         <name>1</name>
         <laenge>4150</laenge>
-        <bemerkung>Durchgangs,-Abzweiggleis</bemerkung>
+        <bemerkung>Durchgangs-, Abzweiggleis Nebenbahn</bemerkung>
       </gleis>
       <gleis id="Gl2">
         <name>2</name>
@@ -64,7 +63,7 @@
       <gleis id="Gl31">
         <name>31</name>
         <laenge>700</laenge>
-        <bemerkung>Ladegleis-Ladehalle, Seitenrampe</bemerkung>
+        <bemerkung>Ladehalle, Seitenrampe</bemerkung>
       </gleis>
       <gleis id="Gl32">
         <name>32</name>
@@ -94,41 +93,45 @@
       <gleis id="GlA1">
         <name>A1</name>
         <laenge>1000</laenge>
-        <bemerkung>Anschlußgleis Dolomit u. Marmorsteinwerke Eichstätt</bemerkung>
+        <bemerkung>Anschlußgleis Dolomit und Marmorsteinwerke Eichstätt</bemerkung>
       </gleis>
     </ngleise>
   </gleise>
   <pv>
     <bahnsteig gleis="Gl1">
-      <name>A</name>
+      <name>Bahnsteig A</name>
       <laenge>1600</laenge>
     </bahnsteig>
     <bahnsteig gleis="Gl2">
-      <name>B</name>
+      <name>Bahnsteig B</name>
       <laenge>2000</laenge>
     </bahnsteig>
     <bahnsteig gleis="Gl3">
-      <name>C</name>
+      <name>Bahnsteig C</name>
       <laenge>2000</laenge>
     </bahnsteig>
     <bahnsteig gleis="Gl4">
       <name>Bahnsteig C</name>
       <laenge>2000</laenge>
     </bahnsteig>
-    <bemerkung>Schüler- und Berufs- Toristikverkehr</bemerkung>
+    <bemerkung>Schüler-, Berufs- und Touristikverkehr [br][br]Wallfahrts-, Theaterzüge zu besonderen Anlässen nach Eichstätt Stadt über die Nebenbahn sowie Kurswagenverkehr[br][br][br]Der Reisendenübergang (RÜ) von Bahnsteig A zu B ist ein höhengleicher Schienengleicher Übergang über Gl.1[br][br]Der Übergang befindet sich ca. in der Mitte des Bahnsteig A</bemerkung>
   </pv>
   <gv>
-    <ladestelle id="Ladegleis" gleis="Gl31">
-      <name>Ladegleis-Ladehalle, Seitenrampe</name>
-      <laenge>650</laenge>
+    <ladestelle id="Ladehalle_Seitenrampe" gleis="Gl31">
+      <name>Ladehalle, Seitenrampe</name>
+      <laenge>450</laenge>
     </ladestelle>
-    <ladestelle id="Freiladegleis" gleis="Gl33">
+    <ladestelle id="Freiladegleis" gleis="Gl33 Gl23">
       <name>Freiladegleis-Ladestraße</name>
       <laenge>950</laenge>
     </ladestelle>
     <ladestelle id="Anschlussgleis" gleis="GlA1">
-      <name>Anschluß Dolomit u. Marmorsteinwerke Eichstätt</name>
+      <name>Anschluß Dolomit und Marmorsteinwerke Eichstätt</name>
       <laenge>550</laenge>
+    </ladestelle>
+    <ladestelle id="BM-und_SigM_Eichst_tt" gleis="Gl5">
+      <name>BM- und SigM Eichstätt</name>
+      <laenge>700</laenge>
     </ladestelle>
     <verlader>
       <name>Dolomit u. Marmorsteinwerke Eichstätt</name>
@@ -136,95 +139,259 @@
         <ladegut ladestelle="Freiladegleis">
           <name>Bauholz</name>
           <gattung>E,L,R,K</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>1</wagen>
         </ladegut>
-        <ladegut ladestelle="Ladegleis">
-          <name>Maschinen</name>
-          <gattung>E,H,G,S,R,K</gattung>
-          <wagen zeitraum="woche">1</wagen>
+        <ladegut ladestelle="Ladehalle_Seitenrampe">
+          <name>Siebplatten</name>
+          <gattung>E, R</gattung>
+          <wagen>0.5</wagen>
         </ladegut>
         <ladegut ladestelle="Anschlussgleis">
           <name>Sprengstoff</name>
           <gattung>G,H</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>0.5</wagen>
+        </ladegut>
+        <ladegut ladestelle="Anschlussgleis">
+          <name>Diesel</name>
+          <gattung>Z</gattung>
+          <wagen>2</wagen>
+        </ladegut>
+        <ladegut ladestelle="Ladehalle_Seitenrampe">
+          <name>Schmierstoffe</name>
+          <gattung>Z</gattung>
+          <wagen>1</wagen>
+        </ladegut>
+        <ladegut ladestelle="Freiladegleis">
+          <name>Förderbandrollen</name>
+          <gattung>G, H</gattung>
+          <wagen>1</wagen>
+        </ladegut>
+        <ladegut ladestelle="Freiladegleis">
+          <name>Brechbacken</name>
+          <gattung>R, S</gattung>
+          <wagen>0.5</wagen>
         </ladegut>
       </empfang>
       <versand>
         <ladegut ladestelle="Anschlussgleis">
           <name>Schotter</name>
-          <gattung>E,F</gattung>
-          <wagen zeitraum="tag">3</wagen>
+          <gattung>E,Fc</gattung>
+          <wagen zeitraum="tag">12</wagen>
+        </ladegut>
+        <ladegut ladestelle="Freiladegleis">
+          <name>Jura Marmor, Natursteinblöcke</name>
+          <gattung>E,K,R</gattung>
+          <wagen>2</wagen>
         </ladegut>
         <ladegut ladestelle="Anschlussgleis">
-          <name>Dolomitgestein,(Wasserbausteine)</name>
-          <gattung>E,K</gattung>
+          <name>Kalkmehl, Kalkhydrat (Quarzsand)</name>
+          <gattung>T, Uc, Tdgs</gattung>
           <wagen zeitraum="tag">2</wagen>
         </ladegut>
         <ladegut ladestelle="Anschlussgleis">
-          <name>Quarzsand (Dolomitsand für Glasindustrie Körnung 0-2mm)</name>
-          <gattung>T</gattung>
+          <name>Kalksplitte</name>
+          <gattung>E,F</gattung>
           <wagen zeitraum="tag">2</wagen>
         </ladegut>
         <ladegut ladestelle="Anschlussgleis">
-          <name>Splitte</name>
-          <gattung>E,F</gattung>
-          <wagen zeitraum="tag">1</wagen>
+          <name>Quarzsand</name>
+          <gattung>T, Uc, Tdgs</gattung>
+          <wagen zeitraum="tag">2</wagen>
         </ladegut>
       </versand>
     </verlader>
     <verlader>
-      <name>Forstamt Eichstätt</name>
+      <name>Forstbetriebsgemeinschaft (FBG)</name>
       <empfang>
-        <ladegut ladestelle="Ladegleis">
+        <ladegut ladestelle="Ladehalle_Seitenrampe" typ="stueckgut">
           <name>Werkzeug</name>
           <gattung>G,H</gattung>
-          <wagen zeitraum="woche">1</wagen>
+          <wagen>0.5</wagen>
+        </ladegut>
+        <ladegut ladestelle="Ladehalle_Seitenrampe" typ="stueckgut">
+          <name>Düngemittel als Sackware</name>
+          <gattung>G, H</gattung>
+          <wagen>0.5</wagen>
+        </ladegut>
+        <ladegut ladestelle="Ladehalle_Seitenrampe">
+          <name>Wildschutzzäune</name>
+          <gattung>G, H</gattung>
+          <wagen>0.5</wagen>
+        </ladegut>
+        <ladegut ladestelle="Ladehalle_Seitenrampe" typ="stueckgut">
+          <name>Kettensägen Betriebstoffe als Fassware</name>
+          <gattung>G, H</gattung>
+          <wagen>0.5</wagen>
+        </ladegut>
+        <ladegut ladestelle="Ladehalle_Seitenrampe" typ="expressgut">
+          <name>Jungpflanzen als Kistenware</name>
+          <gattung>G, H</gattung>
+          <wagen>0.5</wagen>
         </ladegut>
       </empfang>
       <versand>
         <ladegut ladestelle="Freiladegleis">
-          <name>Stammholz</name>
-          <gattung>E,L,R,K</gattung>
-          <wagen zeitraum="tag">5.0</wagen>
+          <name>Stammholz (nach Bedarf)</name>
+          <gattung>E, R</gattung>
+          <wagen zeitraum="tag">2</wagen>
         </ladegut>
       </versand>
     </verlader>
     <verlader>
-      <name>Maschinenring Neuburg/Donau</name>
+      <name>Maschinenring (MR-Logistik)</name>
+      <empfang>
+        <ladegut ladestelle="Ladehalle_Seitenrampe" typ="stueckgut">
+          <name>Dünger als Sackware</name>
+          <gattung>G,H</gattung>
+          <wagen>0.5</wagen>
+        </ladegut>
+        <ladegut ladestelle="Ladehalle_Seitenrampe" typ="stueckgut">
+          <name>Futtermittel</name>
+          <gattung>G,H</gattung>
+          <wagen>0.5</wagen>
+        </ladegut>
+      </empfang>
       <versand>
         <ladegut ladestelle="Freiladegleis">
           <name>Zuckerrüben (Saison)</name>
           <gattung>E</gattung>
           <wagen zeitraum="tag">0</wagen>
         </ladegut>
+        <ladegut ladestelle="Freiladegleis">
+          <name>Kartoffel (Saison)</name>
+          <gattung>E, G, H</gattung>
+          <wagen>1</wagen>
+        </ladegut>
+        <ladegut ladestelle="Ladehalle_Seitenrampe" typ="stueckgut">
+          <name>Kartoffeln als Sackware</name>
+          <gattung>G, H</gattung>
+          <wagen>1</wagen>
+        </ladegut>
       </versand>
     </verlader>
     <verlader>
-      <name>Brennstoffhandel Huber</name>
+      <name>Brennstoffhandel "Kohlen Meier"</name>
       <empfang>
         <ladegut ladestelle="Freiladegleis">
-          <name>Kohle, Koks</name>
+          <name>Brikett, Koks</name>
           <gattung>E,F</gattung>
-          <wagen zeitraum="tag">0.5</wagen>
+          <wagen>1</wagen>
         </ladegut>
         <ladegut ladestelle="Freiladegleis">
           <name>Heizöl</name>
           <gattung>Z</gattung>
-          <wagen zeitraum="tag">0.5</wagen>
+          <wagen>1</wagen>
+        </ladegut>
+        <ladegut ladestelle="Ladehalle_Seitenrampe" typ="stueckgut">
+          <name>Kienholz / Anzündholz / Kohlenanzünder</name>
+          <gattung>E, H</gattung>
+          <wagen>0.5</wagen>
         </ladegut>
       </empfang>
     </verlader>
     <verlader>
-      <name>Schrotthandel</name>
+      <name>BM- und SigM Eichstätt</name>
+      <empfang>
+        <ladegut ladestelle="BM-und_SigM_Eichst_tt">
+          <name>Schlacke für Wegebau</name>
+          <gattung>E, T</gattung>
+          <wagen>0.5</wagen>
+        </ladegut>
+        <ladegut ladestelle="BM-und_SigM_Eichst_tt">
+          <name>Brikett</name>
+          <gattung>E</gattung>
+          <wagen>0.5</wagen>
+        </ladegut>
+        <ladegut ladestelle="BM-und_SigM_Eichst_tt">
+          <name>Holzschwellen</name>
+          <gattung>E, R</gattung>
+          <wagen>0.5</wagen>
+        </ladegut>
+        <ladegut ladestelle="BM-und_SigM_Eichst_tt">
+          <name>Oberbaumaterial (Kleineisen, Schienenstücke)</name>
+          <gattung>G, H, E,R, F</gattung>
+          <wagen>0</wagen>
+        </ladegut>
+        <ladegut ladestelle="BM-und_SigM_Eichst_tt">
+          <name>Signalbau-Zubehör (Stellgewichte, Drahtrollen, mechanische Komponenten)</name>
+          <gattung>G,H,E,R</gattung>
+          <wagen>0</wagen>
+        </ladegut>
+        <ladegut ladestelle="BM-und_SigM_Eichst_tt">
+          <name>Schmierstoffe</name>
+          <gattung>G,H</gattung>
+          <wagen>0</wagen>
+        </ladegut>
+      </empfang>
+    </verlader>
+    <verlader>
+      <name>Baustoffe und Transportbeton Meier</name>
+      <empfang>
+        <ladegut ladestelle="Freiladegleis">
+          <name>Zement</name>
+          <gattung>U</gattung>
+          <wagen>1</wagen>
+        </ladegut>
+        <ladegut ladestelle="Freiladegleis">
+          <name>Sand / Kies</name>
+          <gattung>E, Eas, Fc</gattung>
+          <wagen zeitraum="tag">2</wagen>
+        </ladegut>
+        <ladegut ladestelle="Freiladegleis">
+          <name>Ziegel / Yton Steine (als Palettenware)</name>
+          <gattung>G, H</gattung>
+          <wagen>1</wagen>
+        </ladegut>
+        <ladegut ladestelle="Ladehalle_Seitenrampe">
+          <name>Zement als Sackware</name>
+          <gattung>G, H</gattung>
+          <wagen>0.5</wagen>
+        </ladegut>
+        <ladegut ladestelle="Freiladegleis">
+          <name>Bretter, Balken, Bauholz</name>
+          <gattung>E, R</gattung>
+          <wagen>1</wagen>
+        </ladegut>
+      </empfang>
+    </verlader>
+    <verlader>
+      <name>Karl Daum - Altmetall &amp; Schrotthandel</name>
       <versand>
         <ladegut ladestelle="Freiladegleis">
           <name>Schrott</name>
           <gattung>E</gattung>
-          <wagen zeitraum="tag">2.0</wagen>
+          <wagen>1</wagen>
+        </ladegut>
+        <ladegut ladestelle="Freiladegleis">
+          <name>Altreifen</name>
+          <gattung>E</gattung>
+          <wagen>0.5</wagen>
         </ladegut>
       </versand>
     </verlader>
-    <bemerkung>Saisonbedingte Verladung von Zuckerrüben am Freiladegleis sowie auch am Ladegleis-Seitenrampe möglich</bemerkung>
+    <verlader>
+      <name>Bahnhofsgaststätte "Hofmühl"</name>
+      <empfang>
+        <ladegut ladestelle="Ladehalle_Seitenrampe" typ="stueckgut">
+          <name>Konserven / Kolonialwaren</name>
+          <gattung>G, H</gattung>
+          <wagen>0.5</wagen>
+        </ladegut>
+        <ladegut ladestelle="Ladehalle_Seitenrampe" typ="expressgut">
+          <name>Expressgut</name>
+          <gattung>G, H</gattung>
+          <wagen>0</wagen>
+        </ladegut>
+      </empfang>
+      <versand>
+        <ladegut ladestelle="Ladehalle_Seitenrampe" typ="stueckgut">
+          <name>leere Kisten, Transportbehälter</name>
+          <gattung>G, H</gattung>
+          <wagen>0.5</wagen>
+        </ladegut>
+      </versand>
+    </verlader>
+    <bemerkung>Hauptgüterumschlag in Eichstätt ist der Versand von Schotter.[br][br]Saison bedingte Verladung von Zuckerrüben und Kartoffeln am Freiladegleis sowie auch am Ladegleis-Seitenrampe möglich.[br]Kartoffeln als Stückgut sind immer möglich</bemerkung>
   </gv>
+  <bemerkung>Für den Planer:[br][br]Auf der Nebenbahn sind nur Dampf und Diesel Triebfahrzeuge zugelassen.[br][br]Streckengeschwindigkeit von 20km/h ! ab den Einfahrsignal J der Nebenbahn in den Bahnhof sind zu berücksichtigen bei der Fahrplan Erstellung.</bemerkung>
 </bahnhof>
-

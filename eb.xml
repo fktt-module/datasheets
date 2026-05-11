@@ -9,7 +9,7 @@
   <verwaltung>DB</verwaltung>
   <maszstab>120</maszstab>
   <modulnr>RiSch226</modulnr>
-  <plan src="eb.png" />
+  <plan src="eb.svg" />
   <gleise>
     <zulaufstrecken>
       <links nr="1">2gl</links>

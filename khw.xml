@@ -3,10 +3,10 @@
 <!DOCTYPE bahnhof SYSTEM "./bahnhof.dtd">
 
 <bahnhof>
-  <name>Kühlhaus Henry Walter KG</name>
+  <name>Kühlhaus Henry Walter</name>
   <kuerzel>KHW</kuerzel>
   <typ>Anst</typ>
-  <verwaltung>DB</verwaltung>
+  <verwaltung/>
   <maszstab>120</maszstab>
   <modulnr>AnFuc367</modulnr>
   <plan src="khw.svg" />
@@ -16,87 +16,74 @@
       <rechts nr="1">1gl</rechts>
     </zulaufstrecken>
     <hgleise>
-      <gleis id="gleis_Streckengleis">
-        <name>Streckengleis</name>
-        <laenge> </laenge>
+      <gleis id="gleis_Strecke">
+        <name>Strecke</name>
+        <laenge einheit="cm">123</laenge>
       </gleis>
     </hgleise>
     <ngleise>
       <gleis id="gleis_1">
         <name>1</name>
-        <laenge> </laenge>
+        <laenge einheit="cm">60</laenge>
       </gleis>
       <gleis id="gleis_2">
         <name>2</name>
-        <laenge> </laenge>
+        <laenge einheit="cm">55</laenge>
       </gleis>
       <gleis id="gleis_3">
         <name>3</name>
-        <laenge> </laenge>
+        <laenge einheit="cm">22</laenge>
+        <bemerkung>zur kurzfristigen Wagenabstellung</bemerkung>
       </gleis>
       <gleis id="gleis_4">
         <name>4</name>
-        <laenge> </laenge>
+        <laenge einheit="cm">70</laenge>
       </gleis>
     </ngleise>
   </gleise>
   <gv>
-    <ladestelle id="K_hlhaus" gleis="gleis_2">
-      <name>Kühlhaus</name>
-      <laenge> </laenge>
+    <ladestelle id="K_hlhaus_Henry_Walter_KG_1" gleis="gleis_1">
+      <name>Kühlhaus Henry Walter 1</name>
+      <laenge einheit="cm">40</laenge>
     </ladestelle>
-    <ladestelle id="Bereitstellung" gleis="gleis_3">
-      <name>Bereitstellungsgleis</name>
-      <laenge> </laenge>
-    </ladestelle>
-    <ladestelle id="Anschluss" gleis="gleis_4">
-      <name>Anschlussgleis</name>
-      <laenge> </laenge>
+    <ladestelle id="K_hlhaus_Henry_Walter_KG_2" gleis="gleis_4">
+      <name>Kühlhaus Henry Walter 2</name>
+      <laenge einheit="cm">40</laenge>
     </ladestelle>
     <verlader>
-      <name>Henry Walter KG</name>
+      <name>Kühlhaus Henry Walter</name>
       <empfang>
-        <ladegut ladestelle="K_hlhaus">
-          <name>Fleischprodukte</name>
-          <gattung> </gattung>
-          <wagen> </wagen>
-        </ladegut>
-        <ladegut ladestelle="K_hlhaus">
-          <name>Südfrüchte</name>
-          <gattung> </gattung>
-          <wagen> </wagen>
-        </ladegut>
-        <ladegut ladestelle="K_hlhaus">
-          <name>Fisch</name>
-          <gattung> </gattung>
-          <wagen> </wagen>
-        </ladegut>
-        <ladegut ladestelle="Bereitstellung">
+        <ladegut ladestelle="K_hlhaus_Henry_Walter_KG_1">
           <name>Kartonagen</name>
-          <gattung> </gattung>
-          <wagen> </wagen>
+          <gattung>G</gattung>
+          <wagen>3.5</wagen>
         </ladegut>
-        <ladegut ladestelle="Anschluss">
+        <ladegut ladestelle="K_hlhaus_Henry_Walter_KG_2">
           <name>Ammoniak</name>
-          <gattung> </gattung>
-          <wagen> </wagen>
+          <gattung>Z</gattung>
+          <wagen>5</wagen>
+        </ladegut>
+        <ladegut ladestelle="K_hlhaus_Henry_Walter_KG_1">
+          <name>Fisch</name>
+          <gattung>I</gattung>
+          <wagen>3</wagen>
+        </ladegut>
+        <ladegut ladestelle="K_hlhaus_Henry_Walter_KG_1">
+          <name>Obst</name>
+          <gattung>I</gattung>
+          <wagen>3</wagen>
         </ladegut>
       </empfang>
       <versand>
-        <ladegut ladestelle="K_hlhaus">
-          <name>Beeren</name>
-          <gattung> </gattung>
-          <wagen> </wagen>
+        <ladegut ladestelle="K_hlhaus_Henry_Walter_KG_1">
+          <name>Fischfilet</name>
+          <gattung>I</gattung>
+          <wagen>3</wagen>
         </ladegut>
-        <ladegut ladestelle="K_hlhaus">
-          <name>Gemüse</name>
-          <gattung> </gattung>
-          <wagen> </wagen>
-        </ladegut>
-        <ladegut ladestelle="K_hlhaus">
-          <name>Fleisch</name>
-          <gattung> </gattung>
-          <wagen> </wagen>
+        <ladegut ladestelle="K_hlhaus_Henry_Walter_KG_1">
+          <name>Obst als Verpackungsware</name>
+          <gattung>I</gattung>
+          <wagen>2</wagen>
         </ladegut>
       </versand>
     </verlader>

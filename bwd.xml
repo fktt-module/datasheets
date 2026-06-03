@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="./bahnhof.xsl" type="text/xsl"?>
+<!DOCTYPE bahnhof SYSTEM "./bahnhof.dtd">
+
+<bahnhof>
+  <name>Behrenwald</name>
+  <kuerzel>BWD</kuerzel>
+  <typ>Bf</typ>
+  <verwaltung>DR</verwaltung>
+  <maszstab>120</maszstab>
+  <modulnr>HaSan224</modulnr>
+  <plan src="bwd.jpg" />
+  <gleise>
+    <zulaufstrecken>
+      <links nr="1">1gl</links>
+      <rechts nr="1">1gl</rechts>
+    </zulaufstrecken>
+    <hgleise>
+      <gleis id="gleis_1">
+        <name>1</name>
+        <laenge>2260</laenge>
+        <bemerkung>Durchfahrtsgleis mit Hausbahnsteig</bemerkung>
+      </gleis>
+      <gleis id="gleis_2">
+        <name>2</name>
+        <laenge>2450</laenge>
+        <bemerkung>Kreuzungsgleis mit Bahnsteig</bemerkung>
+      </gleis>
+    </hgleise>
+    <ngleise>
+      <gleis id="gleis_3">
+        <name>3</name>
+        <laenge>270</laenge>
+        <bemerkung>Rangiergleis</bemerkung>
+      </gleis>
+      <gleis id="gleis_3a">
+        <name>3a</name>
+        <laenge>1200</laenge>
+        <bemerkung>Abstellgleis, Freiladegleis Ladeplatz</bemerkung>
+      </gleis>
+      <gleis id="gleis_3b">
+        <name>3b</name>
+        <laenge>530</laenge>
+        <bemerkung>Rangiergleis</bemerkung>
+      </gleis>
+      <gleis id="gleis_4">
+        <name>4</name>
+        <laenge>280</laenge>
+        <bemerkung>Rangiergleis</bemerkung>
+      </gleis>
+      <gleis id="gleis_4a">
+        <name>4a</name>
+        <laenge>360</laenge>
+        <bemerkung>Güterschuppengleis</bemerkung>
+      </gleis>
+      <gleis id="gleis_4b">
+        <name>4b</name>
+        <laenge>620</laenge>
+        <bemerkung>Abstellgleis</bemerkung>
+      </gleis>
+      <gleis id="gleis_4c">
+        <name>4c</name>
+        <laenge>420</laenge>
+        <bemerkung>Expressgutschuppengleis</bemerkung>
+      </gleis>
+      <gleis id="gleis_5">
+        <name>5</name>
+        <laenge>930</laenge>
+        <bemerkung>Freiladegleis, Ladestraße</bemerkung>
+      </gleis>
+      <gleis id="gleis_5a">
+        <name>5a</name>
+        <laenge>200</laenge>
+        <bemerkung>Kopframpengleis</bemerkung>
+      </gleis>
+      <gleis id="gleis_6">
+        <name>6</name>
+        <laenge>500</laenge>
+        <bemerkung>Anschluss Elektrowerke Behrenwald</bemerkung>
+      </gleis>
+    </ngleise>
+  </gleise>
+  <pv>
+    <bahnsteig gleis="gleis_1">
+      <name>Hausbahnsteig</name>
+      <laenge>1580</laenge>
+    </bahnsteig>
+    <bahnsteig gleis="gleis_2">
+      <name>Schüttbahnsteig</name>
+      <laenge>1650</laenge>
+    </bahnsteig>
+    <bemerkung>Bei Personenzugkreuzungen sollte der zuerst einfahrende Zug auf Gleis 1 einfahren.</bemerkung>
+  </pv>
+  <gv>
+    <ladestelle id="Freiladestra_e_Ladeplatz" gleis="gleis_3a">
+      <name>Freiladestraße, Ladeplatz</name>
+      <laenge>700</laenge>
+    </ladestelle>
+    <ladestelle id="G_terabfertigung" gleis="gleis_4a">
+      <name>Güterabfertigung</name>
+      <laenge>145</laenge>
+    </ladestelle>
+    <ladestelle id="Expressgutrampe" gleis="gleis_4c">
+      <name>Expressgutrampe</name>
+      <laenge>100</laenge>
+    </ladestelle>
+    <ladestelle id="Ladestrasse_mit_Bockkran_und_Gleiswaage" gleis="gleis_5">
+      <name>Ladestrasse mit Bockkran und Gleiswaage</name>
+      <laenge>520</laenge>
+    </ladestelle>
+    <ladestelle id="Brennstoffhandel" gleis="gleis_5">
+      <name>Brennstoffhandel</name>
+      <laenge>300</laenge>
+    </ladestelle>
+    <ladestelle id="Kopframpe" gleis="gleis_5a">
+      <name>Kopframpe</name>
+      <laenge>100</laenge>
+    </ladestelle>
+    <ladestelle id="Elektrowerke_Behrenwald" gleis="gleis_6">
+      <name>Elektrowerke Behrenwald</name>
+      <laenge>400</laenge>
+    </ladestelle>
+    <verlader>
+      <name>Kohlen Junker / Brennstoffhandel Behrenwald</name>
+      <empfang>
+        <ladegut ladestelle="Brennstoffhandel">
+          <name>Kohle</name>
+          <gattung>E, F</gattung>
+          <wagen>3</wagen>
+        </ladegut>
+        <ladegut ladestelle="Brennstoffhandel">
+          <name>Briketts</name>
+          <gattung>E, F</gattung>
+          <wagen>5</wagen>
+        </ladegut>
+        <ladegut ladestelle="Brennstoffhandel">
+          <name>Brennholz lose</name>
+          <gattung>E, G, H</gattung>
+          <wagen>1</wagen>
+        </ladegut>
+      </empfang>
+      <versand>
+        <ladegut ladestelle="Brennstoffhandel">
+          <name>Brikettabrieb</name>
+          <gattung>E</gattung>
+          <wagen>1</wagen>
+        </ladegut>
+      </versand>
+    </verlader>
+    <verlader>
+      <name>Holz Hansen / Sägewerk Behrenwald</name>
+      <empfang>
+        <ladegut ladestelle="Ladestrasse_mit_Bockkran_und_Gleiswaage">
+          <name>Stammholz</name>
+          <gattung>E, K, L, R, S</gattung>
+          <wagen>10</wagen>
+        </ladegut>
+        <ladegut ladestelle="Ladestrasse_mit_Bockkran_und_Gleiswaage">
+          <name>Paletten</name>
+          <gattung>E, G, H, K</gattung>
+          <wagen>0.5</wagen>
+        </ladegut>
+      </empfang>
+      <versand>
+        <ladegut ladestelle="Ladestrasse_mit_Bockkran_und_Gleiswaage">
+          <name>Schnittholz rau, Schnittholz gehobelt</name>
+          <gattung>E, K, L, R, S</gattung>
+          <wagen>5</wagen>
+        </ladegut>
+        <ladegut ladestelle="Ladestrasse_mit_Bockkran_und_Gleiswaage">
+          <name>Balken</name>
+          <gattung>E, K, L, R, S</gattung>
+          <wagen>3</wagen>
+        </ladegut>
+        <ladegut ladestelle="G_terabfertigung" typ="stueckgut">
+          <name>Furnierholz (Stückgut)</name>
+          <gattung>G, H</gattung>
+          <wagen>0.2</wagen>
+        </ladegut>
+        <ladegut ladestelle="G_terabfertigung" typ="stueckgut">
+          <name>Leisten (Stückgut)</name>
+          <gattung>G, H</gattung>
+          <wagen>0.5</wagen>
+        </ladegut>
+        <ladegut ladestelle="Ladestrasse_mit_Bockkran_und_Gleiswaage">
+          <name>Sägespäne</name>
+          <gattung>G, H</gattung>
+          <wagen>1</wagen>
+        </ladegut>
+        <ladegut ladestelle="Ladestrasse_mit_Bockkran_und_Gleiswaage">
+          <name>Dachbinder</name>
+          <gattung>K, L, R, S</gattung>
+          <wagen>2</wagen>
+        </ladegut>
+        <ladegut ladestelle="Ladestrasse_mit_Bockkran_und_Gleiswaage">
+          <name>Überseekisten leer</name>
+          <gattung>E, K, L</gattung>
+          <wagen>1</wagen>
+        </ladegut>
+        <ladegut ladestelle="Ladestrasse_mit_Bockkran_und_Gleiswaage">
+          <name>Transportkisten leer</name>
+          <gattung>E, G, H, K</gattung>
+          <wagen>1</wagen>
+        </ladegut>
+      </versand>
+    </verlader>
+    <verlader>
+      <name>Güterabfertigung</name>
+      <empfang>
+        <ladegut ladestelle="G_terabfertigung" typ="stueckgut">
+          <name>Stückgut</name>
+          <gattung>G, H</gattung>
+          <wagen>5</wagen>
+        </ladegut>
+      </empfang>
+      <versand>
+        <ladegut ladestelle="G_terabfertigung" typ="stueckgut">
+          <name>Stückgut</name>
+          <gattung>G, H</gattung>
+          <wagen>5</wagen>
+        </ladegut>
+      </versand>
+    </verlader>
+    <verlader>
+      <name>Expressgutschuppen</name>
+      <empfang>
+        <ladegut ladestelle="Expressgutrampe" typ="expressgut">
+          <name>Expressgut</name>
+          <gattung>G, H</gattung>
+          <wagen>3.5</wagen>
+        </ladegut>
+      </empfang>
+      <versand>
+        <ladegut ladestelle="Expressgutrampe" typ="expressgut">
+          <name>Expressgut</name>
+          <gattung>G, H</gattung>
+          <wagen>3.5</wagen>
+        </ladegut>
+      </versand>
+    </verlader>
+    <verlader>
+      <name>Elektrowerke Behrenwald</name>
+      <empfang>
+        <ladegut ladestelle="Elektrowerke_Behrenwald">
+          <name>Säure</name>
+          <gattung>Z</gattung>
+          <wagen>0.5</wagen>
+        </ladegut>
+        <ladegut ladestelle="Elektrowerke_Behrenwald">
+          <name>Feinblech</name>
+          <gattung>G, H, T</gattung>
+          <wagen>2</wagen>
+        </ladegut>
+        <ladegut ladestelle="Elektrowerke_Behrenwald">
+          <name>Stanzteile</name>
+          <gattung>G, H, T</gattung>
+          <wagen>2</wagen>
+        </ladegut>
+        <ladegut ladestelle="Elektrowerke_Behrenwald">
+          <name>Draht</name>
+          <gattung>G, H, K, T</gattung>
+          <wagen>0.5</wagen>
+        </ladegut>
+        <ladegut ladestelle="Elektrowerke_Behrenwald">
+          <name>Leiterplatten</name>
+          <gattung>G, H</gattung>
+          <wagen>1</wagen>
+        </ladegut>
+        <ladegut ladestelle="Elektrowerke_Behrenwald">
+          <name>Kunststoffhalbzeuge</name>
+          <gattung>G, H</gattung>
+          <wagen>0.5</wagen>
+        </ladegut>
+        <ladegut ladestelle="Elektrowerke_Behrenwald">
+          <name>Metallhalbzeuge</name>
+          <gattung>G, H</gattung>
+          <wagen>0.5</wagen>
+        </ladegut>
+        <ladegut ladestelle="Elektrowerke_Behrenwald">
+          <name>Normteile</name>
+          <gattung>G, H</gattung>
+          <wagen>0.25</wagen>
+        </ladegut>
+        <ladegut ladestelle="Elektrowerke_Behrenwald">
+          <name>Verpackungsmaterial</name>
+          <gattung>G, H</gattung>
+          <wagen>0.25</wagen>
+        </ladegut>
+        <ladegut ladestelle="Elektrowerke_Behrenwald">
+          <name>Ersatzteile</name>
+          <gattung>G, H, K</gattung>
+          <wagen>0.25</wagen>
+        </ladegut>
+        <ladegut ladestelle="G_terabfertigung" typ="stueckgut">
+          <name>Leiterplatten (Stückgut)</name>
+          <gattung>G, H</gattung>
+          <wagen>0.5</wagen>
+        </ladegut>
+        <ladegut ladestelle="G_terabfertigung" typ="stueckgut">
+          <name>Bauelemente (Stückgut)</name>
+          <gattung>G, H</gattung>
+          <wagen>0.5</wagen>
+        </ladegut>
+        <ladegut ladestelle="Elektrowerke_Behrenwald">
+          <name>Holzkisten</name>
+          <gattung>E, G, H, K</gattung>
+          <wagen>0.5</wagen>
+        </ladegut>
+        <ladegut ladestelle="Elektrowerke_Behrenwald">
+          <name>Paletten</name>
+          <gattung>E, G, H, K</gattung>
+          <wagen>0.5</wagen>
+        </ladegut>
+      </empfang>
+      <versand>
+        <ladegut ladestelle="Elektrowerke_Behrenwald">
+          <name>Elektronik-Baugruppen</name>
+          <gattung>G, H</gattung>
+          <wagen>3</wagen>
+        </ladegut>
+        <ladegut ladestelle="Elektrowerke_Behrenwald">
+          <name>Konsumgüter</name>
+          <gattung>G, H</gattung>
+          <wagen>1</wagen>
+        </ladegut>
+        <ladegut ladestelle="Elektrowerke_Behrenwald">
+          <name>Schrott</name>
+          <gattung>E</gattung>
+          <wagen>0.5</wagen>
+        </ladegut>
+        <ladegut ladestelle="G_terabfertigung" typ="stueckgut">
+          <name>Konsumgüter (Stückgut)</name>
+          <gattung>G, H</gattung>
+          <wagen>1.5</wagen>
+        </ladegut>
+        <ladegut ladestelle="G_terabfertigung" typ="stueckgut">
+          <name>Elektronische Geräte (Stückgut)</name>
+          <gattung>G, H</gattung>
+          <wagen>1.5</wagen>
+        </ladegut>
+        <ladegut ladestelle="G_terabfertigung" typ="stueckgut">
+          <name>Ersatzteile (Stückgut)</name>
+          <gattung>G, H</gattung>
+          <wagen>0.5</wagen>
+        </ladegut>
+      </versand>
+    </verlader>
+    <verlader>
+      <name>BHG Behrenwald</name>
+      <empfang>
+        <ladegut ladestelle="Ladestrasse_mit_Bockkran_und_Gleiswaage">
+          <name>Zement als Sackware</name>
+          <gattung>G, H</gattung>
+          <wagen>1</wagen>
+        </ladegut>
+        <ladegut ladestelle="Ladestrasse_mit_Bockkran_und_Gleiswaage">
+          <name>Baustoffe</name>
+          <gattung>E, G, H</gattung>
+          <wagen>1</wagen>
+        </ladegut>
+        <ladegut ladestelle="Ladestrasse_mit_Bockkran_und_Gleiswaage">
+          <name>Ziegelsteine</name>
+          <gattung>E</gattung>
+          <wagen>1</wagen>
+        </ladegut>
+        <ladegut ladestelle="Ladestrasse_mit_Bockkran_und_Gleiswaage">
+          <name>Düngemittel</name>
+          <gattung>E, G, H, T</gattung>
+          <wagen>2</wagen>
+        </ladegut>
+        <ladegut ladestelle="Ladestrasse_mit_Bockkran_und_Gleiswaage">
+          <name>Viehfutter als Sackware</name>
+          <gattung>G, H</gattung>
+          <wagen>2</wagen>
+        </ladegut>
+      </empfang>
+      <versand>
+        <ladegut ladestelle="Freiladestra_e_Ladeplatz">
+          <name>Rüben</name>
+          <gattung>E</gattung>
+          <wagen>10</wagen>
+        </ladegut>
+        <ladegut ladestelle="Freiladestra_e_Ladeplatz">
+          <name>Kartoffeln</name>
+          <gattung>E</gattung>
+          <wagen>10</wagen>
+        </ladegut>
+      </versand>
+    </verlader>
+    <verlader>
+      <name>Konsum Behrenwald</name>
+      <empfang>
+        <ladegut ladestelle="G_terabfertigung">
+          <name>Bier</name>
+          <gattung>G, H, I</gattung>
+          <wagen>2</wagen>
+        </ladegut>
+        <ladegut ladestelle="G_terabfertigung">
+          <name>Lebensmittel</name>
+          <gattung>G, H, I</gattung>
+          <wagen>4</wagen>
+        </ladegut>
+      </empfang>
+      <versand>
+        <ladegut ladestelle="G_terabfertigung">
+          <name>Leergut</name>
+          <gattung>G, H</gattung>
+          <wagen>2</wagen>
+        </ladegut>
+      </versand>
+    </verlader>
+    <verlader>
+      <name>Bahnhofsgaststätte Behrenwald</name>
+      <empfang>
+        <ladegut ladestelle="Expressgutrampe" typ="expressgut">
+          <name>Bier</name>
+          <gattung>G, H, I</gattung>
+          <wagen>1</wagen>
+        </ladegut>
+      </empfang>
+    </verlader>
+    <verlader>
+      <name>Post Behrenwald</name>
+      <empfang>
+        <ladegut ladestelle="Expressgutrampe" typ="expressgut">
+          <name>Briefe, Pakete, Zeitschriften</name>
+          <gattung>Post</gattung>
+          <wagen zeitraum="tag">1</wagen>
+        </ladegut>
+      </empfang>
+      <versand>
+        <ladegut ladestelle="Expressgutrampe" typ="expressgut">
+          <name>Briefe, Pakete, Zeitungen</name>
+          <gattung>Post</gattung>
+          <wagen zeitraum="tag">1</wagen>
+        </ladegut>
+      </versand>
+    </verlader>
+    <verlader>
+      <name>Stadtwirtschaft Behrenwald</name>
+      <empfang>
+        <ladegut ladestelle="G_terabfertigung">
+          <name>Schulmöbel</name>
+          <gattung>G, H</gattung>
+          <wagen>0.5</wagen>
+        </ladegut>
+        <ladegut ladestelle="G_terabfertigung">
+          <name>Amtsmöbel</name>
+          <gattung>G, H</gattung>
+          <wagen>0.5</wagen>
+        </ladegut>
+        <ladegut ladestelle="G_terabfertigung" typ="stueckgut">
+          <name>Schreibpapier (Stückgut)</name>
+          <gattung>G, H</gattung>
+          <wagen>0.25</wagen>
+        </ladegut>
+        <ladegut ladestelle="Kopframpe Ladestrasse_mit_Bockkran_und_Gleiswaage">
+          <name>Fahrzeuge</name>
+          <gattung>K, R, S</gattung>
+          <wagen>0.25</wagen>
+        </ladegut>
+      </empfang>
+      <versand>
+        <ladegut ladestelle="Kopframpe Ladestrasse_mit_Bockkran_und_Gleiswaage">
+          <name>Fahrzeuge zur Reparatur</name>
+          <gattung>K, R, S</gattung>
+          <wagen>0.25</wagen>
+        </ladegut>
+      </versand>
+    </verlader>
+    <bemerkung>Saisonale Abfuhr von Landwirtschaftsprodukten vom Ladeplatz</bemerkung>
+  </gv>
+  <bemerkung>- Gesamtlänge über alles 3790 mm[br]- Länge Hausbahnsteig 1580 mm[br]- Länge Bahnsteig Gleis 2 1650 mm[br]- Winkel im linken Ausfahrtbogen 30°[br]- Breite aller Segmente 500 mm[br]- alle Weichen EW3[br]- Signale B, C, D und E in Wattenscheidern[br]- Signale A und Va frei in Wattenscheidern platzierbar[br]- Signale F und Vbc in Wattenscheidern in Segment HaSan 224e</bemerkung>
+</bahnhof>
+

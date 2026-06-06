@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="./bahnhof.xsl" type="text/xsl"?>
+<!DOCTYPE bahnhof SYSTEM "./bahnhof.dtd">
+
+<bahnhof>
+  <name>Wasserburg Stadt</name>
+  <kuerzel>WBG</kuerzel>
+  <typ>Bf</typ>
+  <verwaltung>DB</verwaltung>
+  <maszstab>120</maszstab>
+  <modulnr>OlKah257</modulnr>
+  <plan src="wbg.svg" />
+  <gleise>
+    <zulaufstrecken>
+      <links nr="1">1gl</links>
+    </zulaufstrecken>
+    <hgleise>
+      <gleis id="gleis_1">
+        <name>1</name>
+        <laenge>2000</laenge>
+        <bemerkung>Bahnsteiggleis</bemerkung>
+      </gleis>
+    </hgleise>
+    <ngleise>
+      <gleis id="gleis_2">
+        <name>2</name>
+        <laenge>800</laenge>
+        <bemerkung>Umfahrgleis</bemerkung>
+      </gleis>
+      <gleis id="gleis_3a">
+        <name>3a</name>
+        <laenge>550</laenge>
+        <bemerkung>Anschluss Güterschuppem</bemerkung>
+      </gleis>
+      <gleis id="gleis_3b">
+        <name>3b</name>
+        <laenge>400</laenge>
+        <bemerkung>Anschluss Ölhandel</bemerkung>
+      </gleis>
+      <gleis id="gleis_2a">
+        <name>2a</name>
+        <laenge>400</laenge>
+        <bemerkung>Anschluß Kopf- und Seitenrampe</bemerkung>
+      </gleis>
+      <gleis id="gleis_2b">
+        <name>2b</name>
+        <laenge>600</laenge>
+        <bemerkung>Anschluß Lokschuppen 1</bemerkung>
+      </gleis>
+      <gleis id="gleis_2c">
+        <name>2c</name>
+        <laenge>550</laenge>
+        <bemerkung>Anschluß Lokschuppen 2</bemerkung>
+      </gleis>
+      <gleis id="gleis_4a">
+        <name>4a</name>
+        <laenge>535</laenge>
+        <bemerkung>Anschluß Kopframpe und Baywa 1</bemerkung>
+      </gleis>
+      <gleis id="gleis_4b">
+        <name>4b</name>
+        <laenge>1000</laenge>
+        <bemerkung>Anschluß Kohlehandlung und Baywa 2</bemerkung>
+      </gleis>
+      <gleis id="gleis_3">
+        <name>3</name>
+        <laenge>300</laenge>
+        <bemerkung>Gleiswaage und Ladestraße</bemerkung>
+      </gleis>
+      <gleis id="gleis_Molkerei">
+        <name>Molkerei</name>
+        <laenge>580</laenge>
+      </gleis>
+    </ngleise>
+  </gleise>
+  <pv>
+    <bahnsteig gleis="gleis_1">
+      <name>Hausbahnsteig</name>
+      <laenge>1100</laenge>
+    </bahnsteig>
+  </pv>
+  <gv>
+    <ladestelle id="Kopf-_und_Seitenrampe" gleis="gleis_2a">
+      <name>Kopf- und Seitenrampe</name>
+      <laenge>145</laenge>
+    </ladestelle>
+    <ladestelle id="Kopframpe" gleis="gleis_4a">
+      <name>Kopframpe</name>
+      <laenge>110</laenge>
+    </ladestelle>
+    <ladestelle id="Brennstoffhandel" gleis="gleis_4b">
+      <name>Brennstoffhandel</name>
+      <laenge>250</laenge>
+    </ladestelle>
+    <ladestelle id="Baywa-Schuppen" gleis="gleis_4b">
+      <name>Baywa-Schuppen</name>
+      <laenge>250</laenge>
+    </ladestelle>
+    <ladestelle id="_lhandel" gleis="gleis_3b">
+      <name>Ölhandel</name>
+      <laenge>250</laenge>
+    </ladestelle>
+    <ladestelle id="G_terschuppen" gleis="gleis_3a">
+      <name>Güterschuppen</name>
+      <laenge>250</laenge>
+    </ladestelle>
+    <ladestelle id="Ladestra_e" gleis="gleis_3a gleis_3">
+      <name>Ladestraße</name>
+      <laenge>500</laenge>
+    </ladestelle>
+    <ladestelle id="Molkerei" gleis="gleis_Molkerei">
+      <name>Molkerei</name>
+      <laenge>300</laenge>
+    </ladestelle>
+    <verlader>
+      <name>Kieswerk Adler KG</name>
+      <empfang>
+        <ladegut ladestelle="G_terschuppen">
+          <name>Jutesäcke, leer</name>
+          <gattung>G</gattung>
+          <wagen>2</wagen>
+        </ladegut>
+      </empfang>
+      <versand>
+        <ladegut ladestelle="Kopf-_und_Seitenrampe">
+          <name>Sand</name>
+          <gattung>E, O</gattung>
+          <wagen>2</wagen>
+        </ladegut>
+        <ladegut ladestelle="G_terschuppen">
+          <name>Sand, als Sackware</name>
+          <gattung>G</gattung>
+          <wagen>0.5</wagen>
+        </ladegut>
+        <ladegut ladestelle="G_terschuppen">
+          <name>Gartenkies, als Sackware</name>
+          <gattung>G</gattung>
+          <wagen>0.5</wagen>
+        </ladegut>
+      </versand>
+    </verlader>
+    <verlader>
+      <name>Landmaschinenhandel Wasserburg</name>
+      <empfang>
+        <ladegut ladestelle="Kopf-_und_Seitenrampe">
+          <name>Landmaschinen</name>
+          <gattung>K, O, R, S</gattung>
+          <wagen>1</wagen>
+        </ladegut>
+      </empfang>
+    </verlader>
+    <verlader>
+      <name>Baywa Wasserburg</name>
+      <empfang>
+        <ladegut ladestelle="Kopframpe">
+          <name>Gartengeräte</name>
+          <gattung>E, K, O</gattung>
+          <wagen>1</wagen>
+        </ladegut>
+        <ladegut ladestelle="Baywa-Schuppen">
+          <name>Düngemittel, als Sackware</name>
+          <gattung>G</gattung>
+          <wagen>0.75</wagen>
+        </ladegut>
+        <ladegut ladestelle="Baywa-Schuppen">
+          <name>Saatgut, als Sackware</name>
+          <gattung>G</gattung>
+          <wagen>0.5</wagen>
+        </ladegut>
+        <ladegut ladestelle="Baywa-Schuppen">
+          <name>Zement, als Sackware</name>
+          <gattung>G</gattung>
+          <wagen>0.25</wagen>
+        </ladegut>
+        <ladegut ladestelle="Baywa-Schuppen">
+          <name>Gasflaschen, leer</name>
+          <gattung>G</gattung>
+          <wagen>0.25</wagen>
+        </ladegut>
+        <ladegut ladestelle="Baywa-Schuppen">
+          <name>Baustoffe (Ziegel, Fließen), als Palettenware</name>
+          <gattung>G</gattung>
+          <wagen>0.5</wagen>
+        </ladegut>
+      </empfang>
+    </verlader>
+    <verlader>
+      <name>Brennstoffhandel Bernd Rickett</name>
+      <empfang>
+        <ladegut ladestelle="Brennstoffhandel">
+          <name>Steinkohle, lose</name>
+          <gattung>E, O</gattung>
+          <wagen>3</wagen>
+        </ladegut>
+        <ladegut ladestelle="Brennstoffhandel">
+          <name>Brikett, als Sackware</name>
+          <gattung>G</gattung>
+          <wagen>3</wagen>
+        </ladegut>
+        <ladegut ladestelle="Brennstoffhandel">
+          <name>Brennholz</name>
+          <gattung>E, O</gattung>
+          <wagen>1</wagen>
+        </ladegut>
+      </empfang>
+    </verlader>
+    <verlader>
+      <name>Ölhandel Richard Ohöl</name>
+      <empfang>
+        <ladegut ladestelle="_lhandel">
+          <name>Heizöl</name>
+          <gattung>U, Z</gattung>
+          <wagen>2</wagen>
+        </ladegut>
+        <ladegut ladestelle="_lhandel">
+          <name>Ölfässer</name>
+          <gattung>G</gattung>
+          <wagen>1</wagen>
+        </ladegut>
+      </empfang>
+      <versand>
+        <ladegut ladestelle="_lhandel">
+          <name>Ölfässer, leer</name>
+          <gattung>G</gattung>
+          <wagen>1</wagen>
+        </ladegut>
+      </versand>
+    </verlader>
+    <verlader>
+      <name>Stellmacher R.Schubert</name>
+      <empfang>
+        <ladegut ladestelle="G_terschuppen">
+          <name>Kleinteile</name>
+          <gattung>E, O</gattung>
+          <wagen>0.5</wagen>
+        </ladegut>
+        <ladegut ladestelle="Kopf-_und_Seitenrampe">
+          <name>Schnittholz, Bretter, Balken</name>
+          <gattung>G, K, R</gattung>
+          <wagen>1</wagen>
+        </ladegut>
+      </empfang>
+      <versand>
+        <ladegut ladestelle="Kopf-_und_Seitenrampe">
+          <name>Handwagen</name>
+          <gattung>E, O</gattung>
+          <wagen>0.5</wagen>
+        </ladegut>
+      </versand>
+    </verlader>
+    <verlader>
+      <name>Böttgerei S.C.Häffler</name>
+      <empfang>
+        <ladegut ladestelle="G_terschuppen">
+          <name>Fassreifen, als Palettenware</name>
+          <gattung>G</gattung>
+          <wagen>1</wagen>
+        </ladegut>
+        <ladegut ladestelle="G_terschuppen">
+          <name>Werg, als Sackware</name>
+          <gattung>G</gattung>
+          <wagen>0.5</wagen>
+        </ladegut>
+        <ladegut ladestelle="G_terschuppen">
+          <name>Nägel/Schrauben</name>
+          <gattung>G</gattung>
+          <wagen>0.25</wagen>
+        </ladegut>
+        <ladegut ladestelle="Kopf-_und_Seitenrampe">
+          <name>Schnittholz</name>
+          <gattung>O, E, K</gattung>
+          <wagen>1.5</wagen>
+        </ladegut>
+      </empfang>
+      <versand>
+        <ladegut ladestelle="G_terschuppen">
+          <name>Holzfässer</name>
+          <gattung>G</gattung>
+          <wagen>0.75</wagen>
+        </ladegut>
+        <ladegut ladestelle="G_terschuppen">
+          <name>Bierkisten</name>
+          <gattung>G</gattung>
+          <wagen>0.25</wagen>
+        </ladegut>
+      </versand>
+    </verlader>
+    <verlader>
+      <name>Fletzinger Bräu Stechl</name>
+      <empfang>
+        <ladegut ladestelle="G_terschuppen">
+          <name>Roggenmalz, als Sackware</name>
+          <gattung>G</gattung>
+          <wagen>0.5</wagen>
+        </ladegut>
+        <ladegut ladestelle="G_terschuppen">
+          <name>Hopfen, als Pelletware</name>
+          <gattung>G</gattung>
+          <wagen>0.5</wagen>
+        </ladegut>
+        <ladegut ladestelle="G_terschuppen">
+          <name>Bügelverschluß-Flaschen (Leergut)</name>
+          <gattung>G</gattung>
+          <wagen>0.5</wagen>
+        </ladegut>
+        <ladegut ladestelle="G_terschuppen">
+          <name>Bierfässer</name>
+          <gattung>G</gattung>
+          <wagen>0.5</wagen>
+        </ladegut>
+        <ladegut ladestelle="Ladestra_e">
+          <name>Kohlendioxid</name>
+          <gattung>U, Z</gattung>
+          <wagen>1</wagen>
+        </ladegut>
+        <ladegut ladestelle="G_terschuppen">
+          <name>Gerstenmalz, als Sackware</name>
+          <gattung>G</gattung>
+          <wagen>1</wagen>
+        </ladegut>
+        <ladegut ladestelle="G_terschuppen">
+          <name>Weizenmalz, als Sackware</name>
+          <gattung>G</gattung>
+          <wagen>0.5</wagen>
+        </ladegut>
+      </empfang>
+      <versand>
+        <ladegut ladestelle="G_terschuppen">
+          <name>Fletzinger Hell, als Fassware</name>
+          <gattung>T, I, G</gattung>
+          <wagen>1</wagen>
+        </ladegut>
+        <ladegut ladestelle="G_terschuppen">
+          <name>Fletzinger Hell, als Flaschenware</name>
+          <gattung>T, I, G</gattung>
+          <wagen>1</wagen>
+        </ladegut>
+        <ladegut ladestelle="G_terschuppen">
+          <name>Stechl Weiße, als Flaschenware</name>
+          <gattung>T, I, G</gattung>
+          <wagen>1</wagen>
+        </ladegut>
+        <ladegut ladestelle="G_terschuppen">
+          <name>Wasserburger Rotbier, als Fassware</name>
+          <gattung>T, I, G</gattung>
+          <wagen>1</wagen>
+        </ladegut>
+      </versand>
+    </verlader>
+    <verlader>
+      <name>Bruck-Bräu</name>
+      <empfang>
+        <ladegut ladestelle="G_terschuppen">
+          <name>Gerstenmalz, als Sackware</name>
+          <gattung>G</gattung>
+          <wagen>1</wagen>
+        </ladegut>
+        <ladegut ladestelle="G_terschuppen">
+          <name>Weizenmalz, als Sackware</name>
+          <gattung>G</gattung>
+          <wagen>0.5</wagen>
+        </ladegut>
+        <ladegut ladestelle="G_terschuppen">
+          <name>Dinkelmalz, als Sackware</name>
+          <gattung>G</gattung>
+          <wagen>0.5</wagen>
+        </ladegut>
+        <ladegut ladestelle="G_terschuppen">
+          <name>Hopfen, als Pelletware</name>
+          <gattung>G</gattung>
+          <wagen>0.5</wagen>
+        </ladegut>
+        <ladegut ladestelle="G_terschuppen">
+          <name>Bügelverschlußflaschen (Leergut)</name>
+          <gattung>G</gattung>
+          <wagen>0.5</wagen>
+        </ladegut>
+        <ladegut ladestelle="G_terschuppen">
+          <name>Bierfässer (Leergut)</name>
+          <gattung>G</gattung>
+          <wagen>0.5</wagen>
+        </ladegut>
+        <ladegut ladestelle="Ladestra_e">
+          <name>Kohlendioxid</name>
+          <gattung>Z, U</gattung>
+          <wagen>1</wagen>
+        </ladegut>
+      </empfang>
+      <versand>
+        <ladegut ladestelle="G_terschuppen">
+          <name>Wasserburger Landbier, als Fassware</name>
+          <gattung>T, I, G</gattung>
+          <wagen>1</wagen>
+        </ladegut>
+        <ladegut ladestelle="G_terschuppen">
+          <name>Wasserburger Landbier, als Flaschenware</name>
+          <gattung>T, I, G</gattung>
+          <wagen>1</wagen>
+        </ladegut>
+        <ladegut ladestelle="G_terschuppen">
+          <name>Bruck-Weiße, als Flaschenware</name>
+          <gattung>T, I, G</gattung>
+          <wagen>1</wagen>
+        </ladegut>
+        <ladegut ladestelle="G_terschuppen">
+          <name>Meyer-Dinkel</name>
+          <gattung>T, I, G</gattung>
+          <wagen>1</wagen>
+        </ladegut>
+      </versand>
+    </verlader>
+    <verlader>
+      <name>Wasserburger Molkerei e.G.</name>
+      <empfang>
+        <ladegut ladestelle="Molkerei">
+          <name>Milch (Kannen)</name>
+          <gattung>T, I, G</gattung>
+          <wagen zeitraum="tag">2</wagen>
+        </ladegut>
+        <ladegut ladestelle="Molkerei">
+          <name>Flaschen (Leergut)</name>
+          <gattung>G</gattung>
+          <wagen>0.5</wagen>
+        </ladegut>
+      </empfang>
+      <versand>
+        <ladegut ladestelle="Molkerei">
+          <name>Milchpulver</name>
+          <gattung>G</gattung>
+          <wagen>0.5</wagen>
+        </ladegut>
+        <ladegut ladestelle="Molkerei">
+          <name>H-Milch</name>
+          <gattung>Tkkhs</gattung>
+          <wagen zeitraum="tag">2</wagen>
+        </ladegut>
+      </versand>
+    </verlader>
+  </gv>
+</bahnhof>

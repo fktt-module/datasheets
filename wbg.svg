@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="2500" height="500" viewBox="0 1750 5500 1" xmlns="http://www.w3.org/2000/svg" version="1.2">
+  <g fill="none" stroke="black" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" font-style="normal" font-family="Arial" text-anchor="middle" dominant-baseline="middle" transform="scale(.6 .9)">
+    <g fill="none" stroke="black" stroke-width="5">
+      <path vector-effect="non-scaling-stroke" d="M125,1690 L117,1729 M121,1710 1181,1939 M781,1852 A2000,2000 0 0 0 1191,1897 M1191,1897 L5400,1897 M7138,2043 A10000,10000 0 0 0 5400,1897 M8913,2342 L7138,2042 M7236,2059 L7641,2127 M8913,2342 L7635,2126"/>
+      <path vector-effect="non-scaling-stroke" d="M449,1986 L449,2026 M449,2006 L4330,2006 M4740,2049 A2000,2000 0 0 0 4330,2006 M4740,2049 L5149,2135"/>
+      <path vector-effect="non-scaling-stroke" d="M723,2095 L723,2135 M3029,2115 723,2115 M3439,2158 A1900,1900 0 0 0 3029,2115 M3439,2158 3666,2206 M3666,2206 A1900,1900 0 0 0 4076,2249 M4076,2250 4672,2250 M4672,2230 L4672,2270"/>
+      <path vector-effect="non-scaling-stroke" d="M1289,1963 L1181,1939 M1289,1963 A1900,1900 0 0 0 1699,2006 M1947,2115 A2000,2000 0 0 0 2357,2072 M2357,2072 L2461,2049 M2871,2006 A2000,2000 0 0 0 2461,2049 M3600,2049 A2000,2000 0 0 0 3190,2006 M3600,2049 A2000,2000 0 0 0 4010,2092 M4010,2092 4330,2092 M4740,2135 A2000,2000 0 0 0 4330,2092 M4740,2135 L5132,2218 M3660,2006 A2000,2000 0 0 0 4070,1963 M4070,1963 L4181,1940 M4591,1897 A2000,2000 0 0 0 4181,1940"/>
+      <path vector-effect="non-scaling-stroke" d="M1901,1757 L1901,1797 M5300,1777 L1901,1777 M5300,1757 L5300,1797"/>
+      <path vector-effect="non-scaling-stroke" d="M2461,1897 A2000,2000 0 0 0 2871,1854 M2871,1854 L3030,1820 M3440,1777 A2000,2000 0 0 0 3030,1820 M4420,1820 A2000,2000 0 0 0 4010,1777 M4591,1854 L4420,1820 M4591,1854 A2000,2000 0 0 0 5001,1897"/>
+      <path vector-effect="non-scaling-stroke" d="M7236,2059 A2000,2000 0 0 0 7648,2085 M7648,2085 L7948,2077 M8359,2103 A2000,2000 0 0 0 7948,2077 M8359,2103 L8834,2183"/>
+      <path vector-effect="non-scaling-stroke" d="M8834,2183 v-20 v40" transform="rotate(9.75,8834,2183)"/>
+    </g>
+    <g fill="none" stroke="lime" stroke-width="5" font-size="135" >
+      <path vector-effect="non-scaling-stroke" d="M1216,1633 L1632,1633 L1632,1790 L1216,1790 Z"/>
+      <text x="1425" y="1722" fill="lime">EG</text>
+      <path vector-effect="non-scaling-stroke" d="M2043,1577 L2380,1577 L2380,1734 L2043,1734 Z"/>
+      <text x="2215" y="1666" fill="lime">GS</text>
+      <path vector-effect="non-scaling-stroke" d="M4728,1998 L5175,2092 L5138,2265 L4692,2171 Z" />
+      <text x="4930" y="2140" font-size="90" transform="rotate(11.5,4930,2140)" fill="lime">LS</text>
+      <path vector-effect="non-scaling-stroke" d="M246,1686 L240,1706 L781,1822 m0,0 A2000,2000 0 0 0 1191,1867 m0,0 L2461,1867 L2461,1847"/>
+    </g>
+    <g fill="black" stroke="black" stroke-width="5" font-size="135" >
+      <g stroke="white" fill="white" stroke-width="7" stroke-linecap="square">
+        <path vector-effect="non-scaling-stroke" d="M2442,1777 h150" />
+        <path vector-effect="non-scaling-stroke" d="M3743,1777 h65" />
+        <path vector-effect="non-scaling-stroke" d="M4777,1777 h150" />
+        <path vector-effect="non-scaling-stroke" d="M3207,1899 h65" />
+        <path vector-effect="non-scaling-stroke" d="M775,2006 h150" />
+        <path vector-effect="non-scaling-stroke" d="M2070,2006 h65" />
+        <path vector-effect="non-scaling-stroke" d="M4210,2006 h150" />
+        <path vector-effect="non-scaling-stroke" d="M4040,2092 h150" />
+        <path vector-effect="non-scaling-stroke" d="M1372,2115 h150" />
+        <path vector-effect="non-scaling-stroke" d="M2652,2115 h150" />
+      </g>
+      <text x="2515" y="1785">3a</text>
+      <text x="3775" y="1785">3</text>
+      <text x="4850" y="1785">3b</text>
+      <text x="3238" y="1910">1</text>
+      <text x="850" y="2015">2a</text>
+      <text x="2100" y="2020">2</text>
+      <text x="4110" y="2100">2b</text>
+      <text x="4280" y="2015">2c</text>
+      <text x="1450" y="2120">4a</text>
+      <text x="2730" y="2120">4b</text>
+    </g>
+    <g fill="black" stroke="red" stroke-width="5" font-size="135">
+      <text x="6300" y="1570" transform="rotate(5,6300,1570)">Tunnel</text>
+      <text x="8100" y="1790" transform="rotate(10,8100,1790)">Molkerei</text>
+    </g>
+  </g>
+</svg>
